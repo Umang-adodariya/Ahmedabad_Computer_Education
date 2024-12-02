@@ -653,9 +653,9 @@ Header Area
                                                                 <li><a href="business-analyst-course.php"><img src="assets/img/menu-ic/data-analysis.png" alt=""> Business Analyst Course</a></li>
                                                             </ul>
                                                             <ul class="other-course">
-                                                                <li><a href="web-designing-course.php"><img src="assets/img/menu-ic/testing.png" alt=""> Software Testing Course</a></li>
-                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt=""> Cyber Security Course</a></li>
-                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/cms.png" alt=""> CMS Certification Course</a></li>
+                                                                <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt=""> Software Testing Course</a></li>
+                                                                <li><a href="cyber-security-training-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt=""> Cyber Security Course</a></li>
+                                                                <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt=""> CMS Certification Course</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -690,7 +690,7 @@ Header Area
                                     <button type="button" class="icon-btn style2 searchBoxToggler"><i
                                             class="far fa-search"></i></button>
                                     <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block" data-bs-toggle="modal"
+                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
                                     data-bs-target="#registerModal">Apply
                                         Now<i class="fas fa-arrow-right ms-2"></i></a>
                                     <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
