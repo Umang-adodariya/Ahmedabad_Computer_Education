@@ -590,99 +590,6 @@
         $(slick.$slides[currentSlide]).find('[data-ani]').addClass('th-animated');
     })
 
-    /*----------- 09. Ajax Contact Form ----------*/
-    var form = ".ajax-contact";
-    var invalidCls = "is-invalid";
-    var $email = '[name="email"]';
-    var $validation =
-        '[name="name"],[name="email"],[name="subject"],[name="number"],[name="message"]'; // Must be use (,) without any space
-    var formMessages = $(".form-messages");
-
-    function sendContact() {
-        var formData = $(form).serialize();
-        var valid;
-        valid = validateContact();
-        var checkCaptcha = validateCaptcha();
-
-        if (valid && checkCaptcha) {
-            var response = $(form).submit();
-            
-            // jQuery
-            //     .ajax({
-            //         url: $(form).attr("action"),
-            //         data: formData,
-            //         method: "POST",
-            //     })
-            //     .done(function (response) {
-            //         // Make sure that the formMessages div has the 'success' class.
-            //         formMessages.removeClass("error");
-            //         formMessages.addClass("success");
-            //         // Set the message text.
-            //         formMessages.text(response);
-            //         // Clear the form.
-            //         $(
-            //             form +
-            //                 ' input:not([type="submit"]),' +
-            //                 form +
-            //                 " textarea"
-            //         ).val("");
-            //         generateCaptcha();
-            //     })
-            //     .fail(function (data) {
-            //         // Make sure that the formMessages div has the 'error' class.
-            //         formMessages.removeClass("success");
-            //         formMessages.addClass("error");
-            //         // Set the message text.
-            //         if (data.responseText !== "") {
-            //             formMessages.html(data.responseText);
-            //         } else {
-            //             formMessages.html(
-            //                 "Oops! An error occured and your message could not be sent."
-            //             );
-            //         }
-            //     });
-        }
-    }
-
-    function validateContact() {
-        var valid = true;
-        var formInput;
-
-        function unvalid($validation) {
-            $validation = $validation.split(",");
-            for (var i = 0; i < $validation.length; i++) {
-                formInput = form + " " + $validation[i];
-                if (!$(formInput).val()) {
-                    $(formInput).addClass(invalidCls);
-                    valid = false;
-                } else {
-                    $(formInput).removeClass(invalidCls);
-                    valid = true;
-                }
-            }
-        }
-        unvalid($validation);
-
-        if (
-            !$($email).val() ||
-            !$($email)
-                .val()
-                .match(/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/)
-        ) {
-            $($email).addClass(invalidCls);
-            valid = false;
-        } else {
-            $($email).removeClass(invalidCls);
-            valid = true;
-        }
-        return valid;
-    }
-
-    $("#contact_submit").on("click", function (element) {
-        element.preventDefault();
-        sendContact();
-    });
-
     /*---------- 10. Search Box Popup ----------*/
     function popupSarchBox($searchBox, $searchOpen, $searchCls, $toggleCls) {
         $($searchOpen).on("click", function (e) {
@@ -1513,7 +1420,6 @@
         captchaText += characters.charAt(Math.floor(Math.random() * characters.length));
     }
     $(".captcha").html(captchaText);
-    document.getElementById('result').textContent = '';
     document.getElementById('userInput').value = '';
 }
 
@@ -1533,10 +1439,236 @@ function validateCaptcha() {
 window.onload = function() {
     generateCaptcha();
 };
+$("#contact_form").on("submit", function (element) {
+    element.preventDefault();
+    const $form = $(this); // Get the current form being submitted
+    const userName = $form.find('#name').val();
+    const subject = $form.find('#subject').val();
+    const number = $form.find('#number').val();
+    const message = $form.find('#message').val();
+    const userInput = $form.find('#userInput').val();
+    const captchaText = $form.find('#captcha').text();
 
-function formValidation($form){
+    const namePattern = /^[A-Za-z\s]+$/;
+    const phoneNumberPattern = /^[0-9]{10}$/;
+
+    var count = 0;
+    if(userName){
+        if (!namePattern.test(userName.trim()) || userName.trim() === "") {
+            $('#contact_name_error').html("Please enter a valid name.");
+            count++;
+        }else{
+            $('#contact_name_error').html("");
+        }
+    }
+    if(number){
+        if (!phoneNumberPattern.test(number.trim()) || number.trim() === "") {
+            $('#contact_number_error').html("Please enter a valid number.");
+            count++;
+        }else{
+            $('#contact_number_error').html("");
+        }
+    }
+    if (subject == "") {
+        $('#contact_subject_error').html("Please select subject.");
+        count++;
+    }else{
+        $('#contact_subject_error').html("");
+    }
+    if (message.trim() == "") {
+        $('#contact_message_error').html("Please write proper message.");
+        count++;
+    }else{
+        $('#contact_message_error').html("");
+    }
+    if (!(userInput === captchaText)) {
+        $('#contact_captcha_error').html("Please add valid captcha.");
+        count++;
+    }else{
+        $('#contact_captcha_error').html("");
+    }
+    if(count>0){
+        return false;
+    }
+    else{
+        this.submit();
+    }
+});
+
+// $("#booking_appointment,#register_form,$get_in_touch,.form_submit").on("click", function (e) {
+$("#sidebar_form").on("submit", function (e) {
+
+    e.preventDefault(); // Prevent default form submission
+    const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
     const number = $form.find('#number').val();
+    const userInput = $form.find('#userInput').val();
+    const captchaText = $form.find('#captcha').text();
+    const namePattern = /^[A-Za-z\s]+$/;
+    const phoneNumberPattern = /^[0-9]{10}$/;
+
+    var count = 0;
+    if(userName){
+        if (!namePattern.test(userName.trim()) || userName.trim() === "") {
+            $('#sidebar_name_error').html("Please enter a valid name.");
+            count++;
+        }else{
+            $('#sidebar_name_error').html("");
+        }
+    }
+    if(number){
+        if (!phoneNumberPattern.test(number.trim()) || number.trim() === "") {
+            $('#sidebar_number_error').html("Allow only 10 digit.");
+            count++;
+        }else{
+            $('#sidebar_number_error').html("");
+        }
+    }
+    if (!(userInput === captchaText)) {
+        $('#sidebar_captcha_error').html("Please add valid captcha.");
+        count++;
+    }else{
+        $('#sidebar_captcha_error').html("");
+    }
+    if(count>0){
+        return false;
+    }
+    else{
+        this.submit();
+    }
+});
+
+$("#blog_form").on("submit", function (e) {
+
+    e.preventDefault(); // Prevent default form submission
+    const $form = $(this); // Get the current form being submitted
+    const userName = $form.find('#name').val();
+    const comment = $form.find('#comment').val();
+    const userInput = $form.find('#userInput').val();
+    const captchaText = $form.find('#captcha').text();
+    const namePattern = /^[A-Za-z\s]+$/;
+
+    var count = 0;
+    if(userName){
+        if (!namePattern.test(userName.trim()) || userName.trim() === "") {
+            $('#blog_name_error').html("Please enter a valid name.");
+            count++;
+        }else{
+            $('#blog_name_error').html("");
+        }
+    }
+    if(comment){
+        if (comment.trim() === "") {
+            $('#blog_comment_error').html("Please enter a valid comment.");
+            count++;
+        }else{
+            $('#blog_comment_error').html("");
+        }
+    }
+    if (!(userInput === captchaText)) {
+        $('#blog_captcha_error').html("Please add valid captcha.");
+        count++;
+    }else{
+        $('#blog_captcha_error').html("");
+    }
+    if(count>0){
+        return false;
+    }
+    else{
+        this.submit();
+    }
+});
+
+$('#get-in-touch-form').on('submit', function (e) {
+    e.preventDefault(); // Prevent default form submission
+    const $form = $(this); // Get the current form being submitted
+    const userName = $form.find('#name').val();
+    const number = $form.find('#number').val();
+    const userInput = $form.find('.userInput').val();
+    const captchaText = $form.find('.captcha').text();
+    const namePattern = /^[A-Za-z\s]+$/;
+    const phoneNumberPattern = /^[0-9]{10}$/;
+
+    var count = 0;
+    if(userName){
+        if (!namePattern.test(userName.trim()) || userName.trim() === "") {
+            $('#load_name_error').html("Please enter a valid name.");
+            count++;
+        }else{
+            $('#load_name_error').html("");
+        }
+    }
+    if(number){
+        if (!phoneNumberPattern.test(number.trim()) || number.trim() === "") {
+            $('#load_number_error').html("Allow only 10 digit.");
+            count++;
+        }else{
+            $('#load_number_error').html("");
+        }
+    }
+    if (!(userInput === captchaText)) {
+        $('#load_captcha_error').html("Please add valid captcha.");
+        count++;
+    }else{
+        $('#load_captcha_error').html("");
+    }
+    if(count>0){
+        return false;
+    }
+    else{
+        this.submit();
+    }
+});
+$('.openRegisterModal').on('click',function(e){
+    $('#register_form')[0].reset();
+    $('#register_name_error').html("");
+    $('#register_number_error').html("");
+    $('#register_captcha_error').html("");
+});
+$('#register_form').on('submit', function (e) {
+    e.preventDefault(); // Prevent default form submission
+    const $form = $(this); // Get the current form being submitted
+    const userName = $form.find('#name').val();
+    const number = $form.find('#number').val();
+    const userInput = $form.find('.userInput').val();
+    const captchaText = $form.find('.captcha').text();
+    const namePattern = /^[A-Za-z\s]+$/;
+    const phoneNumberPattern = /^[0-9]{10}$/;
+
+    var count = 0;
+    if(userName){
+        if (!namePattern.test(userName.trim()) || userName.trim() === "") {
+            $('#register_name_error').html("Please enter a valid name.");
+            count++;
+        }else{
+            $('#register_name_error').html("");
+        }
+    }
+    if(number){
+        if (!phoneNumberPattern.test(number.trim()) || number.trim() === "") {
+            $('#register_number_error').html("Allow only 10 digit.");
+            count++;
+        }else{
+            $('#register_number_error').html("");
+        }
+    }
+    if (!(userInput === captchaText)) {
+        $('#register_captcha_error').html("Please add valid captcha.");
+        count++;
+    }else{
+        $('#register_captcha_error').html("");
+    }
+    if(count>0){
+        return false;
+    }
+    else{
+        this.submit();
+    }
+});
+$('.course-form').on('submit', function (e) {
+    e.preventDefault(); // Prevent default form submission
+    const $form = $(this); // Get the current form being submitted
+    const userName = $form.find('#name').val();
     const subject = $form.find('#subject').val();
     const userInput = $form.find('.userInput').val();
     const captchaText = $form.find('.captcha').text();
@@ -1546,62 +1678,32 @@ function formValidation($form){
     var count = 0;
     if(userName){
         if (!namePattern.test(userName.trim()) || userName.trim() === "") {
-            $('.name_error').html("Please enter a valid name.");
+            $('#course_name_error').html("Please enter a valid name.");
             count++;
         }else{
-            $('.name_error').html("");
-        }
-    }
-    if(number){
-        if (!phoneNumberPattern.test(number.trim()) || number.trim() === "") {
-            $('.number_error').html("Allow only 10 digit.");
-            count++;
-        }else{
-            $('.number_error').html("");
+            $('#course_name_error').html("");
         }
     }
     if(subject){
-        if(!subject.trim()){
-            $('.subject_error').html("Please enter valid subject.");
+        if(subject.trim() === ""){
+            $('#course_subject_error').html("Please enter valid subject.");
             count++;
         }else{
-            $('.subject_error').html("");
+            $('#course_subject_error').html("");
         }
     }
     if (!(userInput === captchaText)) {
-        $('.captcha_error').html("Incorrect captcha.");
+        $('#course_captcha_error').html("Please add valid captcha.");
         count++;
     }else{
-        $('.captcha_error').html("");
+        $('#course_captcha_error').html("");
     }
     if(count>0){
         return false;
     }
     else{
-        return false;
+        this.submit();
     }
-}
-
-// $("#booking_appointment,#register_form,$get_in_touch,.form_submit").on("click", function (e) {
-$(".form_submit").on("click", function (e) {
-    var valid = validateCaptcha();
-    if (valid) {
-        return true;
-    } else {
-        e.preventDefault();
-        return false;
-    }
-});
-
-$('.course-form,.register-form,.get-in-touch-form').on('submit', function (e) {
-    e.preventDefault(); // Prevent default form submission
-    const $form = $(this); // Get the current form being submitted
-    
-    const validForm = formValidation($form);
-    // if (validForm) {
-    //     this.submit(); // Manually submit the form
-    // } 
-    return false;
 });
 
 function searchNames() {

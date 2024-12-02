@@ -36,9 +36,9 @@ Hero Area
                             </ul>
                         </div>
                         <div class="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
-                            <a class="th-btn style3" data-bs-toggle="modal" data-bs-target="#registerModal">Get
+                            <a class="th-btn style3 openRegisterModal" data-bs-toggle="modal" data-bs-target="#registerModal">Get
                                 Started<i class="fas fa-long-arrow-right ms-2"></i></a>
-                            <a href="course-2.php" class="th-btn style6">Our Courses<i
+                            <a href="courses.php" class="th-btn style6">Our Courses<i
                                     class="fas fa-long-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -62,9 +62,9 @@ Hero Area
                             </ul>
                         </div>
                         <div class="btn-group" data-ani="slideinup" data-ani-delay="0.5s">
-                            <a class="th-btn style3" data-bs-toggle="modal" data-bs-target="#registerModal">Get
+                            <a class="th-btn style3 openRegisterModal" data-bs-toggle="modal" data-bs-target="#registerModal">Get
                                 Started<i class="fas fa-long-arrow-right ms-2"></i></a>
-                            <a href="course-2.php" class="th-btn style6">Our Courses<i
+                            <a href="courses.php" class="th-btn style6">Our Courses<i
                                     class="fas fa-long-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -243,7 +243,7 @@ Cta Area
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
-                    <a href="course.php" class="th-btn style8 d-xxl-inline-block" data-bs-toggle="modal"
+                    <a href="course.php" class="th-btn style8 d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
                         data-bs-target="#registerModal">Register Now<i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
@@ -965,7 +965,7 @@ Admission Area
                                 <div class="form-group">
                                     <input type="text" placeholder="Name*" id="name"  name="name" required>
                                 </div>
-                                <div class="name_error" id="name_error" style="color: red;"></div>
+                                <div class="course_name_error" id="course_name_error" style="color: red;"></div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -981,7 +981,7 @@ Admission Area
                                 <div class="form-group">
                                     <input type="text" name="subject" id="subject" placeholder="Subject*" required>
                                 </div>
-                                <div class="subject_error" id="name_error" style="color: red;"></div>
+                                <div class="course_subject_error" id="course_subject_error" style="color: red;"></div>
                             </div>
                             <div class="col-12">
                                 <div class="captcha-container">
@@ -991,9 +991,9 @@ Admission Area
                                                 class="fal fa-refresh"></i></button>
                                     </div>
                                     <div class="input-refresh-btn form-group">
-                                        <input type="text" id="userInput" placeholder="Enter CAPTCHA" class="userInput" required/>
+                                        <input type="text" id="userInput" placeholder="Enter CAPTCHA" class="userInput"/>
                                     </div>
-                                    <div class="captcha_error" id="name_error" style="color: red;"></div>
+                                    <div class="course_captcha_error" id="course_captcha_error" style="color: red;"></div>
                                     </div>
                             </div>
                         </div>
@@ -1116,7 +1116,7 @@ Blog Area
                         <div class="cta-content2">
                             <h2 class="fs-40 fw-light text-theme mb-10">Best IT Training Institute</h2>
                             <h2 class="mb-25">Enroll Now and Shape Your Future</h2>
-                            <a href="contact.php" class="th-btn" data-bs-toggle="modal"
+                            <a href="contact.php" class="th-btn openRegisterModal" data-bs-toggle="modal"
                                 data-bs-target="#registerModal">Register Now<i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
@@ -1170,7 +1170,7 @@ Blog Area
                             <div class="contact-form-wrap load-modal-form" data-bg-src="assets/img/bg/contact_bg_1.png">
                                 <span class="sub-title">Contact With Us!</span>
                                 <h2 class="border-title">Get in Touch</h2>
-                                <form action="mail.php" method="POST" class="contact-form ajax-contact get-in-touch-form">
+                                <form action="mail.php" method="POST" class="contact-form ajax-contact" id="get-in-touch-form">
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
@@ -1180,7 +1180,7 @@ Blog Area
                                                     id="name" placeholder="Your Name*" required>
                                                     <i class="fal fa-user"></i>
                                             </div>
-                                            <div class="name_error" id="name_error" style="color: red;"></div>
+                                            <div class="load_name_error" id="load_name_error" style="color: red;"></div>
                                         </div>
 
                                         <div class="col-md-12">
@@ -1189,7 +1189,7 @@ Blog Area
                                                     id="number" placeholder="Phone Number*" required>
                                                     <i class="fal fa-phone"></i>
                                             </div>
-                                            <div class="number_error" id="name_error" style="color: red;"></div>
+                                            <div class="load_number_error" id="load_number_error" style="color: red;"></div>
                                         </div>
                                         <div class="col-12">
                                             <div class="captcha-container">
@@ -1203,7 +1203,7 @@ Blog Area
                                                         class="form-control style-white userInput"
                                                         placeholder="Enter CAPTCHA" />
                                                 </div>
-                                                <div class="captcha_error" id="name_error" style="color: red;"></div>
+                                                <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
@@ -1224,71 +1224,8 @@ Blog Area
 
 
     <!--Register Modal -->
-    <div class="modal fade register-modal  load-modal" id="registerModal" tabindex="-1"
-        aria-labelledby="registerModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="load-modal-wrapper position-relative">
-                    <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                            class="far fa-times"></i></button>
-                    <div class="contact-form-wrap background-image"
-                        style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
-                        <h2 class="border-title">Registration now</h2>
-                        <p class="mt-n1 mb-30 sec-text">Connect with our admissions team, and discover how ACE can help you unlock your full digital potential!</p>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="hidden" name="form" value="registration_form"> 
-                                        <input type="text" class="form-control style-white" name="name" id="name"
-                                            placeholder="Your Name*" required>
-                                        <i class="fal fa-user"></i>
-                                    </div>
-                                    <div class="name_error" id="name_error" style="color: red;"></div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control style-white" name="email" id="email"
-                                            placeholder="Email Address*" required>
-                                        <i class="fal fa-envelope"></i>
-                                    </div>
-                                </div>
+    <?php include('registerModal.php'); ?>
 
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
-                                            <i class="fal fa-phone"></i>
-                                    </div>
-                                    <div class="number_error" id="name_error" style="color: red;"></div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="captcha-container">
-                                        <div class="input-refresh-btn mb-10">
-                                            <div id="captcha" class="captcha"></div>
-                                            <button id="refreshBtn" class="captcha-ref-btn" type="button"><i
-                                                    class="fal fa-refresh"></i></button>
-                                        </div>
-                                        <div class="input-refresh-btn">
-                                            <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA" />
-                                        </div>
-                                        <div class="captcha_error" id="name_error" style="color: red;"></div>
-                                    </div>
-                                </div>
-                                <div class="form-btn col-12 mt-10">
-                                    <button class="th-btn " type="submit">Submit<i class="fas fa-long-arrow-right ms-2"></i></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
     <!--video Modal -->
     <div class="modal fade video-modal load-modal" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel"
         aria-hidden="true">
