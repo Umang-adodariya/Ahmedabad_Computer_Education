@@ -1629,11 +1629,13 @@ $('#register_form').on('submit', function (e) {
     e.preventDefault(); // Prevent default form submission
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const number = $form.find('#number').val();
     const userInput = $form.find('.userInput').val();
     const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     var count = 0;
     if(userName){
@@ -1642,6 +1644,14 @@ $('#register_form').on('submit', function (e) {
             count++;
         }else{
             $('#register_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#register_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#register_email_error').html("");
         }
     }
     if(number){
