@@ -55,204 +55,61 @@
          .map-sec{
             height: 250px;
          }
-         .sidebar-area.register-sidebar-area{position: relative; }
-         .register-sidebar {
-                position: sticky;
-                top: 20px;
-                z-index: 10; 
+         .tab-box-fix-cont .course-curriculam{height: calc(100vh - 160px);
+            overflow-y: scroll;}
+
+            .cust-page-box h2.course-title{
+                font-size:44px;
+                margin-bottom:0px;
+                color:#fff;
             }
-            @media (max-width:767px) {
+            @media (max-width:768px) {
                 .th-widget-about.mob-th-widget-about{
                     text-align:center;
                 }
                 .th-widget-about.mob-th-widget-about .info-box-wrap{
                     justify-content:center;
                 }
+                .cust-page-box h2.course-title{
+                font-size:18px;
+                margin-bottom:0px;
+                color:#fff;
             }
+            .tab-box-fix-cont .course-curriculam{
+                height:auto;overflow:hidden;
+            }
+            }
+            @media (max-width:430px) {
+                .cust-page-box h2.course-title{color:#111}
+            }
+
+            
+::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(252, 0, 18, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  border-radius: 20px;
+}
       </style>
    </head>
    <body>
-      <!--==============================
-         Mobile Menu
-         ============================== -->
-      <div class="th-menu-wrapper">
-         <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-               <a href="index.php"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
-            </div>
-            <div class="th-mobile-menu">
-               <ul>
-                  <li class="menu-item-has-children">
-                     <a href="#about-us" class="home-link">About Us</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#course" class="home-link">Course</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#placement" class="home-link">Placement</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#" class="home-link">Reviews</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#faqs" class="home-link">FAQs</a>
-                  </li>
-                  <li>
-                     <a href="#footer">Contact Us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <div class="popup-search-box d-none d-lg-block">
-         <button class="searchClose"><i class="fal fa-times"></i></button>
-         <form action="#">
-            <input type="text" id="search_input"   placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-            <div id="result-box" class="result-box" style="display: none;">
-               <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
-               <a href="full-stack-react-development-course.php">Full Stack React Development Course</a>
-               <a href="angular-detail.php">Full Stack Angular Development Course</a>
-               <a href="full-stack-python-development-course.php">Full Stack Python Development Course</a>
-               <a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a>
-               <a href="web-designing-training-cours.php">Web Designing Course</a>
-               <a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a>
-               <a href="game-development-course.php">Game Development Course</a>
-               <a href="devops-certification-course.php">DevOps Certification Course</a>
-               <a href="flutter-certification-course.php">Flutter Certification Course</a>
-               <a href="react-native-course.php">React Native Course</a>
-               <a href="metaverse-training-course.php">Metaverse Course</a>
-               <a href="digital-marketing-training-course.php">Digital Marketing Course</a>
-               <a href="seo-certification-training-course.php">SEO Certification Course</a>
-               <a href="software-testing-course.php">Software Testing Course</a>
-               <a href="cyber-security-detail.php">Cyber Security Course</a>
-               <a href="cms-certification-course.php">CMS Course</a>
-               <a href="business-development-course.php">Business Development Course</a>
-               <a href="business-analyst-course.php">Business Analyst Course</a>
-            </div>
-         </form>
-      </div>
-      <!--==============================
-         Sidemenu
-         ============================== -->
-      <div class="sidemenu-wrapper d-none d-lg-block ">
-         <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-               <div class="th-widget-about">
-                  <div class="about-logo">
-                     <a href="index.php"><img src="assets/img/ahmedabad_logo.png"
-                        alt="ahmedabad computer education"></a>
-                  </div>
-                  <p class="about-text">Intrinsicly target low-risk high-yield sources with proactive niche markets.
-                     Holisticly strategize intermandated.
-                  </p>
-                  <div class="info-box-wrap mb-20">
-                           <div class="info-box_icon">
-                              <i class="fas fa-phone"></i>
-                           </div>
-                           <a href="tel:9586877700" class="info-box_link rem-bullet">9586-877-700</a>
-                        </div>
-                  <div class="th-social style2">
-                     <h6 class="title">FOLLOW US ON:</h6>
-                     <!-- <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> -->
-                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                     <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a> -->
-                  </div>
-               </div>
-            </div>
-            <div class="widget  ">
-               <h3 class="widget_title">Recent Posts</h3>
-               <div class="recent-post-wrap">
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">How To Start Learn
-                           Online Study From Your Home</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>21/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">A Guide for Teachers
-                           and Education Staff.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>22/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-3.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Educate Empower
-                           Excel Discover the Power.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>25/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="widget widget_contact  ">
-               <h3 class="widget_title">Get in touch!</h3>
-               <p class="contact-text">Fusce varius, dolor tempor interdum tristiquei bibendum service life.</p>
-               <div class="th-widget-contact">
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        702/703, Iscon Emporio, Nr. Star Bazaar, Jodhpur Cross Roads, Satellite, Ahmedabad, Gujarat
-                        – 380015
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        719, Shekhar central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh 452018
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-envelope"></i>
-                     </div>
-                     <a href="mailto:career@ahmedabadcomputereducation.com"
-                        class="info-box_link">career@ahmedabadcomputereducation.com</a>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-phone"></i>
-                     </div>
-                     <a href="tel:(+91)9586877700" class="info-box_link">(+91)95868 77700</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+      
       <!--==============================
          Header Area
          ==============================-->
-      <header class="th-header header-layout5">
+      <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="menu-top">
                <div class="container">
@@ -329,44 +186,9 @@
                            </div>
                         </div>
                         <div class="col-auto">
-                           <div class="row align-items-center justify-content-between">
+                           <div class="row align-items-center justify-content-center">
                               <div class="col-auto">
-                                 <nav class="main-menu d-none d-lg-inline-block">
-                                    <ul>
-                                       <li class="menu-item-has-children">
-                                          <a href="#about-us" class="home-link">About Us</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#course" class="home-link">Course</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#placement" class="home-link">Placement</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#" class="instructor-link">Reviews</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#faqs" class="instructor-link">FAQs</a>
-                                       </li>
-                                       <li>
-                                          <a href="#footer">Contact Us</a>
-                                       </li>
-                                    </ul>
-                                 </nav>
-                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
-                                    class="far fa-bars"></i></button>
-                              </div>
-                              <div class="col-auto d-none d-xl-block">
-                                 <div class="header-button">
-                                    <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
-                                       data-bs-target="#registerModal">Apply
-                                    Now<i class="fas fa-arrow-right ms-2"></i></a>
-                                    <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
-                                       <i class="far fa-cart-shopping"></i>
-                                       <span class="badge bg-theme2">5</span>
-                                       </a> -->
-                                 </div>
+                                <h2 class="course-title">Blockchain Training Course</h2>
                               </div>
                            </div>
                         </div>
@@ -380,30 +202,21 @@
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
  
-<section class="space-top space-extra2-bottom">
+<section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <div class="course-single-top">
-                            <div class="course-img">
-                                <img src="assets/img/courses/corses-main/course-blockchain-new.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
-                            </div>
-                            <div class="course-meta style2"id="course">
-                                <span><i class="fal fa-file"></i>Modules 3</span>
-                                <span><i class="fal fa-user"></i>Students 130+</span>
-                            </div>
+                        <!-- <div class="course-single-top">
                             <h2 class="course-title">Blockchain Training Course</h2>
-                        </div>
+                        </div> -->
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -413,66 +226,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="productTabContent">
-                                <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
-                                    <div class="course-description">
-                                        <h5 class="h5">Blockchain course highlights</h5>
-                                        <p>If you are planning for an advanced career portfolio with a strong technical foothold, opting for our blockchain certification course will be the most rational decision. Although blockchain was primarily introduced to record transactions and store details about cryptocurrencies, it has now found extensive use across multiple industries. The unique features of blockchain, especially its decentralized performance, make it suitable for several purposes that otherwise couldn’t be achieved by a conventional database system.</p>
-                                        <p>Our blockchain course for beginners comprises topics related to blockchain development, studying the existing blockchains, decentralization, security, and immutability of data, and the underlying technical infrastructure. Additionally, we also provide sessions on advanced topics like data mining, layer 1 and layer 2 blockchains, and many more, so that students can gain comprehensive knowledge about the same. At Ahmedabad Computer Education, we aim to make our students future-ready so that they can begin their careers as proficient and skilled blockchain developers. </p>
-                                        <h5 class="h5 mt-40">What is blockchain and why is it used?</h5>
-                                        <p>The use of blockchain technology became more prominent in 2009 when Bitcoin was introduced to the market as the first cryptocurrency. In textbook terms, it is a shared database where information of different types is stored but in the form of blocks linked together with cryptographic programs. There is no central authority controlling the blockchain and its operations. On the contrary, the authority is distributed amongst multiple systems on the blockchain network, known as nodes. </p>
-                                        <p>They authenticate every data to be stored on the blockchain ledger, access the stored records, and perform all other functions. One of the major differences between blockchain and any other conventional shared database is that the information stored on the former is immutable, meaning it cannot be modified further once added to the ledger in the form of blocks. Strong cryptographic scripts are deployed to the network to protect the data and make them immutable.</p>
-                                        <p>While blockchain can be used for multiple uses, the most common application is as a transaction ledger. Our blockchain training in Indore will help students understand the practical applications of this decentralized shared database in different industries. For instance, it is often used in the finance industry to record transactions involving multiple users in a decentralized network. Similarly, it can be used in the supply chain industry to store records of products, straight from their point of origin to the final dispatch point.</p>
-                                        <h5 class="h5 mt-40">What are the key features of blockchain that students learn?</h5>
-                                        <p>Our blockchain course in Ahmedabad is curated in a way that students can learn the primary features of this shared database with ease. It will not only help them to master the technology but also work on real-time projects with ease. Below are some of the major features that we discuss in our classes for blockchain training.</p>
-                                        <div class="checklist mb-1">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Decentralization: Blockchain is a decentralized ledger technology, meaning its control or authority is distributed amongst multiple users and not with a single entity. Hence, everyone must agree to any change in the state of data or the addition of a new block of data to the existing ledger.</li>
-                                                <li class="course-acc-li">Immutability: Once data is mined and added to the blockchain ledger, it becomes immutable. Our experts will further explain the use of cryptographic algorithms to make data blocks immutable and prevent any further modification of the same.</li>
-                                                <li class="course-acc-li">Enhanced security: In our blockchain course for beginners, we include lectures and an in-depth understanding of the security and encryption protocols associated with this decentralized ledger. Additionally, we also shed light on different consensus protocols adopted for working on the ledger, like Proof of Stakes and Proof of Work. </li>
-                                                <li class="course-acc-li">4.Smart contract development and deployment: With us, students can learn the development of automated execution programs known as smart contracts that are deployed on the blockchain. These are sets of rules and conditions to automatically trigger an operation on the blockchain, like the completion of a monetary transfer or updating the records of a product in the supply chain ledger. </li>
-                                                <li class="course-acc-li">Data mining: Our experts will also help students understand the concepts associated with data mining since it is required to develop a blockchain and add the data blocks to the existing ledger. For this, we will provide live training sessions on hashing, cryptographic encryption, and other computational logic relevant to data mining. </li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40">Why take a blockchain developer course?</h5>
-                                        <p>Wondering why opt for our blockchain training in Indore?</p>
-                                        <p>If yes, let us present you with a brief overview of the advantages you will gain with our training course on blockchain technology, the new revolutionary concept in the IT industry. </p>
-                                        <h5 class="h6 mt-40">Versatile development approaches</h5>
-                                        <p>Blockchains can be developed in numerous ways, depending on the custom solutions necessary for a business. Our academic experts will provide you with detailed insights into the practical approaches suitable for developing the blockchain having custom features. Additionally, we will also help students implement feasible logic that can adhere to the time complexity protocols and help them develop a more efficient and secured blockchain. </p>
-                                        <h5 class="h6 mt-40">Functional and programming overview</h5>
-                                        <p>Being the best blockchain institute Ahmedabad, we will help students understand both the functional and logical parts of the blockchain. For instance, we will train them to use different programming languages needed to develop a blockchain Python, JavaScript, Java, and Rust. Additionally, we will also give training on different frameworks used to develop the blockchain network along with smart contracts for existing blockchains like Ethereum and Binance Coin.</p>
-                                        <h5 class="h6 mt-40">Easy learning curve</h5>
-                                        <p>At Ahmedabad Computer Education, we ensure our blockchain training course has a flatter learning curve. In other words, we will help break down the topic's complexity and provide a one-to-one discussion to help students resolve their queries regarding blockchain development, underlying architecture, consensus protocols, smart contracts, and data encryption. Plus, our live training sessions will give them a first-hand experience of implementing blockchain in real-time scenarios. </p>
-                                        <h5 class="h5 mt-40">Best job roles for blockchain developers</h5>
-                                        <p>With our blockchain certification course, students can apply for multifarious job roles once they graduate. Also, expert professionals who wish to establish their careers in this field can benefit a lot from our certification course. Since blockchain is used in different ways across multiple industries, there are numerous options for job roles in the market.</p>
-                                        <div class="checklist mb-1">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">1.Blockchain developer: As the name implies, blockchain developers are concerned with developing a secondary blockchain on a primary one, blockchain-based applications like wallets and marketplaces, smart contracts, and user-authentication systems. Their average salary ranges somewhere between INR 7 to INR 9 lakhs annually.</li>
-                                                <li class="course-acc-li">Blockchain solution architect: A blockchain solution architect will be responsible for providing tailored solutions to their clients by understanding the business needs, analyzing the existing technical infrastructure, and deducing the feasibility of the solution. Such a professional can get a job with an average salary of INR 11 lakhs annually.</li>
-                                                <li class="course-acc-li">Blockchain project manager: Managing the entire blockchain development project and streamlining the deliveries through agile methods will be the major responsibilities of a blockchain project manager. The person needs to be acquainted with both the technicalities of blockchain development along with other project management tools. The average salary of the professional will be somewhere between INR 13 lakhs to INR 18 lakhs depending on the expertise.</li>
-                                                <li class="course-acc-li">Blockchain UX designer: Another most common and high-in-demand job role that you can look for is blockchain UX designer. You will be concerned with developing a feature-rich and interactive user interface for blockchain-based applications using front-end programming languages and service-based APIs. The average salary of a blockchain UX designer is somewhat between INR 14 lakhs to INR 16 lakhs.</li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40" id="faqs">How Ahmedabad Computer Education can help build a flourishing career?</h5>
-                                        <p>Being the best blockchain institute Ahmedabad, we will help you learn the primary concepts of blockchain technology along with the underlying technical infrastructure. Our experts will provide detailed insights into topics like decentralization, data mining, cryptographic encryption, layer 1 and layer 2 blockchain, smart contracts, and many more such matters. With us, you will be able to enhance your technical proficiency in various programming languages and technologies used in developing and deploying the blockchain. </p>
-                                        <h5 class="h5 mt-40">FAQs</h5>
-                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
-                                        <h6 class="h6 mt-40">How the blockchain developer course will help me?</h6>
-                                        <p>With the blockchain course for beginners, you will be able to master the concepts of this decentralized shared database, including data mining, cryptography, smart contract development, and many more. </p>
-                                        <h6 class="h6 mt-40">What is the average salary of a blockchain developer?</h6>
-                                        <p>The average salary of a blockchain developer will depend upon the expertise and the technical skills you have. For freshers, the standard salary slab ranges between INR 7 lakhs to INR 10 lakhs per annum.</p>
-                                        <h6 class="h6 mt-40">How do I register for the blockchain developer course?</h6>
-                                        <p>If you want to enroll yourself in our blockchain certification course, visit our website and fill in the form with all the necessary details. Our experts will get back to you at the earliest with any other details to be filled in for registration.</p>
-                                        <h6 class="h6 mt-40">Can I complete the blockchain developer course after my graduation?</h6>
-                                        <p>Yes, you can enroll yourself in our blockchain training program after completing your graduation.</p>
-                                        <h6 class="h6 mt-40">What programming languages do I need to know for blockchain development?</h6>
-                                        <p>Python, Rust, Java, and JavaScript are the most common programming languages used to develop blockchain, smart contracts, data mining models, and other related components.</p>
-                                        <h6 class="h6 mt-40">Why blockchain developers are high in demand?</h6>
-                                        <p>Blockchain is a revolutionary technology that not only offers end-to-end data transparency and immutability but also comes with a distributed control system. That’s why it has found its application across multiple industries, creating a high demand for skilled blockchain developers.</p>
-                                        <h6 class="h6 mt-40">Will you give live project training on blockchain development?</h6>
-                                        <p>With Ahmedabad Computer Education, you will get the live training for our blockchain course with placement to understand the real-life implementation of the technology.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
+                                <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
                                         <div class="course-con-acc-sec">
@@ -595,6 +349,65 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
+                                    <div class="course-description">
+                                        <h5 class="h5">Blockchain course highlights</h5>
+                                        <p>If you are planning for an advanced career portfolio with a strong technical foothold, opting for our blockchain certification course will be the most rational decision. Although blockchain was primarily introduced to record transactions and store details about cryptocurrencies, it has now found extensive use across multiple industries. The unique features of blockchain, especially its decentralized performance, make it suitable for several purposes that otherwise couldn’t be achieved by a conventional database system.</p>
+                                        <p>Our blockchain course for beginners comprises topics related to blockchain development, studying the existing blockchains, decentralization, security, and immutability of data, and the underlying technical infrastructure. Additionally, we also provide sessions on advanced topics like data mining, layer 1 and layer 2 blockchains, and many more, so that students can gain comprehensive knowledge about the same. At Ahmedabad Computer Education, we aim to make our students future-ready so that they can begin their careers as proficient and skilled blockchain developers. </p>
+                                        <h5 class="h5 mt-40">What is blockchain and why is it used?</h5>
+                                        <p>The use of blockchain technology became more prominent in 2009 when Bitcoin was introduced to the market as the first cryptocurrency. In textbook terms, it is a shared database where information of different types is stored but in the form of blocks linked together with cryptographic programs. There is no central authority controlling the blockchain and its operations. On the contrary, the authority is distributed amongst multiple systems on the blockchain network, known as nodes. </p>
+                                        <p>They authenticate every data to be stored on the blockchain ledger, access the stored records, and perform all other functions. One of the major differences between blockchain and any other conventional shared database is that the information stored on the former is immutable, meaning it cannot be modified further once added to the ledger in the form of blocks. Strong cryptographic scripts are deployed to the network to protect the data and make them immutable.</p>
+                                        <p>While blockchain can be used for multiple uses, the most common application is as a transaction ledger. Our blockchain training in Indore will help students understand the practical applications of this decentralized shared database in different industries. For instance, it is often used in the finance industry to record transactions involving multiple users in a decentralized network. Similarly, it can be used in the supply chain industry to store records of products, straight from their point of origin to the final dispatch point.</p>
+                                        <h5 class="h5 mt-40">What are the key features of blockchain that students learn?</h5>
+                                        <p>Our blockchain course in Ahmedabad is curated in a way that students can learn the primary features of this shared database with ease. It will not only help them to master the technology but also work on real-time projects with ease. Below are some of the major features that we discuss in our classes for blockchain training.</p>
+                                        <div class="checklist mb-1">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Decentralization: Blockchain is a decentralized ledger technology, meaning its control or authority is distributed amongst multiple users and not with a single entity. Hence, everyone must agree to any change in the state of data or the addition of a new block of data to the existing ledger.</li>
+                                                <li class="course-acc-li">Immutability: Once data is mined and added to the blockchain ledger, it becomes immutable. Our experts will further explain the use of cryptographic algorithms to make data blocks immutable and prevent any further modification of the same.</li>
+                                                <li class="course-acc-li">Enhanced security: In our blockchain course for beginners, we include lectures and an in-depth understanding of the security and encryption protocols associated with this decentralized ledger. Additionally, we also shed light on different consensus protocols adopted for working on the ledger, like Proof of Stakes and Proof of Work. </li>
+                                                <li class="course-acc-li">4.Smart contract development and deployment: With us, students can learn the development of automated execution programs known as smart contracts that are deployed on the blockchain. These are sets of rules and conditions to automatically trigger an operation on the blockchain, like the completion of a monetary transfer or updating the records of a product in the supply chain ledger. </li>
+                                                <li class="course-acc-li">Data mining: Our experts will also help students understand the concepts associated with data mining since it is required to develop a blockchain and add the data blocks to the existing ledger. For this, we will provide live training sessions on hashing, cryptographic encryption, and other computational logic relevant to data mining. </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40">Why take a blockchain developer course?</h5>
+                                        <p>Wondering why opt for our blockchain training in Indore?</p>
+                                        <p>If yes, let us present you with a brief overview of the advantages you will gain with our training course on blockchain technology, the new revolutionary concept in the IT industry. </p>
+                                        <h5 class="h6 mt-40">Versatile development approaches</h5>
+                                        <p>Blockchains can be developed in numerous ways, depending on the custom solutions necessary for a business. Our academic experts will provide you with detailed insights into the practical approaches suitable for developing the blockchain having custom features. Additionally, we will also help students implement feasible logic that can adhere to the time complexity protocols and help them develop a more efficient and secured blockchain. </p>
+                                        <h5 class="h6 mt-40">Functional and programming overview</h5>
+                                        <p>Being the best blockchain institute Ahmedabad, we will help students understand both the functional and logical parts of the blockchain. For instance, we will train them to use different programming languages needed to develop a blockchain Python, JavaScript, Java, and Rust. Additionally, we will also give training on different frameworks used to develop the blockchain network along with smart contracts for existing blockchains like Ethereum and Binance Coin.</p>
+                                        <h5 class="h6 mt-40">Easy learning curve</h5>
+                                        <p>At Ahmedabad Computer Education, we ensure our blockchain training course has a flatter learning curve. In other words, we will help break down the topic's complexity and provide a one-to-one discussion to help students resolve their queries regarding blockchain development, underlying architecture, consensus protocols, smart contracts, and data encryption. Plus, our live training sessions will give them a first-hand experience of implementing blockchain in real-time scenarios. </p>
+                                        <h5 class="h5 mt-40">Best job roles for blockchain developers</h5>
+                                        <p>With our blockchain certification course, students can apply for multifarious job roles once they graduate. Also, expert professionals who wish to establish their careers in this field can benefit a lot from our certification course. Since blockchain is used in different ways across multiple industries, there are numerous options for job roles in the market.</p>
+                                        <div class="checklist mb-1">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">1.Blockchain developer: As the name implies, blockchain developers are concerned with developing a secondary blockchain on a primary one, blockchain-based applications like wallets and marketplaces, smart contracts, and user-authentication systems. Their average salary ranges somewhere between INR 7 to INR 9 lakhs annually.</li>
+                                                <li class="course-acc-li">Blockchain solution architect: A blockchain solution architect will be responsible for providing tailored solutions to their clients by understanding the business needs, analyzing the existing technical infrastructure, and deducing the feasibility of the solution. Such a professional can get a job with an average salary of INR 11 lakhs annually.</li>
+                                                <li class="course-acc-li">Blockchain project manager: Managing the entire blockchain development project and streamlining the deliveries through agile methods will be the major responsibilities of a blockchain project manager. The person needs to be acquainted with both the technicalities of blockchain development along with other project management tools. The average salary of the professional will be somewhere between INR 13 lakhs to INR 18 lakhs depending on the expertise.</li>
+                                                <li class="course-acc-li">Blockchain UX designer: Another most common and high-in-demand job role that you can look for is blockchain UX designer. You will be concerned with developing a feature-rich and interactive user interface for blockchain-based applications using front-end programming languages and service-based APIs. The average salary of a blockchain UX designer is somewhat between INR 14 lakhs to INR 16 lakhs.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40" id="faqs">How Ahmedabad Computer Education can help build a flourishing career?</h5>
+                                        <p>Being the best blockchain institute Ahmedabad, we will help you learn the primary concepts of blockchain technology along with the underlying technical infrastructure. Our experts will provide detailed insights into topics like decentralization, data mining, cryptographic encryption, layer 1 and layer 2 blockchain, smart contracts, and many more such matters. With us, you will be able to enhance your technical proficiency in various programming languages and technologies used in developing and deploying the blockchain. </p>
+                                        <h5 class="h5 mt-40">FAQs</h5>
+                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
+                                        <h6 class="h6 mt-40">How the blockchain developer course will help me?</h6>
+                                        <p>With the blockchain course for beginners, you will be able to master the concepts of this decentralized shared database, including data mining, cryptography, smart contract development, and many more. </p>
+                                        <h6 class="h6 mt-40">What is the average salary of a blockchain developer?</h6>
+                                        <p>The average salary of a blockchain developer will depend upon the expertise and the technical skills you have. For freshers, the standard salary slab ranges between INR 7 lakhs to INR 10 lakhs per annum.</p>
+                                        <h6 class="h6 mt-40">How do I register for the blockchain developer course?</h6>
+                                        <p>If you want to enroll yourself in our blockchain certification course, visit our website and fill in the form with all the necessary details. Our experts will get back to you at the earliest with any other details to be filled in for registration.</p>
+                                        <h6 class="h6 mt-40">Can I complete the blockchain developer course after my graduation?</h6>
+                                        <p>Yes, you can enroll yourself in our blockchain training program after completing your graduation.</p>
+                                        <h6 class="h6 mt-40">What programming languages do I need to know for blockchain development?</h6>
+                                        <p>Python, Rust, Java, and JavaScript are the most common programming languages used to develop blockchain, smart contracts, data mining models, and other related components.</p>
+                                        <h6 class="h6 mt-40">Why blockchain developers are high in demand?</h6>
+                                        <p>Blockchain is a revolutionary technology that not only offers end-to-end data transparency and immutability but also comes with a distributed control system. That’s why it has found its application across multiple industries, creating a high demand for skilled blockchain developers.</p>
+                                        <h6 class="h6 mt-40">Will you give live project training on blockchain development?</h6>
+                                        <p>With Ahmedabad Computer Education, you will get the live training for our blockchain course with placement to understand the real-life implementation of the technology.</p>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
@@ -681,6 +494,8 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4">
                     <aside class="sidebar-area">
+                        <!-- register sidebar -->
+                        <?php include('registerSidebar.php'); ?>
                         <div class="widget widget_info  ">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/blockchain-2.jpg" alt="video">
@@ -704,8 +519,6 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <!-- register sidebar -->
-                        <?php include('registerSidebar.php'); ?>
                     </aside>
                 </div>
             </div>
@@ -728,7 +541,7 @@ id="about-us">
                 <div class="col-xxl-7 col-xl-8 align-self-end">
                     <div class="about-content2">
                         <div class="title-area mb-40">
-                            <span class="sub-title">More About Us</span>
+                            <span class="sub-title">More About Ahmedabad Computer Education</span>
                             <h2 class="fs-40 fw-medium mt-n2">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
                             </h2>
                         </div>

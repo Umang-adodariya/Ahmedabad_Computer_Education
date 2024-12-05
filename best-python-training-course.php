@@ -55,204 +55,59 @@
          .map-sec{
             height: 250px;
          }
-         .sidebar-area.register-sidebar-area{position: relative; }
-         .register-sidebar {
-                position: sticky;
-                top: 20px;
-                z-index: 10; 
+         .cust-page-box h2.course-title{
+                font-size:44px;
+                margin-bottom:0px;
+                color:#fff;
             }
-            @media (max-width:767px) {
+            .tab-box-fix-cont .course-curriculam{height: calc(100vh - 160px);
+                overflow-y: scroll;}
+                @media (max-width:768px) {
                 .th-widget-about.mob-th-widget-about{
                     text-align:center;
                 }
                 .th-widget-about.mob-th-widget-about .info-box-wrap{
                     justify-content:center;
                 }
+                .cust-page-box h2.course-title{
+                font-size:18px;
+                margin-bottom:0px;
+                color:#fff;
             }
+            .tab-box-fix-cont .course-curriculam{
+                height:auto;overflow:hidden;
+            }
+            }
+            @media (max-width:430px) {
+                .cust-page-box h2.course-title{color:#111}
+            }
+            ::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(252, 0, 18, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  border-radius: 20px;
+}
+            
       </style>
    </head>
    <body>
-      <!--==============================
-         Mobile Menu
-         ============================== -->
-      <div class="th-menu-wrapper">
-         <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-               <a href="index.php"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
-            </div>
-            <div class="th-mobile-menu">
-               <ul>
-                  <li class="menu-item-has-children">
-                     <a href="#about-us" class="home-link">About Us</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#course" class="home-link">Course</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#placement" class="home-link">Placement</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#" class="home-link">Reviews</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#faqs" class="home-link">FAQs</a>
-                  </li>
-                  <li>
-                     <a href="#footer">Contact Us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <div class="popup-search-box d-none d-lg-block">
-         <button class="searchClose"><i class="fal fa-times"></i></button>
-         <form action="#">
-            <input type="text" id="search_input"   placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-            <div id="result-box" class="result-box" style="display: none;">
-               <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
-               <a href="full-stack-react-development-course.php">Full Stack React Development Course</a>
-               <a href="angular-detail.php">Full Stack Angular Development Course</a>
-               <a href="full-stack-python-development-course.php">Full Stack Python Development Course</a>
-               <a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a>
-               <a href="web-designing-training-cours.php">Web Designing Course</a>
-               <a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a>
-               <a href="game-development-course.php">Game Development Course</a>
-               <a href="devops-certification-course.php">DevOps Certification Course</a>
-               <a href="flutter-certification-course.php">Flutter Certification Course</a>
-               <a href="react-native-course.php">React Native Course</a>
-               <a href="metaverse-training-course.php">Metaverse Course</a>
-               <a href="digital-marketing-training-course.php">Digital Marketing Course</a>
-               <a href="seo-certification-training-course.php">SEO Certification Course</a>
-               <a href="software-testing-course.php">Software Testing Course</a>
-               <a href="cyber-security-detail.php">Cyber Security Course</a>
-               <a href="cms-certification-course.php">CMS Course</a>
-               <a href="business-development-course.php">Business Development Course</a>
-               <a href="business-analyst-course.php">Business Analyst Course</a>
-            </div>
-         </form>
-      </div>
-      <!--==============================
-         Sidemenu
-         ============================== -->
-      <div class="sidemenu-wrapper d-none d-lg-block ">
-         <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-               <div class="th-widget-about">
-                  <div class="about-logo">
-                     <a href="index.php"><img src="assets/img/ahmedabad_logo.png"
-                        alt="ahmedabad computer education"></a>
-                  </div>
-                  <p class="about-text">Intrinsicly target low-risk high-yield sources with proactive niche markets.
-                     Holisticly strategize intermandated.
-                  </p>
-                  <div class="info-box-wrap mb-20">
-                           <div class="info-box_icon">
-                              <i class="fas fa-phone"></i>
-                           </div>
-                           <a href="tel:9586877700" class="info-box_link rem-bullet">9586-877-700</a>
-                        </div>
-                  <div class="th-social style2">
-                     <h6 class="title">FOLLOW US ON:</h6>
-                     <!-- <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> -->
-                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                     <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a> -->
-                  </div>
-               </div>
-            </div>
-            <div class="widget  ">
-               <h3 class="widget_title">Recent Posts</h3>
-               <div class="recent-post-wrap">
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">How To Start Learn
-                           Online Study From Your Home</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>21/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">A Guide for Teachers
-                           and Education Staff.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>22/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-3.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Educate Empower
-                           Excel Discover the Power.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>25/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="widget widget_contact  ">
-               <h3 class="widget_title">Get in touch!</h3>
-               <p class="contact-text">Fusce varius, dolor tempor interdum tristiquei bibendum service life.</p>
-               <div class="th-widget-contact">
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        702/703, Iscon Emporio, Nr. Star Bazaar, Jodhpur Cross Roads, Satellite, Ahmedabad, Gujarat
-                        – 380015
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        719, Shekhar central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh 452018
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-envelope"></i>
-                     </div>
-                     <a href="mailto:career@ahmedabadcomputereducation.com"
-                        class="info-box_link">career@ahmedabadcomputereducation.com</a>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-phone"></i>
-                     </div>
-                     <a href="tel:(+91)9586877700" class="info-box_link">(+91)95868 77700</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+
       <!--==============================
          Header Area
          ==============================-->
-      <header class="th-header header-layout5">
+      <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="menu-top">
                <div class="container">
@@ -331,42 +186,9 @@
                         <div class="col-auto">
                            <div class="row align-items-center justify-content-between">
                               <div class="col-auto">
-                                 <nav class="main-menu d-none d-lg-inline-block">
-                                    <ul>
-                                       <li class="menu-item-has-children">
-                                          <a href="#about-us" class="home-link">About Us</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#course" class="home-link">Course</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#placement" class="home-link">Placement</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#" class="instructor-link">Reviews</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#faqs" class="instructor-link">FAQs</a>
-                                       </li>
-                                       <li>
-                                          <a href="#footer">Contact Us</a>
-                                       </li>
-                                    </ul>
-                                 </nav>
-                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
-                                    class="far fa-bars"></i></button>
-                              </div>
-                              <div class="col-auto d-none d-xl-block">
-                                 <div class="header-button">
-                                    <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
-                                       data-bs-target="#registerModal">Apply
-                                    Now<i class="fas fa-arrow-right ms-2"></i></a>
-                                    <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
-                                       <i class="far fa-cart-shopping"></i>
-                                       <span class="badge bg-theme2">5</span>
-                                       </a> -->
-                                 </div>
+                            
+                                    <h2 class="course-title">Full Stack Python Development Course</h2>
+                            
                               </div>
                            </div>
                         </div>
@@ -380,30 +202,21 @@
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
  
-<section class="space-top space-extra2-bottom">
+<section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <div class="course-single-top">
-                            <div class="course-img">
-                                <img src="assets/img/courses/corses-main/course-python-new.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
-                            </div>
-                            <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>Modules 2</span>
-                                <span><i class="fal fa-user"></i>Students 623+</span>
-                            </div>
+                        <!-- <div class="course-single-top">
                             <h2 class="course-title">Full Stack Python Development Course</h2>
-                        </div>
+                        </div> -->
                         <div class="course-single-bottom" id="course">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -413,71 +226,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="productTabContent">
-                                <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
-                                    <div class="course-description">
-                                        <h5 class="h5">Python course highlights</h5>
-                                        <p>While countless programming languages are used in the global dev community, Python has always surpassed expectations, proving itself to be the most versatile language. Opting for the Python certification course isn’t just to establish a strong and appealing career portfolio but also to brush up on your technical skills and master the language within the stipulated course duration. Whether you are a college student looking forward to learning this language from scratch or a professional wanting to improve your technical skills, our Python course has got your back.</p>
-                                        <p>Python is one such programming language that is not just used to develop web applications but also in designing training layers of artificial intelligence models and curating machine learning algorithms. It has also found extensive use in IoT, data science and analytics, and many more fields in the IT sector. With such widespread usage, it’s evident that with our Python certification course, students and professionals will have excellent career opportunities.</p>
-                                        <p>At Ahmedabad Computer Education, we will help you gain a strong foothold over basic concepts like library functions and printing syntaxes. Along with this, we will also assist you in mastering the advanced concepts necessary for real-life logic implementation and project development. Since all our trainers are highly skilled in Python, you can connect with them to get your queries resolved and acquire both theoretical and practical knowledge.</p>
-                                        <h5 class="h5">What is Python and why is it used?</h5>
-                                        <p>Python is one of the most popular computer programming languages, which was first made for public use in 1991. Based on the object-oriented concept, it resembles the English language in terms of syntax. The key features that make it suitable for versatile industry-wide applications are composability, readability, testing frameworks, and structured formats. Any code written in Python can be easily understood even by a person who only has basic conceptual knowledge. On top of this, Python is known to have a flatter learning curve, meaning anyone with potential can learn the language and start writing the codes without much difficulty.</p>
-                                        <p>While Python is basically used to develop web applications, the present usage is far more versatile. Data scientists often use this programming language to develop analytical models and find hidden trends and patterns in big data. Apart from this, it can also be used to develop AI models, machine learning algorithms, and many more such computational models. Thanks to the powerful frameworks and library functions, it has become the most preferred language for designing complex applications with custom features.</p>
-                                        <p>Since most employers in the IT sector look for Python developers with advanced skills, our Ahmedabad Computer Education Institute will help you with tailored Python course in Ahmedabad. Whether you want to hone any special concept for your upcoming project or learn Python from the basics, we have got your needs covered.</p>
-                                        <h5 class="h5 mt-40">Why choose the Python Developer course?</h5>
-                                        <p>Before you opt for our Python training in Indore, let us give you a short walkthrough of the benefits of learning this programming language for career development and technical proficiency.</p>
-                                        
-                                        <h5 class="h6 mt-40">Readable code syntax</h5>
-                                        <p>Python has high readability despite being a high-level programming language. Owing to the sorted structure, developers can write programs using a wide number of tools, from online IDEs like Eclipse to regular text editors. Additionally, you can also go through the codes without debugging and understand the logic implementation, thanks to the easy-to-understand syntax. </p>
-                                        <h5 class="h6 mt-40">Versatile solution approaches</h5>
-                                        <p>One of the major benefits of learning Python is that the programming language supports multiple solution approaches. In other words, you can come up with different solutions for the same problem with a piece of code. All you have to do is find the most feasible solution that won’t increase the time complexity or iteration to ensure the code runs smoothly.</p>
-                                        <h5 class="h6 mt-40">Objected-oriented programming</h5>
-                                        <p>Since Python is object-oriented programming, you will have to deal with objects and attributes that resemble real-life objects. It has the same features as other object-oriented languages, like method overloading and overriding, inheritance, polymorphism, encapsulation, and abstraction. Besides, writing codes with objects as reference variables makes it easier to implement the business logic</p>
-                                        <h5 class="h6 mt-40">GUI support</h5>
-                                        <p>With our Python course for beginners, you will be able to learn the libraries and frameworks in the Tkinter for Graphical User Interface designing and development. It comes with numerous widgets that can be further customized to create a feature-rich and visually appealing interface for web applications, desktop applications, and mobile-based software.</p>
-                                        <h5 class="h6 mt-40">Highly compatible</h5>
-                                        <p>Also, Python is compatible with other object-oriented programming languages, including C++ and Java. Hence, switching between the programming languages won’t be a hassle for developers, even if they don’t have an understanding of advanced programming concepts. If you know Java or C++, learning Python will become easier for you.</p>
-                                        
-                                        <h5 class="h5 mt-40">Best job roles for Python developers</h5>
-                                        <p>Choosing a Python course with placement opportunities will indeed help you a lot in building your career in this hypercompetitive IT industry. Once you master this programming language, you can opt for several job roles with high paying salary structures.</p>
-                                        <div class="checklist dis-ul mt-40">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Python developer: As a Python developer, you will be responsible for developing different systems and software applications using Python as the backend programming language. The average salary in India for this job role is approximately INR 9 lakhs to INR 11 lakhs annually.</li>
-                                                <li class="course-acc-li">Software engineer: Once you have the certification in Python and master this programming language, you can opt for the job role of software engineer. From developing web applications to designing GUIs using the widget libraries, you will be able to work in versatile IT projects. The highest paid jobs in this role offer a salary of INR 15 lakhs to INR 18 lakhs annually. </li>
-                                                <li class="course-acc-li">Data scientist: In data science, Python plays a crucial role by allowing developers to build analytical models that can provide valuable insights into big data, like market trends and behavioral patterns. Since data science is in high demand, you can opt for a job with a salary structure of INR 25 lakhs in India.</li>
-                                                <li class="course-acc-li">Machine learning engineer: Another job role you can opt for after completing our Python course with placement options is that of a machine learning engineer. Here, you will be responsible for developing algorithms and training layers based on different ML concepts using Python language. The average salary of an ML engineer with expertise in Python language is around INR 20 lakhs. </li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40" id="faqs">How can Ahmedabad Computer Education help build a prominent career profile?</h5>
-                                        <p>At Ahmedabad Computer Education, we will help you learn the basic concepts of Python, including exception handling, multithreading, OOPs concepts, functions and polymorphism, and the Django framework. Additionally, our experts will also give you custom sessions on advanced concepts of this programming language through which you can work on real-life projects specific to different industries, like a complete web application development or building of an AI model with analytical abilities. </p>
-                                        <p>Being the best Python institute Ahmedabad, we will help you in:</p>
-                                        <div class="checklist dis-ul mt-40">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
-                                                <li class="course-acc-li">Solving the complexities of a codebase using different approaches while catering to time complexities</li>
-                                                <li class="course-acc-li">Gaining practical exposure through live project training sessions using Python as the main backend programming language</li>
-                                                <li class="course-acc-li">Learning the major concepts that will be needed for your next job interview</li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40">FAQs</h5>
-                                        <h5 class="h6 mt-40">What can I learn from the Python Developer course?</h5>
-                                        <p>The Python course in Ahmedabad will help you learn the basic concepts of OOPs language, polymorphism, exception handling, nested try-and-catch blocks, dynamic memory allocation, and multithreading. Apart from this, you will be able to know more about advanced concepts like GUI framework, Django, thread functions, advanced loop structures, and many more.</p>
-                                        <h5 class="h6 mt-40">What is the average salary of a Python developer in India?</h5>
-                                        <p>The average salary of a Python developer will depend on the job role chosen and the employment market trends. For instance, a software engineer having skills in Python can have an average annual salary of INR 11 lakhs to INR 13 lakhs. On the other hand, a data scientist or data analyst with knowledge of Python, R Programming, and statistics can apply for a job of salary package between INR 25 lakhs and INR 27 lakhs. </p>
-                                        <h5 class="h6 mt-40">Is the Python Developer course suitable for freshers?</h5>
-                                        <p>Our Python certification course is suitable for freshers who have recently completed their college or are in their final academic year. They can learn about the basic concepts related to this programming language, library function utilization, and GUI designing concepts. </p>
-                                        <h5 class="h6 mt-40">How long will it take to learn the Python programming language?</h5>
-                                        <p>It will take approximately three to four months to master the Python language with our certification program.</p>
-                                        <h5 class="h6 mt-40">What is the fee for the Python Developer course?</h5>
-                                        <p>For knowing more about the fee structure of our Python training in Indore, you can connect with our consultants and discuss about the same further.</p>
-                                        <h5 class="h6 mt-40">Do you offer mock interview sessions for Python developers?</h5>
-                                        <p>If you are looking for Python course with placement options, we do offer training sessions and mock interviews so that you can become familiar with the questions asked during technical interviews and master the programming logics.</p>
-                                        <h5 class="h6 mt-40">What are the best job roles for a Python Developer?</h5>
-                                        <p>Some of the best job roles you can apply for as a Python developer are software engineer, data scientist, data analyst, AI developer, GUI designer, and machine learning engineer.</p>
-                                        <h5 class="h6 mt-40">Will you give practical training on Python project?</h5>
-                                        <p>Yes, being the best Python institute in Ahmedabad, we ensure to train our students in both theoretical and practical concepts. Hence, we arrange practical sessions through live project training and help students understand the implementation logic of Python.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
+                            <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
                                         <div class="course-con-acc-sec">
@@ -551,6 +300,71 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+
+                                <div class="tab-pane fade" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
+                                    <div class="course-description">
+                                        <h5 class="h5">Python course highlights</h5>
+                                        <p>While countless programming languages are used in the global dev community, Python has always surpassed expectations, proving itself to be the most versatile language. Opting for the Python certification course isn’t just to establish a strong and appealing career portfolio but also to brush up on your technical skills and master the language within the stipulated course duration. Whether you are a college student looking forward to learning this language from scratch or a professional wanting to improve your technical skills, our Python course has got your back.</p>
+                                        <p>Python is one such programming language that is not just used to develop web applications but also in designing training layers of artificial intelligence models and curating machine learning algorithms. It has also found extensive use in IoT, data science and analytics, and many more fields in the IT sector. With such widespread usage, it’s evident that with our Python certification course, students and professionals will have excellent career opportunities.</p>
+                                        <p>At Ahmedabad Computer Education, we will help you gain a strong foothold over basic concepts like library functions and printing syntaxes. Along with this, we will also assist you in mastering the advanced concepts necessary for real-life logic implementation and project development. Since all our trainers are highly skilled in Python, you can connect with them to get your queries resolved and acquire both theoretical and practical knowledge.</p>
+                                        <h5 class="h5">What is Python and why is it used?</h5>
+                                        <p>Python is one of the most popular computer programming languages, which was first made for public use in 1991. Based on the object-oriented concept, it resembles the English language in terms of syntax. The key features that make it suitable for versatile industry-wide applications are composability, readability, testing frameworks, and structured formats. Any code written in Python can be easily understood even by a person who only has basic conceptual knowledge. On top of this, Python is known to have a flatter learning curve, meaning anyone with potential can learn the language and start writing the codes without much difficulty.</p>
+                                        <p>While Python is basically used to develop web applications, the present usage is far more versatile. Data scientists often use this programming language to develop analytical models and find hidden trends and patterns in big data. Apart from this, it can also be used to develop AI models, machine learning algorithms, and many more such computational models. Thanks to the powerful frameworks and library functions, it has become the most preferred language for designing complex applications with custom features.</p>
+                                        <p>Since most employers in the IT sector look for Python developers with advanced skills, our Ahmedabad Computer Education Institute will help you with tailored Python course in Ahmedabad. Whether you want to hone any special concept for your upcoming project or learn Python from the basics, we have got your needs covered.</p>
+                                        <h5 class="h5 mt-40">Why choose the Python Developer course?</h5>
+                                        <p>Before you opt for our Python training in Indore, let us give you a short walkthrough of the benefits of learning this programming language for career development and technical proficiency.</p>
+                                        
+                                        <h5 class="h6 mt-40">Readable code syntax</h5>
+                                        <p>Python has high readability despite being a high-level programming language. Owing to the sorted structure, developers can write programs using a wide number of tools, from online IDEs like Eclipse to regular text editors. Additionally, you can also go through the codes without debugging and understand the logic implementation, thanks to the easy-to-understand syntax. </p>
+                                        <h5 class="h6 mt-40">Versatile solution approaches</h5>
+                                        <p>One of the major benefits of learning Python is that the programming language supports multiple solution approaches. In other words, you can come up with different solutions for the same problem with a piece of code. All you have to do is find the most feasible solution that won’t increase the time complexity or iteration to ensure the code runs smoothly.</p>
+                                        <h5 class="h6 mt-40">Objected-oriented programming</h5>
+                                        <p>Since Python is object-oriented programming, you will have to deal with objects and attributes that resemble real-life objects. It has the same features as other object-oriented languages, like method overloading and overriding, inheritance, polymorphism, encapsulation, and abstraction. Besides, writing codes with objects as reference variables makes it easier to implement the business logic</p>
+                                        <h5 class="h6 mt-40">GUI support</h5>
+                                        <p>With our Python course for beginners, you will be able to learn the libraries and frameworks in the Tkinter for Graphical User Interface designing and development. It comes with numerous widgets that can be further customized to create a feature-rich and visually appealing interface for web applications, desktop applications, and mobile-based software.</p>
+                                        <h5 class="h6 mt-40">Highly compatible</h5>
+                                        <p>Also, Python is compatible with other object-oriented programming languages, including C++ and Java. Hence, switching between the programming languages won’t be a hassle for developers, even if they don’t have an understanding of advanced programming concepts. If you know Java or C++, learning Python will become easier for you.</p>
+                                        
+                                        <h5 class="h5 mt-40">Best job roles for Python developers</h5>
+                                        <p>Choosing a Python course with placement opportunities will indeed help you a lot in building your career in this hypercompetitive IT industry. Once you master this programming language, you can opt for several job roles with high paying salary structures.</p>
+                                        <div class="checklist dis-ul mt-40">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Python developer: As a Python developer, you will be responsible for developing different systems and software applications using Python as the backend programming language. The average salary in India for this job role is approximately INR 9 lakhs to INR 11 lakhs annually.</li>
+                                                <li class="course-acc-li">Software engineer: Once you have the certification in Python and master this programming language, you can opt for the job role of software engineer. From developing web applications to designing GUIs using the widget libraries, you will be able to work in versatile IT projects. The highest paid jobs in this role offer a salary of INR 15 lakhs to INR 18 lakhs annually. </li>
+                                                <li class="course-acc-li">Data scientist: In data science, Python plays a crucial role by allowing developers to build analytical models that can provide valuable insights into big data, like market trends and behavioral patterns. Since data science is in high demand, you can opt for a job with a salary structure of INR 25 lakhs in India.</li>
+                                                <li class="course-acc-li">Machine learning engineer: Another job role you can opt for after completing our Python course with placement options is that of a machine learning engineer. Here, you will be responsible for developing algorithms and training layers based on different ML concepts using Python language. The average salary of an ML engineer with expertise in Python language is around INR 20 lakhs. </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40" id="faqs">How can Ahmedabad Computer Education help build a prominent career profile?</h5>
+                                        <p>At Ahmedabad Computer Education, we will help you learn the basic concepts of Python, including exception handling, multithreading, OOPs concepts, functions and polymorphism, and the Django framework. Additionally, our experts will also give you custom sessions on advanced concepts of this programming language through which you can work on real-life projects specific to different industries, like a complete web application development or building of an AI model with analytical abilities. </p>
+                                        <p>Being the best Python institute Ahmedabad, we will help you in:</p>
+                                        <div class="checklist dis-ul mt-40">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
+                                                <li class="course-acc-li">Solving the complexities of a codebase using different approaches while catering to time complexities</li>
+                                                <li class="course-acc-li">Gaining practical exposure through live project training sessions using Python as the main backend programming language</li>
+                                                <li class="course-acc-li">Learning the major concepts that will be needed for your next job interview</li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40">FAQs</h5>
+                                        <h5 class="h6 mt-40">What can I learn from the Python Developer course?</h5>
+                                        <p>The Python course in Ahmedabad will help you learn the basic concepts of OOPs language, polymorphism, exception handling, nested try-and-catch blocks, dynamic memory allocation, and multithreading. Apart from this, you will be able to know more about advanced concepts like GUI framework, Django, thread functions, advanced loop structures, and many more.</p>
+                                        <h5 class="h6 mt-40">What is the average salary of a Python developer in India?</h5>
+                                        <p>The average salary of a Python developer will depend on the job role chosen and the employment market trends. For instance, a software engineer having skills in Python can have an average annual salary of INR 11 lakhs to INR 13 lakhs. On the other hand, a data scientist or data analyst with knowledge of Python, R Programming, and statistics can apply for a job of salary package between INR 25 lakhs and INR 27 lakhs. </p>
+                                        <h5 class="h6 mt-40">Is the Python Developer course suitable for freshers?</h5>
+                                        <p>Our Python certification course is suitable for freshers who have recently completed their college or are in their final academic year. They can learn about the basic concepts related to this programming language, library function utilization, and GUI designing concepts. </p>
+                                        <h5 class="h6 mt-40">How long will it take to learn the Python programming language?</h5>
+                                        <p>It will take approximately three to four months to master the Python language with our certification program.</p>
+                                        <h5 class="h6 mt-40">What is the fee for the Python Developer course?</h5>
+                                        <p>For knowing more about the fee structure of our Python training in Indore, you can connect with our consultants and discuss about the same further.</p>
+                                        <h5 class="h6 mt-40">Do you offer mock interview sessions for Python developers?</h5>
+                                        <p>If you are looking for Python course with placement options, we do offer training sessions and mock interviews so that you can become familiar with the questions asked during technical interviews and master the programming logics.</p>
+                                        <h5 class="h6 mt-40">What are the best job roles for a Python Developer?</h5>
+                                        <p>Some of the best job roles you can apply for as a Python developer are software engineer, data scientist, data analyst, AI developer, GUI designer, and machine learning engineer.</p>
+                                        <h5 class="h6 mt-40">Will you give practical training on Python project?</h5>
+                                        <p>Yes, being the best Python institute in Ahmedabad, we ensure to train our students in both theoretical and practical concepts. Hence, we arrange practical sessions through live project training and help students understand the implementation logic of Python.</p>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
@@ -636,6 +450,8 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4">
                     <aside class="sidebar-area">
+                        <!-- register sidebar -->
+                        <?php include('registerSidebar.php'); ?>
                         <div class="widget widget_info">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/python-thumbnail.jpg" alt="video">
@@ -659,8 +475,7 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <!-- register sidebar -->
-                        <?php include('registerSidebar.php'); ?>
+                        
                     </aside>
                 </div>
             </div>
@@ -683,7 +498,7 @@ id="about-us">
                 <div class="col-xxl-7 col-xl-8 align-self-end">
                     <div class="about-content2">
                         <div class="title-area mb-40">
-                            <span class="sub-title">More About Us</span>
+                            <span class="sub-title">More About Ahmedabad Computer Education</span>
                             <h2 class="fs-40 fw-medium mt-n2">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
                             </h2>
                         </div>
