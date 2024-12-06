@@ -1,5 +1,5 @@
 <div class="widget widget_info  register-sidebar">
-    <h3 class="widget_title">Register Now</h3>
+    <h3 class="widget_title">Inquire Now</h3>
     <form action="mail.php" method="POST" class="contact-form ajax-contact" id="sidebar_form">
         <div class="row">
             <div class="col-md-12">
