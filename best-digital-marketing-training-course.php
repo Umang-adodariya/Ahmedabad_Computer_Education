@@ -55,204 +55,59 @@
          .map-sec{
             height: 250px;
          }
-         .sidebar-area.register-sidebar-area{position: relative; }
-         .register-sidebar {
-                position: sticky;
-                top: 20px;
-                z-index: 10; 
+
+         .cust-page-box h2.course-title{
+                font-size:44px;
+                margin-bottom:0px;
+                color:#fff;
             }
-            @media (max-width:767px) {
+            .tab-box-fix-cont .course-curriculam{height: calc(100vh - 160px);
+                overflow-y: scroll;}
+                @media (max-width:768px) {
                 .th-widget-about.mob-th-widget-about{
                     text-align:center;
                 }
                 .th-widget-about.mob-th-widget-about .info-box-wrap{
                     justify-content:center;
                 }
+                .cust-page-box h2.course-title{
+                font-size:18px;
+                margin-bottom:0px;
+                color:#fff;
             }
+            .tab-box-fix-cont .course-curriculam{
+                height:auto;overflow:hidden;
+            }
+            }
+            @media (max-width:430px) {
+                .cust-page-box h2.course-title{color:#111}
+            }
+            ::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(252, 0, 18, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  border-radius: 20px;
+}
       </style>
    </head>
    <body>
-      <!--==============================
-         Mobile Menu
-         ============================== -->
-      <div class="th-menu-wrapper">
-         <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-               <a href="index.php"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
-            </div>
-            <div class="th-mobile-menu">
-               <ul>
-                  <li class="menu-item-has-children">
-                     <a href="#about-us" class="home-link">About Us</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#course" class="home-link">Course</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#placement" class="home-link">Placement</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#" class="home-link">Reviews</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#faqs" class="home-link">FAQs</a>
-                  </li>
-                  <li>
-                     <a href="#footer">Contact Us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <div class="popup-search-box d-none d-lg-block">
-         <button class="searchClose"><i class="fal fa-times"></i></button>
-         <form action="#">
-            <input type="text" id="search_input"   placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-            <div id="result-box" class="result-box" style="display: none;">
-               <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
-               <a href="full-stack-react-development-course.php">Full Stack React Development Course</a>
-               <a href="angular-detail.php">Full Stack Angular Development Course</a>
-               <a href="full-stack-python-development-course.php">Full Stack Python Development Course</a>
-               <a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a>
-               <a href="web-designing-training-cours.php">Web Designing Course</a>
-               <a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a>
-               <a href="game-development-course.php">Game Development Course</a>
-               <a href="devops-certification-course.php">DevOps Certification Course</a>
-               <a href="flutter-certification-course.php">Flutter Certification Course</a>
-               <a href="react-native-course.php">React Native Course</a>
-               <a href="metaverse-training-course.php">Metaverse Course</a>
-               <a href="digital-marketing-training-course.php">Digital Marketing Course</a>
-               <a href="seo-certification-training-course.php">SEO Certification Course</a>
-               <a href="software-testing-course.php">Software Testing Course</a>
-               <a href="cyber-security-detail.php">Cyber Security Course</a>
-               <a href="cms-certification-course.php">CMS Course</a>
-               <a href="business-development-course.php">Business Development Course</a>
-               <a href="business-analyst-course.php">Business Analyst Course</a>
-            </div>
-         </form>
-      </div>
-      <!--==============================
-         Sidemenu
-         ============================== -->
-      <div class="sidemenu-wrapper d-none d-lg-block ">
-         <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-               <div class="th-widget-about">
-                  <div class="about-logo">
-                     <a href="index.php"><img src="assets/img/ahmedabad_logo.png"
-                        alt="ahmedabad computer education"></a>
-                  </div>
-                  <p class="about-text">Intrinsicly target low-risk high-yield sources with proactive niche markets.
-                     Holisticly strategize intermandated.
-                  </p>
-                  <div class="info-box-wrap mb-20">
-                           <div class="info-box_icon">
-                              <i class="fas fa-phone"></i>
-                           </div>
-                           <a href="tel:9586877700" class="info-box_link rem-bullet">9586-877-700</a>
-                        </div>
-                  <div class="th-social style2">
-                     <h6 class="title">FOLLOW US ON:</h6>
-                     <!-- <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> -->
-                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                     <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a> -->
-                  </div>
-               </div>
-            </div>
-            <div class="widget  ">
-               <h3 class="widget_title">Recent Posts</h3>
-               <div class="recent-post-wrap">
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">How To Start Learn
-                           Online Study From Your Home</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>21/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">A Guide for Teachers
-                           and Education Staff.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>22/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-3.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Educate Empower
-                           Excel Discover the Power.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>25/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="widget widget_contact  ">
-               <h3 class="widget_title">Get in touch!</h3>
-               <p class="contact-text">Fusce varius, dolor tempor interdum tristiquei bibendum service life.</p>
-               <div class="th-widget-contact">
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        702/703, Iscon Emporio, Nr. Star Bazaar, Jodhpur Cross Roads, Satellite, Ahmedabad, Gujarat
-                        – 380015
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        719, Shekhar central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh 452018
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-envelope"></i>
-                     </div>
-                     <a href="mailto:career@ahmedabadcomputereducation.com"
-                        class="info-box_link">career@ahmedabadcomputereducation.com</a>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-phone"></i>
-                     </div>
-                     <a href="tel:(+91)9586877700" class="info-box_link">(+91)95868 77700</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
+
       <!--==============================
          Header Area
          ==============================-->
-      <header class="th-header header-layout5">
+      <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="menu-top">
                <div class="container">
@@ -330,44 +185,9 @@
                         </div>
                         <div class="col-auto">
                            <div class="row align-items-center justify-content-between">
-                              <div class="col-auto">
-                                 <nav class="main-menu d-none d-lg-inline-block">
-                                    <ul>
-                                       <li class="menu-item-has-children">
-                                          <a href="#about-us" class="home-link">About Us</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#course" class="home-link">Course</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#placement" class="home-link">Placement</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#" class="instructor-link">Reviews</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#faqs" class="instructor-link">FAQs</a>
-                                       </li>
-                                       <li>
-                                          <a href="#footer">Contact Us</a>
-                                       </li>
-                                    </ul>
-                                 </nav>
-                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
-                                    class="far fa-bars"></i></button>
-                              </div>
-                              <div class="col-auto d-none d-xl-block">
-                                 <div class="header-button">
-                                    <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
-                                       data-bs-target="#registerModal">Apply
-                                    Now<i class="fas fa-arrow-right ms-2"></i></a>
-                                    <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
-                                       <i class="far fa-cart-shopping"></i>
-                                       <span class="badge bg-theme2">5</span>
-                                       </a> -->
-                                 </div>
-                              </div>
+                              <div class="col-auto">                                
+                                    <h2 class="course-title">Best Digital Marketing Course</h2>                                
+                              </div>                              
                            </div>
                         </div>
                      </div>
@@ -380,30 +200,21 @@
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
  
-<section class="space-top space-extra2-bottom">
+<section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <div class="course-single-top">
-                            <div class="course-img">
-                                <img src="assets/img/courses/corses-main/course-digital-marketing-new.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
-                            </div>
-                            <div class="course-meta style2"id="course">
-                                <span><i class="fal fa-file"></i>Modules 15</span>
-                                <span><i class="fal fa-user"></i>Students 200+</span>
-                            </div>
+                        <!-- <div class="course-single-top">
                             <h2 class="course-title">Best Digital Marketing Course</h2>
-                        </div>
+                        </div> -->
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -413,57 +224,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="productTabContent">
-                                <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
-                                    <div class="course-description">
-                                        <h5 class="h5">Digital marketing course highlight</h5>
-                                        <p>Gone are the days when businesses relied on conventional marketing approaches to establish a strong market foothold and improve their brand positioning. In today’s digital realm, the competition has become so fierce that opting for innovative and result-oriented methods has become paramount. This is where digital marketing comes into the picture! It allows businesses to focus more on their online channels, presenting their brand portfolio in a manner that can influence user actions and bring in more revenues. Whether it’s notifying customers about a new product launch through email marketing or performing on-page technical SEO audits to enhance the SERP of the website, there are several aspects associated with digital marketing.</p>
-                                        <p>With the growing demand for digital marketers, we at Ahmedabad Computer Education now offer a personalized <b>digital marketing certification course</b> for beginners and professionals. If you want to become a content curator or a social media marketer, our online program will help you learn the basics of digital marketing, different techniques, audit checks, market trends, tools and technologies to be used, and several other matters. </p>
-                                        <h5 class="h5">What is digital marketing?</h5>
-                                        <p>As the name suggests, digital marketing is the practice of using digital channels to promote products and services. For example, businesses can use emails to notify their subscribers about any new product to be launched or an upgrade in their services. Similarly, businesses can use their online websites to get higher ranking in the search engine page results and reach out to more users. Since the online platform has become more prominent, it is better to invest in digital marketing rather than trying out the conventional marketing practices like pamphlets, newspaper advertisements, and many more.</p>
-                                        <h5 class="h5 mt-40">What Will You Learn?</h5>
-                                        <p>Quickly synergize cutting-edge scenarios and professional results. Assertively deliver cross-media results before client-centric results. Uniquely initiate intuitive communities through process-centric internal or "organic" sources. Energistically reinvent distinctive value via parallel services extensive paradigms cross-unit manufactured products.</p>
-                                        
-                                        <h5 class="h5 mt-30">What are the main aspects of digital marketing?</h5>
-                                        <p>Before you enroll in our digital marketing course for beginners, it’s important to understand that it’s a broad umbrella with different subdomains. Each domain is dedicated to a specific digital marketing channel or aspect of the online platform. So, below we have briefly described the major divisions we will be covering in our digital marketing course for beginners.</p>
-                                        <h5 class="h6 mt-40">Email marketing</h5>
-                                        <p>Emails are often used for promoting brands or services to new subscribers and existing customers. These can also be used to notify about special discounts, offers, or changes in company policies and terms and conditions.</p>
-                                        <h5 class="h6 mt-40">Social media marketing</h5>
-                                        <p>Since social media platforms have become dominant in today’s time, businesses can leverage them to build a strong network for their brand. Our digital marketing certification course will help you learn the techniques of optimizing the business profile of a brand, improving brand networking, understanding the KPIs associated with the performance of social media posts, and many other relevant aspects.</p>
-                                        <h5 class="h6 mt-40">Content marketing</h5>
-                                        <p>Another most preferred digital marketing channel is content. Using appropriate content, businesses can deliver appealing and convincing stories about their brands, products, or services to the end users. Content curators need to ensure the produced content is plagiarism-free, authentic, and relatable so that the words can influence a user’s action.</p>
-                                        <h5 class="h6 mt-40">Pay-per-click advertisement</h5>
-                                        <p>Our digital marketing course in Ahmedabad also includes sessions on pay-per-click advertisement. It is a technique to promote services or products by through paid ads. Promotional campaigns are launched on different platforms and continuously monitored to check the performance and make any necessary modifications on the go. Properly curated PPC ads can generate outstanding leads and increase the conversion rate.</p>
-                                        <h5 class="h6 mt-40">Search engine optimization</h5>
-                                        <p>One of the most important aspects of digital marketing is search engine optimization. It is the practice of optimizing the website or any other online profile of a business concerning the algorithms and norms of search engines. From keyword inclusion to backlinks, there are several ways in which digital marketers can optimize the website and ensure it ranks high in the SERPs. The higher the rank, the better will be the website’s online visibility and more will be organic traffic.</p>
-                                        <h5 class="h5 mt-40">What industries hire digital marketers?</h5>
-                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
-                                        <div class="checklist dis-ul mt-40"id="faqs">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">eCommerce: Digital marketers play a crucial role in the eCommerce industry for content optimization, keyword inclusion, social media marketing, PPC campaigns, and on-page technical SEO. </li>
-                                                <li class="course-acc-li">Hospitality: Tourism and travel companies leverage digital marketing techniques to increase their brand presence and attract potential customers through online channels. From optimized websites to a strong social media profile, they need skilled digital marketers to increase their market penetration.</li>
-                                                <li class="course-acc-li">Healthcare: Several healthcare organizations also hire digital marketers to promote their services across different online platforms. Additionally, they also need these experts to optimize their online services and provide an omnichannel user experience.</li>
-                                                <li class="course-acc-li">Education: From colleges to online training centers, several institutes in the education industry require strong and proven digital marketing strategies to market their products and services.</li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40">FAQs</h5>
-                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
-                                        <h5 class="h6 mt-40">Why learning digital marketing is beneficial?</h5>
-                                        <p>Digital marketing is one of the most in-demand aspects in today’s time since it allows businesses to reach a significant portion of online audiences through different marketing channels like social media, search engines, emails, and many more.</p>
-                                        <h5 class="h6 mt-40">Do you offer live project training for digital marketing?</h5>
-                                        <p>Our digital marketing training in Indore will include live training for real-time project implementation so that you can learn the techniques and strategies in a better way</p>
-                                        <h5 class="h6 mt-40">What is PPC and why is it important?</h5>
-                                        <p>PPC or pay-per-click is a type of paid advertisement for any brand where a business needs to pay for every click on their website URL. It offers guaranteed online traffic and can generate better leads.</p>
-                                        <h5 class="h6 mt-40">Do I need to learn SEO?</h5>
-                                        <p>As a digital marketing expert, you will have to learn SEO since it allows more visibility of the online brand profile and plays a crucial role in driving more organic traffic.</p>
-                                        <h5 class="h6 mt-40">What is the salary of a digital marketing professional?</h5>
-                                        <p>The average salary of a digital marketing professional is somewhere between INR 7 lakhs to INR 15 lakhs depending on the skillset, expertise level, industry, and employer. </p>
-                                        <h5 class="h6 mt-40">What are the industries hiring digital marketers?</h5>
-                                        <p>From retail commerce to healthcare, several industries are now hiring digital marketers to enhance their online presence and establish a deeper market penetration</p>
-                                        <h5 class="h6 mt-40">What is keyword selection in digital marketing?</h5>
-                                        <p>Keyword selection is a digital marketing strategy where professionals optimize the digital content by including phrases that are in trending searches. </p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
+                                <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
                                         <div class="course-con-acc-sec">
@@ -910,6 +671,56 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="tab-pane fade" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
+                                    <div class="course-description">
+                                        <h5 class="h5">Digital marketing course highlight</h5>
+                                        <p>Gone are the days when businesses relied on conventional marketing approaches to establish a strong market foothold and improve their brand positioning. In today’s digital realm, the competition has become so fierce that opting for innovative and result-oriented methods has become paramount. This is where digital marketing comes into the picture! It allows businesses to focus more on their online channels, presenting their brand portfolio in a manner that can influence user actions and bring in more revenues. Whether it’s notifying customers about a new product launch through email marketing or performing on-page technical SEO audits to enhance the SERP of the website, there are several aspects associated with digital marketing.</p>
+                                        <p>With the growing demand for digital marketers, we at Ahmedabad Computer Education now offer a personalized <b>digital marketing certification course</b> for beginners and professionals. If you want to become a content curator or a social media marketer, our online program will help you learn the basics of digital marketing, different techniques, audit checks, market trends, tools and technologies to be used, and several other matters. </p>
+                                        <h5 class="h5">What is digital marketing?</h5>
+                                        <p>As the name suggests, digital marketing is the practice of using digital channels to promote products and services. For example, businesses can use emails to notify their subscribers about any new product to be launched or an upgrade in their services. Similarly, businesses can use their online websites to get higher ranking in the search engine page results and reach out to more users. Since the online platform has become more prominent, it is better to invest in digital marketing rather than trying out the conventional marketing practices like pamphlets, newspaper advertisements, and many more.</p>
+                                        <h5 class="h5 mt-40">What Will You Learn?</h5>
+                                        <p>Quickly synergize cutting-edge scenarios and professional results. Assertively deliver cross-media results before client-centric results. Uniquely initiate intuitive communities through process-centric internal or "organic" sources. Energistically reinvent distinctive value via parallel services extensive paradigms cross-unit manufactured products.</p>
+                                        
+                                        <h5 class="h5 mt-30">What are the main aspects of digital marketing?</h5>
+                                        <p>Before you enroll in our digital marketing course for beginners, it’s important to understand that it’s a broad umbrella with different subdomains. Each domain is dedicated to a specific digital marketing channel or aspect of the online platform. So, below we have briefly described the major divisions we will be covering in our digital marketing course for beginners.</p>
+                                        <h5 class="h6 mt-40">Email marketing</h5>
+                                        <p>Emails are often used for promoting brands or services to new subscribers and existing customers. These can also be used to notify about special discounts, offers, or changes in company policies and terms and conditions.</p>
+                                        <h5 class="h6 mt-40">Social media marketing</h5>
+                                        <p>Since social media platforms have become dominant in today’s time, businesses can leverage them to build a strong network for their brand. Our digital marketing certification course will help you learn the techniques of optimizing the business profile of a brand, improving brand networking, understanding the KPIs associated with the performance of social media posts, and many other relevant aspects.</p>
+                                        <h5 class="h6 mt-40">Content marketing</h5>
+                                        <p>Another most preferred digital marketing channel is content. Using appropriate content, businesses can deliver appealing and convincing stories about their brands, products, or services to the end users. Content curators need to ensure the produced content is plagiarism-free, authentic, and relatable so that the words can influence a user’s action.</p>
+                                        <h5 class="h6 mt-40">Pay-per-click advertisement</h5>
+                                        <p>Our digital marketing course in Ahmedabad also includes sessions on pay-per-click advertisement. It is a technique to promote services or products by through paid ads. Promotional campaigns are launched on different platforms and continuously monitored to check the performance and make any necessary modifications on the go. Properly curated PPC ads can generate outstanding leads and increase the conversion rate.</p>
+                                        <h5 class="h6 mt-40">Search engine optimization</h5>
+                                        <p>One of the most important aspects of digital marketing is search engine optimization. It is the practice of optimizing the website or any other online profile of a business concerning the algorithms and norms of search engines. From keyword inclusion to backlinks, there are several ways in which digital marketers can optimize the website and ensure it ranks high in the SERPs. The higher the rank, the better will be the website’s online visibility and more will be organic traffic.</p>
+                                        <h5 class="h5 mt-40">What industries hire digital marketers?</h5>
+                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
+                                        <div class="checklist dis-ul mt-40"id="faqs">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">eCommerce: Digital marketers play a crucial role in the eCommerce industry for content optimization, keyword inclusion, social media marketing, PPC campaigns, and on-page technical SEO. </li>
+                                                <li class="course-acc-li">Hospitality: Tourism and travel companies leverage digital marketing techniques to increase their brand presence and attract potential customers through online channels. From optimized websites to a strong social media profile, they need skilled digital marketers to increase their market penetration.</li>
+                                                <li class="course-acc-li">Healthcare: Several healthcare organizations also hire digital marketers to promote their services across different online platforms. Additionally, they also need these experts to optimize their online services and provide an omnichannel user experience.</li>
+                                                <li class="course-acc-li">Education: From colleges to online training centers, several institutes in the education industry require strong and proven digital marketing strategies to market their products and services.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40">FAQs</h5>
+                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
+                                        <h5 class="h6 mt-40">Why learning digital marketing is beneficial?</h5>
+                                        <p>Digital marketing is one of the most in-demand aspects in today’s time since it allows businesses to reach a significant portion of online audiences through different marketing channels like social media, search engines, emails, and many more.</p>
+                                        <h5 class="h6 mt-40">Do you offer live project training for digital marketing?</h5>
+                                        <p>Our digital marketing training in Indore will include live training for real-time project implementation so that you can learn the techniques and strategies in a better way</p>
+                                        <h5 class="h6 mt-40">What is PPC and why is it important?</h5>
+                                        <p>PPC or pay-per-click is a type of paid advertisement for any brand where a business needs to pay for every click on their website URL. It offers guaranteed online traffic and can generate better leads.</p>
+                                        <h5 class="h6 mt-40">Do I need to learn SEO?</h5>
+                                        <p>As a digital marketing expert, you will have to learn SEO since it allows more visibility of the online brand profile and plays a crucial role in driving more organic traffic.</p>
+                                        <h5 class="h6 mt-40">What is the salary of a digital marketing professional?</h5>
+                                        <p>The average salary of a digital marketing professional is somewhere between INR 7 lakhs to INR 15 lakhs depending on the skillset, expertise level, industry, and employer. </p>
+                                        <h5 class="h6 mt-40">What are the industries hiring digital marketers?</h5>
+                                        <p>From retail commerce to healthcare, several industries are now hiring digital marketers to enhance their online presence and establish a deeper market penetration</p>
+                                        <h5 class="h6 mt-40">What is keyword selection in digital marketing?</h5>
+                                        <p>Keyword selection is a digital marketing strategy where professionals optimize the digital content by including phrases that are in trending searches. </p>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
@@ -993,6 +804,8 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4">
                     <aside class="sidebar-area">
+                        <!-- register sidebar -->
+                        <?php include('registerSidebar.php'); ?>
                         <div class="widget widget_info  ">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/digital-marketing-2.jpg" alt="video">
@@ -1015,9 +828,7 @@
                                     </li>
                                 </ul>
                             </div> -->
-                        </div>
-                        <!-- register sidebar -->
-                        <?php include('registerSidebar.php'); ?>
+                        </div>                        
                     </aside>
                 </div>
             </div>
@@ -1040,7 +851,7 @@ id="about-us">
                 <div class="col-xxl-7 col-xl-8 align-self-end">
                     <div class="about-content2">
                         <div class="title-area mb-40">
-                            <span class="sub-title">More About Us</span>
+                            <span class="sub-title">More About Ahmedabad Computer Education</span>
                             <h2 class="fs-40 fw-medium mt-n2">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
                             </h2>
                         </div>

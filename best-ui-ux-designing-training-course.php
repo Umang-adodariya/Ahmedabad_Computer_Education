@@ -55,204 +55,56 @@
          .map-sec{
             height: 250px;
          }
-         .sidebar-area.register-sidebar-area{position: relative; }
-         .register-sidebar {
-                position: sticky;
-                top: 20px;
-                z-index: 10; 
+         .cust-page-box h2.course-title{
+                font-size:44px;
+                margin-bottom:0px;
+                color:#fff;
             }
-            @media (max-width:767px) {
+            .tab-box-fix-cont .course-curriculam{height: calc(100vh - 160px);
+                overflow-y: scroll;}
+                @media (max-width:768px) {
                 .th-widget-about.mob-th-widget-about{
                     text-align:center;
                 }
                 .th-widget-about.mob-th-widget-about .info-box-wrap{
                     justify-content:center;
                 }
+                .cust-page-box h2.course-title{
+                font-size:18px;
+                margin-bottom:0px;
+                color:#fff;
             }
+            .tab-box-fix-cont .course-curriculam{
+                height:auto;overflow:hidden;
+            }
+            }
+            @media (max-width:430px) {
+                .cust-page-box h2.course-title{color:#111}
+            }
+            
+            ::-webkit-scrollbar{
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track{
+  background: rgba(252, 0, 18, 0.1);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--theme-color);
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
+  border-radius: 20px;
+}
       </style>
    </head>
    <body>
-      <!--==============================
-         Mobile Menu
-         ============================== -->
-      <div class="th-menu-wrapper">
-         <div class="th-menu-area text-center">
-            <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
-            <div class="mobile-logo">
-               <a href="index.php"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
-            </div>
-            <div class="th-mobile-menu">
-               <ul>
-                  <li class="menu-item-has-children">
-                     <a href="#about-us" class="home-link">About Us</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#course" class="home-link">Course</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#placement" class="home-link">Placement</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#" class="home-link">Reviews</a>
-                  </li>
-                  <li class="menu-item-has-children">
-                     <a href="#faqs" class="home-link">FAQs</a>
-                  </li>
-                  <li>
-                     <a href="#footer">Contact Us</a>
-                  </li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <div class="popup-search-box d-none d-lg-block">
-         <button class="searchClose"><i class="fal fa-times"></i></button>
-         <form action="#">
-            <input type="text" id="search_input"   placeholder="What are you looking for?">
-            <button type="submit"><i class="fal fa-search"></i></button>
-            <div id="result-box" class="result-box" style="display: none;">
-               <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
-               <a href="full-stack-react-development-course.php">Full Stack React Development Course</a>
-               <a href="angular-detail.php">Full Stack Angular Development Course</a>
-               <a href="full-stack-python-development-course.php">Full Stack Python Development Course</a>
-               <a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a>
-               <a href="web-designing-training-cours.php">Web Designing Course</a>
-               <a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a>
-               <a href="game-development-course.php">Game Development Course</a>
-               <a href="devops-certification-course.php">DevOps Certification Course</a>
-               <a href="flutter-certification-course.php">Flutter Certification Course</a>
-               <a href="react-native-course.php">React Native Course</a>
-               <a href="metaverse-training-course.php">Metaverse Course</a>
-               <a href="digital-marketing-training-course.php">Digital Marketing Course</a>
-               <a href="seo-certification-training-course.php">SEO Certification Course</a>
-               <a href="software-testing-course.php">Software Testing Course</a>
-               <a href="cyber-security-detail.php">Cyber Security Course</a>
-               <a href="cms-certification-course.php">CMS Course</a>
-               <a href="business-development-course.php">Business Development Course</a>
-               <a href="business-analyst-course.php">Business Analyst Course</a>
-            </div>
-         </form>
-      </div>
-      <!--==============================
-         Sidemenu
-         ============================== -->
-      <div class="sidemenu-wrapper d-none d-lg-block ">
-         <div class="sidemenu-content">
-            <button class="closeButton sideMenuCls"><i class="far fa-times"></i></button>
-            <div class="widget  ">
-               <div class="th-widget-about">
-                  <div class="about-logo">
-                     <a href="index.php"><img src="assets/img/ahmedabad_logo.png"
-                        alt="ahmedabad computer education"></a>
-                  </div>
-                  <p class="about-text">Intrinsicly target low-risk high-yield sources with proactive niche markets.
-                     Holisticly strategize intermandated.
-                  </p>
-                  <div class="info-box-wrap mb-20">
-                           <div class="info-box_icon">
-                              <i class="fas fa-phone"></i>
-                           </div>
-                           <a href="tel:9586877700" class="info-box_link rem-bullet">9586-877-700</a>
-                        </div>
-                  <div class="th-social style2">
-                     <h6 class="title">FOLLOW US ON:</h6>
-                     <!-- <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a> -->
-                     <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                     <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                     <!-- <a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
-                        <a href="https://www.skype.com/"><i class="fab fa-skype"></i></a> -->
-                  </div>
-               </div>
-            </div>
-            <div class="widget  ">
-               <h3 class="widget_title">Recent Posts</h3>
-               <div class="recent-post-wrap">
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-1.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">How To Start Learn
-                           Online Study From Your Home</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>21/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-2.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">A Guide for Teachers
-                           and Education Staff.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>22/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="recent-post">
-                     <div class="media-img">
-                        <a href="blog-details.php"><img src="assets/img/blog/recent-post-1-3.jpg"
-                           alt="Blog Image"></a>
-                     </div>
-                     <div class="media-body">
-                        <h4 class="post-title"><a class="text-inherit" href="blog-details.php">Educate Empower
-                           Excel Discover the Power.</a>
-                        </h4>
-                        <div class="recent-post-meta">
-                           <a href="blog.php"><i class="fal fa-calendar"></i>25/6/2023</a>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div class="widget widget_contact  ">
-               <h3 class="widget_title">Get in touch!</h3>
-               <p class="contact-text">Fusce varius, dolor tempor interdum tristiquei bibendum service life.</p>
-               <div class="th-widget-contact">
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        702/703, Iscon Emporio, Nr. Star Bazaar, Jodhpur Cross Roads, Satellite, Ahmedabad, Gujarat
-                        – 380015
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-location-dot"></i>
-                     </div>
-                     <p class="info-box_text">
-                        719, Shekhar central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh 452018
-                     </p>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-envelope"></i>
-                     </div>
-                     <a href="mailto:career@ahmedabadcomputereducation.com"
-                        class="info-box_link">career@ahmedabadcomputereducation.com</a>
-                  </div>
-                  <div class="info-box-wrap">
-                     <div class="info-box_icon">
-                        <i class="fas fa-phone"></i>
-                     </div>
-                     <a href="tel:(+91)9586877700" class="info-box_link">(+91)95868 77700</a>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <!--==============================
-         Header Area
-         ==============================-->
-      <header class="th-header header-layout5">
+
+      <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="menu-top">
                <div class="container">
@@ -331,42 +183,9 @@
                         <div class="col-auto">
                            <div class="row align-items-center justify-content-between">
                               <div class="col-auto">
-                                 <nav class="main-menu d-none d-lg-inline-block">
-                                    <ul>
-                                       <li class="menu-item-has-children">
-                                          <a href="#about-us" class="home-link">About Us</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#course" class="home-link">Course</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#placement" class="home-link">Placement</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#" class="instructor-link">Reviews</a>
-                                       </li>
-                                       <li class="menu-item-has-children">
-                                          <a href="#faqs" class="instructor-link">FAQs</a>
-                                       </li>
-                                       <li>
-                                          <a href="#footer">Contact Us</a>
-                                       </li>
-                                    </ul>
-                                 </nav>
-                                 <button type="button" class="th-menu-toggle d-inline-block d-lg-none"><i
-                                    class="far fa-bars"></i></button>
-                              </div>
-                              <div class="col-auto d-none d-xl-block">
-                                 <div class="header-button">
-                                    <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
-                                       data-bs-target="#registerModal">Apply
-                                    Now<i class="fas fa-arrow-right ms-2"></i></a>
-                                    <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
-                                       <i class="far fa-cart-shopping"></i>
-                                       <span class="badge bg-theme2">5</span>
-                                       </a> -->
-                                 </div>
+                                    
+                                    <h2 class="course-title">Best UI/UX Designing Course</h2>
+                                
                               </div>
                            </div>
                         </div>
@@ -380,30 +199,21 @@
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
  
-<section class="space-top space-extra2-bottom">
+<section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <div class="course-single-top">
-                            <div class="course-img">
-                                <img src="assets/img/courses/corses-main/course-ui-ux-new.jpg" alt="Course Image">
-                                <span class="tag"><i class="fas fa-clock"></i> 12 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span>
-                            </div>
-                            <div class="course-meta style2"id="course">
-                                <span><i class="fal fa-file"></i>Modules 4</span>
-                                <span><i class="fal fa-user"></i>Students 700+</span>
-                            </div>
+                        <!-- <div class="course-single-top">
                             <h2 class="course-title">Best UI/UX Designing Course</h2>
-                        </div>
+                        </div> -->
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -413,81 +223,7 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="productTabContent">
-                                <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
-                                    <div class="course-description">
-                                        <h5 class="h5">UI/UX design course highlights </h5>
-                                        <p>The increasing need to launch highly interactive mobile applications or visually appealing websites has created a huge demand for UI/UX designers. These professionals are not just concerned about creating a prototype interface using graphic design tools. Rather, they have to ensure their proposed solutions are perfectly aligned with the brand purpose and goals so that the software interface can cater to the business needs. From learning about color coordination schemes and spacing techniques to getting hands-on practice with different tools like Adobe XD and FIGMA, professionals must have functional and technical skills to master UI/UX designing projects. 
-                                        </p>
-                                        <p>This is why we at Ahmedabad Computer Education provide the best-in-breed UI/UX design certification course for both students and professionals. Our academic experts curate the curriculum to adhere to the designing principles, current market trends, tools being in use, and several other parameters so that our students can become proficient in UI/UX designing activities. With us, you will not only hone your technical skills but also build a strong career profile for better opportunities. 
-                                        </p>
-                                        <h5 class="h5 mt-40">What is UI/UX design?</h5>
-                                        <p>UI/UX refers to the user interface of any digital product, like a mobile application, a website, a desktop application, and many more, and the type of user experience it can offer. To be more precise, it refers to the look and feel of the software’s interface that can influence user actions for making a certain pre-determined action. For example, a well-designed eCommerce website with proper spacing, product image positioning, and other parameters can help customers make quick buying decisions in favor of the business.</p>
-                                        <p>Every UI/UX design must focus on three major aspects that determine the digital product’s engagement level. These are:</p>
-                                       
-                                        <div class="checklist dis-ul mt-40">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Visual design: It will focus on the overall aesthetics of the digital product, like the beautification of the UI, balance between negative and positive spacing, positioning of the textual and graphic content, and the color scheme. 
-                                                </li>
-                                                <li class="course-acc-li">Usability: The ease of using the interface is also paramount for ensuring optimal success of the UI/UX. For instance, faster loading time, optimized display for different-sized images, and other such associated factors impact the usability of the interface. </li>
-                                                <li class="course-acc-li">Interactive feature: Since a digital product like a mobile application or desktop application needs to interact with the users for further actions, the UI/UX design should be interactive. Only then it can enhance the user engagement rate and generate better leads for the business. </li>
-                                            </ul>
-                                        </div>
-
-                                        <h5 class="h5 mt-40">Why UI/UX design is important?</h5>
-                                        <p>Before you enroll in a course for UI/UX design training in Indore, understanding its importance for product development is imperative. Only by knowing this you can make the right call for your career and determine if the course will provide you with the expected opportunities in the future or not.</p>
-                                        <h6 class="h6 mt-40">Improved user engagement</h6>
-                                        <p>One of the many reasons why professionals should focus on designing an interactive and appealing user interface is to improve end-user engagement levels. If the digital product doesn’t have an easy navigation flow or proper balance in space, it can directly impact the interaction with the users. Hence, engagement will be reduced significantly, thereby increasing the bounce rate and decreasing the number of leads. However, with a proper UI/UX design, it will become easier to enhance user engagement and even define proper key tracking metrics to evaluate the product’s performance when exposed to different environments. 
-                                        </p>
-                                        <h6 class="h6 mt-40">Enhanced dev performance</h6>
-                                        <p>Focusing on a proper UI/UX design will also help streamline the development life cycle of the software. Professionals can focus on finding the loopholes in the design profile and get the issues fixed before the final launch of the product in the market. Besides, with proper analytical results, UI/UX designers will be able to predict the market trends and user expectations and accordingly scale the interface feel and usability before sending the software to production. This will minimize the risks of increased bounce rates and declining user acceptance rates. </p>
-                                        <h6 class="h6 mt-40">Better SEO adherence</h6>
-                                        <p>Since SEO has become one of the key factors in determining a digital product’s ranking and online visibility, businesses need to pay undivided attention to the UI/UX design. For instance, UI/UX designers have to work on optimizing the core web vitals so that the concerned website or application can rank higher in the search engine page results. Additionally, with an optimized on-page SEO interface, it will be easier to increase the conversion rate and have a deeper market penetration.
-                                        </p>
-                                        <h6 class="h6 mt-40">Maximized revenue generation</h6>
-                                        <p>With a proper UI/UX design course in Ahmedabad, professionals can focus on performing routine A/B testing and determine if the proposed design meets the user's expectations. It will also help them to find the potential loopholes that can threaten the product’s performance and engagement rate once it is released to production. Focusing on these aspects can give UI/UX designers enough time to optimize the user interface and pave the road for maximum revenue generation.</p>
-                                        <h5 class="h5 mt-40">What industries hire UI/UX designers?</h5>
-                                        <p>Our UI/UX design course with placement is tailored to help students secure a high-paying job across multiple industries. The demand for skilled and proficient UI/UX designers can be witnessed in multifarious sectors, from banking and finance to IT and eCommerce. Below we have briefly described how UI/UX designers contribute to the success of different industries worldwide.</p>
-                                       
-                                        <div class="checklist dis-ul mt-40">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Software: UI/UX designers play a crucial role in mapping and outlining the interface of different digital products, like mobile applications, desktop applications, websites, and many more. They ensure to creation of interfaces with easy navigation, appealing visual graphics, and increased engagement capacities.</li>
-                                                <li class="course-acc-li">Banking and finance: From mobile banking applications to online wallets, several types of digital products are required to help banking institutions build a strong online presence amongst their end users. Hence, they hire UI/UX designers to ensure the applications adhere to the policies of banking and finance while providing excellent experience to the users. </li>
-                                                <li class="course-acc-li">eCommerce: From designing an interactive and engaging storefront to optimizing the web pages as per the SEO standards, UI/UX designers play a major role in the eCommerce industry. They ensure the interface adheres to the market trends and can increase the engagement rate with the end users. 
-                                                </li>
-                                                <li class="course-acc-li">Healthcare: Whether it’s a health monitoring application integrated with wearable devices or inventory tracking software, the healthcare industry requires an easy-to-use application interface with top-notch features. That’s why the demand for UI/UX designers in this industry has skyrocketed in recent years.</li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40">How our UI/UX design course will help you?</h5>
-                                        <p>Being the best UI/UX design institute Ahmedabad, we focus on training our students about different aspects of user interface design, usability, user experience, performance metrics, and other matters associated with UI/UX design. Additionally, our course is curated in a custom manner to meet the expectations of the users and ensure students are market-ready to land a high-paying job in this hypercompetitive market. Following are some of the benefits of choosing our UI/UX design course in Ahmedabad. 
-                                        </p>
-                                       
-                                        <div class="checklist dis-ul mt-40" id="faqs">
-                                            <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Our UI/UX design course in Ahmedabad is curated to help students understand design concepts, like color schemes, color mixing models, fonts and typefaces, fundamental summary, LAWS of designing, typography, and many more. </li>
-                                                <li class="course-acc-li">We provide detailed guidance on different types of tools to be used for UI/UX design, including Adobe XD, Adobe Photoshop for Layouting, and FIGMA. </li>
-                                                <li class="course-acc-li">Our course also includes a live training session where students can learn about the practical implementation of UI/UX designing concepts along with the real-time usage of the tools. </li>
-                                            </ul>
-                                        </div>
-                                        <h5 class="h5 mt-40">FAQs</h5>
-                                       
-                                        <h5 class="h6 mt-40">How much will be the duration of the UI/UX design course?</h5>
-                                        <p>We have a short-term UI/UX design course for beginners that will help them learn the fundamentals while ensuring they receive enough time to gain hands-on knowledge about the same.</p>
-                                        <h5 class="h6 mt-40">What are the best job roles for UI/UX designers?</h5>
-                                        <p>Some of the best job roles that UI/UX designers can look out for after completing our course training are User Experience designer, information architect, user interface designer, visual designer, and interaction designer.</p>
-                                        <h5 class="h6 mt-40">What is the average salary of a UI/UX designer?</h5>
-                                        <p>The average salary of a UI/UX designer will depend on the skillset and experience level. However, the average range is somewhere between INR 8 lakhs to INR 15 lakhs per annum.</p>
-                                        <h5 class="h6 mt-40">Will you offer career guidance in the UI/UX design training course?</h5>
-                                        <p>Our UI/UX design certification course will help you to choose the best career path, guiding you about the interviews, technical questions asked, and the skillsets you need to have. </p>
-                                        <h5 class="h6 mt-40">Does the UI/UX design course guarantee placement?</h5>
-                                        <p>Our UI/UX design course with placement will help you to secure a high-paying job as a skilled and proficient UI/UX designer across multiple industries with no hassle.</p>
-                                        <h5 class="h6 mt-40">Do I need to know any programming language for UI/UX designing?</h5>
-                                        <p>No, for UI/UX designing projects, you won’t have to know any programming language. However, you should understand the usage of different designing tools like Adobe XD and FIGMA along with different concepts associated with UI/UX design. 
-                                        </p>
-                                        <h5 class="h6 mt-40">How should I register for the UI/UX design course?</h5>
-                                        <p>If you want to enroll yourself in our UI/UX design training in Indore, visit our website and fill in the form with all the necessary details. Once you submit the form, we will review your application and reach out to discuss further.</p>
-                                    </div>
-                                </div>
-                                <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
+                            <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
                                         <!-- <p class="mb-30">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the Internet tend to repeat that predefined chunks as necessary, making this the first true dummy generator on the Internet.</p>
@@ -680,6 +416,81 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="tab-pane fade" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
+                                    <div class="course-description">
+                                        <h5 class="h5">UI/UX design course highlights </h5>
+                                        <p>The increasing need to launch highly interactive mobile applications or visually appealing websites has created a huge demand for UI/UX designers. These professionals are not just concerned about creating a prototype interface using graphic design tools. Rather, they have to ensure their proposed solutions are perfectly aligned with the brand purpose and goals so that the software interface can cater to the business needs. From learning about color coordination schemes and spacing techniques to getting hands-on practice with different tools like Adobe XD and FIGMA, professionals must have functional and technical skills to master UI/UX designing projects. 
+                                        </p>
+                                        <p>This is why we at Ahmedabad Computer Education provide the best-in-breed UI/UX design certification course for both students and professionals. Our academic experts curate the curriculum to adhere to the designing principles, current market trends, tools being in use, and several other parameters so that our students can become proficient in UI/UX designing activities. With us, you will not only hone your technical skills but also build a strong career profile for better opportunities. 
+                                        </p>
+                                        <h5 class="h5 mt-40">What is UI/UX design?</h5>
+                                        <p>UI/UX refers to the user interface of any digital product, like a mobile application, a website, a desktop application, and many more, and the type of user experience it can offer. To be more precise, it refers to the look and feel of the software’s interface that can influence user actions for making a certain pre-determined action. For example, a well-designed eCommerce website with proper spacing, product image positioning, and other parameters can help customers make quick buying decisions in favor of the business.</p>
+                                        <p>Every UI/UX design must focus on three major aspects that determine the digital product’s engagement level. These are:</p>
+                                       
+                                        <div class="checklist dis-ul mt-40">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Visual design: It will focus on the overall aesthetics of the digital product, like the beautification of the UI, balance between negative and positive spacing, positioning of the textual and graphic content, and the color scheme. 
+                                                </li>
+                                                <li class="course-acc-li">Usability: The ease of using the interface is also paramount for ensuring optimal success of the UI/UX. For instance, faster loading time, optimized display for different-sized images, and other such associated factors impact the usability of the interface. </li>
+                                                <li class="course-acc-li">Interactive feature: Since a digital product like a mobile application or desktop application needs to interact with the users for further actions, the UI/UX design should be interactive. Only then it can enhance the user engagement rate and generate better leads for the business. </li>
+                                            </ul>
+                                        </div>
+
+                                        <h5 class="h5 mt-40">Why UI/UX design is important?</h5>
+                                        <p>Before you enroll in a course for UI/UX design training in Indore, understanding its importance for product development is imperative. Only by knowing this you can make the right call for your career and determine if the course will provide you with the expected opportunities in the future or not.</p>
+                                        <h6 class="h6 mt-40">Improved user engagement</h6>
+                                        <p>One of the many reasons why professionals should focus on designing an interactive and appealing user interface is to improve end-user engagement levels. If the digital product doesn’t have an easy navigation flow or proper balance in space, it can directly impact the interaction with the users. Hence, engagement will be reduced significantly, thereby increasing the bounce rate and decreasing the number of leads. However, with a proper UI/UX design, it will become easier to enhance user engagement and even define proper key tracking metrics to evaluate the product’s performance when exposed to different environments. 
+                                        </p>
+                                        <h6 class="h6 mt-40">Enhanced dev performance</h6>
+                                        <p>Focusing on a proper UI/UX design will also help streamline the development life cycle of the software. Professionals can focus on finding the loopholes in the design profile and get the issues fixed before the final launch of the product in the market. Besides, with proper analytical results, UI/UX designers will be able to predict the market trends and user expectations and accordingly scale the interface feel and usability before sending the software to production. This will minimize the risks of increased bounce rates and declining user acceptance rates. </p>
+                                        <h6 class="h6 mt-40">Better SEO adherence</h6>
+                                        <p>Since SEO has become one of the key factors in determining a digital product’s ranking and online visibility, businesses need to pay undivided attention to the UI/UX design. For instance, UI/UX designers have to work on optimizing the core web vitals so that the concerned website or application can rank higher in the search engine page results. Additionally, with an optimized on-page SEO interface, it will be easier to increase the conversion rate and have a deeper market penetration.
+                                        </p>
+                                        <h6 class="h6 mt-40">Maximized revenue generation</h6>
+                                        <p>With a proper UI/UX design course in Ahmedabad, professionals can focus on performing routine A/B testing and determine if the proposed design meets the user's expectations. It will also help them to find the potential loopholes that can threaten the product’s performance and engagement rate once it is released to production. Focusing on these aspects can give UI/UX designers enough time to optimize the user interface and pave the road for maximum revenue generation.</p>
+                                        <h5 class="h5 mt-40">What industries hire UI/UX designers?</h5>
+                                        <p>Our UI/UX design course with placement is tailored to help students secure a high-paying job across multiple industries. The demand for skilled and proficient UI/UX designers can be witnessed in multifarious sectors, from banking and finance to IT and eCommerce. Below we have briefly described how UI/UX designers contribute to the success of different industries worldwide.</p>
+                                       
+                                        <div class="checklist dis-ul mt-40">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Software: UI/UX designers play a crucial role in mapping and outlining the interface of different digital products, like mobile applications, desktop applications, websites, and many more. They ensure to creation of interfaces with easy navigation, appealing visual graphics, and increased engagement capacities.</li>
+                                                <li class="course-acc-li">Banking and finance: From mobile banking applications to online wallets, several types of digital products are required to help banking institutions build a strong online presence amongst their end users. Hence, they hire UI/UX designers to ensure the applications adhere to the policies of banking and finance while providing excellent experience to the users. </li>
+                                                <li class="course-acc-li">eCommerce: From designing an interactive and engaging storefront to optimizing the web pages as per the SEO standards, UI/UX designers play a major role in the eCommerce industry. They ensure the interface adheres to the market trends and can increase the engagement rate with the end users. 
+                                                </li>
+                                                <li class="course-acc-li">Healthcare: Whether it’s a health monitoring application integrated with wearable devices or inventory tracking software, the healthcare industry requires an easy-to-use application interface with top-notch features. That’s why the demand for UI/UX designers in this industry has skyrocketed in recent years.</li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40">How our UI/UX design course will help you?</h5>
+                                        <p>Being the best UI/UX design institute Ahmedabad, we focus on training our students about different aspects of user interface design, usability, user experience, performance metrics, and other matters associated with UI/UX design. Additionally, our course is curated in a custom manner to meet the expectations of the users and ensure students are market-ready to land a high-paying job in this hypercompetitive market. Following are some of the benefits of choosing our UI/UX design course in Ahmedabad. 
+                                        </p>
+                                       
+                                        <div class="checklist dis-ul mt-40" id="faqs">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Our UI/UX design course in Ahmedabad is curated to help students understand design concepts, like color schemes, color mixing models, fonts and typefaces, fundamental summary, LAWS of designing, typography, and many more. </li>
+                                                <li class="course-acc-li">We provide detailed guidance on different types of tools to be used for UI/UX design, including Adobe XD, Adobe Photoshop for Layouting, and FIGMA. </li>
+                                                <li class="course-acc-li">Our course also includes a live training session where students can learn about the practical implementation of UI/UX designing concepts along with the real-time usage of the tools. </li>
+                                            </ul>
+                                        </div>
+                                        <h5 class="h5 mt-40">FAQs</h5>
+                                       
+                                        <h5 class="h6 mt-40">How much will be the duration of the UI/UX design course?</h5>
+                                        <p>We have a short-term UI/UX design course for beginners that will help them learn the fundamentals while ensuring they receive enough time to gain hands-on knowledge about the same.</p>
+                                        <h5 class="h6 mt-40">What are the best job roles for UI/UX designers?</h5>
+                                        <p>Some of the best job roles that UI/UX designers can look out for after completing our course training are User Experience designer, information architect, user interface designer, visual designer, and interaction designer.</p>
+                                        <h5 class="h6 mt-40">What is the average salary of a UI/UX designer?</h5>
+                                        <p>The average salary of a UI/UX designer will depend on the skillset and experience level. However, the average range is somewhere between INR 8 lakhs to INR 15 lakhs per annum.</p>
+                                        <h5 class="h6 mt-40">Will you offer career guidance in the UI/UX design training course?</h5>
+                                        <p>Our UI/UX design certification course will help you to choose the best career path, guiding you about the interviews, technical questions asked, and the skillsets you need to have. </p>
+                                        <h5 class="h6 mt-40">Does the UI/UX design course guarantee placement?</h5>
+                                        <p>Our UI/UX design course with placement will help you to secure a high-paying job as a skilled and proficient UI/UX designer across multiple industries with no hassle.</p>
+                                        <h5 class="h6 mt-40">Do I need to know any programming language for UI/UX designing?</h5>
+                                        <p>No, for UI/UX designing projects, you won’t have to know any programming language. However, you should understand the usage of different designing tools like Adobe XD and FIGMA along with different concepts associated with UI/UX design. 
+                                        </p>
+                                        <h5 class="h6 mt-40">How should I register for the UI/UX design course?</h5>
+                                        <p>If you want to enroll yourself in our UI/UX design training in Indore, visit our website and fill in the form with all the necessary details. Once you submit the form, we will review your application and reach out to discuss further.</p>
+                                    </div>
+                                </div>
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
@@ -763,6 +574,9 @@
                 </div>
                 <div class="col-xxl-3 col-lg-4">
                     <aside class="sidebar-area">
+                                                <!-- register sidebar -->
+                                                <?php include('registerSidebar.php'); ?>
+
                         <div class="widget widget_info  ">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/uiux2.jpg" alt="video">
@@ -786,8 +600,6 @@
                                 </ul>
                             </div> -->
                         </div>
-                        <!-- register sidebar -->
-                        <?php include('registerSidebar.php'); ?>
                     </aside>
                 </div>
             </div>
@@ -810,7 +622,7 @@ id="about-us">
                 <div class="col-xxl-7 col-xl-8 align-self-end">
                     <div class="about-content2">
                         <div class="title-area mb-40">
-                            <span class="sub-title">More About Us</span>
+                            <span class="sub-title">More About Ahmedabad Computer Education</span>
                             <h2 class="fs-40 fw-medium mt-n2">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
                             </h2>
                         </div>
