@@ -119,7 +119,7 @@
     font-size:20px;
 }
 @media (min-width:1366px) and (max-width:1899px) {.cust-page-box h2.course-title{
-    width:784px;
+    width:920px;
 }}
 @media (max-width:1024px) {
     .cust-page-box h2.course-title{
@@ -127,8 +127,12 @@
     }
 }
 @media (max-width:768px) {
-    .cust-menu-box.menu-top .menu-top-left .header-link{
-        position: relative;}
+    .cust-menu-box.menu-top .menu-top-left .header-link {
+        position: relative;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 }
       </style>
    </head>
@@ -144,7 +148,7 @@
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
                         <a class="header-link" href="tel:93-2728-7700">
-                           <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                           <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
                                  <path d="m29.93 83.29v-19.07a8.94 8.94 0 0 0 -17.88 0v19.07z" fill="none" />
@@ -186,8 +190,8 @@
                                  <path d="m49.99 39.09v3.16" fill="none" />
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
-                           </svg>
-                           <span class="city-text">Ahmedabad :</span>95-868-777-00
+                           </svg> -->
+                           <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
