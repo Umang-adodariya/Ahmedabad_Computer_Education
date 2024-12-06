@@ -118,6 +118,14 @@
 .cust-menu-box a.header-link{
     font-size:20px;
 }
+@media (min-width:1366px) and (max-width:1899px) {.cust-page-box h2.course-title{
+    width:784px;
+}}
+@media (max-width:1024px) {
+    .cust-page-box h2.course-title{
+        max-width:510px;
+    }
+}
 @media (max-width:768px) {
     .cust-menu-box.menu-top .menu-top-left .header-link{
         position: relative;}
