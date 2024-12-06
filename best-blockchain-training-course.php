@@ -83,9 +83,25 @@
                 max-height:100%;
             }
             }
-            @media (max-width:430px) {
-                .cust-page-box h2.course-title{color:#111}
+            @media (min-width:430px) {
+                .course-title .main-title-box-d-block{
+                    display:block;
+                }
+                h2.course-main-title.main-title-box-d-block {
+                    display: none;
+                }
             }
+            @media (max-width:430px) {
+                .cust-page-box h2.course-title{display:none;}
+                h2.course-main-title.main-title-box-d-block {
+                    display: block;
+                    padding:16px 16px 0 16px;
+                    font-size:26px;
+                    text-align:center;
+                    margin-bottom:0px;
+                }
+            }
+            
 
             
 ::-webkit-scrollbar{
@@ -133,6 +149,10 @@
         text-align: center;
         justify-content: center;
     }
+}
+.tab-box-fix-cont .course-single,
+.tab-box-fix-cont li{
+    text-align:justify;
 }
       </style>
    </head>
@@ -213,14 +233,14 @@
                      <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                            <div class="header-logo">
-                              <a href="index.php"><img src="assets/img/ahm-logo-new.png"
+                              <a href="#"><img src="assets/img/ahm-logo-new.png"
                                  alt="ahmedabad computer education" class="logo-img"></a>
                            </div>
                         </div>
                         <div class="col-auto">
                            <div class="row align-items-center justify-content-center">
                               <div class="col-auto">
-                                <h2 class="course-title">Blockchain Training Certificate Course</h2>
+                                <h2 class="course-title main-title-box-d-block">Blockchain Training Certificate Course</h2>                                
                               </div>
                            </div>
                         </div>
@@ -233,7 +253,9 @@
       </header>
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
- 
+<div class="course-none">
+<h2 class="course-main-title main-title-box-d-block">Blockchain Training Certificate Course</h2> 
+</div>
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
@@ -397,7 +419,7 @@
                                                 <li class="course-acc-li">Decentralization: Blockchain is a decentralized ledger technology, meaning its control or authority is distributed amongst multiple users and not with a single entity. Hence, everyone must agree to any change in the state of data or the addition of a new block of data to the existing ledger.</li>
                                                 <li class="course-acc-li">Immutability: Once data is mined and added to the blockchain ledger, it becomes immutable. Our experts will further explain the use of cryptographic algorithms to make data blocks immutable and prevent any further modification of the same.</li>
                                                 <li class="course-acc-li">Enhanced security: In our blockchain course for beginners, we include lectures and an in-depth understanding of the security and encryption protocols associated with this decentralized ledger. Additionally, we also shed light on different consensus protocols adopted for working on the ledger, like Proof of Stakes and Proof of Work. </li>
-                                                <li class="course-acc-li">4.Smart contract development and deployment: With us, students can learn the development of automated execution programs known as smart contracts that are deployed on the blockchain. These are sets of rules and conditions to automatically trigger an operation on the blockchain, like the completion of a monetary transfer or updating the records of a product in the supply chain ledger. </li>
+                                                <li class="course-acc-li">Smart contract development and deployment: With us, students can learn the development of automated execution programs known as smart contracts that are deployed on the blockchain. These are sets of rules and conditions to automatically trigger an operation on the blockchain, like the completion of a monetary transfer or updating the records of a product in the supply chain ledger. </li>
                                                 <li class="course-acc-li">Data mining: Our experts will also help students understand the concepts associated with data mining since it is required to develop a blockchain and add the data blocks to the existing ledger. For this, we will provide live training sessions on hashing, cryptographic encryption, and other computational logic relevant to data mining. </li>
                                             </ul>
                                         </div>
@@ -414,7 +436,7 @@
                                         <p>With our blockchain certification course, students can apply for multifarious job roles once they graduate. Also, expert professionals who wish to establish their careers in this field can benefit a lot from our certification course. Since blockchain is used in different ways across multiple industries, there are numerous options for job roles in the market.</p>
                                         <div class="checklist mb-1">
                                             <ul class="course-acc-ul">
-                                                <li class="course-acc-li">1.Blockchain developer: As the name implies, blockchain developers are concerned with developing a secondary blockchain on a primary one, blockchain-based applications like wallets and marketplaces, smart contracts, and user-authentication systems. Their average salary ranges somewhere between INR 7 to INR 9 lakhs annually.</li>
+                                                <li class="course-acc-li">Blockchain developer: As the name implies, blockchain developers are concerned with developing a secondary blockchain on a primary one, blockchain-based applications like wallets and marketplaces, smart contracts, and user-authentication systems. Their average salary ranges somewhere between INR 7 to INR 9 lakhs annually.</li>
                                                 <li class="course-acc-li">Blockchain solution architect: A blockchain solution architect will be responsible for providing tailored solutions to their clients by understanding the business needs, analyzing the existing technical infrastructure, and deducing the feasibility of the solution. Such a professional can get a job with an average salary of INR 11 lakhs annually.</li>
                                                 <li class="course-acc-li">Blockchain project manager: Managing the entire blockchain development project and streamlining the deliveries through agile methods will be the major responsibilities of a blockchain project manager. The person needs to be acquainted with both the technicalities of blockchain development along with other project management tools. The average salary of the professional will be somewhere between INR 13 lakhs to INR 18 lakhs depending on the expertise.</li>
                                                 <li class="course-acc-li">Blockchain UX designer: Another most common and high-in-demand job role that you can look for is blockchain UX designer. You will be concerned with developing a feature-rich and interactive user interface for blockchain-based applications using front-end programming languages and service-based APIs. The average salary of a blockchain UX designer is somewhat between INR 14 lakhs to INR 16 lakhs.</li>
@@ -453,14 +475,14 @@
                                                 <h3 class="author-name"><a class="text-inherit" href="ankit-patel-Instructor.php">Ankit Patel</a></h3>
                                                 <p class="author-text">Ankit Patel is a skilled blockchain and full-stack developer with a passion for building innovative solutions. With over 3 years of experience, Ankit has a proven track record of delivering cutting-edge projects, from smart contracts to decentralized applications.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>95+ Students</span>
                                                 </div>
                                                 <div class="th-social">
-                                                    <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
-                                                    <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                                    <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                                <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -469,49 +491,49 @@
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="course-Reviews">
                                         <div class="th-comments-wrap ">
-                                            <ul class="comment-list">
+                                        <ul class="comment-list">
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/review/review-prof.png" alt="Comment Author">
+                                                            <img src="assets/img/review/uttam.png" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Rajdeep Rathod</h4>
+                                                            <h4 class="name">Uttam Shingala</h4>
                                                             <span class="commented-on"><i class="fal fa-calendar-alt"></i>22 April, 2022</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">Overall, they are very friendly and helpful teachers. I recommend this institute to students looking to fire up their careers in the IT industry. </p>
+                                                            <p class="text">Getting training from Ahmedabad Computer Education was always on my mind. And finally when I got there for training, with each passing day, I could see my bright future approaching.</p>
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/80x80.png" alt="Comment Author">
+                                                            <img src="assets/img/review/120-neha.jpg" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Alexa Deo</h4>
-                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 April, 2022</span>
+                                                            <h4 class="name">Neha Punetha</h4>
+                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 May, 2023</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages.</p>
+                                                            <p class="text">The education that the teachers at Ahmedabad Computer education provide is the best I could find in Ahmedabad. On the other hand, the study material and courses cover all the important topics you require a skill set for in the corporate world.</p>
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/80x80_2.png" alt="Comment Author">
+                                                            <img src="assets/img/review/120-kenil.jpg" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Tara sing</h4>
-                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 April, 2022</span>
+                                                            <h4 class="name">Kenil Shah</h4>
+                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>25 Aug, 2024</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                                                            <p class="text">The opportunities, honestly, are endless after completing courses in Ahmedabad computer education. ACE is a great place to study, learning from very good and well-trained professors. All the teachers are very amazing and supportive.</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -780,8 +802,8 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                      <div class="widget footer-widget">
                         <div class="th-widget-about mob-th-widget-about">
                            <div class="about-logo">
-                              <a href="index.php"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                              <!-- <a href="index.php"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                              <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
+                              <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                            </div>
                            <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                            <div class="info-box-wrap mb-20">
@@ -845,7 +867,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
             <div class="copyright-wrap">
                <div class="row justify-content-between align-items-center">
                   <div class="col-lg-6">
-                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a
+                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>

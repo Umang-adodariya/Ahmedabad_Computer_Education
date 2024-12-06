@@ -82,8 +82,23 @@
                 max-height:100%;
             }
             }
+            @media (min-width:430px) {
+                .course-title .main-title-box-d-block{
+                    display:block;
+                }
+                h2.course-main-title.main-title-box-d-block {
+                    display: none;
+                }
+            }
             @media (max-width:430px) {
-                .cust-page-box h2.course-title{color:#111}
+                .cust-page-box h2.course-title{display:none;}
+                h2.course-main-title.main-title-box-d-block {
+                    display: block;
+                    padding:16px 16px 0 16px;
+                    font-size:26px;
+                    text-align:center;
+                    margin-bottom:0px;
+                }
             }
             ::-webkit-scrollbar{
   width: 10px;
@@ -130,6 +145,10 @@
         justify-content: center;
     }
 } 
+.tab-box-fix-cont .course-single,
+.tab-box-fix-cont li{
+    text-align:justify;
+}
       </style>
    </head>
    <body>
@@ -209,7 +228,7 @@
                      <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                            <div class="header-logo">
-                              <a href="index.php"><img src="assets/img/ahm-logo-new.png"
+                              <a href="#"><img src="assets/img/ahm-logo-new.png"
                                  alt="ahmedabad computer education" class="logo-img"></a>
                            </div>
                         </div>
@@ -217,7 +236,7 @@
                            <div class="row align-items-center justify-content-between">
                               <div class="col-auto">
                             
-                                    <h2 class="course-title">Full Stack Python Development Course</h2>
+                                    <h2 class="course-title main-title-box-d-block">Full Stack Python Certificate Course</h2>
                             
                               </div>
                            </div>
@@ -231,7 +250,9 @@
       </header>
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
- 
+<div class="course-none">
+<h2 class="course-main-title main-title-box-d-block">Full Stack Python Certificate Course</h2> 
+</div> 
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
@@ -372,7 +393,7 @@
                                         <p>Being the best Python institute Ahmedabad, we will help you in:</p>
                                         <div class="checklist dis-ul mt-40">
                                             <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
+                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
                                                 <li class="course-acc-li">Solving the complexities of a codebase using different approaches while catering to time complexities</li>
                                                 <li class="course-acc-li">Gaining practical exposure through live project training sessions using Python as the main backend programming language</li>
                                                 <li class="course-acc-li">Learning the major concepts that will be needed for your next job interview</li>
@@ -407,7 +428,7 @@
                                                 <h3 class="author-name"><a class="text-inherit" href="nilesh-goud-instructor.php">Nilesh Goud</a></h3>
                                                 <p class="author-text">Nilesh Goud is a skilled full-stack developer with a passion for building robust and scalable web applications using Python.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>250+ Students</span>
                                                 </div>
                                                 <div class="th-social">
@@ -735,8 +756,8 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                      <div class="widget footer-widget">
                         <div class="th-widget-about mob-th-widget-about">
                            <div class="about-logo">
-                              <a href="index.php"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                              <!-- <a href="index.php"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                              <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
+                              <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                            </div>
                            <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                            <div class="info-box-wrap mb-20">
@@ -800,7 +821,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
             <div class="copyright-wrap">
                <div class="row justify-content-between align-items-center">
                   <div class="col-lg-6">
-                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a
+                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>
