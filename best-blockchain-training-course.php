@@ -102,6 +102,18 @@
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
   border-radius: 20px;
 }
+
+.cust-menu-box.menu-top .menu-top-left .header-link{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cust-menu-box .header-link .city-text{
+    font-size:20px;
+}
+.cust-menu-box a.header-link{
+    font-size:20px;
+}
       </style>
    </head>
    <body>
@@ -111,7 +123,7 @@
          ==============================-->
       <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
-            <div class="menu-top">
+            <div class="cust-menu-box menu-top">
                <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
@@ -159,7 +171,7 @@
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
                            </svg>
-                           <span class="city-text">Ahmedabad :</span>95-8687-7700
+                           <span class="city-text">Ahmedabad :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">

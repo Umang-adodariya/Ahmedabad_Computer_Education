@@ -157,7 +157,7 @@
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
                            </svg>
-                           <span class="city-text">Ahmedabad :</span>95-8687-7700
+                           <span class="city-text">Ahmedabad :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
