@@ -26,7 +26,7 @@ use PHPMailer\PHPMailer\Exception;
             $location = "contact.php";
         }
         elseif($form == "get_in_touch"){
-            $subject = "New contact from Get in Touch";
+            $subject = "ACE - Inquiry-Lead";
 
             $email_content = "Name: $name<br>";
             $email_content .= "Number: $number<br>";
