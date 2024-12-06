@@ -1,5 +1,6 @@
 <?php
-
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $location ='';
@@ -13,7 +14,8 @@
         $form = trim($_POST["form"]);
         $date = trim($_POST["date"]);
 
-        $recipient = "info@virtualheight.com";
+        $toMail = "career@ahmedabadcomputereducation.com";
+        $ccMail = "info@virtualheight.com";
 
         if($form == "contact_form"){
             $subject = "New contact from $subject";
@@ -22,14 +24,14 @@
             $email_content .= "Subject: $subject<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Message:$message";
-            $location = "contact.html";
+            $location = "contact.php";
         }
         elseif($form == "get_in_touch"){
-            $subject = "New contact from Get in Touch";
+            $subject = "ACE - Inquiry-GetinTouchForm";
 
             $email_content = "Name: $name<br>";
             $email_content .= "Number: $number<br>";
-            $location = "index.html";
+            $location = "index.php";
 
         }
         elseif($form == "registration_form"){
@@ -38,7 +40,7 @@
             $email_content = "Name: $name<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Number: $number<br>";
-            $location = "index.html";
+            $location = "index.php";
         }
         elseif($form == "booking_appointment"){
             $message = $subject;
@@ -48,13 +50,13 @@
             $email_content .= "Email: $email<br>";
             $email_content .= "Date: $date<br>";
             $email_content .= "Subject: $message<br>";
-            $location = "index.html";
+            $location = "index.php";
         }
         elseif($form == "newsletter_form"){
             $subject = "News letter subscribe";
 
             $email_content = "Email: $email";
-            $location = "index.html";
+            $location = "index.php";
         }
         elseif($form == "course_form"){
             $subject = "New Registration";
@@ -62,7 +64,7 @@
             $email_content = "Name: $name<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Number: $number";
-            $location = "course-2.html";
+            $location = "course-2.php";
         }
         elseif($form == "course_form"){
             $subject = "New Registration";
@@ -70,7 +72,7 @@
             $email_content = "Name: $name<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Number: $number";
-            $location = "course-2.html";
+            $location = "course-2.php";
         }
         elseif($form == "quick_contact_form"){
             $subject = "Quick Contact";
@@ -79,7 +81,7 @@
             $email_content .= "Email: $email<br>";
             $email_content .= "Number: $number<br>";
             $email_content .= "Message: $message";
-            $location = "team-details.html";
+            $location = "team-details.php";
         }
         elseif($form == "blog_form"){
             $subject = "Blog Reply";
@@ -87,31 +89,60 @@
             $email_content = "Name: $name<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Message: $message";
-            $location = "blog.html";
+            $location = "blog.php";
         }
         
         require 'vendor/autoload.php';
+        // send grid smtp
+        // $email = new \SendGrid\Mail\Mail();
+        // $email->setFrom("demotest@appworkdemo.com", "Ahmedabad Computer Education");
+        // $email->setSubject($subject);
+        // $email->addTo($recipient, "Recipient Name");
+        // $email->addContent(
+        //     "text/html",$email_content
+        // );
 
-        $email = new \SendGrid\Mail\Mail();
-        $email->setFrom("demotest@appworkdemo.com", "Ahmedabad Computer Education");
-        $email->setSubject($subject);
-        $email->addTo($recipient, "Recipient Name");
-        $email->addContent(
-            "text/html",$email_content
-        );
+        // $sendgrid = new \SendGrid('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');  // Replace with your SendGrid API key
 
-        $sendgrid = new \SendGrid('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');  // Replace with your SendGrid API key
+        // try {
+        //     $response = $sendgrid->send($email);
+        //     // echo '<script>alert(Thank You! Your message has been sent.);</script>';
+        //     header("Location: $location");
+        // } catch (Exception $e) {
+        //     // echo "<script>alert(Oops! Something went wrong and we couldn't send your message.);</script>";
+        //     header("Location: $location");
+        //     // echo 'Caught exception: ' . $e->getMessage() . "\n";
+        // }
+
+        //  aws smtp
+        $mail = new PHPMailer(true);
 
         try {
-            $response = $sendgrid->send($email);
-            // echo '<script>alert(Thank You! Your message has been sent.);</script>';
+            // Server settings
+            $mail->isSMTP();
+            $mail->Host = 'email-smtp.ap-south-1.amazonaws.com'; // Your SMTP host
+            $mail->SMTPAuth = true;
+            $mail->Username = 'AKIAUEUHDK3KN23UONML'; // Your SMTP username
+            $mail->Password = 'BEZ2V5iFetDaM1DiZJngpRJC2icvEQULZfhZ/6OBVZXu'; // Your SMTP password
+            $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+            $mail->Port = 587;
+        
+            // Sender and recipient settings
+            $mail->setFrom('tilak@web30india.com', 'ACE - VH');
+            $mail->addAddress($toMail, 'career@ahmedabadcomputereducation.com'); // Add recipient
+            $mail->addCC($ccMail, 'info@virtualheight.com'); // Add recipient
+        
+            // Email content
+            $mail->isHTML(true);
+            $mail->Subject = $subject;
+            $mail->Body = $email_content;
+        
+            // Send email
+            $mail->send();
             header("Location: $location");
         } catch (Exception $e) {
-            // echo "<script>alert(Oops! Something went wrong and we couldn't send your message.);</script>";
             header("Location: $location");
-            // echo 'Caught exception: ' . $e->getMessage() . "\n";
         }
-    
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
