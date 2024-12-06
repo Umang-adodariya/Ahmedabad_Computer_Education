@@ -55,8 +55,10 @@
          .map-sec{
             height: 250px;
          }
-         .tab-box-fix-cont .course-curriculam{height: calc(100vh - 160px);
-            overflow-y: scroll;}
+         .tab-box-fix-cont .course-curriculam, .tab-box-fix-cont .course-description,
+         .tab-box-fix-cont .course-instructor, .tab-box-fix-cont .course-Reviews
+         {max-height:820px;
+            overflow-y: auto;}
 
             .cust-page-box h2.course-title{
                 font-size:44px;
@@ -75,8 +77,10 @@
                 margin-bottom:0px;
                 color:#fff;
             }
-            .tab-box-fix-cont .course-curriculam{
-                height:auto;overflow:hidden;
+            .tab-box-fix-cont .course-curriculam, .tab-box-fix-cont .course-description,
+         .tab-box-fix-cont .course-instructor, .tab-box-fix-cont .course-Reviews
+         {
+                max-height:100%;
             }
             }
             @media (max-width:430px) {
@@ -102,6 +106,18 @@
   background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.3) 25%, transparent 20%, transparent 50%, rgba(255, 255, 255, 0.3) 50%, rgba(255, 255, 255, 0.3) 75%, transparent 75%, transparent);
   border-radius: 20px;
 }
+
+.cust-menu-box.menu-top .menu-top-left .header-link{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cust-menu-box .header-link .city-text{
+    font-size:20px;
+}
+.cust-menu-box a.header-link{
+    font-size:20px;
+}
       </style>
    </head>
    <body>
@@ -111,7 +127,7 @@
          ==============================-->
       <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
-            <div class="menu-top">
+            <div class="cust-menu-box menu-top">
                <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
@@ -159,7 +175,7 @@
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
                            </svg>
-                           <span class="city-text">Ahmedabad :</span>95-8687-7700
+                           <span class="city-text">Ahmedabad :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
@@ -188,7 +204,7 @@
                         <div class="col-auto">
                            <div class="row align-items-center justify-content-center">
                               <div class="col-auto">
-                                <h2 class="course-title">Blockchain Training Course</h2>
+                                <h2 class="course-title">Blockchain Training Certificate Course</h2>
                               </div>
                            </div>
                         </div>
@@ -208,7 +224,7 @@
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
                         <!-- <div class="course-single-top">
-                            <h2 class="course-title">Blockchain Training Course</h2>
+                            <h2 class="course-title">Blockchain Training Certificate Course</h2>
                         </div> -->
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
@@ -592,12 +608,12 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 50 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 20 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
                     <a href="course.php" class="th-btn style8 d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
-                        data-bs-target="#registerModal">Register Now<i class="fas fa-arrow-right ms-2"></i></a>
+                        data-bs-target="#registerModal">Inquire Now<i class="fas fa-arrow-right ms-2"></i></a>
                 </div>
             </div>
         </div>
@@ -796,7 +812,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                            <i class="fas fa-location-dot"></i>
                         </div>
                         <p class="info-box_text">
-                           719, Shekhar Central, AB Rd, Manorama Ganj, Indore,<br> Madhya Pradesh - 452018<br>
+                           719, Shekhar Central, AB Rd, Manorama Ganj, Indore, Madhya Pradesh - 452018<br>
                         </p>
                      </div>
                      <div class="map-sec map-new-frame">
