@@ -14,7 +14,7 @@ use PHPMailer\PHPMailer\Exception;
         $form = trim($_POST["form"]);
         $date = trim($_POST["date"]);
 
-        $fromMail = "info@virtualheight.com";
+        $toMail = "info@virtualheight.com";
 
         if($form == "contact_form"){
             $subject = "New contact from $subject";
