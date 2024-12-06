@@ -27,7 +27,7 @@ use PHPMailer\PHPMailer\Exception;
             $location = "contact.php";
         }
         elseif($form == "get_in_touch"){
-            $subject = "ACE - Inquiry-Lead";
+            $subject = "ACE - Inquiry-GetinTouchForm";
 
             $email_content = "Name: $name<br>";
             $email_content .= "Number: $number<br>";
@@ -128,7 +128,7 @@ use PHPMailer\PHPMailer\Exception;
             $mail->Port = 587;
         
             // Sender and recipient settings
-            $mail->setFrom('tilak@web30india.com', 'Your Application Name');
+            $mail->setFrom('tilak@web30india.com', 'ACE - VH');
             $mail->addAddress($toMail, 'career@ahmedabadcomputereducation.com'); // Add recipient
             $mail->addCC($ccMail, 'info@virtualheight.com'); // Add recipient
         
@@ -139,9 +139,9 @@ use PHPMailer\PHPMailer\Exception;
         
             // Send email
             $mail->send();
-            echo 'Email has been sent successfully.';
+            header("Location: $location");
         } catch (Exception $e) {
-            echo "Email could not be sent. Error: {$mail->ErrorInfo}";
+            header("Location: $location");
         }
 
     } else {
