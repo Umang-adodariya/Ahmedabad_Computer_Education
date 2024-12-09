@@ -152,6 +152,7 @@ Footer Area
      <!--==============================
     All Js File
 ============================== -->
+
     <!-- Jquery -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->

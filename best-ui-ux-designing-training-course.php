@@ -82,8 +82,23 @@
                 max-height:100%;
             }
             }
+            @media (min-width:430px) {
+                .course-title .main-title-box-d-block{
+                    display:block;
+                }
+                h2.course-main-title.main-title-box-d-block {
+                    display: none;
+                }
+            }
             @media (max-width:430px) {
-                .cust-page-box h2.course-title{color:#111}
+                .cust-page-box h2.course-title{display:none;}
+                h2.course-main-title.main-title-box-d-block {
+                    display: block;
+                    padding:16px 16px 0 16px;
+                    font-size:26px;
+                    text-align:center;
+                    margin-bottom:0px;
+                }
             }
             
             ::-webkit-scrollbar{
@@ -116,7 +131,7 @@
     font-size:20px;
 }
 @media (min-width:1366px) and (max-width:1899px) {.cust-page-box h2.course-title{
-    width:784px;
+    width:920px;
 }}
 @media (max-width:1024px) {
     .cust-page-box h2.course-title{
@@ -124,13 +139,45 @@
     }
 }
 @media (max-width:768px) {
-    .cust-menu-box.menu-top .menu-top-left .header-link{
-        position: relative;}
+    .cust-menu-box.menu-top .menu-top-left .header-link {
+        position: relative;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+}
+.tab-box-fix-cont .course-single,
+.tab-box-fix-cont li{
+    text-align:justify;
+}
+.course-acc-item .course-acc-button{
+    text-align:"left";
 }
       </style>
-   </head>
-   <body>
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FWLQ3C');</script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZDR3DPRCX5');
+</script>
+<!-- End Google Tag Manager -->
+   </head>
+   
+   <body>
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWLQ3C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
       <header class="th-header header-layout5 cust-page-box">
          <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="cust-menu-box menu-top">
@@ -138,7 +185,7 @@
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
                         <a class="header-link" href="tel:93-2728-7700">
-                           <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                           <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
                                  <path d="m29.93 83.29v-19.07a8.94 8.94 0 0 0 -17.88 0v19.07z" fill="none" />
@@ -180,8 +227,8 @@
                                  <path d="m49.99 39.09v3.16" fill="none" />
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
-                           </svg>
-                           <span class="city-text">Ahmedabad :</span>95-868-777-00
+                           </svg> -->
+                           <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
@@ -203,7 +250,7 @@
                      <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                            <div class="header-logo">
-                              <a href="index.php"><img src="assets/img/ahm-logo-new.png"
+                              <a href="#"><img src="assets/img/ahm-logo-new.png"
                                  alt="ahmedabad computer education" class="logo-img"></a>
                            </div>
                         </div>
@@ -211,7 +258,7 @@
                            <div class="row align-items-center justify-content-between">
                               <div class="col-auto">
                                     
-                                    <h2 class="course-title">Best UI/UX Designing Course</h2>
+                                    <h2 class="course-title main-title-box-d-block">UI/UX Designing Certificate Course</h2>
                                 
                               </div>
                            </div>
@@ -225,7 +272,9 @@
       </header>
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
- 
+<div class="course-none">
+<h2 class="course-main-title main-title-box-d-block">UI/UX Designing Certificate Course</h2> 
+</div>
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
@@ -381,7 +430,7 @@
                                                 <div class="accordion-item course-acc-item">
                                                   <h2 class="accordion-header" id="headingThree">
                                                     <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                                        Module 1
+                                                        Module 1 [Adobe XD]
                                                     </button>
                                                   </h2>
                                                   <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -408,7 +457,7 @@
                                                 <div class="accordion-item course-acc-item">
                                                   <h2 class="accordion-header" id="headingFour">
                                                     <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-                                                        Module 2
+                                                        Module 2 [Figma]
                                                     </button>
                                                   </h2>
                                                   <div id="collapseFour" class="accordion-collapse course-acc-collapse collapse show" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
@@ -544,49 +593,49 @@
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="course-Reviews">
                                         <div class="th-comments-wrap ">
-                                            <ul class="comment-list">
+                                        <ul class="comment-list">
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/review/review-prof.png" alt="Comment Author">
+                                                            <img src="assets/img/review/uttam.png" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Rajdeep Rathod</h4>
+                                                            <h4 class="name">Uttam Shingala</h4>
                                                             <span class="commented-on"><i class="fal fa-calendar-alt"></i>22 April, 2022</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">Overall, they are very friendly and helpful teachers. I recommend this institute to students looking to fire up their careers in the IT industry. </p>
+                                                            <p class="text">Getting training from Ahmedabad Computer Education was always on my mind. And finally when I got there for training, with each passing day, I could see my bright future approaching.</p>
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/80x80.png" alt="Comment Author">
+                                                            <img src="assets/img/review/120-neha.jpg" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Alexa Deo</h4>
-                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 April, 2022</span>
+                                                            <h4 class="name">Neha Punetha</h4>
+                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 May, 2023</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">The purpose of lorem ipsum is to create a natural looking block of text (sentence, paragraph, page, etc.) that doesn't distract from the layout. A practice not without controversy, laying out pages.</p>
+                                                            <p class="text">The education that the teachers at Ahmedabad Computer education provide is the best I could find in Ahmedabad. On the other hand, the study material and courses cover all the important topics you require a skill set for in the corporate world.</p>
                                                         </div>
                                                     </div>
                                                 </li>
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
-                                                            <img src="assets/img/80x80_2.png" alt="Comment Author">
+                                                            <img src="assets/img/review/120-kenil.jpg" alt="Comment Author">
                                                         </div>
                                                         <div class="comment-content">
-                                                            <h4 class="name">Tara sing</h4>
-                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>26 April, 2022</span>
+                                                            <h4 class="name">Kenil Shah</h4>
+                                                            <span class="commented-on"><i class="fal fa-calendar-alt"></i>25 Aug, 2024</span>
                                                             <div class="star-rating" role="img" aria-label="Rated 5.00 out of 5">
                                                                 <span style="width:100%">Rated <strong class="rating">5.00</strong> out of 5 based on <span class="rating">1</span> customer rating</span>
                                                             </div>
-                                                            <p class="text">The passage experienced a surge in popularity during the 1960s when Letraset used it on their dry-transfer sheets, and again during the 90s as desktop publishers bundled the text with their software.</p>
+                                                            <p class="text">The opportunities, honestly, are endless after completing courses in Ahmedabad computer education. ACE is a great place to study, learning from very good and well-trained professors. All the teachers are very amazing and supportive.</p>
                                                         </div>
                                                     </div>
                                                 </li>
@@ -856,8 +905,8 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                      <div class="widget footer-widget">
                         <div class="th-widget-about mob-th-widget-about">
                            <div class="about-logo">
-                              <a href="index.php"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                              <!-- <a href="index.php"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                              <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
+                              <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                            </div>
                            <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                            <div class="info-box-wrap mb-20">
@@ -921,7 +970,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
             <div class="copyright-wrap">
                <div class="row justify-content-between align-items-center">
                   <div class="col-lg-6">
-                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a
+                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>

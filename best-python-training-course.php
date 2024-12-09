@@ -82,8 +82,23 @@
                 max-height:100%;
             }
             }
+            @media (min-width:430px) {
+                .course-title .main-title-box-d-block{
+                    display:block;
+                }
+                h2.course-main-title.main-title-box-d-block {
+                    display: none;
+                }
+            }
             @media (max-width:430px) {
-                .cust-page-box h2.course-title{color:#111}
+                .cust-page-box h2.course-title{display:none;}
+                h2.course-main-title.main-title-box-d-block {
+                    display: block;
+                    padding:16px 16px 0 16px;
+                    font-size:26px;
+                    text-align:center;
+                    margin-bottom:0px;
+                }
             }
             ::-webkit-scrollbar{
   width: 10px;
@@ -115,7 +130,7 @@
     font-size:20px;
 }   
 @media (min-width:1366px) and (max-width:1899px) {.cust-page-box h2.course-title{
-    width:784px;
+    width:920px;
 }}
 @media (max-width:1024px) {
     .cust-page-box h2.course-title{
@@ -123,13 +138,41 @@
     }
 }
 @media (max-width:768px) {
-    .cust-menu-box.menu-top .menu-top-left .header-link{
-        position: relative;}
+    .cust-menu-box.menu-top .menu-top-left .header-link {
+        position: relative;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
 } 
+.tab-box-fix-cont .course-single,
+.tab-box-fix-cont li{
+    text-align:justify;
+}
       </style>
+      <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FWLQ3C');</script>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZDR3DPRCX5');
+</script>
+<!-- End Google Tag Manager -->
    </head>
    <body>
-
+ <!-- Google Tag Manager (noscript) -->
+ <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWLQ3C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
       <!--==============================
          Header Area
          ==============================-->
@@ -140,7 +183,7 @@
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
                         <a class="header-link" href="tel:93-2728-7700">
-                           <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
+                           <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
                                  <path d="m29.93 83.29v-19.07a8.94 8.94 0 0 0 -17.88 0v19.07z" fill="none" />
@@ -182,8 +225,8 @@
                                  <path d="m49.99 39.09v3.16" fill="none" />
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
-                           </svg>
-                           <span class="city-text">Ahmedabad :</span>95-868-777-00
+                           </svg> -->
+                           <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
@@ -205,7 +248,7 @@
                      <div class="row align-items-center justify-content-between">
                         <div class="col-auto">
                            <div class="header-logo">
-                              <a href="index.php"><img src="assets/img/ahm-logo-new.png"
+                              <a href="#"><img src="assets/img/ahm-logo-new.png"
                                  alt="ahmedabad computer education" class="logo-img"></a>
                            </div>
                         </div>
@@ -213,7 +256,7 @@
                            <div class="row align-items-center justify-content-between">
                               <div class="col-auto">
                             
-                                    <h2 class="course-title">Full Stack Python Development Course</h2>
+                                    <h2 class="course-title main-title-box-d-block">Full Stack Python Certificate Course</h2>
                             
                               </div>
                            </div>
@@ -227,7 +270,9 @@
       </header>
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
- 
+<div class="course-none">
+<h2 class="course-main-title main-title-box-d-block">Full Stack Python Certificate Course</h2> 
+</div> 
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
@@ -368,7 +413,7 @@
                                         <p>Being the best Python institute Ahmedabad, we will help you in:</p>
                                         <div class="checklist dis-ul mt-40">
                                             <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
+                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
                                                 <li class="course-acc-li">Solving the complexities of a codebase using different approaches while catering to time complexities</li>
                                                 <li class="course-acc-li">Gaining practical exposure through live project training sessions using Python as the main backend programming language</li>
                                                 <li class="course-acc-li">Learning the major concepts that will be needed for your next job interview</li>
@@ -403,7 +448,7 @@
                                                 <h3 class="author-name"><a class="text-inherit" href="nilesh-goud-instructor.php">Nilesh Goud</a></h3>
                                                 <p class="author-text">Nilesh Goud is a skilled full-stack developer with a passion for building robust and scalable web applications using Python.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>250+ Students</span>
                                                 </div>
                                                 <div class="th-social">
@@ -731,8 +776,8 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                      <div class="widget footer-widget">
                         <div class="th-widget-about mob-th-widget-about">
                            <div class="about-logo">
-                              <a href="index.php"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                              <!-- <a href="index.php"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                              <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
+                              <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                            </div>
                            <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                            <div class="info-box-wrap mb-20">
@@ -796,7 +841,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
             <div class="copyright-wrap">
                <div class="row justify-content-between align-items-center">
                   <div class="col-lg-6">
-                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2023 <a
+                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>
