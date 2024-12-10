@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-12">
                 <div class="form-group">
-                    <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Phone Number*" required>
+                    <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Contact Number*" required>
                     <i class="fal fa-phone"></i>
                 </div>
                 <div class="sidebar_number_error" id="sidebar_number_error" style="color: red;"></div>

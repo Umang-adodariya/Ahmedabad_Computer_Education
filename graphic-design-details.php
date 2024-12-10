@@ -34,7 +34,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/courses/corses-main/graphic-design.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/Graphic.jpg" alt="Course Image">
                                 <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
                                 <span class="tag bg-theme">BEST SELLER</span>
                             </div>
@@ -338,7 +338,7 @@ Event Area
                     <aside class="sidebar-area">
                         <div class="widget widget_info  ">
                             <div class="th-video">
-                                <img src="assets/img/courses/corses-main/graphic-design-2.jpg" alt="video">
+                                <img src="assets/img/home-course-details/Graphic.jpg.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
@@ -394,7 +394,7 @@ Event Area
                                     </div>
                                     <div class="col-md-12">
                                         <div class="form-group">
-                                            <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Phone Number*" required>
+                                            <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Contact Number*" required>
                                             <i class="fal fa-phone"></i>
                                         </div>
                                     </div>
@@ -561,7 +561,7 @@ Servce Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

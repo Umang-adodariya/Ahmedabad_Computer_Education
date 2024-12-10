@@ -30,15 +30,15 @@ Event Area
     <section class="space-top bg-smoke space-extra-bottom">
         <div class="container">
         <ul class="nav nav-pills mb-40 cus-nav-pill" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Past Events</button>
+            </li>
   <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Upcoming Events</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Past Events</button>
+    <button class="nav-link " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Upcoming Events</button>
   </li>
 </ul>
 <div class="tab-content" id="pills-tabContent">
-  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+  <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="row gy-40 gx-70">
                 <!-- <div class="col-lg-6 col-xl-4">
                     <div class="event-card">
@@ -69,7 +69,7 @@ Event Area
                 </div> -->
             </div>
   </div>
-  <div class="tab-pane fade past-event-tab" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+  <div class="tab-pane fade show active past-event-tab" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
     <div class="row gy-40 gx-70">
                 
                 <div class="col-lg-6 col-xl-4">
@@ -350,7 +350,7 @@ Event Area
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
                         <!-- <span class="sub-title">Contact With Us!</span> -->
                         <h2 class="border-title">Registration now</h2>
-                        <p class="mt-n1 mb-30 sec-text">Connect with our admissions team, and discover how ACE can help you unlock your full digital potential!</p>
+                        <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
                             <div class="row">
                                 <div class="col-md-12">
@@ -372,7 +372,7 @@ Event Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

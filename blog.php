@@ -273,7 +273,7 @@ Blog Area
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
                         <!-- <span class="sub-title">Contact With Us!</span> -->
                         <h2 class="border-title">Registration now</h2>
-                        <p class="mt-n1 mb-30 sec-text">Connect with our admissions team, and discover how ACE can help you unlock your full digital potential!</p>
+                        <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
                             <div class="row">
                                 <div class="col-md-12">
@@ -295,7 +295,7 @@ Blog Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

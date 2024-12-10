@@ -150,7 +150,7 @@ Team Area
                                 </div>
                                 <div class="col-12">
                                     <div class="form-group">
-                                        <input type="number" placeholder="Phone Number" class="form-control style-white" nmame="number" required>
+                                        <input type="number" placeholder="Contact Number" class="form-control style-white" nmame="number" required>
                                         <i class="fal fa-phone-flip"></i>
                                     </div>
                                 </div>
@@ -219,7 +219,7 @@ Team Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

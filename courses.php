@@ -29,7 +29,7 @@ Course Area
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <span class="course-result-count">We found <span class="text-theme">12 courses</span> available for you</span>
+                        <!-- <span class="course-result-count">We found <span class="text-theme">12 courses</span> available for you</span> -->
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -164,7 +164,7 @@ Course Area
                                 <div class="course-content">
                                     <div class="course-author">
                                         <div class="author-info">
-                                            <img src="assets/img/80x80_3.png" alt="author">
+                                            <img src="assets/img/instructor/bhargav-limbasiya.jpg" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Bhargav Limbasiya</a>
                                         </div>
                                         <!-- <div class="course-rating">
@@ -217,7 +217,7 @@ Course Area
                                 <div class="course-content">
                                     <div class="course-author">
                                         <div class="author-info">
-                                            <img src="assets/img/80x80.png" alt="author">
+                                            <img src="assets/img/instructor/instructorDetail/saloni-suthar.jpg" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Saloni Suthar</a>
                                         </div>
                                         <!-- <div class="course-rating">
@@ -1240,7 +1240,7 @@ Course Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

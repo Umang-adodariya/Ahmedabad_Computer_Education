@@ -92,7 +92,7 @@ Category Area
         <div class="container">
             <div class="title-area text-center text-md-start">
                 <span class="sub-title">Our Exclusive Courses</span>
-                <h2 class="sec-title fw-medium">Explore Job <span class="position-relative">oriented<span
+                <h2 class="sec-title fw-medium">Explore Job <span class="position-relative">Oriented<span
                             class="star-text">*</span></span> Courses</h2>
             </div>
             <div class="row gy-50">
@@ -259,23 +259,23 @@ Course Area
                 <h2 class="sec-title fw-medium">Master In-Demand IT Skills</h2>
             </div>
             <div class="tab-menu1 filter-menu-active">
-                <button data-filter="*" class="filter-btn active">All Categories</button>
-                <button data-filter=".cat1" class="filter-btn">Software Development</button>
+                <button data-filter="*" class="filter-btn ">All Categories</button>
+                <button data-filter=".cat1" class="filter-btn active">Software Development</button>
                 <button data-filter=".cat2" class="filter-btn">Designing</button>
-                <button data-filter=".cat3" class="filter-btn">Game Development</button>
-                <button data-filter=".cat4" class="filter-btn">DevOps Certification</button>
+                <!-- <button data-filter=".cat3" class="filter-btn">Game Development</button> -->
+                <!-- <button data-filter=".cat4" class="filter-btn">DevOps Certification</button> -->
                 <button data-filter=".cat5" class="filter-btn">Mobile Development</button>
-                <button data-filter=".cat6" class="filter-btn">Future-Oriented</button>
+                <button data-filter=".cat6" class="filter-btn">In-Demand</button>
                 <button data-filter=".cat7" class="filter-btn">Digital Marketing</button>
                 <button data-filter=".cat8" class="filter-btn">Business Growth</button>
-                <button data-filter=".cat9" class="filter-btn">Other </button>
+                <!-- <button data-filter=".cat9" class="filter-btn">Other </button> -->
             </div>
-            <div class="row gy-4 filter-active filter-course-sec">
+            <div class="row gy-4 filter-active filter-course-sec filter-home-pos-unset">
 
                 <div class="col-md-6 col-xl-4 filter-item cat1">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/02-Blockchain.jpg" alt="course">
+                            <img src="assets/img/home-course/BlockChainReact.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -292,7 +292,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat1">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-fullstack.jpg" alt="course">
+                            <img src="assets/img/home-course/ReactFull.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -309,7 +309,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat1">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-angular.jpg" alt="course">
+                            <img src="assets/img/home-course/AngularReact.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -326,7 +326,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat1">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-python.jpg" alt="course">
+                            <img src="assets/img/home-course/PythonReact.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -343,7 +343,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat1">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-laravel.jpg" alt="course">
+                            <img src="assets/img/home-course/LaravelReact.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -353,6 +353,23 @@ Course Area
                                 <span><i class="fal fa-file"></i>Modules 5</span>
                                 <span><i class="fal fa-user"></i>Students 360+</span>
                                 <span><i class="fal fa-eye"></i>View: 3.3K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 filter-item cat1">
+                    <div class="course-box2">
+                        <div class="course-img">
+                            <img src="assets/img/home-course/Bug.jpg" alt="course">
+
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course</a></h3>
+
+                            <div class="course-meta">
+                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-user"></i>Students 180+</span>
+                                <span><i class="fal fa-eye"></i>View: 6.8K</span>
                             </div>
                         </div>
                     </div>
@@ -377,7 +394,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat2">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-webDesign.jpg" alt="course">
+                            <img src="assets/img/home-course/Design.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -394,7 +411,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat2">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-uiUx.jpg" alt="course">
+                            <img src="assets/img/home-course/Graphic.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -408,36 +425,19 @@ Course Area
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4 filter-item cat3">
+                <div class="col-md-6 col-xl-4 filter-item cat2">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-game-dev.jpg" alt="course">
+                            <img src="assets/img/home-course/CMS.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="game-development-course.php">Game Development Course</a></h3>
+                            <h3 class="course-title"><a href="cms-certification-course.php">CMS Certification Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 11</span>
-                                <span><i class="fal fa-user"></i>Students 130+</span>
-                                <span><i class="fal fa-eye"></i>View: 8.7K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 filter-item cat4">
-                    <div class="course-box2">
-                        <div class="course-img">
-                            <img src="assets/img/home-course/384-devOps.jpg" alt="course">
-
-                        </div>
-                        <div class="course-content">
-                            <h3 class="course-title"><a href="devops-certification-course.php">DevOps Certification Course</a></h3>
-
-                            <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 5</span>
-                                <span><i class="fal fa-user"></i>Students 85+</span>
-                                <span><i class="fal fa-eye"></i>View: 6.3K</span>
+                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-user"></i>Students 140+</span>
+                                <span><i class="fal fa-eye"></i>View: 8.9K</span>
                             </div>
                         </div>
                     </div>
@@ -445,7 +445,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat5">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-react-native.jpg" alt="course">
+                            <img src="assets/img/home-course/ReactNative.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -462,7 +462,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat5">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-flutter.jpg" alt="course">
+                            <img src="assets/img/home-course/Flutter.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -479,7 +479,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat6">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-blockchain.jpg" alt="course">
+                            <img src="assets/img/home-course/BlockChain.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -496,7 +496,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat6">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-metaverse.jpg" alt="course">
+                            <img src="assets/img/home-course/Meta.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -510,10 +510,61 @@ Course Area
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6 col-xl-4 filter-item cat6">
+                    <div class="course-box2">
+                        <div class="course-img">
+                            <img src="assets/img/home-course/Cyber.jpg" alt="course">
+
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title"><a href="cyber-security-training-course.php">Cyber Security Course</a></h3>
+
+                            <div class="course-meta">
+                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-user"></i>Students 125+</span>
+                                <span><i class="fal fa-eye"></i>View: 7K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 filter-item cat6">
+                    <div class="course-box2">
+                        <div class="course-img">
+                            <img src="assets/img/home-course/Game.jpg" alt="course">
+
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title"><a href="game-development-course.php">Game Development Course</a></h3>
+
+                            <div class="course-meta">
+                                <span><i class="fal fa-file"></i>Modules 11</span>
+                                <span><i class="fal fa-user"></i>Students 130+</span>
+                                <span><i class="fal fa-eye"></i>View: 8.7K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 filter-item cat6">
+                    <div class="course-box2">
+                        <div class="course-img">
+                            <img src="assets/img/home-course/DevOps.jpg" alt="course">
+
+                        </div>
+                        <div class="course-content">
+                            <h3 class="course-title"><a href="devops-certification-course.php">DevOps Certification Course</a></h3>
+
+                            <div class="course-meta">
+                                <span><i class="fal fa-file"></i>Modules 5</span>
+                                <span><i class="fal fa-user"></i>Students 85+</span>
+                                <span><i class="fal fa-eye"></i>View: 6.3K</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-xl-4 filter-item cat7">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-digital-marketing.jpg" alt="course">
+                            <img src="assets/img/home-course/DigitalMarketing.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -530,7 +581,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat7">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-seo.jpg" alt="course">
+                            <img src="assets/img/home-course/SEO.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -547,7 +598,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat8">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-bde.jpg" alt="course">
+                            <img src="assets/img/home-course/BusinessDev.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -564,7 +615,7 @@ Course Area
                 <div class="col-md-6 col-xl-4 filter-item cat8">
                     <div class="course-box2">
                         <div class="course-img">
-                            <img src="assets/img/home-course/384-ba.jpg" alt="course">
+                            <img src="assets/img/home-course/BusinessAnalytic.jpg" alt="course">
 
                         </div>
                         <div class="course-content">
@@ -578,57 +629,9 @@ Course Area
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-xl-4 filter-item cat9">
-                    <div class="course-box2">
-                        <div class="course-img">
-                            <img src="assets/img/home-course/384-qa.jpg" alt="course">
-
-                        </div>
-                        <div class="course-content">
-                            <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course</a></h3>
-
-                            <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
-                                <span><i class="fal fa-user"></i>Students 180+</span>
-                                <span><i class="fal fa-eye"></i>View: 6.8K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 filter-item cat9">
-                    <div class="course-box2">
-                        <div class="course-img">
-                            <img src="assets/img/home-course/384-cyber-security.jpg" alt="course">
-
-                        </div>
-                        <div class="course-content">
-                            <h3 class="course-title"><a href="cyber-security-training-course.php">Cyber Security Course</a></h3>
-
-                            <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
-                                <span><i class="fal fa-user"></i>Students 125+</span>
-                                <span><i class="fal fa-eye"></i>View: 7K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-xl-4 filter-item cat9">
-                    <div class="course-box2">
-                        <div class="course-img">
-                            <img src="assets/img/home-course/384-cms.jpg" alt="course">
-
-                        </div>
-                        <div class="course-content">
-                            <h3 class="course-title"><a href="cms-certification-course.php">CMS Certification Course</a></h3>
-
-                            <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
-                                <span><i class="fal fa-user"></i>Students 140+</span>
-                                <span><i class="fal fa-eye"></i>View: 8.9K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               
+      
+             
             </div>
         </div>
     </section>
@@ -1103,7 +1106,7 @@ Blog Area
     <!--==============================
 	Footer Area
 ==============================-->
-    <section class=" " data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
+    <!-- <section class=" " data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container">
             <div class="cta-wrap5">
                 <div class="row flex-row-reverse justify-content-between">
@@ -1125,9 +1128,94 @@ Blog Area
                         src="assets/img/update1/shape/dot_shape_1.png" alt="shapes"></div>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    
+    <div class="bg-smoke web-design-smoke work-com-logo-sec home-top-space-slider" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
+        <div class="container th-container3 z-index-common">
+            <div class="title-area text-center">
+                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
+                <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
+            </div>
+            <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
+                data-sm-slide-show="3" data-xs-slide-show="2">
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/arth-i-soft.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/iTechnotion.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/adit.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/harmis.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/ethos.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/azilen.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/hitech.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/radix.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/n4n.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/moon.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/ifour.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/spec.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/ispark.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/hyperlink.png" alt="Instagram">
+                    </div>
+                </div>
+                <div class="col-auto">
+                    <div class="insta-box">
+                        <img src="assets/img/company-logo/technobrain.png" alt="Instagram">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
    
 
@@ -1186,7 +1274,7 @@ Blog Area
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <input type="number" class="form-control style-white" name="number"
-                                                    id="number" placeholder="Phone Number*" required>
+                                                    id="number" placeholder="Contact Number*" required>
                                                     <i class="fal fa-phone"></i>
                                             </div>
                                             <div class="load_number_error" id="load_number_error" style="color: red;"></div>

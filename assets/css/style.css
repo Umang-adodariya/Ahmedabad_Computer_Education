@@ -32379,3 +32379,16 @@ font-size: 40px;
     -ms-transform: translateX(-50%) !important;
     -o-transform: translateX(-50%) !important;
 } */
+
+
+/* .filter-home-pos-unset .filter-item {
+  position: initial !important;
+}
+.filter-home-pos-unset {
+  height: max-content !important;
+} */
+
+.home-top-space-slider {
+    padding-top: 100px;
+}
+
