@@ -29,7 +29,7 @@ Course Area
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <span class="course-result-count">We found <span class="text-theme">2 courses</span> available for you</span>
+                        <!-- <span class="course-result-count">We found <span class="text-theme">2 courses</span> available for you</span> -->
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -192,7 +192,7 @@ Course Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

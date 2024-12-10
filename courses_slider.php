@@ -173,7 +173,7 @@
                         </div>
                         <div class="course-author">
                             <div class="author-info">
-                                <img src="assets/img/course/author.png" alt="author">
+                                <img src="assets/img/instructor/instructorDetail/saloni-suthar.jpg" alt="author">
                                 <a href="javascript:void(0)" class="author-name">Saloni Suthar</a>
                             </div>
                             

@@ -79,7 +79,7 @@ About Area
                             <img class="tilt-active" src="assets/img/normal/375x493.png" alt="About">
                         </div>
                         <div class="about-grid">
-                            <h3 class="about-grid_year"><span class="counter-number">14</span>k+</h3>
+                            <h3 class="about-grid_year"><span class="counter-number">14</span>+</h3>
                             <p class="about-grid_text">Years Experience in IT Training</p>
                         </div>
                         <div class="img2">
@@ -93,7 +93,7 @@ About Area
                 <div class="col-xl-6">
                     <div class="title-area mb-35">
                         <span class="sub-title"><i class="fal fa-book me-2"></i> About Our University</span>
-                        <h2 class="sec-title">Welcome to Ahmedabad Computer Education.</h2>
+                        <h2 class="sec-title">Welcome to Ahmedabad Computer Education</h2>
                     </div>
                     <p class="mt-n2 mb-25">A career in the digital world is exciting, challenging, and full of possibilities. At ACE, we'll provide you with the knowledge, skills, and confidence you need to take control of your future and achieve your digital dreams.</p>
                     <div class="row mb-35 gy-4">
@@ -281,7 +281,7 @@ Team Area
                             </div>
                         </div>
                         <div class="team-content">
-                            <h3 class="team-title"><a href="qa-Instructor.php">jimmy Chotaliya</a></h3>
+                            <h3 class="team-title"><a href="qa-Instructor.php">Jimmy Chotaliya</a></h3>
                             <span class="team-desig">Software Testing expert</span>
                         </div>
                     </div>

@@ -35,7 +35,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/courses/corses-main/flutter-1.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/Flutter.jpg" alt="Course Image">
                                 <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
                                 <span class="tag bg-theme">BEST SELLER</span>
                             </div>
@@ -218,7 +218,7 @@ Event Area
                                 <img src="assets/img/courses/corses-main/flutter-2.jpg" alt="video">
                             </div> -->
                             <div class="th-video">
-                                <img src="assets/img/courses/corses-main/flutter-2.jpg" alt="video">
+                                <img src="assets/img/home-course-details/Flutter.jpg" alt="video">
                                 <a  class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i class="fas fa-play"></i></a>
                                 
                             </div>

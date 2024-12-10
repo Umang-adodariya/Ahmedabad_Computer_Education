@@ -35,7 +35,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/courses/corses-main/course-python.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/PythonReact.jpg" alt="Course Image">
                                 <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
@@ -222,6 +222,28 @@ Event Area
                                                 </div>
                                             </div>
                                         </div>
+                                        <div class="course-author-box">
+                                            <!-- <div class="auhtor-img">
+                                                <img src="assets/img/team/277x277/277x277_4.png" alt="Author Image">
+                                            </div> -->
+                                            <div class="auhtor-img without-author-sec">
+                                                <img src="assets/img/loaderIc.png" alt="Author Image" class="default-ic">
+                                            </div>
+                                            <div class="media-body">
+                                            <h3 class="author-name"><a class="text-inherit" href="ankit-patel-Instructor.php">Ankit Patel</a></h3>
+                                                <p class="author-text">Ankit Patel is a skilled blockchain and full-stack developer with a passion for building innovative solutions. With over 3 years of experience, Ankit has a proven track record of delivering cutting-edge projects, from smart contracts to decentralized applications.</p>
+                                                <div class="author-meta">
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>2 Courses</a>
+                                                    <span><i class="fal fa-users"></i>130+ Students</span>
+                                                </div>
+                                                <div class="th-social">
+                                                    <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                                    <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
@@ -286,7 +308,7 @@ Event Area
                     <aside class="sidebar-area">
                         <div class="widget widget_info  ">
                             <div class="th-video">
-                                <img src="assets/img/courses/corses-main/digital-marketing-2.jpg" alt="video">
+                                <img src="assets/img/home-course-details/PythonReact.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
