@@ -32391,4 +32391,6 @@ font-size: 40px;
 .home-top-space-slider {
     padding-top: 100px;
 }
-
+.event-img {
+    max-height: 241px;
+}

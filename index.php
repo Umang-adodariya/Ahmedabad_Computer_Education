@@ -259,7 +259,7 @@ Course Area
                 <h2 class="sec-title fw-medium">Master In-Demand IT Skills</h2>
             </div>
             <div class="tab-menu1 filter-menu-active">
-                <button data-filter="*" class="filter-btn ">All Categories</button>
+                <button data-filter="*" class="filter-btn">All Categories</button>
                 <button data-filter=".cat1" class="filter-btn active">Software Development</button>
                 <button data-filter=".cat2" class="filter-btn">Designing</button>
                 <!-- <button data-filter=".cat3" class="filter-btn">Game Development</button> -->
