@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -65,91 +67,91 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       var url = window.location.href;
     var arr = url.split('/');
     console.log(arr)
-    if(arr[4] == "contact"){
+    if(arr[3] == "contact"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/contact.php");
     }
-    if(arr[4] == "courses" && arr[5] == "seo"){
+    if(arr[3] == "courses" && arr[4] == "seo"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/seo-certification-training-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "blockchain"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/blockchain-training-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "blockchain"){
-    window.location.replace("https://www.ahmedabadcomputereducation.com/blockchain-training-course.php");
-    }
-    if(arr[4] == "courses" && arr[5] == "software-testing-training-course"){
+    if(arr[3] == "courses" && arr[4] == "software-testing-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/software-testing-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "digital-marketing-with-seo-training-course"){
+    if(arr[3] == "courses" && arr[4] == "digital-marketing-with-seo-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/digital-marketing-training-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "wordpress-training-course"){
+    if(arr[3] == "courses" && arr[4] == "wordpress-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/cms-certification-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "react-native"){
+    if(arr[3] == "courses" && arr[4] == "react-native"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/react-native-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "angular-js-training-course"){
+    if(arr[3] == "courses" && arr[4] == "angular-js-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-angular-development-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "graphic-design-training-course"){
+    if(arr[3] == "courses" && arr[4] == "graphic-design-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/graphic-and-ui-ux-design-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "web-design-training-course"){
+    if(arr[3] == "courses" && arr[4] == "web-design-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/web-designing-training-cours.php");
     }
-    if(arr[4] == "courses" && arr[5] == "python"){
+    if(arr[3] == "courses" && arr[4] == "python"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-python-development-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "laravel-training-course"){
+    if(arr[3] == "courses" && arr[4] == "laravel-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-laravel-development-course.php");
     }
-    if(arr[4] == "courses" && arr[5] == "php-training-course"){
+    if(arr[3] == "courses" && arr[4] == "php-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "graphic-web-design"){
+    if(arr[3] == "courses" && arr[4] == "graphic-web-design"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "quality-assurance-manual"){
+    if(arr[3] == "courses" && arr[4] == "quality-assurance-manual"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "mern-stack"){
+    if(arr[3] == "courses" && arr[4] == "mern-stack"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "mean-stack"){
+    if(arr[3] == "courses" && arr[4] == "mean-stack"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "hr-generalist-training-course"){
+    if(arr[3] == "courses" && arr[4] == "hr-generalist-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "digital-forensics-course"){
+    if(arr[3] == "courses" && arr[4] == "digital-forensics-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "ethical-hacking"){
+    if(arr[3] == "courses" && arr[4] == "ethical-hacking"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "security-surveillance-training-course"){
+    if(arr[3] == "courses" && arr[4] == "security-surveillance-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "magento-training-course"){
+    if(arr[3] == "courses" && arr[4] == "magento-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "advance-java-training-course"){
+    if(arr[3] == "courses" && arr[4] == "advance-java-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "core-java-training-course"){
+    if(arr[3] == "courses" && arr[4] == "core-java-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "iphone-training-course"){
+    if(arr[3] == "courses" && arr[4] == "iphone-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "android-training-course"){
+    if(arr[3] == "courses" && arr[4] == "android-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "reactjs-training-course"){
+    if(arr[3] == "courses" && arr[4] == "reactjs-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "asp-net-training-course"){
+    if(arr[3] == "courses" && arr[4] == "asp-net-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
-    if(arr[4] == "courses" && arr[5] == "codeigniter-training-course"){
+    if(arr[3] == "courses" && arr[4] == "codeigniter-training-course"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
 </script>
@@ -288,7 +290,7 @@ Mobile Menu
 <div class="popup-search-box d-none d-lg-block">
 <button class="searchClose"><i class="fal fa-times"></i></button>
 <form action="#">
-    <input type="text" id="search_input"   placeholder="What are you looking for?">
+    <input type="text" id="search_input" class="search-form-control"  placeholder="What are you looking for?">
     <button type="submit"><i class="fal fa-search"></i></button>
     <div id="result-box" class="result-box" style="display: none;">
         <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
@@ -429,7 +431,7 @@ Header Area
         <div class="container">
             <div class="row align-items-center justify-content-center justify-content-sm-between">
                 <div class="col-auto d-none d-sm-block menu-top-left">
-                    <a class="header-link" href="tel:93-2728-7700">
+                    <a class="header-link" href="tel:9327-28-7700">
                         <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                             data-name="Layer 1">
                             <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -473,7 +475,7 @@ Header Area
                                 <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                             </g>
                         </svg>
-                        <span class="city-text">Ahmedabad :</span>93-2728-7700</a>
+                        <span class="inner-span"> <span class="city-text">Ahmedabad :</span>9327-28-7700 </span></a>
                     <a class="header-link" href="tel:7574-85-7700">
                         <!-- <div> -->
                         <svg class="indore-svg" id="Layer_1" viewBox="0 0 512 512"

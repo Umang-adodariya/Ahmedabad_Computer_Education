@@ -74,8 +74,8 @@ Contact Area
                             </div>
                             <div class="media-body">
                                 <p class="contact-feature_label">Contact Number</p>
-                                <a href="tel:+011456586986" class="contact-feature_link">Ahmedabad : <span>93-2728-7700</span></a>
-                                <a href="tel:+011456586986" class="contact-feature_link">Indore : <span>7574-85-7700</span></a>
+                                <a href="tel:9327-28-7700" class="contact-feature_link">Ahmedabad : <span>9327-28-7700</span></a>
+                                <a href="tel:9327-28-7700" class="contact-feature_link">Indore : <span>9327-28-7700</span></a>
                             </div>
                         </div>
                         

@@ -94,8 +94,7 @@ Category Area
         <div class="container">
             <div class="title-area text-center text-md-start">
                 <span class="sub-title">Our Exclusive Courses</span>
-                <h2 class="sec-title fw-medium">Explore Job <span class="position-relative">Oriented<span
-                            class="star-text">*</span></span> Courses</h2>
+                <h2 class="sec-title fw-medium">Explore Job <span class="position-relative">Oriented</span> Courses</h2>
             </div>
             <div class="row gy-50">
                 <div class="col-sm-6 col-xl-4">
@@ -1261,7 +1260,7 @@ Blog Area
                                 <span class="sub-title">Contact With Us!</span>
                                 <h2 class="border-title">Get in Touch</h2>
                                 <form action="mail.php" method="POST" class="contact-form ajax-contact" id="get-in-touch-form">
-                                    <div class="row">
+                                    <div class="row get-up-contact-custom">
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <input type="hidden" name="form" value="get_in_touch"> 
