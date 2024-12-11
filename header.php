@@ -60,6 +60,101 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'G-ZDR3DPRCX5');
 </script>
+
+<script>
+      var url = window.location.href;
+    var arr = url.split('/');
+    console.log(arr)
+    if(arr[4] == "contact"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/contact.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "seo"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/blockchain-training-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "blockchain"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/blockchain-training-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "software-testing-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/software-testing-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "digital-marketing-with-seo-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/digital-marketing-training-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "wordpress-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/cms-certification-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "react-native"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/react-native-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "angular-js-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-angular-development-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "graphic-design-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/graphic-and-ui-ux-design-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "web-design-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/web-designing-training-cours.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "python"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-python-development-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "laravel-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-laravel-development-course.php");
+    }
+    if(arr[4] == "courses" && arr[5] == "php-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "graphic-web-design"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "quality-assurance-manual"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "mern-stack"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "mean-stack"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "hr-generalist-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "digital-forensics-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "ethical-hacking"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "security-surveillance-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "magento-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "advance-java-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "core-java-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "iphone-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "android-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "reactjs-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "asp-net-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[4] == "courses" && arr[5] == "codeigniter-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+</script>
+
+
 <!-- End Google Tag Manager -->
 </head>
 

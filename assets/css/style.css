@@ -32382,10 +32382,13 @@ font-size: 40px;
 
 
 /* .filter-home-pos-unset .filter-item {
-  position: initial !important;
+  position: unset !important;!;
+  height: max-content;
 }
+
 .filter-home-pos-unset {
-  height: max-content !important;
+  position: unset !important;;
+  height: max-content !important;;
 } */
 
 .home-top-space-slider {
@@ -32393,4 +32396,10 @@ font-size: 40px;
 }
 .event-img {
     max-height: 241px;
+}
+
+.event-video-course {
+    max-height: 241px;
+    width: 100%;
+    object-fit: cover;
 }
