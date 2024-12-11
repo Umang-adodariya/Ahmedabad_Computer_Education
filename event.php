@@ -351,7 +351,7 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-14-1.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-15-1.jpg" alt="course">
 
                         </div>
                         <div class="event-meta">
@@ -608,7 +608,9 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                        <video autoplay muted controls loop class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-1.mp4" type="video/mp4">
+                            </video>
 
                         </div>
                         <div class="event-meta">
@@ -625,11 +627,14 @@ Event Area
                     </div>
                 </div>
 
-                <!-- <div class="col-lg-6 col-xl-4">
+                <div class="col-lg-6 col-xl-4">
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                            <!-- <img src="assets/img/events/past-events/event-26-1.jpg" alt="course"> -->
+                            <video autoplay muted controls class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-2.mp4" type="video/mp4">
+                            </video>
 
                         </div>
                         <div class="event-meta">
@@ -649,7 +654,10 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                        <video autoplay muted controls loop class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-3.mp4" type="video/mp4">
+                            </video>
+
 
                         </div>
                         <div class="event-meta">
@@ -669,11 +677,13 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                        <video autoplay muted controls loop class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-4.mp4" type="video/mp4">
+                            </video>
 
                         </div>
                         <div class="event-meta">
-                                <p><i class="fal fa-location-dot"></i> Virtual Height IT Services Pvt. Ltd.
+                                <p><i class="fal fa-location-dot"></i>Moti Dau Msn Unja Highway
                                 </p>
                             </div>
                             <h3 class="event-card_title m-0"><a>Exciting placement drive and seminars on Emerging Technologies 
@@ -689,7 +699,10 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                        <video autoplay muted controls loop class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-5.mp4" type="video/mp4">
+                            </video>
+
 
                         </div>
                         <div class="event-meta">
@@ -709,7 +722,9 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-26-1.jpg" alt="course">
+                        <video autoplay muted controls loop class="event-video-course">
+                                <source src="assets/img/events/past-events/event-video-6.mp4" type="video/mp4">
+                            </video>
 
                         </div>
                         <div class="event-meta">
@@ -724,7 +739,7 @@ Event Area
                             </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
             </div>
   </div>
 </div>

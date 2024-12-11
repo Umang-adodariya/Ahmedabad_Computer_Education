@@ -5,6 +5,8 @@
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
+
+
 <?php include('header.php'); ?>
 
     <!--********************************
@@ -197,7 +199,7 @@ About Area
                         <div class="counter-grid-wrap">
                             <div class="counter-grid">
                                 <div class="counter-grid_icon">
-                                    <img src="assets/img/update1/icon/candidate_trained.svg" alt="icon">
+                                    <img src="assets/img/update1/icon/candidate_students.svg" alt="icon">
                                 </div>
                                 <div class="counter-grid_content">
                                     <h3 class="counter-grid_number"><span class="counter-number">5000</span>+</h3>
