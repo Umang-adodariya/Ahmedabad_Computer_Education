@@ -974,6 +974,8 @@ ul.wp-block-rss a {
   .th-search .search-grid-content {
     padding: 20px;
   }
+ 
+
 }
 
 .th-search .search-grid-title {
@@ -33007,10 +33009,19 @@ span.text-bold {
 
 #scrollButtons {
     position: fixed;
-    bottom: 80px;
-    right: 30px;
-    z-index: 3;
+    bottom: 10px;
+    left: 30px;
+    z-index: 4;
 }
+
+#scrollButtonsinquirey{
+position: fixed;
+    bottom: 10px;
+    right: 30px;
+    z-index: 4;
+}
+
+
 
 .inquiry-button,
 .whatsapp-button {
@@ -33102,4 +33113,58 @@ img.badgetwo {
   margin: 0px;
   font-family: 'Roboto';
   line-height: 19px;
+}
+
+.sticky-bottom-note-important {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #1e2c46;
+  z-index: 4;
+  text-align: center;
+  padding: 4px 10px;
+}
+
+.sticky-bottom-note-important .inner-job-title {
+  margin-bottom: 0px;
+  font-size: 12px;
+  line-height: 19px;
+  color: #fff;
+}
+
+
+.scroll-top.show.landing-show {
+bottom: 95px;
+}
+
+
+
+.sticky-bottom-note-important{
+display: none
+}
+
+@media (max-width: 767px) {
+
+  .scroll-top.show.landing-show {
+    bottom: 130px;
+  }
+  .scroll-top {
+    bottom: 130px;
+    }
+
+    #scrollButtons {
+      bottom: 50px;
+      left: 20px;
+    }
+    
+    #scrollButtonsinquirey{
+    bottom: 50px;
+    right: 20px;
+    }
+    
+
+    .sticky-bottom-note-important{
+display: block;
+}
 }
