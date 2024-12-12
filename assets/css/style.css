@@ -32631,7 +32631,7 @@ span.text-bold {
   white-space: normal;
 }
 .popup-search-box .result-box {
-  padding: 25px;
+  padding: 25px 25px 15px 25px;
   border-radius: 20px;
   background: #ffffff12;
   margin-top: 10px;
@@ -33096,7 +33096,7 @@ img.badgetwo {
 }
 
 .popup-sent-msg .popup-inner-msg p {
-  font-size: 14px;
+  font-size: 13px;
   color: #fff;
   text-align: center;
   margin: 0px;
