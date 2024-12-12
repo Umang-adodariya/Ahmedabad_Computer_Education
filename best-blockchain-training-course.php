@@ -52,8 +52,12 @@
             filter: grayscale(100);
             border-radius: 14px;
          }
+   
          .map-sec{
             height: 250px;
+         }
+         .th-header{
+            z-index: 3;
          }
          .tab-box-fix-cont .course-curriculam, .tab-box-fix-cont .course-description,
          .tab-box-fix-cont .course-instructor, .tab-box-fix-cont .course-Reviews
@@ -231,15 +235,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                  <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                               </g>
                            </svg> -->
+                              <img src="assets/img/home-course-details/badgeone.png" alt="badgeone" class="badgeone">
                            <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
                      </div>
                      <div class="col-auto">
-                        <div class="th-social">
+                        <div class="th-social top-header-ad-flex">
                            <a target="_blank" href="https://www.facebook.com/ahmedabadcomputereducation"><i class="fab fa-facebook-f"></i></a>
                            <a target="_blank" href="https://www.linkedin.com/company/ahmedabadcomputereducation/"><i class="fab fa-linkedin"></i></a>
                            <a target="_blank" href="https://www.instagram.com/ahmedabad_computer_education/"><i class="fab fa-instagram"></i></a>
-                           <!-- <a target="_blank" href="https://pinterest.com/"><i class="fab fa-pinterest-p"></i></a> -->
+                           <a target="_blank" href="https://wa.me/+919586877700"><i class="fab fa-whatsapp" target="_blank"></i></a>
                         </div>
                      </div>
                   </div>
@@ -567,8 +572,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-lg-4">
-                    <aside class="sidebar-area">
+                <aside class="sidebar-area position-relative">
+                   <aside class="sidebar-area position-relative">
                         <!-- register sidebar -->
+                        <img src="assets/img/home-course-details/badgetwo.png" alt="badgetwo" class="badgetwo">
                         <?php include('registerSidebar.php'); ?>
                         <div class="widget widget_info  ">
                             <div class="th-video">
@@ -796,10 +803,105 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         </div>
     </div>
 </div>
+            </div>
+
+
+<div class="modal fade load-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="load-modal-wrapper position-relative">
+                <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                        class="far fa-times"></i></button>
+                <div class="modal-grid row">
+                    <div class="col-12 col-md-6">
+                        <div class="modal-slider-sec">
+                            <div class="blog-img th-carousel" data-overlay="black" data-opacity="5"
+                                data-arrows="true" data-slide-show="1" data-fade="true">
+                                <a href="blog-details.php"><img src="assets/img/course/400x450/teachers1.jpg"
+                                        alt=""></a>
+                                <a href="blog-details.php"><img src="assets/img/course/400x450/teachers2.jpg"
+                                        alt=""></a>
+                                <a href="blog-details.php"><img src="assets/img/course/400x450/teachers1.jpg"
+                                        alt=""></a>
+                                <a href="blog-details.php"><img src="assets/img/course/400x450/teachers2.jpg"
+                                        alt=""></a>
+                                <a href="blog-details.php"><img src="assets/img/course/400x450/teachers1.jpg"
+                                        alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="modal-form-sec">
+                            <div class="contact-form-wrap load-modal-form" data-bg-src="assets/img/bg/contact_bg_1.png">
+                                <span class="sub-title">Contact With Us!</span>
+                                <h2 class="border-title">Get in Touch</h2>
+                                <form action="mail.php" method="POST" class="contact-form ajax-contact" id="get-in-touch-form">
+                                    <div class="row get-up-contact-custom">
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="hidden" name="form" value="get_in_touch"> 
+
+                                                <input type="text" class="form-control style-white" name="name"
+                                                    id="name" placeholder="Your Name*" required>
+                                                    <i class="fal fa-user"></i>
+                                            </div>
+                                            <div class="load_name_error" id="load_name_error" style="color: red;"></div>
+                                        </div>
+
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <input type="number" class="form-control style-white" name="number"
+                                                    id="number" placeholder="Contact Number*" required>
+                                                    <i class="fal fa-phone"></i>
+                                            </div>
+                                            <div class="load_number_error" id="load_number_error" style="color: red;"></div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="captcha-container">
+                                                <div class="input-refresh-btn mb-10">
+                                                    <div id="captcha" class="captcha"></div>
+                                                    <button id="refreshBtn" class="captcha-ref-btn"><i
+                                                            class="fal fa-refresh"></i></button>
+                                                </div>
+                                                <div class="input-refresh-btn">
+                                                    <input type="text" id="userInput"
+                                                        class="form-control style-white userInput"
+                                                        placeholder="Enter CAPTCHA" />
+                                                </div>
+                                                <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
+                                            </div>
+                                        </div>
+                                        <div class="form-btn col-12 mt-10">
+                                            <button class="th-btn " type="submit" value="2">Send Message<i
+                                                    class="fas fa-long-arrow-right ms-2"></i></button>
+                                        </div>
+                                    </div>
+                                    <p class="form-messages mb-0 mt-3"></p>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </div>
+   
     <!--********************************
 			Code End  Here 
 	******************************** -->
+
+    <div id="scrollButtons" class="hidden">
+    <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+    <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
+            </a>
+    <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700" target="_blank">
+        <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
+    </a>
+</div>
+
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
@@ -914,10 +1016,10 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
          ============================== -->
       <!-- Jquery -->
       <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
-      <!-- Slick Slider -->
-      <script src="assets/js/slick.min.js"></script>
       <!-- Bootstrap -->
       <script src="assets/js/bootstrap.min.js"></script>
+      <!-- Slick Slider -->
+      <script src="assets/js/slick.min.js"></script>
       <!-- Magnific Popup -->
       <script src="assets/js/jquery.magnific-popup.min.js"></script>
       <!-- Counter Up -->
@@ -938,6 +1040,45 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
       <!-- Main Js File -->
       <script src="assets/js/main.js"></script>
       <script>
+ 
+        //  $(document).ready(function () {
+        //     if (!document.cookie.includes("modalShown=true")) {
+        //          $('#exampleModal').modal('show');
+        //          alert("hello");
+        //          document.cookie = "modalShown=true; max-age=" + 24 *60 *60 + "; path=/";
+        //          }
+        //      });
+
+
+             $(document).ready(function () {
+                if (!document.cookie.includes("modalShown=true")) {
+                        setTimeout(() => {
+                        $('#exampleModal').modal('show');
+                        document.cookie = "modalShown=true; max-age=" + 24 * 60 * 60 + "; path=/";
+                    }, 5000); 
+                }
+            });
+
+            $(document).ready(function () {
+    // Initially set the buttons visible
+    $('#scrollButtons').show();
+
+    // Monitor the scroll event
+    $(window).scroll(function () {
+        // Check if the user has scrolled more than 200px
+        if ($(this).scrollTop() > 200) {
+            // Keep buttons visible (or add animations if needed)
+            $('#scrollButtons').fadeIn();
+            
+        } else {
+            // Keep buttons visible but optional fade-out behavior can be removed
+            $('#scrollButtons').fadeIn();
+        }
+    });
+});
+
+
+
          $(document).ready(function() {
            // Initially, hide all sub-menus and remove active class
            $('.cus-megamenu-list ul').removeClass('active').hide();
@@ -970,15 +1111,8 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
          
          
          
-         
-                $(document).ready(function () {
-            if (!document.cookie.includes("modalShown=true")) {
-                 $('#exampleModal').modal('show');
-                 document.cookie = "modalShown=true; max-age=" + 24 *60 *60 + "; path=/";
-                 }
-             });
-         
-         
+        
+  
              
       </script>
    </body>

@@ -1373,12 +1373,23 @@ textarea {
 }
 
 .form-group > i {
-  display: inline-block;
+  /* display: inline-block;
   position: absolute;
   right: 25px;
   top: 19px;
   font-size: 16px;
-  color: #93a5be;
+  color: #93a5be; */
+  position: absolute;
+    right: 25px;
+    top: 0px;
+    font-size: 16px;
+    color: #93a5be;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .form-group > i.fa-envelope {
@@ -13459,7 +13470,11 @@ ul.comment-list .th-comment-item:first-child > .th-post-comment {
 }
 
 .hero-style12 .search-form .form-group > i {
-  top: 18px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-item: center;
+  justify-content: center;
   left: 25px;
   pointer-events: none;
 }
@@ -24096,6 +24111,11 @@ span.select2-selection.select2-selection--single:focus {
   font-size: 12px;
 }
 
+.course-meta span,
+.course-meta span i{
+  font-weight: 500;
+}
+
 .course-meta a i,
 .course-meta span i {
   margin-right: 5px;
@@ -26948,6 +26968,8 @@ span.select2-selection.select2-selection--single:focus {
 .category-card2_icon img {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
+  height: 38px;
+  width: 38px;
 }
 
 .category-card2_content {
@@ -26962,6 +26984,8 @@ span.select2-selection.select2-selection--single:focus {
 
 .category-card2_title a {
   color: inherit;
+  font-size: 21px;
+  display: block;
 }
 
 .category-card2_title a:hover {
@@ -32523,10 +32547,13 @@ span.select2-selection.select2-selection--single:focus {
   display: inline-block;
   position: absolute;
   right: 25px;
-  top: 50%;
   font-size: 16px;
   color: #93a5be;
-  transform: translateY(-50%);
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  align-item: center;
+  justify-content: center;
 }
 .contact-form-wrap .form-control {
   height: 45px;
@@ -32937,4 +32964,90 @@ span.text-bold {
 .menu-top .th-social a {
   height: 39px;
   width: 39px;
+}
+
+.hero-exclusive-space{
+  padding: 100px 0px ;
+}
+
+.ml-minus-1px{
+  margin-left: -1px;
+}
+
+/*  */
+
+
+.hidden {
+    display: none;
+}
+
+#scrollButtons {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    z-index: 3;
+}
+
+.inquiry-button,
+.whatsapp-button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #007bff;
+}
+
+.whatsapp-button, .inquiry-button {
+  height: 60px;
+  width: 60px;
+}
+
+.whatsapp-button , .whatsapp-button:hover{
+  background-color: #25d366;
+}
+
+img.badgeone {
+  height: 70px;
+  width: 70px;
+  object-fit: contain;
+  margin-top: 0px;
+}
+
+img.badgetwo {
+  height: 120px;
+  width: 120px;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  top: -52px;
+  z-index: 1;
+}
+
+.flex-auto-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.cal-width-title{
+  width: calc(100% - 320px);
+}
+
+.top-header-ad-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-top .th-social.top-header-ad-flex a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

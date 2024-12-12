@@ -843,7 +843,7 @@ Event Area
                                     </div>
                                 </div>
                                 <div class="form-btn col-12 mt-10">
-                                    <button class="th-btn " type="submit">Submit<i class="fas fa-long-arrow-right ms-2"></i></button>
+                                    <button class="th-btn " type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
