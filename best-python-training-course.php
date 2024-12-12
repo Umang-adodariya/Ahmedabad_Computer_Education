@@ -6,7 +6,7 @@
       <title>Ahmedabad Computer Education</title>
       <meta name="author" content="themeholy">
       <meta name="description" content="Ahmedabad Computer Education">
-      <meta name="keywords" content="Ahmedabad Computer Education">
+      <meta name="keywords" content="python certification course, python full stack developer course, best python certification course, best python certification near me, python courses with certificate, python course for beginners, python training and certification, python coding training institute, learn python basics and advanced">
       <meta name="robots" content="INDEX,FOLLOW">
       <!-- Mobile Specific Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -55,6 +55,10 @@
          .th-header{
             z-index: 4;
          }
+         .scroll-top {
+bottom: 95px;
+right: 37px;
+}
          .map-sec{
             height: 250px;
          }
@@ -849,13 +853,25 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 	******************************** -->
 
     <div id="scrollButtons" class="hidden">
-    <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
-    <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
-            </a>
-    <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700" target="_blank">
-        <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
-    </a>
-</div>
+                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
+                                    <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
+                                </a>
+                        </div>
+
+                        <div id="scrollButtonsinquirey" class="hidden">
+                                <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+                                    <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
+                                </a>
+                        </div>
+
+                        <div class="sticky-bottom-note-important">
+                            <div class="inner-sticky-contain">
+                                <p class="inner-job-title">
+                                100% Job Assistance | Try Free Demo Class<br>
+                                For More Inquiry Connect Now!
+                                </p>
+                            </div>
+                        </div>
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
@@ -1005,22 +1021,77 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
             });
 
             $(document).ready(function () {
-    // Initially set the buttons visible
-    $('#scrollButtons').show();
+                // Initially set the buttons visible
+                $('#scrollButtons').show();
 
-    // Monitor the scroll event
-    $(window).scroll(function () {
-        // Check if the user has scrolled more than 200px
-        if ($(this).scrollTop() > 200) {
-            // Keep buttons visible (or add animations if needed)
-            $('#scrollButtons').fadeIn();
-            
-        } else {
-            // Keep buttons visible but optional fade-out behavior can be removed
-            $('#scrollButtons').fadeIn();
-        }
-    });
-});
+                // Monitor the scroll event
+                $(window).scroll(function () {
+                    // Check if the user has scrolled more than 200px
+                    if ($(this).scrollTop() > 200) {
+                        // Keep buttons visible (or add animations if needed)
+                        $('#scrollButtons').fadeIn();
+                        
+                    } else {
+                        // Keep buttons visible but optional fade-out behavior can be removed
+                        $('#scrollButtons').fadeIn();
+                    }
+                });
+            });
+
+            $(document).ready(function () {
+                // Initially set the buttons visible
+                $('#scrollButtonsinquirey').show();
+
+                // Monitor the scroll event
+                $(window).scroll(function () {
+                    // Check if the user has scrolled more than 200px
+                    if ($(this).scrollTop() > 200) {
+                        // Keep buttons visible (or add animations if needed)
+                        $('#scrollButtonsinquirey').fadeIn();
+                        
+                    } else {
+                        // Keep buttons visible but optional fade-out behavior can be removed
+                        $('#scrollButtonsinquirey').fadeIn();
+                    }
+                });
+            });
+
+
+            if($('.scroll-top').length > 0) {
+                
+                var scrollTopbtn = document.querySelector('.scroll-top');
+                var progressPath = document.querySelector('.scroll-top path');
+                var pathLength = progressPath.getTotalLength();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
+                progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
+                progressPath.style.strokeDashoffset = pathLength;
+                progressPath.getBoundingClientRect();
+                progressPath.style.transition = progressPath.style.WebkitTransition = 'stroke-dashoffset 10ms linear';		
+                var updateProgress = function () {
+                    var scroll = $(window).scrollTop();
+                    var height = $(document).height() - $(window).height();
+                    var progress = pathLength - (scroll * pathLength / height);
+                    progressPath.style.strokeDashoffset = progress;
+                }
+                updateProgress();
+                $(window).scroll(updateProgress);	
+                var offset = 50;
+                var duration = 750;
+                jQuery(window).on('scroll', function() {
+                    if (jQuery(this).scrollTop() > offset) {
+                        jQuery(scrollTopbtn).addClass('show landing-show');
+                    } else {
+                        jQuery(scrollTopbtn).removeClass('show landing-show');
+                    }
+                });				
+                jQuery(scrollTopbtn).on('click', function(event) {
+                    event.preventDefault();
+                    jQuery('html, body').animate({scrollTop: 0}, duration);
+                    return false;
+                })
+            }
+
+
 
          $(document).ready(function() {
            // Initially, hide all sub-menus and remove active class
