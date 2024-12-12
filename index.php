@@ -90,7 +90,7 @@ Hero Area
     <!--==============================
 Category Area  
 ==============================-->
-    <section class="space">
+    <section class="space hero-exclusive-space">
         <div class="container">
             <div class="title-area text-center text-md-start">
                 <span class="sub-title">Our Exclusive Courses</span>
@@ -141,9 +141,9 @@ Category Area
                             <img src="assets/img/update1/icon/category_1_2.svg" alt="icon">
                         </div>
                         <div class="category-card2_content">
-                            <h3 class="category-card2_title"><a href="full-stack-blockchain-development-course.php">Blockchain Course</a></h3>
+                            <h3 class="category-card2_title"><a href="blockchain-training-course.php">Blockchain Course</a></h3>
                             <p class="category-card2_text">Dive into the world of blockchain technology and learn about its applications in finance, supply chain, and more. Understand smart contracts, cryptocurrency, and decentralized applications.</p>
-                            <a href="full-stack-blockchain-development-course.php" class="link-btn">Learn More<i class="fas fa-arrow-right"></i></a>
+                            <a href="blockchain-training-course.php" class="link-btn">Learn More<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -190,10 +190,10 @@ About Area
                     <div class="about-content2">
                         <div class="title-area mb-40">
                             <span class="sub-title">More About Us</span>
-                            <h2 class="fs-40 fw-medium mt-n2">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
+                            <h2 class="fs-40 fw-medium mt-n2 ml-minus-1px">Launch Your IT Career with the Best Training Institute in Ahmedabad & Indore 
                             </h2>
                         </div>
-                        <p class="mt-n2 mb-30 mb-xl-5">Looking to break into the exciting world of IT?  ACE, a leading IT training institute in Ahmedabad and Indore, can help you achieve your goals. We offer a comprehensive range of IT courses designed to equip you with the skills and knowledge needed to thrive in today's dynamic tech landscape.
+                        <p class="mt-n2 mb-30 mb-xl-5 ">Looking to break into the exciting world of IT?  ACE, a leading IT training institute in Ahmedabad and Indore, can help you achieve your goals. We offer a comprehensive range of IT courses designed to equip you with the skills and knowledge needed to thrive in today's dynamic tech landscape.
                         </p>
                         <div class="counter-grid-wrap">
                             <div class="counter-grid">
@@ -484,7 +484,7 @@ Course Area
 
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="full-stack-blockchain-development-course.php">Blockchain Course</a></h3>
+                            <h3 class="course-title"><a href="blockchain-training-course.php">Blockchain Course</a></h3>
 
                             <div class="course-meta">
                                 <span><i class="fal fa-file"></i>Modules 12</span>

@@ -13,7 +13,7 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">Mobile Development Courses</h1>
+                <h1 class="breadcumb-title">Digital Marketing Courses</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.php">Home</a></li>
                     <li>Mobile Development Courses</li>
