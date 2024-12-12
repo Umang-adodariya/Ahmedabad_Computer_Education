@@ -198,7 +198,7 @@ Mobile Menu
     </div>
     <div class="th-mobile-menu">
     <ul>
-                                        <li class="menu-item-has-children">
+                                        <li class="menu-item-has-children" >
                                             <a href="index.php" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">

@@ -46,5 +46,13 @@
             </div>
         </div>
         <p class="form-messages mb-0 mt-3"></p>
+        <!-- sent suceess msg popup -->
+        <!-- <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p>Thank you for your message. It has been sent.</p>
+            </div>
+        </div> -->
+
+        <!-- sent sucess msg popup -->
     </form>
 </div>
