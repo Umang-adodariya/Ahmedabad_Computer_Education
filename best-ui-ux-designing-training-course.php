@@ -56,7 +56,7 @@
             height: 250px;
          }
          .th-header{
-            z-index: 3;
+            z-index: 4;
          }
          .cust-page-box h2.course-title{
                 font-size:44px;

@@ -57,7 +57,7 @@
             height: 250px;
          }
          .th-header{
-            z-index: 3;
+            z-index: 4;
          }
          .tab-box-fix-cont .course-curriculam, .tab-box-fix-cont .course-description,
          .tab-box-fix-cont .course-instructor, .tab-box-fix-cont .course-Reviews
