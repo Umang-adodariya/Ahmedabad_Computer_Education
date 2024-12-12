@@ -7716,7 +7716,27 @@ ol.wp-block-rss {
     font-size: 14px;
   }
   .header-layout5 .menu-top {
-    padding: 12px 0;
+    padding: 0px 0px 20px 0px;
+  }
+
+  img.badgetwo {
+    top: -32px !important;
+  }
+
+  .tab-box-fix-cont{
+    padding-top: 50px !important;
+  }
+
+  #scrollButtons {
+    right: 23px !important;
+  }
+
+  .tab-box-fix-cont .course-single, .tab-box-fix-cont li {
+    text-align: left !important;
+}
+
+  h2.course-main-title.main-title-box-d-block{
+    padding-top: 50px !important;
   }
 }
 
@@ -7930,6 +7950,10 @@ ol.wp-block-rss {
 @media (max-width: 1199px) {
   .header-layout6 .logo-shape {
     width: 300px;
+  }
+
+  .cust-menu-box.menu-top .menu-top-left .header-link {
+    left: 30% !important;
   }
 }
 
@@ -33050,4 +33074,32 @@ img.badgetwo {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.header-layout5 .main-menu > ul > li:hover > a {
+  color: #0c1634;
+}
+
+.header-layout5 .main-menu > ul > li > a {
+  transition: 0.5s all ease-in-out;
+}
+
+.popup-search-box .search-form-control::placeholder {
+  color: #989ca1;
+}
+
+.popup-sent-msg .popup-inner-msg {
+  background: #24cb62d1;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #25d366;
+}
+
+.popup-sent-msg .popup-inner-msg p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Roboto';
+  line-height: 19px;
 }
