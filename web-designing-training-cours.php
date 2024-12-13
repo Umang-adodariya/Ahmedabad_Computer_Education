@@ -303,12 +303,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="saloni-suthar-instructor.php">Saloni Suthar</a></h3>
                                                 <p class="author-text">Saloni Suthar is a passionate web design instructor with a proven track record of empowering students to create stunning and functional websites. With years of hands-on experience and a deep understanding of web technologies, Saloni is dedicated to providing top-notch training and support.</p>
                                                 <div class="author-meta">
-                                                    <a><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>150+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>

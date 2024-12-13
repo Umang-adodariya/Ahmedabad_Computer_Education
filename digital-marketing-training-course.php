@@ -567,12 +567,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="digital-marketing-Instructor.php">Hinal Joshi</a></h3>
                                                 <p class="author-text">Hinal Joshi is a seasoned Digital Marketing & SEO expert with over 4 years of hands-on experience. She has successfully implemented strategies for a diverse range of industries, including fashion, e-commerce, manufacturing, healthcare, and education.</p>
                                                 <div class="author-meta">
-                                                    <a><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>200+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>

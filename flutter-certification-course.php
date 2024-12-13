@@ -140,7 +140,7 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="flutter-Instructor.php">Karan Parmar</a></h3>
                                                 <p class="author-text">Karan Parmar is a seasoned Flutter developer and experienced IT instructor at ACE. With a passion for teaching and a deep understanding of mobile app development, Karan is committed to empowering students with the skills to succeed in the fast-paced tech industry.</p>
                                                 <div class="author-meta">
-                                                    <a><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>150+ Students</span>
                                                 </div>
                                                 <div class="th-social style2">

@@ -257,7 +257,7 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="ankit-patel-Instructor.php">Ankit Patel</a></h3>
                                                 <p class="author-text">Ankit Patel is a skilled blockchain and full-stack developer with a passion for building innovative solutions. With over 3 years of experience, Ankit has a proven track record of delivering cutting-edge projects, from smart contracts to decentralized applications.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>95+ Students</span>
                                                 </div>
                                                 <div class="th-social">

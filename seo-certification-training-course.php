@@ -298,7 +298,7 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="seo-instructor.php">Jay Malvi</a></h3>
                                                 <p class="author-text">Jay Malvi is a seasoned SEO expert with over 3 years of experience in driving organic growth and increasing online visibility. With a passion for data-driven strategies, Jay is dedicated to helping businesses achieve their digital marketing goals.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>50+ Students</span>
                                                 </div>
                                                 <div class="th-social style2">

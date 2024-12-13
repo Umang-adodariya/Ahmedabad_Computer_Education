@@ -47,7 +47,7 @@
                                     </div>
                                     <div class="input-refresh-btn">
                                         <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                            placeholder="Enter CAPTCHA" />
+                                            placeholder="Enter CAPTCHA*" />
                                     </div>
                                     <div class="register_captcha_error" id="register_captcha_error" style="color: red;"></div>
                                 </div>

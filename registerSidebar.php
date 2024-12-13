@@ -34,7 +34,7 @@
                     </div>
                     <div class="input-refresh-btn">
                         <input type="text" id="userInput" class="form-control style-white"
-                            placeholder="Enter CAPTCHA" />
+                            placeholder="Enter CAPTCHA*" />
                         <!-- <button id="submitBtn" class="th-btn btn-green">Submit</button> -->
                     </div>
                     <div class="sidebar_captcha_error" id="sidebar_captcha_error" style="color: red;"></div>

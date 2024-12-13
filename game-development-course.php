@@ -232,12 +232,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="game-Instructor.php">Rajdeep Rathod</a></h3>
                                                 <p class="author-text">Rajdeep Rathod is a seasoned Unity game developer with a passion for creating immersive and engaging gaming experiences. With a strong foundation in 2D and 3D game development, Rajdeep is skilled in crafting captivating gameplay mechanics, AI, and stunning visuals.</p>
                                                 <div class="author-meta">
-                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>85+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>

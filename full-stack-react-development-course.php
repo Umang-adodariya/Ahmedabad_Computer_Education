@@ -14,10 +14,10 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">React JS Training & Certification Course</h1>
+                <h1 class="breadcumb-title">ReactJS Training & Certification Course</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.php">Home</a></li>
-                    <li>React JS</li>
+                    <li>ReactJS</li>
                 </ul> -->
             </div>
         </div>
@@ -43,7 +43,7 @@ Event Area
                                 <span><i class="fal fa-file"></i>Modules 12</span>
                                 <span><i class="fal fa-user"></i>Students 550+</span>
                             </div>
-                            <h2 class="course-title">React JS Course</h2>
+                            <h2 class="course-title">ReactJS Course</h2>
                         </div>
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
@@ -70,7 +70,7 @@ Event Area
                                         
                                         <h5 class="h5 mt-40">ReactJS Training Course Introduction</h5>
                                         <p>Our ReactJS training course covers all the essential concepts of ReactJS, including component architecture, JSX, state management, and more. Our experienced trainers provide hands-on training to help you gain practical experience and understand how to apply your knowledge in real-world scenarios.</p>
-                                        <p>At <a href="index.php">Ahmedabad Computer Education</a>, we are committed to providing the best ReactJS training institute in Ahmedabad. Our trainers are experts in ReactJS, and they share their knowledge and experience with our students to help them become proficient in the technology. Our course modules are designed to provide a holistic understanding of ReactJS, from the basics to advanced concepts.</p>
+                                        <p>At <a href="index.php">Ahmedabad Computer Education</a>, we are committed to providing the best ReactJS training institute in Ahmedabad. Our trainers are experts in ReactJS, and they share their knowledge and experience with our students to help them become proficient in the technology. Our course Modules are designed to provide a holistic understanding of ReactJS, from the basics to advanced concepts.</p>
                                         <p>Our ReactJS certification training course in Ahmedabad is designed to help you demonstrate your proficiency in ReactJS. Our certification is recognized by the industry and helps you stand out in the job market. Our certification is a testament to your knowledge and expertise in ReactJS.</p>
                                         <p>Our ReactJS classes in Ahmedabad are designed to be flexible and customizable. We offer both online and classroom training to cater to your needs. We also offer weekend and weekday batches, so you can choose the one that suits your schedule.</p>
                                         <p>In conclusion, if you are looking for the best ReactJS training course in Ahmedabad, Ahmedabad Computer Education is the place to be. Our comprehensive training, experienced trainers, industry-recognized certification, and flexible schedule make us the best ReactJS training institute in Ahmedabad. Join us today and take the first step towards a successful career in ReactJS.</p>
@@ -85,7 +85,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingOne">
                                                         <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                            Module 1 [ What is React JS? ]
+                                                            Module 1 [ What is ReactJS? ]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse show"
@@ -94,10 +94,10 @@ Event Area
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <!-- <li class="course-acc-li">What is web development?</li> -->
-                                                                    <li class="course-scc-li">React JS Introduction</li>
-                                                                    <li class="course-scc-li">Advantages of React JS</li>
-                                                                    <li class="course-scc-li">Workflow Of React JS</li>
-                                                                    <li class="course-scc-li">Scope of React JS</li>
+                                                                    <li class="course-scc-li">ReactJS Introduction</li>
+                                                                    <li class="course-scc-li">Advantages of ReactJS</li>
+                                                                    <li class="course-scc-li">Workflow Of ReactJS</li>
+                                                                    <li class="course-scc-li">Scope of ReactJS</li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -116,7 +116,7 @@ Event Area
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Introduction of Virtual DOM.</li>
-                                                                    <li class="course-scc-li">Difierence between JS and JSX.</li>
+                                                                    <li class="course-scc-li">Difference between JS and JSX.</li>
                                                                     <li class="course-scc-li">React Components overview</li>
                                                                     <li class="course-scc-li">Containers and Components</li>
                                                                     <li class="course-scc-li">What is Child Components?</li>
@@ -131,7 +131,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingThree">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            Module 3 [React JS Environment setups]
+                                                            Module 3 [ReactJS Environment setups]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse"
@@ -143,8 +143,8 @@ Event Area
                                                                     <li class="course-scc-li">How to Use NPM?</li>
                                                                     <li class="course-scc-li">How to create package.json and purpose of it?</li>
                                                                     <li class="course-scc-li">ES6 Introduction and features.</li>
-                                                                    <li class="course-scc-li">Best IDE for React JS and How to write optimized code in React JS?</li>
-                                                                    <li class="course-scc-li">React JS browser plugins overview</li>
+                                                                    <li class="course-scc-li">Best IDE for ReactJS and How to write optimized code in ReactJS?</li>
+                                                                    <li class="course-scc-li">ReactJS browser plugins overview</li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -154,7 +154,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingFour">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                            Module 4 [Real Time Application by using React JS]
+                                                            Module 4 [Real Time Application by using ReactJS]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseFour" class="accordion-collapse course-acc-collapse collapse"
@@ -164,7 +164,7 @@ Event Area
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Create a React Component with JSX Template</li>
                                                                     <li class="course-scc-li">How to create Nested Components?</li>
-                                                                    <li class="course-scc-li">What is React JS Render?</li>
+                                                                    <li class="course-scc-li">What is ReactJS Render?</li>
                                                                     <li class="course-scc-li">React Props Overview</li>
                                                                     <li class="course-scc-li">Introduction of Props validation with datatypes</li>
                                                                     <li class="course-scc-li">Flow of states,initiaIize states and update states</li>
@@ -177,7 +177,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingFive">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                            Module 5 [React JS Forms And UI]
+                                                            Module 5 [ReactJS Forms And UI]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseFive" class="accordion-collapse course-acc-collapse collapse"
@@ -189,7 +189,7 @@ Event Area
                                                                     <li class="course-scc-li">Setup Controlled and Uncontrolled form components.</li>
                                                                     <li class="course-scc-li">Control Input elements.</li>
                                                                     <li class="course-scc-li">How to set default values on all formats of input elements.</li>
-                                                                    <li class="course-scc-li">React JS Form Validations.</li>
+                                                                    <li class="course-scc-li">ReactJS Form Validations.</li>
                                                                     <li class="course-scc-li">How to write Styles?</li>
                                                                     <li class="course-scc-li">Animation Overview</li>
                                                                 </ul>
@@ -201,7 +201,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingSix">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                            Module 6 [React JS Component Life Cycle Overview]
+                                                            Module 6 [ReactJS Component Life Cycle Overview]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseSix" class="accordion-collapse course-acc-collapse collapse"
@@ -224,7 +224,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingSeven">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                            Module 7 [Routing in React JS And Other JS Concepts]
+                                                            Module 7 [Routing in ReactJS And Other JS Concepts]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseSeven" class="accordion-collapse course-acc-collapse collapse"
@@ -255,7 +255,7 @@ Event Area
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">onBlur, onKeyup,onChange and other useful primary events in React JS</li>
+                                                                    <li class="course-acc-li">onBlur, onKeyup,onChange and other useful primary events in ReactJS</li>
                                                                     <li class="course-acc-li">How to Sharing events between the components?</li>
                                                                 </ul>
                                                             </div>
@@ -266,7 +266,7 @@ Event Area
                                                     <h2 class="accordion-header" id="headingNine">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                            Module 9 [How to write styles in React JS?]
+                                                            Module 9 [How to write styles in ReactJS?]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseNine" class="accordion-collapse course-acc-collapse collapse"
@@ -274,7 +274,7 @@ Event Area
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">css and inline in React JS Overview</li>
+                                                                    <li class="course-acc-li">CSS and inline in ReactJS Overview</li>
                                                                     <li class="course-acc-li">Introduction to styled components</li>
                                                                 </ul>
                                                             </div>
@@ -363,12 +363,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="himanshu-instructor.php">Himanshu Dabhi</a></h3>
                                                 <p class="author-text">Himanshu Dabhi is a skilled MERN stack developer with a passion for building robust and scalable web applications. With over 2+ years of experience, Himanshu has honed his skills in HTML, CSS, Tailwind, JavaScript, MongoDB, PostgreSQL, SwaggerUI, Express.js, React.js, Nestjs, and Node.js.</p>
                                                 <div class="author-meta">
-                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>300+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
@@ -382,7 +382,7 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="uvesh-instructor.php">Uves Ansari</a></h3>
                                                 <p class="author-text">Uves Ansari is a skilled full-stack developer with a passion for building robust and scalable web applications. With over three years of hands-on experience in the MERN & MEAN stack, Uves is dedicated to crafting exceptional digital solutions.</p>
                                                 <div class="author-meta">
-                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>250+ Students</span>
                                                 </div>
                                                 <div class="th-social">

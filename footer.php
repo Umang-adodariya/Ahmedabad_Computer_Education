@@ -181,47 +181,63 @@ Footer Area
     <!-- Main Js File -->
     <script src="assets/js/main.js"></script>
     <script>
-$(document).ready(function() {
-  // Initially, hide all sub-menus and remove active class
-  $('.cus-megamenu-list ul').removeClass('active').hide();
-  $('.cus-megamenu-li').removeClass('active');
-
-  // Set the first menu item and its corresponding submenu as active
-  $('.cus-megamenu-li').first().addClass('active');
-  $('.cus-megamenu-list ul').first().addClass('active').slideDown();
-
-  // When a menu item is clicked
-  $('.cus-megamenu-li').on('click', function() {
+    $(document).ready(function() {
+    // Initially, hide all sub-menus and remove active class
+    $('.cus-megamenu-list ul').removeClass('active').hide();
     $('.cus-megamenu-li').removeClass('active');
-    var index = $(this).index();
-    // If the clicked item is already active, close it
-    if ($(this).hasClass('active')) {
-      // Remove active class from the clicked menu item and hide its submenu
-      $(this).removeClass('active');
-      $('.cus-megamenu-list ul').eq(index).removeClass('active').slideUp();
-    } else {
-      // Remove the active class from all items and hide all submenus
-      $('.cus-megamenu-li').removeClass('active');
-      $('.cus-megamenu-list ul').removeClass('active').slideUp();
 
-      // Add active class to the clicked menu item and show the corresponding submenu
-      $(this).addClass('active');
-      $('.cus-megamenu-list ul').eq(index).addClass('active').slideDown();
-    }
-  });
-});
+    // Set the first menu item and its corresponding submenu as active
+    $('.cus-megamenu-li').first().addClass('active');
+    $('.cus-megamenu-list ul').first().addClass('active').slideDown();
+
+    // When a menu item is clicked
+    $('.cus-megamenu-li').on('click', function() {
+        $('.cus-megamenu-li').removeClass('active');
+        var index = $(this).index();
+        // If the clicked item is already active, close it
+        if ($(this).hasClass('active')) {
+        // Remove active class from the clicked menu item and hide its submenu
+        $(this).removeClass('active');
+        $('.cus-megamenu-list ul').eq(index).removeClass('active').slideUp();
+        } else {
+        // Remove the active class from all items and hide all submenus
+        $('.cus-megamenu-li').removeClass('active');
+        $('.cus-megamenu-list ul').removeClass('active').slideUp();
+
+        // Add active class to the clicked menu item and show the corresponding submenu
+        $(this).addClass('active');
+        $('.cus-megamenu-list ul').eq(index).addClass('active').slideDown();
+        }
+    });
+    });
 
 
 
 
-       $(document).ready(function () {
-   if (!document.cookie.includes("modalShown=true")) {
-        $('#exampleModal').modal('show');
-        document.cookie = "modalShown=true; max-age=" + 24 *60 *60 + "; path=/";
+    $(document).ready(function () {
+        // Ensure the modal can close when clicking outside
+        $('#exampleModal').modal({
+            backdrop: 'static', // Allow closing by clicking outside
+            keyboard: false  // Allow closing with the "Esc" key
+        });
+
+        // Check if the modal has already been shown
+        if (!document.cookie.includes("modalShown=true")) {
+            // Show the modal
+            $('#exampleModal').modal('show');
+
+            // Set a cookie to prevent it from showing again
+            document.cookie = "modalShown=true; max-age=" + 24 * 60 * 60 + "; path=/";
         }
     });
 
 
+        $(document).ready(function () {
+        $('.modal').modal({backdrop: 'static', keyboard: false})  
+    });
+
+
+    
     </script>
 
 </body>

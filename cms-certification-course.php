@@ -40,7 +40,7 @@ Event Area
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>modules 9</span>
+                                <span><i class="fal fa-file"></i>Modules 9</span>
                                 <span><i class="fal fa-user"></i>Students 140+</span>
                             </div>
                             <h2 class="course-title">WordPress Training Course</h2>
@@ -317,7 +317,7 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="cms-Instructor.php">Sweta Rao</a></h3>
                                                 <p class="author-text">Sweta Rao, experienced IT instructor at ACE IT Training Institute, is passionate about empowering students with the skills to navigate the ever-evolving tech landscape. With a deep understanding of CMS and web development, Sweta makes complex topics accessible and engaging for learners of all levels.</p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>120+ Students</span>
                                                 </div>
                                                 <div class="th-social style2">

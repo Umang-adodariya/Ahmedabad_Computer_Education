@@ -125,10 +125,10 @@ Event Area
                                                                         Modules in JS
                                                                         <ul class="mt-3">
                                                                             <li class="course-acc-li">Understanding exports and require</li>
-                                                                            <li class="course-acc-li">Creating modules</li>
-                                                                            <li class="course-acc-li">Importing modules</li>
+                                                                            <li class="course-acc-li">Creating Modules</li>
+                                                                            <li class="course-acc-li">Importing Modules</li>
                                                                             <li class="course-acc-li">Quick tour on npm</li>
-                                                                            <li class="course-acc-li">Installing 3rd party modules</li>
+                                                                            <li class="course-acc-li">Installing 3rd party Modules</li>
                                                                         </ul>
                                                                     </li>
                                                                     <li class="course-acc-li mb-3">
@@ -530,7 +530,7 @@ Event Area
                                             </div>
                                             <div class="input-refresh-btn">
                                                 <input type="text" id="userInput" class="form-control style-white"
-                                                    placeholder="Enter CAPTCHA" />
+                                                    placeholder="Enter CAPTCHA*" />
                                                 <!-- <button id="submitBtn" class="th-btn btn-green">Submit</button> -->
                                             </div>
                                             <div id="result" class="result"></div>
@@ -697,7 +697,7 @@ Servce Area
                                         </div>
                                         <div class="input-refresh-btn">
                                             <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA" />
+                                                placeholder="Enter CAPTCHA*" />
                                         </div>
                                     </div>
                                 </div>

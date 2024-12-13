@@ -292,12 +292,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="bhargav-limbasiya-instructor.php">Bhargav Limbasiya</a></h3>
                                                 <p class="author-text">Bhargav Limbasiya is a seasoned PHP/Laravel expert with a passion for crafting robust and scalable web applications. With years of experience in the industry, Bhargav has honed his skills in various aspects of web development, including backend development, API integration, and database management.</p>
                                                 <div class="author-meta">
-                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>100+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
@@ -311,12 +311,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="vijay-parmar-instructor.php">Vijay Parmar</a></h3>
                                                 <p class="author-text">Vijay Parmar is a seasoned full-stack web developer with a passion for sharing knowledge and empowering aspiring developers. With over 7 years of industry experience, Vijay has honed his skills in the MERN stack (MongoDB, Express.js, React.js, and Node.js), enabling him to build robust and scalable web applications.</p>
                                                 <div class="author-meta">
-                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="javascript:void(0)"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>260+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>

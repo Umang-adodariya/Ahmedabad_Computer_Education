@@ -155,7 +155,7 @@ Contact Area
                                         <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
                                         </div>
                                         <div class="input-refresh-btn">
-                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA"/>
+                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA*"/>
                                     </div>
                                     <div class="contact_captcha_error" id="contact_captcha_error" style="color: red;"></div>
                                     </div>
