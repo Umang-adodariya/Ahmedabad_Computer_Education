@@ -34,7 +34,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/courses/corses-main/qa-3.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/Bug.jpg" alt="Course Image">
                                 <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
@@ -72,7 +72,7 @@ Event Area
                                         <p>Providing industry-leading education is just one aspect of what we do. A manual quality assurance course will help you learn to test mobile applications, web applications, & web services. On top of that, you will be introduced to SQL databases as well as the basics of traffic analysis, load & automated testing, and interview preparation.</p>
                                         <h5 class="h5 mt-40">Manual QA Training And Certification Course At Ahmedabad Computer Education</h5>
                                         <p>A seamless transition to a new career is made possible by ACE’s approach. At the classes, you will be provided with complete practical sessions by our expert teachers. Apart from that, we will also help you land your job in the tech field.</p>
-                                        <p>A holistic approach to Manual Testing Concepts is offered by ACE in Ahmedabad. Freshers and professionals alike can participate in this course. Students will learn about essential concepts and techniques related to Software Testing. Several software test cases are presented by ACE experts, as well as documentation of test results. <a href="contact.html" target="_blank" rel="noopener">Enroll Now!</a></p>
+                                        <p>A holistic approach to Manual Testing Concepts is offered by ACE in Ahmedabad. Freshers and professionals alike can participate in this course. Students will learn about essential concepts and techniques related to Software Testing. Several software test cases are presented by ACE experts, as well as documentation of test results. <a href="contact.php" target="_blank" rel="noopener">Enroll Now!</a></p>
                                         <div class="checklist dis-ul mt-40">
                                             <ul class="course-acc-ul">
                                                 <li class="course-acc-li"><b>Land Your Dream Job:</b> Get placement assistance and career guidance to kickstart your success.</li>
@@ -291,7 +291,7 @@ Event Area
                     <aside class="sidebar-area">
                         <div class="widget widget_info  ">
                             <div class="th-video">
-                                <img src="assets/img/courses/corses-main/qa-2.jpg" alt="video">
+                                <img src="assets/img/home-course-details/Bug.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>

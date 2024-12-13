@@ -727,7 +727,7 @@
         if ($($filter).length > 0) {
             var $grid = $($filter).isotope({
                 itemSelector: $filterItem,
-                filter: "*",
+                filter: ".cat1",
                 masonry: {
                     // use outer width of grid-sizer for columnWidth
                     columnWidth: 1,

@@ -29,7 +29,7 @@ Course Area
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <span class="course-result-count">We found <span class="text-theme">5 courses</span> available for you</span>
+                        <!-- <span class="course-result-count">We found <span class="text-theme">5 courses</span> available for you</span> -->
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -184,6 +184,37 @@ Course Area
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-6 col-lg-4 col-xxl-3 filter-item cat1 cat4">
+                            <div class="course-box2 style2">
+                                <div class="course-img">
+                                    <img src="assets/img/home-course/384-qa.jpg" alt="course">
+                                    
+                                </div>
+                                <div class="course-content">
+                                    <div class="course-author">
+                                        <div class="author-info">
+                                            <img src="assets/img/instructor/jimmy.jpg" alt="author">
+                                            <a href="bhargav-limbasiya-instructor.php" class="author-name">Jimmy Chotaliya</a>
+                                        </div>
+                                        <!-- <div class="course-rating">
+                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
+                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
+                                            </div>
+                                            (4.00)
+                                        </div> -->
+                                    </div>
+                                    <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course
+                                    </a></h3>
+                                    <div class="course-meta">
+                                        <span><i class="fal fa-file"></i>Modules 8</span>
+                                        <span><i class="fal fa-user"></i>Students 180+</span>
+                                        <span><i class="fal fa-eye"></i>View: 6.8K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
                 <div class="tab-pane fade " id="tab-list" role="tabpanel" aria-labelledby="tab-course-list">
@@ -390,7 +421,7 @@ Course Area
                                 <div class="col-md-12">
                                     <div class="form-group">
                                         <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Phone Number*" required>
+                                            placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                 </div>

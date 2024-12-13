@@ -1,5 +1,5 @@
 <div class="widget widget_info  register-sidebar">
-    <h3 class="widget_title">Register Now</h3>
+    <h3 class="widget_title">Inquire Now</h3>
     <form action="mail.php" method="POST" class="contact-form ajax-contact" id="sidebar_form">
         <div class="row">
             <div class="col-md-12">
@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-12">
                 <div class="form-group">
-                    <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Phone Number*" required>
+                    <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Contact Number*" required>
                     <i class="fal fa-phone"></i>
                 </div>
                 <div class="sidebar_number_error" id="sidebar_number_error" style="color: red;"></div>
@@ -46,5 +46,13 @@
             </div>
         </div>
         <p class="form-messages mb-0 mt-3"></p>
+        <!-- sent suceess msg popup -->
+        <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p>Our team will review your inquiry and get back to you shortly.</p> 
+            </div>
+        </div>
+
+        <!-- sent sucess msg popup -->
     </form>
 </div>

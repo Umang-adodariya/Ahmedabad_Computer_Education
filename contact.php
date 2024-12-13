@@ -73,9 +73,9 @@ Contact Area
                                 <i class="fal fa-phone"></i>
                             </div>
                             <div class="media-body">
-                                <p class="contact-feature_label">Phone Number</p>
-                                <a href="tel:+011456586986" class="contact-feature_link">Ahmedabad : <span>93-2728-7700</span></a>
-                                <a href="tel:+011456586986" class="contact-feature_link">Indore : <span>7574-85-7700</span></a>
+                                <p class="contact-feature_label">Contact Number</p>
+                                <a href="tel:9327-28-7700" class="contact-feature_link">Ahmedabad : <span>9327-28-7700</span></a>
+                                <a href="tel:9327-28-7700" class="contact-feature_link">Indore : <span>9327-28-7700</span></a>
                             </div>
                         </div>
                         
@@ -104,7 +104,7 @@ Contact Area
                     <div class="contact-form-wrap" data-bg-src="assets/img/bg/contact_bg_1.png">
                         <span class="sub-title">Contact With Us!</span>
                         <h2 class="border-title">Get in Touch</h2>
-                        <p class="mt-n1 mb-30 sec-text">Connect with our admissions team, and discover how ACE can help you unlock your full digital potential!
+                        <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!
                         </p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact contact-wrapp" id="contact_form">
                             <div class="row">
@@ -136,7 +136,7 @@ Contact Area
                                     </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Phone Number*" required>
+                                        <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Contact Number*" required>
                                         <i class="fal fa-phone"></i>
                                     </div>
                                     <div class="contact_number_error" id="contact_number_error" style="color: red;"></div>

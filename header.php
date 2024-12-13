@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -44,10 +46,126 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- responsive Custom CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5FWLQ3C');</script>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZDR3DPRCX5');
+</script>
+
+<script>
+      var url = window.location.href;
+    var arr = url.split('/');
+    console.log(arr)
+    if(arr[3] == "contact"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/contact.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "seo"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/seo-certification-training-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "blockchain"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/blockchain-training-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "software-testing-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/software-testing-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "digital-marketing-with-seo-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/digital-marketing-training-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "wordpress-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/cms-certification-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "react-native"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/react-native-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "angular-js-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-angular-development-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "graphic-design-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/graphic-and-ui-ux-design-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "web-design-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/web-designing-training-cours.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "python"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-python-development-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "laravel-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-laravel-development-course.php");
+    }
+    if(arr[3] == "courses" && arr[4] == "php-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "graphic-web-design"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "quality-assurance-manual"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "mern-stack"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "mean-stack"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "hr-generalist-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "digital-forensics-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "ethical-hacking"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "security-surveillance-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "magento-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "advance-java-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "core-java-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "iphone-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "android-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "reactjs-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "asp-net-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "codeigniter-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+</script>
+
+
+<!-- End Google Tag Manager -->
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWLQ3C"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
    <!--==============================
      Preloader
   ==============================-->
@@ -80,7 +198,7 @@ Mobile Menu
     </div>
     <div class="th-mobile-menu">
     <ul>
-                                        <li class="menu-item-has-children">
+                                        <li class="menu-item-has-children" >
                                             <a href="index.php" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
@@ -172,7 +290,7 @@ Mobile Menu
 <div class="popup-search-box d-none d-lg-block">
 <button class="searchClose"><i class="fal fa-times"></i></button>
 <form action="#">
-    <input type="text" id="search_input"   placeholder="What are you looking for?">
+    <input type="text" id="search_input" class="search-form-control"  placeholder="What are you looking for?">
     <button type="submit"><i class="fal fa-search"></i></button>
     <div id="result-box" class="result-box" style="display: none;">
         <a href="blockchain-training-course.php">Full Stack Blockchain Development Course</a>
@@ -313,7 +431,7 @@ Header Area
         <div class="container">
             <div class="row align-items-center justify-content-center justify-content-sm-between">
                 <div class="col-auto d-none d-sm-block menu-top-left">
-                    <a class="header-link" href="tel:93-2728-7700">
+                    <a class="header-link" href="tel:9327-28-7700">
                         <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                             data-name="Layer 1">
                             <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -357,7 +475,7 @@ Header Area
                                 <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                             </g>
                         </svg>
-                        <span class="city-text">Ahmedabad :</span>93-2728-7700</a>
+                        <span class="inner-span"> <span class="city-text">Ahmedabad :</span>9327-28-7700 </span></a>
                     <a class="header-link" href="tel:7574-85-7700">
                         <!-- <div> -->
                         <svg class="indore-svg" id="Layer_1" viewBox="0 0 512 512"
@@ -609,32 +727,34 @@ Header Area
                                                         <ul class="cus-megamenu-ul">
                                                             <li class="cus-megamenu-li active">Software Development Courses <i class="fas fa-arrow-right ms-2"></i></li>
                                                             <li class="cus-megamenu-li">Designing Courses <i class="fas fa-arrow-right ms-2"></i></li>
-                                                            <li class="cus-megamenu-li">Game Development Course <i class="fas fa-arrow-right"></i></li>
-                                                            <li class="cus-megamenu-li">DevOps Certification Course <i class="fas fa-arrow-right"></i> </li>
-                                                            <li class="cus-megamenu-li">Mobile Development Course <i class="fas fa-arrow-right ms-2"></i></li>
-                                                            <li class="cus-megamenu-li">Future-Oriented Course <i class="fas fa-arrow-right ms-2"></i></li>
+                                                            <!-- <li class="cus-megamenu-li">Game Development Course <i class="fas fa-arrow-right"></i></li> -->
+                                                            <!-- <li class="cus-megamenu-li">DevOps Certification Course <i class="fas fa-arrow-right"></i> </li> -->
+                                                            <li class="cus-megamenu-li">Mobile Development Courses <i class="fas fa-arrow-right ms-2"></i></li>
+                                                            <li class="cus-megamenu-li">In-demand Courses <i class="fas fa-arrow-right ms-2"></i></li>
                                                             <li class="cus-megamenu-li">Digital Marketing Courses <i class="fas fa-arrow-right ms-2"></i></li>
                                                             <li class="cus-megamenu-li">Business Growth Courses <i class="fas fa-arrow-right ms-2"></i></li>
-                                                            <li class="cus-megamenu-li">Other Courses <i class="fas fa-arrow-right ms-2"></i></li>
+                                                            <!-- <li class="cus-megamenu-li">Other Courses <i class="fas fa-arrow-right ms-2"></i></li> -->
                                                         </ul>
                                                         <div class="cus-megamenu-list">
                                                             <ul class="full-stack active">
-                                                                <li><a href="full-stack-blockchain-development-course.php"><img src="assets/img/menu-ic/blockchainIc.png" alt=""> Full Stack Blockchain Development Course</a></li>
-                                                                <li><a href="full-stack-react-development-course.php"><img src="assets/img/menu-ic/physics.png" alt="">Full Stack React Development Course</a></li>
-                                                                <li><a href="full-stack-angular-development-course.php"><img src="assets/img/menu-ic/programing.png" alt="">Full Stack Angular Development Course</a></li>
-                                                                <li><a href="full-stack-python-development-course.php"><img src="assets/img/menu-ic/python.png" alt="">Full Stack Python Development Course</a></li>
-                                                                <li><a href="full-stack-laravel-development-course.php"><img src="assets/img/menu-ic/php.png" alt="">Full Stack Laravel Development Course</a></li>
+                                                                <li><a href="full-stack-blockchain-development-course.php"><img src="assets/img/menu-ic/blockchainIc.png" alt="blockchainIc"> Full Stack Blockchain Development Course</a></li>
+                                                                <li><a href="full-stack-react-development-course.php"><img src="assets/img/menu-ic/physics.png" alt="physics">Full Stack React Development Course</a></li>
+                                                                <li><a href="full-stack-angular-development-course.php"><img src="assets/img/menu-ic/programing.png" alt="programing">Full Stack Angular Development Course</a></li>
+                                                                <li><a href="full-stack-python-development-course.php"><img src="assets/img/menu-ic/python.png" alt="python">Full Stack Python Development Course</a></li>
+                                                                <li><a href="full-stack-laravel-development-course.php"><img src="assets/img/menu-ic/php.png" alt="php">Full Stack Laravel Development Course</a></li>
+                                                                <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt="testing"> Software Testing Course</a></li>
                                                             </ul>
                                                             <ul class="">
-                                                                <li><a href="web-designing-training-cours.php"><img src="assets/img/menu-ic/ui-design.png" alt=""> Web Designing Course</a></li>
-                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt=""> Graphic & UI UX Design Course</a></li>
+                                                                <li><a href="web-designing-training-cours.php"><img src="assets/img/menu-ic/ui-design.png" alt="ui-design"> Web Designing Course</a></li>
+                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt="graphic-designer"> Graphic & UI UX Design Course</a></li>
+                                                                <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt="cms"> CMS Certification Course</a></li>
                                                             </ul>
-                                                            <ul class="game-dev">
+                                                            <!-- <ul class="game-dev">
                                                             <li><a href="game-development-course.php"><img src="assets/img/menu-ic/game.png" alt=""> Game Development</a></li>
-                                                            </ul>
-                                                            <ul class="devops-dev">
+                                                            </ul> -->
+                                                            <!-- <ul class="devops-dev">
                                                             <li><a href="devops-certification-course.php"><img src="assets/img/menu-ic/devops.png" alt=""> DevOps Certification Course</a></li>
-                                                            </ul>
+                                                            </ul> -->
                                                             <ul class="mobile-dev">
                                                                 <li><a href="react-native-course.php"><img src="assets/img/menu-ic/science.png" alt=""> React Native Course</a></li>
                                                                 <li><a href="flutter-certification-course.php"><img src="assets/img/menu-ic/flutter.png" alt=""> Flutter Certification Course</a></li>
@@ -643,6 +763,9 @@ Header Area
                                                             <ul class="future-oriented">
                                                                 <li><a href="blockchain-training-course.php"><img src="assets/img/menu-ic/blockchain.png" alt=""> Blockchain Course</a></li>
                                                                 <li><a href="metaverse-training-course.php"><img src="assets/img/menu-ic/choose.png" alt=""> Metaverse Course</a></li>
+                                                                <li><a href="cyber-security-training-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt=""> Cyber Security Course</a></li>
+                                                                <li><a href="game-development-course.php"><img src="assets/img/menu-ic/game.png" alt=""> Game Development Course</a></li>
+                                                                <li><a href="devops-certification-course.php"><img src="assets/img/menu-ic/devops.png" alt=""> DevOps Certification Course</a></li>
                                                             </ul>
                                                             <ul class="digital-course">
                                                                 <li><a href="digital-marketing-training-course.php"><img src="assets/img/menu-ic/bullhorn.png" alt=""> Digital Marketing Course</a></li>
@@ -651,11 +774,6 @@ Header Area
                                                             <ul class="digital-course">
                                                                 <li><a href="business-development-course.php"><img src="assets/img/menu-ic/investment.png" alt=""> Business Development Course</a></li>
                                                                 <li><a href="business-analyst-course.php"><img src="assets/img/menu-ic/data-analysis.png" alt=""> Business Analyst Course</a></li>
-                                                            </ul>
-                                                            <ul class="other-course">
-                                                                <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt=""> Software Testing Course</a></li>
-                                                                <li><a href="cyber-security-training-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt=""> Cyber Security Course</a></li>
-                                                                <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt=""> CMS Certification Course</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -690,7 +808,7 @@ Header Area
                                     <button type="button" class="icon-btn style2 searchBoxToggler"><i
                                             class="far fa-search"></i></button>
                                     <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
+                                    <a class="th-btn style8 d-none d-xxl-inline-block d-lg-inline-block openRegisterModal" data-bs-toggle="modal"
                                     data-bs-target="#registerModal">Apply
                                         Now<i class="fas fa-arrow-right ms-2"></i></a>
                                     <!-- <a href="#" class="icon-btn style2 sideMenuToggler">
