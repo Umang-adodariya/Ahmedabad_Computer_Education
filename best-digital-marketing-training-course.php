@@ -150,6 +150,10 @@ right: 37px;
         flex-wrap: wrap;
         text-align: center;
         justify-content: center;
+        left: 0px !important;
+        right: 0px;
+        margin-right: 0px;
+        transform: none;
     }
 }
 .tab-box-fix-cont .course-single,

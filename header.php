@@ -808,7 +808,7 @@ Header Area
                                     <button type="button" class="icon-btn style2 searchBoxToggler"><i
                                             class="far fa-search"></i></button>
                                     <!-- <a href="wishlist.php" class="icon-btn style2"><i class="far fa-heart"></i></a> -->
-                                    <a class="th-btn style8 d-none d-xxl-inline-block openRegisterModal" data-bs-toggle="modal"
+                                    <a class="th-btn style8 d-none d-xxl-inline-block d-lg-inline-block openRegisterModal" data-bs-toggle="modal"
                                     data-bs-target="#registerModal">Apply
                                         Now<i class="fas fa-arrow-right ms-2"></i></a>
                                     <!-- <a href="#" class="icon-btn style2 sideMenuToggler">

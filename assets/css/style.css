@@ -7671,10 +7671,29 @@ ol.wp-block-rss {
   }
 }
 
+
+@media (max-width: 1400px){
+  .header-layout5 .header-button {
+    margin-left: 60px;
+  }
+}
+
 /* Medium Large devices */
 @media (max-width: 1299px) {
   .header-layout5 .header-button {
     margin-left: 60px;
+  }
+
+  .header-layout5 .main-menu > ul > li {
+    margin: 0 13px;
+}
+
+  .main-menu a {
+    font-size: 14px;
+  }
+
+  .th-header .th-btn {
+      padding: 14px 20px;
   }
 }
 
@@ -33123,14 +33142,15 @@ img.badgetwo {
   background: #1e2c46;
   z-index: 4;
   text-align: center;
-  padding: 4px 10px;
+  padding: 10px 10px;
 }
 
 .sticky-bottom-note-important .inner-job-title {
   margin-bottom: 0px;
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 14px;
+  line-height: 23px;
   color: #fff;
+  letter-spacing: 0.8px;
 }
 
 
@@ -33145,21 +33165,26 @@ display: none
 }
 
 @media (max-width: 767px) {
+  .top-header-ad-flex{
+    display: none;
+  }
 
   .scroll-top.show.landing-show {
-    bottom: 130px;
+    bottom: 155px;
+        right: 23px;
   }
   .scroll-top {
-    bottom: 130px;
+    bottom: 155px;
+    right: 23px;
     }
 
     #scrollButtons {
-      bottom: 50px;
+      bottom: 70px;
       left: 20px;
     }
     
     #scrollButtonsinquirey{
-    bottom: 50px;
+    bottom: 70px;
     right: 20px;
     }
     
