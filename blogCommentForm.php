@@ -14,6 +14,7 @@
             <input type="email" placeholder="Your Email*" class="form-control" name="email" id="email" required>
             <i class="far fa-envelope"></i>
         </div>
+        <div class="blog_email_error" id="blog_email_error" style="color: red;"></div>
         <div class="col-12 form-group">
             <textarea placeholder="Comment*" id="comment" class="form-control" name="message" required></textarea>
             <i class="fal fa-pencil"></i>

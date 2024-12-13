@@ -121,6 +121,7 @@ Contact Area
                                         <input type="email" class="form-control style-white" name="email" id="email" placeholder="Email Address*" required>
                                         <i class="fal fa-envelope"></i>
                                     </div>
+                                    <div class="contact_email_error" id="contact_email_error" style="color: red;"></div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
