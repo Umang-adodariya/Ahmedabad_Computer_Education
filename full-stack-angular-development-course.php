@@ -532,12 +532,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="durgesh-arora-instructor.php">Durgesh Arora</a></h3>
                                                 <p class="author-text">Durgesh Arora is a skilled full-stack developer specializing in Angular, Node.js, TypeScript, and JavaScript. With a passion for creating responsive, high-performance web applications, Durgesh brings a wealth of experience to the table.</p>
                                                 <div class="author-meta">
-                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>100+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
@@ -551,12 +551,12 @@ Event Area
                                                 <h3 class="author-name"><a class="text-inherit" href="vishal-patel-instructor.php">Vishal Patel</a></h3>
                                                 <p class="author-text">Vishal Patel is a seasoned full-stack angular developer with a proven track record in delivering high-quality web applications. With 7 years of experience as a Cluster Head, Vishal has led teams to build scalable, efficient, and user-friendly solutions using Laravel, Node.js, and Nuxt.js.</p>
                                                 <div class="author-meta">
-                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>150+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>

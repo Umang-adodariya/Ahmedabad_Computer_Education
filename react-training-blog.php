@@ -51,7 +51,7 @@
 
                             <h3 class="h4 mb-25 mt-45">Why React?</h3>
                             <p>React, developed and maintained by Facebook, is a JavaScript library that simplifies the process of building UI components. Its declarative syntax, efficient rendering, and unidirectional data flow contribute to a seamless development experience. With a vast community and strong ecosystem, React has become a standard choice for both small-scale projects and large-scale applications.</p>
-                            <h2 class="blog-title">The Journey Begins: <a href="react-native-course.php">React JS Training Course</a></h2>
+                            <h2 class="blog-title">The Journey Begins: <a href="react-native-course.php">ReactJS Training Course</a></h2>
                             <!-- <div class="blog-img mt-35">
                                 <img class="w-100" src="assets/img/blog/blog4.jpg" alt="Blog Image">
                             </div> -->
@@ -67,8 +67,8 @@
                             <p>For state management in larger applications, we delve into Redux and the Context API. Participants will gain insights into centralized state management, immutability, and actions, mastering techniques to handle complex application states.</p>
                             <h3 class="h4 mb-25 mt-45">Building Responsive UIs</h3>
                             <p>Creating responsive and visually appealing user interfaces is a key aspect of web development. Our <a href="index.php">training</a> covers responsive design principles and techniques, ensuring that developers can build applications that adapt to various screen sizes and devices.</p>
-                            <h3 class="h4 mb-25 mt-45">Join Our React JS Training Institute</h3>
-                            <p>Embark on your journey to becoming a React expert with our comprehensive training program. Our instructors, seasoned in React development, provide hands-on guidance and real-world insights. Whether you’re a beginner or an experienced developer looking to enhance your skills, our React JS training institute is the gateway to mastering the art of building interactive user interfaces.</p>
+                            <h3 class="h4 mb-25 mt-45">Join Our ReactJS Training Institute</h3>
+                            <p>Embark on your journey to becoming a React expert with our comprehensive training program. Our instructors, seasoned in React development, provide hands-on guidance and real-world insights. Whether you’re a beginner or an experienced developer looking to enhance your skills, our ReactJS training institute is the gateway to mastering the art of building interactive user interfaces.</p>
                             <h3 class="h4 mb-25 mt-45">Key Highlights:</h3>
                             <div class="checklist mb-35">
                                 <ul>
@@ -77,7 +77,7 @@
                                     <li><span><b>3.</b></span>Lifelong Learning: We emphasize the importance of lifelong learning and personal development. We share tips and resources to foster a culture of continuous learning and skill development, both inside and outside the traditional classroom.</li>
                                 </ul>
                             </div>
-                            <p>Don’t miss out on the chance to elevate your <a href="react-native-course.php">React skills</a> and stay ahead in the competitive world of web development. Enroll in our React JS training program and unlock the potential to build cutting-edge, interactive user interfaces.</p>
+                            <p>Don’t miss out on the chance to elevate your <a href="react-native-course.php">React skills</a> and stay ahead in the competitive world of web development. Enroll in our ReactJS training program and unlock the potential to build cutting-edge, interactive user interfaces.</p>
                         </div>
                         <div class="share-links clearfix ">
                             <div class="row justify-content-between">

@@ -37,7 +37,7 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="ui-ux-Instructor.html">Ram Gondaliya</a></h3>
+                                <h3 class="team-title"><a href="ui-ux-Instructor.php">Ram Gondaliya</a></h3>
                                 <span class="team-desig">Graphic & UI UX Design Expert</span>
                             </div>
                             <div class="team-info">
@@ -56,11 +56,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="uvesh-instructor.html">Uves Ansari</a></h3>
+                                <h3 class="team-title"><a href="uvesh-instructor.php">Uves Ansari</a></h3>
                                 <span class="team-desig">Full Stack React Development Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 250+</span>
                             </div>
                         </div>
@@ -75,11 +75,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="game-Instructor.html">Rajdeep Rathod</a></h3>
+                                <h3 class="team-title"><a href="game-Instructor.php">Rajdeep Rathod</a></h3>
                                 <span class="team-desig">Game Development Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 85+</span>
                             </div>
                         </div>
@@ -94,11 +94,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="devOps-Instructor.html">Naresh Chavda</a></h3>
+                                <h3 class="team-title"><a href="devOps-Instructor.php">Naresh Chavda</a></h3>
                                 <span class="team-desig">DevOps Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 125+</span>
                             </div>
                         </div>
@@ -113,11 +113,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="flutter-Instructor.html">Karan Parmar</a></h3>
+                                <h3 class="team-title"><a href="flutter-Instructor.php">Karan Parmar</a></h3>
                                 <span class="team-desig">Flutter Development Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 150+</span>
                             </div>
                         </div>
@@ -132,11 +132,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="react-native-Instructor.html">Yash Nandha</a></h3>
+                                <h3 class="team-title"><a href="react-native-Instructor.php">Yash Nandha</a></h3>
                                 <span class="team-desig">React Native Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 250+</span>
                             </div>
                         </div>
@@ -151,11 +151,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="metaverse-Instructor.html">Tejas Acharya</a></h3>
+                                <h3 class="team-title"><a href="metaverse-Instructor.php">Tejas Acharya</a></h3>
                                 <span class="team-desig">Metaverse Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 120+</span>
                             </div>
                         </div>
@@ -170,11 +170,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="digital-marketing-Instructor.html">Hinal Joshi</a></h3>
+                                <h3 class="team-title"><a href="digital-marketing-Instructor.php">Hinal Joshi</a></h3>
                                 <span class="team-desig">Digital Marketing Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 200+</span>
                             </div>
                         </div>
@@ -189,11 +189,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="seo-instructor.html">Jay Malvi</a></h3>
+                                <h3 class="team-title"><a href="seo-instructor.php">Jay Malvi</a></h3>
                                 <span class="team-desig">SEO Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 50+</span>
                             </div>
                         </div>
@@ -213,7 +213,7 @@ Team Area
                                 <span class="team-desig">Instructor</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 60+</span>
                             </div>
                         </div>
@@ -228,11 +228,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="business-analyst-Instructor.html">Priya Jaiswal</a></h3>
+                                <h3 class="team-title"><a href="business-analyst-Instructor.php">Priya Jaiswal</a></h3>
                                 <span class="team-desig">Business Analyst</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 25+</span>
                             </div>
                         </div>
@@ -247,11 +247,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="qa-Instructor.html">Jimmy Chotaliya</a></h3>
+                                <h3 class="team-title"><a href="qa-Instructor.php">Jimmy Chotaliya</a></h3>
                                 <span class="team-desig">Software Testing expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 15+</span>
                             </div>
                         </div>
@@ -266,11 +266,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="cyber-security-Instructor.html">Dixit Prajapati</a></h3>
+                                <h3 class="team-title"><a href="cyber-security-Instructor.php">Dixit Prajapati</a></h3>
                                 <span class="team-desig">Cyber Security Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 150+</span>
                             </div>
                         </div>
@@ -285,11 +285,11 @@ Team Area
                         </div>
                         <div class="team-hover-wrap">
                             <div class="team-content">
-                                <h3 class="team-title"><a href="cms-Instructor.html">Sweta Rao</a></h3>
+                                <h3 class="team-title"><a href="cms-Instructor.php">Sweta Rao</a></h3>
                                 <span class="team-desig">CMS Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 120+</span>
                             </div>
                         </div>
@@ -308,7 +308,7 @@ Team Area
                                 <span class="team-desig">Business Development Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 65+</span>
                             </div>
                         </div>
@@ -327,7 +327,7 @@ Team Area
                                 <span class="team-desig">Full Stack React Development Expert</span>
                             </div>
                             <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Courses</span>
+                                <span><i class="fal fa-file-check"></i>1 Course</span>
                                 <span><i class="fa-light fa-users"></i>Students 65+</span>
                             </div>
                         </div>

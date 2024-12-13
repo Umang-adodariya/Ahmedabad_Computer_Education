@@ -63,7 +63,7 @@ Team Area
                                 </div>
                             </div>
                             <div class="quality-box">
-                                <span class="quality-text">Experiance:</span>
+                                <span class="quality-text">Experience:</span>
                                 <span class="quality-text">4+ Years</span>
                             </div>
                         </div>
@@ -149,7 +149,7 @@ Team Area
                                 <div class="col-12">
                                     <div class="form-group">
                                         <input type="number" placeholder="Contact Number" class="form-control style-white" nmame="number" required>
-                                        <i class="fal fa-phone-flip"></i>
+                                        <i class="fal fa-phone"></i>
                                     </div>
                                 </div>
                                 <div class="col-12">
@@ -165,7 +165,7 @@ Team Area
                                         <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
                                         </div>
                                         <div class="input-refresh-btn">
-                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA" required/>
+                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA*" required/>
                                     </div>
                                     </div>
                                 </div>
@@ -230,7 +230,7 @@ Team Area
                                         </div>
                                         <div class="input-refresh-btn">
                                             <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA" />
+                                                placeholder="Enter CAPTCHA*" />
                                         </div>
                                     </div>
                                 </div>

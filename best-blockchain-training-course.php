@@ -512,7 +512,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 </div>
                                                 <div class="th-social">
                                                 <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
@@ -879,7 +879,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA" />
+                                                        placeholder="Enter CAPTCHA*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>
@@ -918,6 +918,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                 </a>
                         </div>
 
+  <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
                             <div class="inner-sticky-contain">
                                 <p class="inner-job-title">
@@ -926,6 +927,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                 </p>
                             </div>
                         </div>
+            </a>
 
 
     <!-- Scroll To Top -->

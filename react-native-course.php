@@ -349,7 +349,7 @@ Event Area
                                                 <p class="author-text">Yash Nandha is a passionate React Native developer with a knack for innovation. With a strong foundation in JavaScript and TypeScript, Yash specializes in crafting exceptional mobile applications for both iOS and Android platforms.
                                                 </p>
                                                 <div class="author-meta">
-                                                    <a ><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>250+ Students</span>
                                                 </div>
                                                 <div class="th-social style2">

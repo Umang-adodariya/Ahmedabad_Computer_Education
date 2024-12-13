@@ -996,7 +996,7 @@ Admission Area
                                                 class="fal fa-refresh"></i></button>
                                     </div>
                                     <div class="input-refresh-btn form-group">
-                                        <input type="text" id="userInput" placeholder="Enter CAPTCHA" class="userInput"/>
+                                        <input type="text" id="userInput" placeholder="Enter CAPTCHA*" class="userInput"/>
                                     </div>
                                     <div class="course_captcha_error" id="course_captcha_error" style="color: red;"></div>
                                     </div>
@@ -1291,7 +1291,7 @@ Blog Area
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA" />
+                                                        placeholder="Enter CAPTCHA*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>

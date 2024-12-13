@@ -40,7 +40,7 @@ Event Area
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>modules 3</span>
+                                <span><i class="fal fa-file"></i>Modules 3</span>
                                 <span><i class="fal fa-user"></i>Students 125+</span>
                             </div>
                             <h2 class="course-title">Full Stack Blockchain Training Course</h2>
@@ -253,12 +253,12 @@ Event Area
                                             <h3 class="author-name"><a class="text-inherit" href="nikita-karanpuria-Instructor.php">Nikita Karanpuria</a></h3>
                                                 <p class="author-text">Nikita Karanpuria is a seasoned full-stack developer and technical project manager with a passion for building innovative and scalable web applications. With a strong foundation in MERN stack technologies and blockchain.</p>
                                                 <div class="author-meta">
-                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Courses</a>
+                                                    <a href="course.html"><i class="fal fa-file-video"></i>1 Course</a>
                                                     <span><i class="fal fa-users"></i>125+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
@@ -280,7 +280,7 @@ Event Area
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g"><i class="fab fa-youtube"></i></a>
+                                                    <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
                                                     <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                                                     <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
                                                 </div>
