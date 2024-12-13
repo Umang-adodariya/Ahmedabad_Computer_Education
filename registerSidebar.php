@@ -17,6 +17,7 @@
                         placeholder="Email Address*" required>
                     <i class="fal fa-envelope"></i>
                 </div>
+                <div class="sidebar_email_error" id="sidebar_email_error" style="color: red;"></div>
             </div>
             <div class="col-md-12">
                 <div class="form-group">

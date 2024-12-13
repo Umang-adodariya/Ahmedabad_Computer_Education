@@ -139,42 +139,7 @@
                         </ul>
                     </div> <!-- Comment end -->
                     <!-- Comment Form -->
-                    <form class="th-comment-form" action="mail.php" method="POST">
-                        <div class="form-title">
-                            <h3 class="blog-inner-title h5">Leave a Reply</h3>
-                            <p class="mb-30">Your email address will not be published. Required fields are marked</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group">
-                                    <input type="hidden" name="form" value="blog_form"> 
-                                    <input type="text" placeholder="Full Name*" class="form-control" name="name" required>
-                                <i class="far fa-user"></i>
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="email" placeholder="Your Email*" class="form-control" name="email" required>
-                                <i class="far fa-envelope"></i>
-                            </div>
-                            <div class="col-12 form-group">
-                                <textarea placeholder="Comment*" class="form-control" name="message" required></textarea>
-                                <i class="fal fa-pencil"></i>
-                            </div>
-                            <div class="col-12">
-                                <div class="captcha-container">
-                                    <div class="input-refresh-btn mb-10">
-                                    <div id="captcha" class="captcha"></div>
-                                    <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
-                                    </div>
-                                    <div class="input-refresh-btn">
-                                    <input type="text" id="userInput" class="form-control" placeholder="Enter CAPTCHA" required/>
-                                </div>
-                                    <div id="result" class="result"></div>
-                                </div>
-                            </div>
-                            <div class="col-12 form-group mb-0">
-                                <button class="th-btn form_submit">Submit Message <i class="fas fa-arrow-right ms-1"></i></button>
-                            </div>
-                        </div>
-                    </form>
+                    <?php include('blogCommentForm.php'); ?>
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">

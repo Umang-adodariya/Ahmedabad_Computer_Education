@@ -1443,12 +1443,13 @@ $("#contact_form").on("submit", function (element) {
     element.preventDefault();
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const subject = $form.find('#subject').val();
     const number = $form.find('#number').val();
     const message = $form.find('#message').val();
     const userInput = $form.find('#userInput').val();
     const captchaText = $form.find('#captcha').text();
-
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
 
@@ -1459,6 +1460,14 @@ $("#contact_form").on("submit", function (element) {
             count++;
         }else{
             $('#contact_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#contact_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#contact_email_error').html("");
         }
     }
     if(number){
@@ -1501,11 +1510,13 @@ $("#sidebar_form").on("submit", function (e) {
     e.preventDefault(); // Prevent default form submission
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const number = $form.find('#number').val();
     const userInput = $form.find('#userInput').val();
     const captchaText = $form.find('#captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     var count = 0;
     if(userName){
@@ -1514,6 +1525,14 @@ $("#sidebar_form").on("submit", function (e) {
             count++;
         }else{
             $('#sidebar_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#sidebar_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#sidebar_email_error').html("");
         }
     }
     if(number){
@@ -1543,11 +1562,12 @@ $("#blog_form").on("submit", function (e) {
     e.preventDefault(); // Prevent default form submission
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const comment = $form.find('#comment').val();
     const userInput = $form.find('#userInput').val();
     const captchaText = $form.find('#captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
-
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     var count = 0;
     if(userName){
         if (!namePattern.test(userName.trim()) || userName.trim() === "") {
@@ -1555,6 +1575,14 @@ $("#blog_form").on("submit", function (e) {
             count++;
         }else{
             $('#blog_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#blog_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#blog_email_error').html("");
         }
     }
     if(comment){
@@ -1624,16 +1652,19 @@ $('.openRegisterModal').on('click',function(e){
     $('#register_name_error').html("");
     $('#register_number_error').html("");
     $('#register_captcha_error').html("");
+    $('#register_email_error').html("");
 });
 $('#register_form').on('submit', function (e) {
     e.preventDefault(); // Prevent default form submission
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const number = $form.find('#number').val();
     const userInput = $form.find('.userInput').val();
     const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     var count = 0;
     if(userName){
@@ -1642,6 +1673,14 @@ $('#register_form').on('submit', function (e) {
             count++;
         }else{
             $('#register_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#register_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#register_email_error').html("");
         }
     }
     if(number){
@@ -1669,11 +1708,13 @@ $('.course-form').on('submit', function (e) {
     e.preventDefault(); // Prevent default form submission
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
+    const email = $form.find('#email').val();
     const subject = $form.find('#subject').val();
     const userInput = $form.find('.userInput').val();
     const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
     var count = 0;
     if(userName){
@@ -1682,6 +1723,14 @@ $('.course-form').on('submit', function (e) {
             count++;
         }else{
             $('#course_name_error').html("");
+        }
+    }
+    if(email){
+        if (!emailPattern.test(email.trim()) || email.trim() === "") {
+            $('#course_email_error').html("Please enter a valid email.");
+            count++;
+        }else{
+            $('#course_email_error').html("");
         }
     }
     if(subject){

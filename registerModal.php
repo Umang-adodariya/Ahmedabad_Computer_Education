@@ -28,6 +28,7 @@
                                         placeholder="Email Address*" required>
                                     <i class="fal fa-envelope"></i>
                                 </div>
+                                <div class="register_email_error" id="register_email_error" style="color: red;"></div>
                             </div>
 
                             <div class="col-md-12">
