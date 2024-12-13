@@ -973,8 +973,9 @@ Admission Area
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="email" placeholder="Email Address*" name="email" required>
+                                    <input type="email" id="email" placeholder="Email Address*" name="email" required>
                                 </div>
+                                <div class="course_email_error" id="course_email_error" style="color: red;"></div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
