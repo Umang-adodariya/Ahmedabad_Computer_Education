@@ -137,6 +137,7 @@ $requestUri = basename($_SERVER['HTTP_REFERER']);
         
             // Send email
             $mail->send();
+            $location = $requestUri;
             header("Location: $location");
         } catch (Exception $e) {
             header("Location: $location");
