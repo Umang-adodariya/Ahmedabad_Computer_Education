@@ -140,6 +140,7 @@ $requestUri = basename($_SERVER['HTTP_REFERER']);
             $location = $requestUri;
             header("Location: $location");
         } catch (Exception $e) {
+            $location = $requestUri;
             header("Location: $location");
         }
 
