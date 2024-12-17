@@ -240,7 +240,7 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 50 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Demo Session. For First 50 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
@@ -996,7 +996,7 @@ Admission Area
                                                 class="fal fa-refresh"></i></button>
                                     </div>
                                     <div class="input-refresh-btn form-group">
-                                        <input type="text" id="userInput" placeholder="Enter CAPTCHA*" class="userInput"/>
+                                        <input type="text" id="userInput" placeholder="Enter Captcha*" class="userInput"/>
                                     </div>
                                     <div class="course_captcha_error" id="course_captcha_error" style="color: red;"></div>
                                     </div>
@@ -1291,7 +1291,7 @@ Blog Area
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA*" />
+                                                        placeholder="Enter Captcha*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>

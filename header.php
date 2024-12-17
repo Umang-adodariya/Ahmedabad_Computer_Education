@@ -64,6 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-ZDR3DPRCX5');
 </script>
 
+
+
 <script>
       var url = window.location.href;
     var arr = url.split('/');
@@ -178,15 +180,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="./assets/img/loaderIc.png" alt="">
          </div>
         </div>
-        <!-- <div class = "box"></div>
-        <div class = "box"></div> -->
         <div class = "box"></div>
         <div class = "box"></div>
       </div>
     </div>
-    <!-- <div class="preloader-inner">
-        <span class="loader jump"><img src="./assets/img/loaderIc.png" alt=""></span>
-    </div> -->
 </div>
 <!--==============================
 Mobile Menu
@@ -282,7 +279,7 @@ Mobile Menu
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
     </div>
@@ -797,7 +794,7 @@ Header Area
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>

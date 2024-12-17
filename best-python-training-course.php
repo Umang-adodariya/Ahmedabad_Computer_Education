@@ -172,14 +172,43 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 })(window,document,'script','dataLayer','GTM-5FWLQ3C');</script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
   gtag('config', 'G-ZDR3DPRCX5');
+</script> -->
+<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SD837VB60D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-SD837VB60D');
 </script>
+<script>
+function gtag_report_conversion(url) {
+    var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16663588657/BH8aCJCTzvgZELHe6Ik-',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+</script>
+
+
+
+
 <!-- End Google Tag Manager -->
    </head>
    <body>
@@ -196,7 +225,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
-                        <a class="header-link" href="tel:93-2728-7700">
+                        <a class="header-link" href="tel:+919586877700">
                            <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -651,7 +680,7 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 20 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Demo Session. For First 20 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
@@ -756,7 +785,73 @@ Servce Area
 
 
     <!--Register Modal -->
-    <?php include('registerModal.php'); ?>
+
+<div class="modal fade register-modal  load-modal" id="registerModal" tabindex="-1"
+    aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="load-modal-wrapper position-relative">
+                <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                        class="far fa-times"></i></button>
+                <div class="contact-form-wrap background-image"
+                    style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
+                    <!-- <span class="sub-title">Contact With Us!</span> -->
+                    <h2 class="border-title">Registration now</h2>
+                    <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
+                    <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="hidden" name="form" value="registration_form">
+                                    <input type="text" class="form-control style-white" name="name" id="name"
+                                        placeholder="Your Name*" required>
+                                    <i class="fal fa-user"></i>
+                                </div>
+                                <div class="register_name_error" id="register_name_error" style="color: red;"></div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="email" class="form-control style-white" name="email" id="email"
+                                        placeholder="Email Address*" required>
+                                    <i class="fal fa-envelope"></i>
+                                </div>
+                                <div class="register_email_error" id="register_email_error" style="color: red;"></div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <input type="number" class="form-control style-white" name="number" id="number"
+                                        placeholder="Contact Number*" required>
+                                    <i class="fal fa-phone"></i>
+                                </div>
+                                <div class="register_number_error" id="register_number_error" style="color: red;"></div>
+                            </div>
+                            <div class="col-12">
+                                <div class="captcha-container">
+                                    <div class="input-refresh-btn mb-10">
+                                        <div id="captcha" class="captcha"></div>
+                                        <button id="refreshBtn" class="captcha-ref-btn" type="button"><i
+                                                class="fal fa-refresh"></i></button>
+                                    </div>
+                                    <div class="input-refresh-btn">
+                                        <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
+                                            placeholder="Enter Captcha*" />
+                                    </div>
+                                    <div class="register_captcha_error" id="register_captcha_error" style="color: red;"></div>
+                                </div>
+                            </div>
+                            <div class="form-btn col-12 mt-10">
+                                <button class="th-btn " onclick="gtag_report_conversion()" type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
+                            </div>
+                        </div>
+                        <p class="form-messages mb-0 mt-3"></p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--video Modal -->
 <div class="modal fade video-modal load-modal course-video-modal" id="videoModal" tabindex="-1"
@@ -845,13 +940,13 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA*" />
+                                                        placeholder="Enter Captcha*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
-                                            <button class="th-btn " type="submit" value="2">Send Message<i
+                                            <button class="th-btn " type="submit" value="2" >Send Message<i
                                                     class="fas fa-long-arrow-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -878,7 +973,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                         </div>
 
                         <div id="scrollButtonsinquirey" class="hidden">
-                                <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+                                <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
                                     <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
                                 </a>
                         </div>

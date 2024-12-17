@@ -48,13 +48,13 @@
                                     </div>
                                     <div class="input-refresh-btn">
                                         <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                            placeholder="Enter CAPTCHA*" />
+                                            placeholder="Enter Captcha*" />
                                     </div>
                                     <div class="register_captcha_error" id="register_captcha_error" style="color: red;"></div>
                                 </div>
                             </div>
                             <div class="form-btn col-12 mt-10">
-                                <button class="th-btn " type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
+                                <button class="th-btn "  type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>

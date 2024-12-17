@@ -5,7 +5,7 @@
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/bread-contact.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
-        <div class="shape-mockup breadcumb-shape2 jump d-lg-block d-none" data-right="30px" data-bottom="30px">
+        <div class="shape-mockup  breadcumb-shape2 jump d-lg-block d-none" data-right="30px" data-bottom="30px">
             <img src="assets/img/bg/breadcumb_shape_1_2.png" alt="shape">
         </div>
         <div class="shape-mockup breadcumb-shape3 jump-reverse d-lg-block d-none" data-left="50px" data-bottom="80px">
@@ -156,7 +156,7 @@ Contact Area
                                         <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
                                         </div>
                                         <div class="input-refresh-btn">
-                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA*"/>
+                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter Captcha*"/>
                                     </div>
                                     <div class="contact_captcha_error" id="contact_captcha_error" style="color: red;"></div>
                                     </div>

@@ -142,7 +142,7 @@ Footer Area
                 </div>
             </div>
         </div>
-        <div class="shape-mockup jump d-none d-xl-block" data-top="24%" data-left="4%"><img
+        <div class="shape-mockup crose-icon-footer jump d-none d-xl-block" data-top="24%" data-left="4%"><img
                 src="assets/img/update1/shape/footer_shape_1.png" alt="shapes"></div>
         <div class="shape-mockup jump-reverse d-none d-xl-block" data-bottom="20%" data-right="4%"><img
                 src="assets/img/update1/shape/footer_shape_2.png" alt="shapes"></div>

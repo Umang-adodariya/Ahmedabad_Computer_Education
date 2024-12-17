@@ -198,7 +198,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
-                        <a class="header-link" href="tel:93-2728-7700">
+                        <a class="header-link" href="tel:+919586877700">
                            <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -777,7 +777,7 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 20 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Demo Session. For First 20 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
@@ -972,7 +972,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA*" />
+                                                        placeholder="Enter Captcha*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>
@@ -999,18 +999,18 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 	******************************** -->
 
     <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
+                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20UIUX%20Course%0AI%20am%20interested%20in%20a%20UIUX%20course" target="_blank">
                                     <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
                                 </a>
                         </div>
 
                         <div id="scrollButtonsinquirey" class="hidden">
-                                <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+                                <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
                                     <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
                                 </a>
                         </div>
 
-                          <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
+                          <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20UIUX%20Course%0AI%20am%20interested%20in%20a%20UIUX%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
                             <div class="inner-sticky-contain">
                                 <p class="inner-job-title">
