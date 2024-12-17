@@ -4,7 +4,9 @@ $_SESSION['flash_message'] = 'Our team will review your inquiry and get back to 
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 $requestUri = basename($_SERVER['HTTP_REFERER']);
-
+if($requestUri == 'Ahmedabad_Computer_Education'){
+    $requestUri = 'index.php';
+}
 // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $location ='';
