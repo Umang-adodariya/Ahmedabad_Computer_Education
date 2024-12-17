@@ -33362,7 +33362,12 @@ span.text-bold {
 } */
 .blog-slider .blog-title a {
   min-height: 102px;
-  display: block;
+    display: block;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
 }
 
 .about-blog-sec .box-title a {
