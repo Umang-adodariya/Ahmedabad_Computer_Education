@@ -196,7 +196,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <div class="container">
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
-                        <a class="header-link" href="tel:93-2728-7700">
+                        <a class="header-link" href="tel:+919586877700">
                            <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -1226,7 +1226,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                         </div>
 
                         <div id="scrollButtonsinquirey" class="hidden">
-                                <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+                                <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
                                     <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
                                 </a>
                         </div>

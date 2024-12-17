@@ -64,6 +64,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   gtag('config', 'G-ZDR3DPRCX5');
 </script>
 
+
+
 <script>
       var url = window.location.href;
     var arr = url.split('/');
@@ -170,7 +172,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!--==============================
      Preloader
   ==============================-->
-  <!-- <div class="preloader ">
+  <div class="preloader ">
     <div class="preloader-inner">
     <div class="loader-new">
         <div class = "box"> 
@@ -182,7 +184,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class = "box"></div>
       </div>
     </div>
-</div> -->
+</div>
 <!--==============================
 Mobile Menu
 ============================== -->

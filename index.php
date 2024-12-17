@@ -240,7 +240,7 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 50 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Demo Session. For First 50 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">

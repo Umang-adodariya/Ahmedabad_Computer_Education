@@ -10638,6 +10638,9 @@ blockquote.has-very-dark-gray-color {
 
 .blog-single .blog-meta {
   margin: 0 0 18px 0;
+  display: flex;
+      align-items: center;
+      justify-content: space-between;
 }
 
 .blog-single .blog-content {
@@ -21858,8 +21861,8 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .blog-card .blog-content {
-  padding: 40px;
-}
+  padding: 40px 20px;
+} 
 
 .blog-card .blog-meta {
   margin-top: -0.4em;
@@ -21892,7 +21895,7 @@ span.select2-selection.select2-selection--single:focus {
 /* Small devices */
 @media (max-width: 767px) {
   .blog-card .blog-content {
-    padding: 40px 40px;
+    padding: 40px 20px;
   }
 }
 

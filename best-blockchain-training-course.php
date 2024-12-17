@@ -245,7 +245,7 @@ session_start();
                 <div class="container">
                     <div class="row align-items-center justify-content-center justify-content-sm-between">
                         <div class="col-auto d-none d-sm-block menu-top-left">
-                            <a class="header-link" href="tel:93-2728-7700">
+                            <a class="header-link" href="tel:+919586877700">
                                 <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
                               data-name="Layer 1">
                               <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
@@ -290,7 +290,7 @@ session_start();
                               </g>
                            </svg> -->
                                 <img src="assets/img/home-course-details/badgeone.png" alt="badgeone" class="badgeone">
-                                <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
+                                <span class="city-text">Talk to Career Consultant :</span> 95-868-777-00
                             </a>
                         </div>
                         <div class="col-auto">
@@ -745,7 +745,7 @@ Cta Area
         <div class="container z-index-common">
             <div class="row align-items-center justify-content-center justify-lg-content-between">
                 <div class="col mb-40 mb-lg-0 text-center text-lg-start">
-                    <h3 class="fw-medium text-white mt-n2">Get 1 Week Demo Session. For First 20 Registrations.</h3>
+                    <h3 class="fw-medium text-white mt-n2">Get 1 Demo Session. For First 20 Registrations.</h3>
                     <p class="text-white mb-n2">We're confident that we can help you launch a successful and rewarding career in the IT field.</p>
                 </div>
                 <div class="col-lg-auto text-center text-lg-start">
@@ -973,7 +973,7 @@ Servce Area
                         </div>
 
     <div id="scrollButtonsinquirey" class="hidden">
-        <a id="inquiryButton" class="inquiry-button" href="tel:93-2728-7700" target="_blank">
+        <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
             <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
         </a>
     </div>
