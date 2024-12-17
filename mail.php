@@ -1,6 +1,10 @@
 <?php
+session_start();
+$_SESSION['flash_message'] = 'Our team will review your inquiry and get back to you shortly.';
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
+$requestUri = basename($_SERVER['HTTP_REFERER']);
+
 // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $location ='';
@@ -14,8 +18,10 @@ use PHPMailer\PHPMailer\Exception;
         $form = trim($_POST["form"]);
         $date = trim($_POST["date"]);
 
-        $toMail = "career@ahmedabadcomputereducation.com";
-        $ccMail = "info@virtualheight.com";
+        $toMail = "career@yopmail.com";
+        $ccMail = "umang@yopmail.com";
+        // $toMail = "career@ahmedabadcomputereducation.com";
+        // $ccMail = "info@virtualheight.com";
 
         if($form == "contact_form"){
             $subject = "New contact from $subject";
@@ -64,15 +70,7 @@ use PHPMailer\PHPMailer\Exception;
             $email_content = "Name: $name<br>";
             $email_content .= "Email: $email<br>";
             $email_content .= "Number: $number";
-            $location = "course-2.php";
-        }
-        elseif($form == "course_form"){
-            $subject = "New Registration";
-
-            $email_content = "Name: $name<br>";
-            $email_content .= "Email: $email<br>";
-            $email_content .= "Number: $number";
-            $location = "course-2.php";
+            $location = $requestUri;
         }
         elseif($form == "quick_contact_form"){
             $subject = "Quick Contact";
@@ -139,14 +137,17 @@ use PHPMailer\PHPMailer\Exception;
         
             // Send email
             $mail->send();
+            $location = $requestUri;
             header("Location: $location");
         } catch (Exception $e) {
+            $location = $requestUri;
             header("Location: $location");
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
+        $location = $requestUri;
         // echo "There was a problem with your submission, please try again.";
         header("Location: $location");
 
