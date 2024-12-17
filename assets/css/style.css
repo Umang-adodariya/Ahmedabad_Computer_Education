@@ -33390,11 +33390,11 @@ span.text-bold {
 }
 
 .cus-review-sec .testi-box_text.review-text {
-  min-height: 150px;
+  min-height: 180px;
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 6;
   -webkit-box-orient: vertical;
 }
 
@@ -33833,4 +33833,19 @@ img.badgetwo {
 
 select, .form-control, .form-select, textarea, input{
   color: var(--body-color);
+}
+
+.logo-blog-contact {
+  padding: 50px 50px 70px 50px;
+}
+
+.logo-blog-contact .widget-banner .th-btn.style7 {
+  margin-bottom: -50px;
+  transform: none;
+  -webkit-transform: none;
+}
+
+.logo-blog-contact .logo {
+  padding: 30px 39px 60px 39px;
+  margin: 0px;
 }
