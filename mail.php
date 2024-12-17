@@ -22,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $form = trim($_POST["form"]);
     $date = trim($_POST["date"]);
 
-        $toMail = "career@yopmail.com";
-    $ccMail = "umang@yopmail.com";
-    // $toMail = "career@ahmedabadcomputereducation.com";
-    // $ccMail = "info@virtualheight.com";
+    //     $toMail = "career@yopmail.com";
+    // $ccMail = "umang@yopmail.com";
+    $toMail = "career@ahmedabadcomputereducation.com";
+    $ccMail = "info@virtualheight.com";
 
     if($form == "contact_form"){
         $subject = "New contact from $subject";
