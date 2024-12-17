@@ -177,7 +177,7 @@ Event Area
                                                                     Theory for Graphic Design
                                                                     <ul class="mt-3">
                                                                         <li class="course-acc-li">What is graphic</li>
-                                                                        <li class="course-acc-li">Color Schemes and Theoriesl packaging</li>
+                                                                        <li class="course-acc-li">Color Schemes and Theories packaging</li>
                                                                     </ul>
                                                                 </li>
                                                                 <li class="course-acc-li mt-3">
@@ -188,7 +188,7 @@ Event Area
                                                                         <li class="course-acc-li">Laws Of Design</li>
                                                                         <li class="course-acc-li">Visual communication</li>
                                                                         <li class="course-acc-li">What is Vector VS. Raster</li>
-                                                                        <li class="course-acc-li">Introduction about graphic softwares</li>
+                                                                        <li class="course-acc-li">Introduction about graphic software</li>
                                                                     </ul>
                                                                 </li>
                                                                

@@ -98,7 +98,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     window.location.replace("https://www.ahmedabadcomputereducation.com/graphic-and-ui-ux-design-course.php");
     }
     if(arr[3] == "courses" && arr[4] == "web-design-training-course"){
-    window.location.replace("https://www.ahmedabadcomputereducation.com/web-designing-training-cours.php");
+    window.location.replace("https://www.ahmedabadcomputereducation.com/web-designing-training-course.php");
     }
     if(arr[3] == "courses" && arr[4] == "python"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/full-stack-python-development-course.php");
@@ -122,6 +122,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
     if(arr[3] == "courses" && arr[4] == "hr-generalist-training-course"){
+    window.location.replace("https://www.ahmedabadcomputereducation.com/");
+    }
+    if(arr[3] == "courses" && arr[4] == "hr-generalist"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
     if(arr[3] == "courses" && arr[4] == "digital-forensics-course"){
@@ -216,7 +219,7 @@ Mobile Menu
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0)">Designing Courses</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="web-designing-training-cours.php">Web Designing Course</a></li>
+                                                        <li><a href="web-designing-training-course.php">Web Designing Course</a></li>
                                                         <li><a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a></li>
                                                     </ul>
                                                 </li>
@@ -296,7 +299,7 @@ Mobile Menu
         <a href="angular-detail.php">Full Stack Angular Development Course</a>
         <a href="full-stack-python-development-course.php">Full Stack Python Development Course</a>
         <a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a>
-        <a href="web-designing-training-cours.php">Web Designing Course</a>
+        <a href="web-designing-training-course.php">Web Designing Course</a>
         <a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a>
         <a href="game-development-course.php">Game Development Course</a>
         <a href="devops-certification-course.php">DevOps Certification Course</a>
@@ -603,7 +606,7 @@ Header Area
                                                         <div class="megamenu-col">
                                                             <h3 class="widget_title">Designing Courses</h3>
                                                             <ul class="">
-                                                            <li><a href="web-designing-training-cours.php"><img src="assets/img/menu-ic/ui-design.png" alt=""> Web Designing Course</a></li>
+                                                            <li><a href="web-designing-training-course.php"><img src="assets/img/menu-ic/ui-design.png" alt=""> Web Designing Course</a></li>
                                                             <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt=""> Graphic & UI UX Design Course</a></li>
                                                             </ul>
                                                         </div>
@@ -672,7 +675,7 @@ Header Area
                                                 <li class="menu-item-has-children">
                                                     <a href="javascript:void(0)">Designing Courses</a>
                                                     <ul class="sub-menu">
-                                                        <li><a href="web-designing-training-cours.php">Web Designing Course</a></li>
+                                                        <li><a href="web-designing-training-course.php">Web Designing Course</a></li>
                                                         <li><a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a></li>
                                                     </ul>
                                                 </li>
@@ -743,7 +746,7 @@ Header Area
                                                                 <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt="testing"> Software Testing Course</a></li>
                                                             </ul>
                                                             <ul class="">
-                                                                <li><a href="web-designing-training-cours.php"><img src="assets/img/menu-ic/ui-design.png" alt="ui-design"> Web Designing Course</a></li>
+                                                                <li><a href="web-designing-training-course.php"><img src="assets/img/menu-ic/ui-design.png" alt="ui-design"> Web Designing Course</a></li>
                                                                 <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt="graphic-designer"> Graphic & UI UX Design Course</a></li>
                                                                 <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt="cms"> CMS Certification Course</a></li>
                                                             </ul>

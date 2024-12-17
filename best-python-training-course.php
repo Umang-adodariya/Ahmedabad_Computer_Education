@@ -967,7 +967,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 	******************************** -->
 
     <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
+                                <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                                     <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
                                 </a>
                         </div>

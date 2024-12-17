@@ -40,7 +40,7 @@ Event Area
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>Modules 9</span>
+                                <span><i class="fal fa-file"></i>Modules 5</span>
                                 <span><i class="fal fa-user"></i>Students 360+</span>
                             </div>
                             <h2 class="course-title">Full Stack Laravel Development Course</h2>

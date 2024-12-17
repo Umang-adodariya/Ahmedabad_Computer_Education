@@ -227,7 +227,7 @@ Course Area
                                             (4.00)
                                         </div> -->
                                     </div>
-                                    <h3 class="course-title"><a href="web-designing-training-cours.php">Web Designing Course 
+                                    <h3 class="course-title"><a href="web-designing-training-course.php">Web Designing Course 
 </a></h3>
                                     <div class="course-meta">
                                         <span><i class="fal fa-file"></i>Modules 8</span>
@@ -793,7 +793,7 @@ Course Area
                                         </div>
                                     </div> -->
 
-                                    <h3 class="course-title"><a href="web-designing-training-cours.php">Web Designing Course</a></h3>
+                                    <h3 class="course-title"><a href="web-designing-training-course.php">Web Designing Course</a></h3>
                                     <p class="course-text">ACE's Web Design Training Course offers a comprehensive curriculum covering everything from design principles to advanced web development techniques. Learn to create user-friendly, visually appealing websites that leave a lasting impression. Our training programs are tailored to both beginners and experienced designers.</p>
                                     <div class="course-meta style2">
                                         <span><i class="fal fa-file"></i>Modules 8</span>
@@ -804,7 +804,7 @@ Course Area
                                             <img src="assets/img/80x80.png" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Saloni Suthar</a>
                                         </div>
-                                        <a href="web-designing-training-cours.php" class="link-btn">View Details<i class="fas fa-arrow-right ms-2"></i></a>
+                                        <a href="web-designing-training-course.php" class="link-btn">View Details<i class="fas fa-arrow-right ms-2"></i></a>
                                     </div>
                                 </div>
                             </div>

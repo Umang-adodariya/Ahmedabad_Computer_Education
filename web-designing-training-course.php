@@ -14,7 +14,7 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">Web Design</h1>
+                <h1 class="breadcumb-title">Web Design Course</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.php">Home</a></li>
                     <li>Web Designing</li>
@@ -40,7 +40,7 @@ Event Area
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>Modules 6</span>
+                                <span><i class="fal fa-file"></i>Modules 8</span>
                                 <span><i class="fal fa-user"></i>Students 650+</span>
                             </div>
                             <h2 class="course-title">Web Designing Course with Certification</h2>
@@ -98,7 +98,7 @@ Event Area
                                         <h6 class="h6 mt-40">What is web designing?</h6>
                                         <p>A web designer designs a website or web application’s layout, look and feel. It begins with the development of the initial concept and continues until the final product is satisfied with the users. Typically, a web designer is well-versed in web design and development and online project management. Marketing and advertising concepts may also be familiar to them.</p>
                                         <h6 class="h6 mt-40">Why Choose A Web Designing Course?</h6>
-                                        <p>Learning HTML, CSS, and JavaScript from a web design course will give you the ability to develop a website on your own. A course may also include instructions on creating social media profiles, optimizing websites for search engines, and designing for mobile devices. Providing the best training in Ahmedabad, Ahmedabad Computer Education is the leading Website Designing Training Institute in the city. <a href="contact.html" target="_blank" rel="noopener"><span style="text-decoration: underline;">Let us help</span></a> you learn Web Designing in Ahmedabad.</p>
+                                        <p>Learning HTML, CSS, and JavaScript from a web design course will give you the ability to develop a website on your own. A course may also include instructions on creating social media profiles, optimizing websites for search engines, and designing for mobile devices. Providing the best training in Ahmedabad, Ahmedabad Computer Education is the leading Website Designing Training Institute in the city. <a href="contact.php" target="_blank" rel="noopener"><span style="text-decoration: underline;">Let us help</span></a> you learn Web Designing in Ahmedabad.</p>
                                         <h6 class="h6 mt-40">Web Designing Training And Certification Course At Ahmedabad Computer Education</h6>
                                         <p>Those seeking web design courses in Ahmedabad can enroll in Ahmedabad Computer Education. Coaches at ACE teach students how to use visual communication, search engine optimization, and interface planning and design to effectively communicate with others. The primary task of ACE teachers is to impart knowledge using simple examples that freshers and amateurs can understand. Additionally, we offer online training in web design.</p>
                                         <div class="checklist mt-40">
@@ -108,7 +108,7 @@ Event Area
                                                 <li><b>Personalized Support:</b> Our experts are available to provide meticulous guidance.</li>
                                                 <li><b>Expert Instructors:</b> Gain knowledge from highly qualified and accredited professionals.</li>
                                                 <li><b>Affordable Education:</b> Get top-notch training without breaking the bank.</li>
-                                                <li><b>Hands-on Learning:</b>Apply your skills through real-world projects and case studies.</li>
+                                                <li><b>Hands-on Learning:</b> Apply your skills through real-world projects and case studies.</li>
                                                 <li><b>One-on-One Focus:</b> Benefit from personalized training sessions tailored to your needs.</li>
                                                 <li><b>Industry-Recognized Certification:</b> Earn a valuable certification upon successful course completion.</li>
                                             </ul>

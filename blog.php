@@ -158,10 +158,10 @@ Blog Area
                     </div> -->
                     <div class="th-pagination" > 
                         <ul id="pagination"  class="pagination">
-                        <li><a href="#" id="prev"><i class="far fa-arrow-left"></i></a></li> 
-                        <li><a href="#" class="page-link" data-page="1">1</a></li> 
-                        <li><a href="#" class="page-link" data-page="2">2</a></li> 
-                        <li><a href="#" id="next"><i class="far fa-arrow-right"></i></a></li> 
+                        <li><a href="javascript:void(0)" id="prev"><i class="far fa-arrow-left"></i></a></li> 
+                        <li><a href="javascript:void(0)" class="page-link" data-page="1">1</a></li> 
+                        <li><a href="javascript:void(0)" class="page-link" data-page="2">2</a></li> 
+                        <li><a href="javascript:void(0)" id="next"><i class="far fa-arrow-right"></i></a></li> 
                          </ul>
                     </div> 
                 </div>
@@ -234,7 +234,7 @@ Blog Area
                                 <a href="blog.php">UX</a>
                             </div>
                         </div> -->
-                        <div class="widget widget_banner  " data-overlay="theme" data-opacity="9" data-bg-src="assets/img/widget/widget-banner-bg.png">
+                        <div class="widget widget_banner logo-blog-contact " data-overlay="theme" data-opacity="9" >
                             <div class="widget-banner">
                                 <h4 class="title">Need Help? We Are Here
                                     To Help You</h4>

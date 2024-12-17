@@ -399,7 +399,7 @@ Course Area
 
                         </div>
                         <div class="course-content">
-                            <h3 class="course-title"><a href="web-designing-training-cours.php">Web Designing Course</a></h3>
+                            <h3 class="course-title"><a href="web-designing-training-course.php">Web Designing Course</a></h3>
 
                             <div class="course-meta">
                                 <span><i class="fal fa-file"></i>Modules 8</span>
@@ -420,7 +420,7 @@ Course Area
 
                             <div class="course-meta">
                                 <span><i class="fal fa-file"></i>Modules 4</span>
-                                <span><i class="fal fa-user"></i>Students 700</span>
+                                <span><i class="fal fa-user"></i>Students 700+</span>
                                 <span><i class="fal fa-eye"></i>View: 7.2K</span>
                             </div>
                         </div>
@@ -665,7 +665,7 @@ Mockup Area
                         <ul>
                             <li>One-to-One Training</li>
                             <li>Quality Education, Accessible Price.</li>
-                            <li>Training On Live Project: Real-World Experience.</li>
+                            <li>Training On Live Project : Real-World Experience.</li>
                         </ul>
                     </div>
                     <a href="courses.php" class="th-btn">Explore Our Courses<i
