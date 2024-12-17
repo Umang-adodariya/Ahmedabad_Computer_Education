@@ -48,11 +48,11 @@
         </div>
         <p class="form-messages mb-0 mt-3"></p>
         <!-- sent suceess msg popup -->
-        <div class="popup-sent-msg">
+        <!-- <div class="popup-sent-msg">
             <div class="popup-inner-msg">
                 <p>Our team will review your inquiry and get back to you shortly.</p> 
             </div>
-        </div>
+        </div> -->
 
         <!-- sent sucess msg popup -->
     </form>

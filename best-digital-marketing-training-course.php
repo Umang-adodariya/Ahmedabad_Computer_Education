@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
    <head>
@@ -283,6 +286,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="course-none">
 <h2 class="course-main-title main-title-box-d-block">Digital Marketing Certificate Course</h2> 
 </div>
+<?php if (isset($_SESSION['flash_message'])): ?>
+        <!-- Success message popup -->
+        <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p><?php echo htmlspecialchars($_SESSION['flash_message']); ?></p>
+            </div>
+        </div>
+        <?php
+        // Unset the flash message so it won't show again on refresh
+        unset($_SESSION['flash_message']);
+        ?>
+    <?php endif; ?>
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">

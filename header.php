@@ -1,5 +1,6 @@
-
-
+<?php
+session_start();
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
 
@@ -826,3 +827,15 @@ Header Area
     </div>
 </div>
 </header>
+<?php if (isset($_SESSION['flash_message'])): ?>
+        <!-- Success message popup -->
+        <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p><?php echo htmlspecialchars($_SESSION['flash_message']); ?></p>
+            </div>
+        </div>
+        <?php
+        // Unset the flash message so it won't show again on refresh
+        unset($_SESSION['flash_message']);
+        ?>
+    <?php endif; ?>
