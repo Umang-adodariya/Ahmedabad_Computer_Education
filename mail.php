@@ -1,4 +1,5 @@
 <?php
+$currentUrl = "$_SERVER[HTTP_REFERER]";
 session_start();
 $_SESSION['flash_message'] = 'Our team will review your inquiry and get back to you shortly.';
 
@@ -6,6 +7,7 @@ $requestUri = basename($_SERVER['HTTP_REFERER']);
 
 if($requestUri == 'Ahmedabad_Computer_Education'){
     $requestUri = 'index.php';
+    $currentUrl = "$_SERVER[HTTP_REFERER]$requestUri";
 }
 // Only process POST reqeusts.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -20,10 +22,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $form = trim($_POST["form"]);
     $date = trim($_POST["date"]);
 
-    //     $toMail = "career@yopmail.com";
-    // $ccMail = "umang@yopmail.com";
-    $toMail = "career@ahmedabadcomputereducation.com";
-    $ccMail = "info@virtualheight.com";
+        $toMail = "career@yopmail.com";
+    $ccMail = "umang@yopmail.com";
+    // $toMail = "career@ahmedabadcomputereducation.com";
+    // $ccMail = "info@virtualheight.com";
 
     if($form == "contact_form"){
         $subject = "New contact from $subject";
@@ -43,7 +45,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     }
     elseif($form == "registration_form"){
-        $subject = "New Registration";
+        $subject = "Demo Registration";
 
         $email_content = "Name: $name<br>";
         $email_content .= "Email: $email<br>";
@@ -67,11 +69,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $location = "index.php";
     }
     elseif($form == "course_form"){
-        $subject = "New Registration";
+        $subject = "New inquire from course";
 
         $email_content = "Name: $name<br>";
         $email_content .= "Email: $email<br>";
-        $email_content .= "Number: $number";
+        $email_content .= "Number: $number<br>";
         $location = $requestUri;
     }
     elseif($form == "quick_contact_form"){
@@ -91,7 +93,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Message: $message";
         $location = "blog.php";
     }
-    
+    $email_content .= "<br>Request URL : $currentUrl";
     require 'vendor/autoload.php';
     // send grid smtp
     // $email = new \SendGrid\Mail\Mail();
@@ -151,7 +153,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     try {
         $transport = (new Swift_SmtpTransport('smtp.sendgrid.net', 465, 'ssl'))
             ->setUsername('apikey')
-            ->setPassword('dummy_password');
+            ->setPassword('');
         // Create the Mailer using your created Transport
         $mailer = new Swift_Mailer($transport);
     
