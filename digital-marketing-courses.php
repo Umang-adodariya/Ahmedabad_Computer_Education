@@ -205,7 +205,7 @@ Course Area
                                         </div>
                                         <div class="input-refresh-btn">
                                             <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA*" />
+                                                placeholder="Enter Captcha*" />
                                         </div>
                                     </div>
                                 </div>

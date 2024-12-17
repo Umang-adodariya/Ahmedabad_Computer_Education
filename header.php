@@ -169,7 +169,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
    <!--==============================
      Preloader
   ==============================-->
-  <div class="preloader ">
+  <!-- <div class="preloader ">
     <div class="preloader-inner">
     <div class="loader-new">
         <div class = "box"> 
@@ -177,16 +177,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <img src="./assets/img/loaderIc.png" alt="">
          </div>
         </div>
-        <!-- <div class = "box"></div>
-        <div class = "box"></div> -->
         <div class = "box"></div>
         <div class = "box"></div>
       </div>
     </div>
-    <!-- <div class="preloader-inner">
-        <span class="loader jump"><img src="./assets/img/loaderIc.png" alt=""></span>
-    </div> -->
-</div>
+</div> -->
 <!--==============================
 Mobile Menu
 ============================== -->
@@ -281,7 +276,7 @@ Mobile Menu
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
     </div>
@@ -796,7 +791,7 @@ Header Area
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact</a>
+                                            <a href="contact.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>

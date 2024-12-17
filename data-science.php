@@ -462,7 +462,7 @@ Event Area
                                             </div>
                                             <div class="input-refresh-btn">
                                                 <input type="text" id="userInput" class="form-control style-white"
-                                                    placeholder="Enter CAPTCHA*" />
+                                                    placeholder="Enter Captcha*" />
                                                 <!-- <button id="submitBtn" class="th-btn btn-green">Submit</button> -->
                                             </div>
                                             <div id="result" class="result"></div>
@@ -978,7 +978,7 @@ Servce Area
                                         </div>
                                         <div class="input-refresh-btn">
                                             <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA*" />
+                                                placeholder="Enter Captcha*" />
                                         </div>
                                     </div>
                                 </div>

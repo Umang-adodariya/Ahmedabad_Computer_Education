@@ -14,7 +14,7 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">Full Stack Laravel Development Course</h1>
+                <h1 class="breadcumb-title">Full Stack Laravel  Training & Certification Course</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.html">Home</a></li>
                     <li>Full Stack Laravel Development</li>
@@ -43,7 +43,7 @@ Event Area
                                 <span><i class="fal fa-file"></i>Modules 9</span>
                                 <span><i class="fal fa-user"></i>Students 360+</span>
                             </div>
-                            <h2 class="course-title">Full Stack Laravel Development Course </h2>
+                            <h2 class="course-title">Full Stack Laravel Development Course</h2>
                         </div>
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">

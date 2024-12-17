@@ -331,6 +331,22 @@ h6 {
 
 /* Medium Large devices */
 @media (max-width: 1399px) {
+  .about-logo a img {
+    height: 148px !important;
+  }
+
+  
+.crose-icon-footer {
+  left: 1% !important;
+  top: 20%;
+}
+.crose-icon-footer img {
+  height: 60px;
+}
+
+.th-widget-about .about-logo{
+  margin-left: 10px;
+}
 
   .h1,
   h1 {
@@ -10016,7 +10032,7 @@ ol.wp-block-rss {
 }
 
 .breadcumb-title {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 600;
   line-height: 1.18;
   text-transform: uppercase;
@@ -17063,8 +17079,6 @@ span.select2-selection.select2-selection--single:focus {
 .map-sec .map iframe {
   height: 100%;
   width: 100%;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
 }
 
 @media (max-width: 767px) {
@@ -17224,7 +17238,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-right: 50px;
   margin-top: -85px;
   position: relative;
-  z-index: 9;
+  z-index: 7;
 }
 
 /* Large devices */
@@ -33075,6 +33089,7 @@ span.select2-selection.select2-selection--single:focus {
 .captcha-container .input-refresh-btn {
   display: flex;
   gap: 8px;
+  margin-bottom: 24px;
   align-items: center;
 }
 

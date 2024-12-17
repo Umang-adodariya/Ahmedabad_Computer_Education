@@ -14,7 +14,7 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">Full Stack Python Development Course</h1>
+                <h1 class="breadcumb-title">Full Stack Python Training & Certification Course</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.php">Home</a></li>
                     <li>Full Stack Python Course</li>
@@ -40,7 +40,7 @@ Event Area
                                 <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
-                                <span><i class="fal fa-file"></i>Modules 2</span>
+                                <span><i class="fal fa-file"></i>Modules 5</span>
                                 <span><i class="fal fa-user"></i>Students 623+</span>
                             </div>
                             <h2 class="course-title">Full Stack Python Development Course</h2>
@@ -100,7 +100,7 @@ Event Area
                                         <p>Being the best Python institute Ahmedabad, we will help you in:</p>
                                         <div class="checklist dis-ul mt-40">
                                             <ul class="course-acc-ul">
-                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
+                                                <li class="course-acc-li">Understanding the theoretical concepts of Python and application of the same in real-life projects</li>
                                                 <li class="course-acc-li">Solving the complexities of a codebase using different approaches while catering to time complexities</li>
                                                 <li class="course-acc-li">Gaining practical exposure through live project training sessions using Python as the main backend programming language</li>
                                                 <li class="course-acc-li">Learning the major concepts that will be needed for your next job interview</li>

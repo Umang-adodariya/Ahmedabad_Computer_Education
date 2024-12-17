@@ -830,7 +830,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter CAPTCHA*" />
+                                                        placeholder="Enter Captcha*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>

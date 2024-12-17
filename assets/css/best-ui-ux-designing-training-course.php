@@ -1,3 +1,6 @@
+<?php 
+session_start();
+?>
 <!doctype html>
 <html class="no-js" lang="zxx">
    <head>
@@ -287,6 +290,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="course-none">
 <h2 class="course-main-title main-title-box-d-block">UI/UX Designing Certificate Course</h2> 
 </div>
+<?php if (isset($_SESSION['flash_message'])): ?>
+        <!-- Success message popup -->
+        <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p><?php echo htmlspecialchars($_SESSION['flash_message']); ?></p>
+            </div>
+        </div>
+        <?php
+        // Unset the flash message so it won't show again on refresh
+        unset($_SESSION['flash_message']);
+        ?>
+    <?php endif; ?>
 <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
@@ -957,7 +972,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                                 <div class="input-refresh-btn">
                                                     <input type="text" id="userInput"
                                                         class="form-control style-white userInput"
-                                                        placeholder="Enter Captcha*" />
+                                                        placeholder="Enter CAPTCHA*" />
                                                 </div>
                                                 <div class="load_captcha_error" id="load_captcha_error" style="color: red;"></div>
                                             </div>
@@ -984,7 +999,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 	******************************** -->
 
     <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20UIUX%20Course%0AI%20am%20interested%20in%20a%20UIUX%20course" target="_blank">
+                                <a id="whatsappButton" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                                     <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
                                 </a>
                         </div>
@@ -995,7 +1010,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                 </a>
                         </div>
 
-                          <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20UIUX%20Course%0AI%20am%20interested%20in%20a%20UIUX%20course" target="_blank">
+                          <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
                             <div class="inner-sticky-contain">
                                 <p class="inner-job-title">

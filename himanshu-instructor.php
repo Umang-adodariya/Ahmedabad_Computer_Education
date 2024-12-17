@@ -168,7 +168,7 @@ Team Area
                                         <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
                                         </div>
                                         <div class="input-refresh-btn">
-                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter CAPTCHA*" required/>
+                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter Captcha*" required/>
                                     </div>
                                     </div>
                                 </div>
@@ -233,7 +233,7 @@ Team Area
                                         </div>
                                         <div class="input-refresh-btn">
                                             <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter CAPTCHA*" />
+                                                placeholder="Enter Captcha*" />
                                         </div>
                                     </div>
                                 </div>

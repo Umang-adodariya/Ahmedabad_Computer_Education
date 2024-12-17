@@ -14,7 +14,7 @@
         </div>
         <div class="container">
             <div class="breadcumb-content text-center">
-                <h1 class="breadcumb-title">Angular JS Training & Certification Course</h1>
+                <h1 class="breadcumb-title">Full Stack Angular Training & Certification Course</h1>
                 <!-- <ul class="breadcumb-menu">
                     <li><a href="index.php">Home</a></li>
                     <li>Angular JS</li>
@@ -43,7 +43,7 @@ Event Area
                                 <span><i class="fal fa-file"></i>Modules 12</span>
                                 <span><i class="fal fa-user"></i>Students 250+</span>
                             </div>
-                            <h2 class="course-title">Angular JS Course</h2>
+                            <h2 class="course-title">Full Stack Angular Development Course</h2>
                         </div>
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
@@ -77,7 +77,7 @@ Event Area
                                             <div class="col-lg-6">
                                                 <div class="checklist">
                                                     <ul>
-                                                        <li>Ruby on Rails Securityg</li>
+                                                        <li>Ruby on Rails Security</li>
                                                         <li>Build a Contract us Email Form using Ruby on Rails</li>
                                                     </ul>
                                                 </div>
@@ -401,7 +401,7 @@ Event Area
                                                                     <li class="course-scc-li">Making a GET Request</li>
                                                                     <li class="course-scc-li">What does an Observable Object do?</li>
                                                                     <li class="course-scc-li">Using the Service in a Component</li>
-                                                                    <li class="course-scc-li">The PeopleService Client Component</li>
+                                                                    <li class="course-scc-li">The People Service Client Component</li>
                                                                     <li class="course-scc-li">Error Handling</li>
                                                                     <li class="course-scc-li">Customizing the Error Object</li>
                                                                     <li class="course-scc-li">Making a POST Request</li>
