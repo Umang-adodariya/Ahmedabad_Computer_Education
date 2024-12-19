@@ -149,7 +149,8 @@ Contact Area
                                     </div>
                                     <div class="contact_message_error" id="contact_message_error" style="color: red;"></div>
                                     </div>
-                                <div class="col-12">
+                                    <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+                                <?php /*<div class="col-12">
                                     <div class="captcha-container">
                                         <div class="input-refresh-btn mb-10">
                                         <div id="captcha" class="captcha"></div>
@@ -160,7 +161,7 @@ Contact Area
                                     </div>
                                     <div class="contact_captcha_error" id="contact_captcha_error" style="color: red;"></div>
                                     </div>
-                                </div>
+                                </div>*/?>
                                 <div class="form-btn col-12 mt-10">
                                     <button class="th-btn" id="contact_submit_btn" type="submit">Send Message<i class="fas fa-long-arrow-right ms-2"></i></button>
                                 </div>

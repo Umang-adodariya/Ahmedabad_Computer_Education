@@ -22,15 +22,8 @@
         <div class="blog_comment_error" id="blog_comment_error" style="color: red;"></div>
         <div class="col-12">
             <div class="captcha-container">
-                <div class="input-refresh-btn mb-10">
-                    <div id="captcha" class="captcha"></div>
-                    <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
-                </div>
-                <div class="input-refresh-btn">
-                    <input type="text" id="userInput" class="form-control" placeholder="Enter Captcha*" />
-                </div>
+            <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
             </div>
-            <div class="blog_captcha_error" id="blog_captcha_error" style="color: red;"></div>
         </div>
         <div class="col-12 form-group mb-0">
             <button class="th-btn" type="submit">Submit Message <i class="fas fa-arrow-right ms-1"></i></button>
