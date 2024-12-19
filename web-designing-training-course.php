@@ -89,30 +89,173 @@ Event Area
                             <div class="tab-content" id="productTabContent">
                                 <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
                                     <div class="course-description">
-                                        <h5 class="h5">Description</h5>
-                                        <p>Students and professionals seeking careers as web developers can enroll in Ahmedabad Computer Education, the best Website Designing Training Institute in Ahmedabad. Web design courses are conducted in facilities that are state-of-the-art. Getting information, training, and placement are all available at Ahmedabad Computer Education, where you can learn Web Designing in Ahmedabad.</p>
-                                        <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; interface design; authoring, including standardized code and proprietary software; user experience design; and search engine optimization.</p>
-                                        <p>Web Designing is being used by most of the corporate companies and MNC companies for both small and large projects. Due to rapid growth in websites, Web Designers have many job opportunities in India and Abroad.</p>
-                                    
-                                        <h5 class="h5 mt-40">Website Designing Training Course Introduction</h5>
-                                        <h6 class="h6 mt-40">What is web designing?</h6>
-                                        <p>A web designer designs a website or web application’s layout, look and feel. It begins with the development of the initial concept and continues until the final product is satisfied with the users. Typically, a web designer is well-versed in web design and development and online project management. Marketing and advertising concepts may also be familiar to them.</p>
-                                        <h6 class="h6 mt-40">Why Choose A Web Designing Course?</h6>
-                                        <p>Learning HTML, CSS, and JavaScript from a web design course will give you the ability to develop a website on your own. A course may also include instructions on creating social media profiles, optimizing websites for search engines, and designing for mobile devices. Providing the best training in Ahmedabad, Ahmedabad Computer Education is the leading Website Designing Training Institute in the city. <a href="contact.php" target="_blank" rel="noopener"><span style="text-decoration: underline;">Let us help</span></a> you learn Web Designing in Ahmedabad.</p>
-                                        <h6 class="h6 mt-40">Web Designing Training And Certification Course At Ahmedabad Computer Education</h6>
-                                        <p>Those seeking web design courses in Ahmedabad can enroll in Ahmedabad Computer Education. Coaches at ACE teach students how to use visual communication, search engine optimization, and interface planning and design to effectively communicate with others. The primary task of ACE teachers is to impart knowledge using simple examples that freshers and amateurs can understand. Additionally, we offer online training in web design.</p>
+                                        <h5 class="h5">Web designing course summary</h5>
+                                        <p>Want to learn more about designing the best website with interactable features and an engaging interface? If yes, wait no longer and enroll yourself for our <b>Web Design Course in Ahmedabad &Indore</b> for detailed learning from academic experts.</p>
+                                        
+                                        <h5 class="h5 mt-40">Web designing course highlights</h5>
+                                        <p>All the websites you see can be segregated into major parts, namely frontend and backend. The backend acts as the core engine, running all the internal processes, executing the APIs, and interacting with the data storage and business layers. However, it is the front end that gets exposed to the outer world and requires more attention. In recent times, the demand for skilled and expert web developers has skyrocketed by a whopping value. That’s because no matter how well-developed the backend engine layer is if the frontend doesn’t have the appeal or engagement factor, it won’t drive traffic to the business. Web designing is not just about choosing the colors for the user interface or designing the brand logo. Rather, it’s developing the entire front end using a varied technology stack, starting from CSS and HTML to programming languages like PHP and React. </p>
+
+                                        <h5 class="h5 mt-40">What is website design?</h5>
+                                        <p>In textbook terms, website design comprises planning, designing, organizing, and implementing the visual appearance, page layout, and on-page multimedia and graphical content. It makes the website available to the external world and ensures the visuals are appealing enough to keep the end users engaged for a long time. Whether it’s forming the wireframe using an HTML template or assigning colors and other elements through CSS styling, web designers are responsible for the functionality and visual appeal of the entire front end platform. Without website design, it won’t be possible to launch the website even if the backend layers are stable and functional.</p>
+                                        <p>Our <b>web design training course</b> teaches students about the process's technical aspects, including JavaScript coding, HTML and CSS styling, layout designing through wireframes, and developing service-based APIs for interaction with the backend layers.</p>
+
+                                        <h5 class="h5 mt-40">Why is website design important?</h5>
+                                        <p>Before enrolling yourself for our <b>web designing course with certification</b>, it’s imperative to understand its demand in the current market conditions and assess whether the opportunities will prevail in the future. For your clarification, we have briefly explained some of the reasons why web design skills are in high demand.</p>
+                                        <h6 class="h6 mt-40">Enhancement in SEO</h6>
+                                        <p>Web design plays a crucial role in enhancing the SEO metrics of a website and ensuring a higher rank in the search engine page results. Most professionals focus on designing a wireframe and page layout that can be indexed properly with the HTML schema markup language. Apart from this, the front end is designed with optimized core web vitals, which are considered to be some of the most crucial performance metrics.</p>
+                                        <h6 class="h6 mt-40">Increased user-friendliness</h6>
+                                        <p>Another reason why companies and businesses hire web designers is because of making the website user-friendly and appealing. With strategies like visual aesthetics, color schemes, GUI interface, and easy navigation, the website can be made more engaging, which will further reduce the bounce rate and attract more users with time.</p>
+                                        <h6 class="h6 mt-40">Higher rankings on Google</h6>
+                                        <p>Google has laid out stringent rules for ranking websites uploaded on the world wide web and adhering to these rules is imperative. A properly designed website will be able to match the criteria and get higher rankings in the search engine page results. Apart from this, a properly designed website will have a higher CTR or click-through rate, which will further boost the incoming online traffic.</p>
+
+                                        <h5 class="h5 mt-40">What are the skills you need to learn for website designing?</h5>
+                                        <p>As a website designer, you need to have certain skills so that you can handle your responsibilities well and meet your client’s expectations with ease. below, we have briefly described a few of the skills that will be necessary for evaluating if you can fulfill your responsibilities or not.</p>
                                         <div class="checklist mt-40">
                                             <ul>
-                                                <li><b>Land Your Dream Job:</b> Get placement assistance and career guidance to kickstart your success.</li>
-                                                <li><b>Learn at Your Pace:</b> Choose from flexible batch timings that fit your busy schedule.</li>
-                                                <li><b>Personalized Support:</b> Our experts are available to provide meticulous guidance.</li>
-                                                <li><b>Expert Instructors:</b> Gain knowledge from highly qualified and accredited professionals.</li>
-                                                <li><b>Affordable Education:</b> Get top-notch training without breaking the bank.</li>
-                                                <li><b>Hands-on Learning:</b> Apply your skills through real-world projects and case studies.</li>
-                                                <li><b>One-on-One Focus:</b> Benefit from personalized training sessions tailored to your needs.</li>
-                                                <li><b>Industry-Recognized Certification:</b> Earn a valuable certification upon successful course completion.</li>
+                                                <li><b>HTML and CSS:</b> These technologies are required to build the structural layout of the webpages and style the same using color schemes, divisions and boundaries, positions of every element to be involved, and many more.</li>
+                                                <li><b>JavaScript:</b> JS is the basic programming language that will be involved in developing the front end engine. It allows in event handling, designing animations, developing form pages, and implementing dynamic content updates.</li>
+                                                <li><b>Responsive design:</b> As a website designer, you should know the use of different frameworks like Bootstrap to develop a responsive website that can function uniformly across all screen sizes and device types.</li>
+                                                <li><b>UI design:</b> It concerns the designing and development of an appealing website interface that can attract more users and enhance the engagement rate.</li>
                                             </ul>
                                         </div>
+
+                                        <h5 class="h5 mt-40">What are the best job roles for website designers?</h5>
+                                        <p>After completing our web design training course, you will be able to apply for multifarious job roles and profiles, including:</p>
+                                        <div class="checklist mt-40">
+                                            <ul>
+                                                <li><b>Web designer:</b> You will be responsible for developing the website’s layout, and deciding the navigation flow, color schemes, and other functionalities of the website. Here, the average annual salary will be somewhere between INR 8 lakhs to INR 10 lakhs.</li>
+                                                <li><b>UX designer:</b> As a UX designer, you will be responsible for developing the entire user interface while ensuring the elements and design templates are visually appealing and can attract more users. The average annual salary will be up to INR 7 lakhs.</li>
+                                                <li><b>Front end developer:</b> If you are planning to work as a front end developer, you will be responsible for converting the design templates and the wireframe structure into feasible codes using languages like HTML, CSS, and JavaScript. The average annual salary of a front end developer will be somewhere between INR 10 lakhs and INR 14 lakhs.</li>
+                                            </ul>
+                                        </div>
+
+                                        <h5 class="h5 mt-40">Why choose our website design course?</h5>
+                                        <p>Being one of the most reputed website designing training institutes in Indore, our course program is custom-tailored to ensure we can prepare students for the market and help them gain the necessary skills required for landing the best job. Below are some of the major benefits you can enjoy with our web design training course.</p>
+                                        <div class="checklist mt-40">
+                                            <ul>
+                                                <li>Design creative websites with appealing user interfaces independently without relying on anyone</li>
+                                                <li>Convert all the PSD designs by using HTML for the required website templates</li>
+                                                <li>Gather all the necessary requirements of your client and navigate through the challenges in requirement understanding</li>
+                                                <li>Implement responsive website design templates for all devices and screen sizes</li>
+                                            </ul>
+                                        </div>
+
+                                        <h5 class="h5 mt-40">FAQs</h5>
+                                        <div class="accordion cus-accordion" id="accordionExampleFaq">
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqOne">
+                                                    <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqOne" aria-expanded="true" aria-controls="collapsefaqOne">
+                                                        Is the website design training course ideal for me?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqOne" class="accordion-collapse course-acc-collapse collapse show"
+                                                    aria-labelledby="faqOne" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>Our web design course in Ahmedabad & Indore is indeed the best option for you if your goals are to design appealing and interactive websites or learn the programming languages needed for front end development.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqTwo">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqTwo" aria-expanded="false" aria-controls="collapsefaqTwo">
+                                                        What is the average salary of a web designer?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqTwo" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="faqTwo"
+                                                    data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>The average salary of a web designer in India is somewhere between INR 8 lakhs and INR 10 lakhs annually.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqThree">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqThree" aria-expanded="false" aria-controls="collapsefaqThree">
+                                                        What are the major skills I need for website design?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqThree" class="accordion-collapse course-acc-collapse collapse"
+                                                    aria-labelledby="faqThree" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>Some of the major skills that will be needed for website design are knowledge in responsive design, programming languages like HTML, CSS, and JavaScript, User Interface designing, and many more.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqFour">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqFour" aria-expanded="false" aria-controls="collapsefaqFour">
+                                                        What are the best industries for hiring website designers?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqFour" class="accordion-collapse course-acc-collapse collapse"
+                                                    aria-labelledby="faqFour" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>The major industries hiring website designers are retail and wholesale commerce, healthcare, manufacturing, IT, and education.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqFive">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqFive" aria-expanded="false" aria-controls="collapsefaqFive">
+                                                        What is the duration of your website design course?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqFive" class="accordion-collapse course-acc-collapse collapse"
+                                                    aria-labelledby="faqFive" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>Our web design course with certification has a timeline of a few months, depending on the course program designed and the custom requirements of our students. Ideally, it is a 3-month course.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqSix">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqSix" aria-expanded="false" aria-controls="collapsefaqSix">
+                                                        Will you provide any live project training on web design?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqSix" class="accordion-collapse course-acc-collapse collapse"
+                                                    aria-labelledby="faqSix" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>Yes, indeed our <b>website designing course for beginners</b> will include a live project development through training sessions and one-to-one classes so that you can understand the practical implementation of everything you will learn.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item course-acc-item">
+                                                <h2 class="accordion-header" id="faqSix">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
+                                                        data-bs-target="#collapsefaqSix" aria-expanded="false" aria-controls="collapsefaqSix">
+                                                        When should I register myself for your website design course?
+                                                    </button>
+                                                </h2>
+                                                <div id="collapsefaqSix" class="accordion-collapse course-acc-collapse collapse"
+                                                    aria-labelledby="faqSix" data-bs-parent="#accordionExampleFaq">
+                                                    <div class="accordion-body course-acc-body">
+                                                        <div class="checklist mb-1">
+                                                            <p>You can register for our web design training course during your final years of graduation or after completing your studies so that you can develop the skills necessary before applying for the job.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">

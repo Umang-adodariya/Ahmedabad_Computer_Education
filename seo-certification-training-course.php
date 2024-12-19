@@ -61,8 +61,44 @@ Event Area
                             </ul>
                             <div class="tab-content" id="productTabContent">
                                 <div class="tab-pane fade show active" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
-                                    <div class="course-description">
+                                <div class="course-description">
+                                        <h5 class="h5">Course summary</h5>
+                                        <p>Considered one of the renowned <b>SEO certification courses</b> accepted industry-wide, our one-to-one training sessions will help you increase your deep domain knowledge and gain subject matter expertise. Embark on a glorious career journey as an SEO expert or a digital marketer and show your subject proficiency to meet your clients expectations and add value to their businesses.</p>
                                         
+                                        <h5 class="h5 mt-40">Course highlights</h5>
+                                        <p>SEO or Search Engine Optimization is one of the key elements of digital marketing strategies that allows online businesses to gain more visibility and increase market penetration. Until and unless the virtual existence is deepened and made more profound, organic traffic can’t be driven to the website in generous numbers. That’s why the demand for SEO experts has skyrocketed straight through the roof in recent years across multifarious industries. Organizations and companies are looking for these experts to implement accurate and fact-driven SEO strategies that can ultimately add more value to the business and improve the website’s visibility on the online platform.</p>
+                                        <p>Owing to this, our <b>SEO course in Ahmedabad and Indore</b> is designed to help students and digital marketers understand various aspects of search engine optimization. From focusing on different categories of SEO like technical SEO, on-page SEO, and local SEO to the detailed aspects of different strategies like keyword research and optimization, backlink optimization, site audits for SEO, content marketing, and many more, our course will cover everything that you need to know to begin your career as an SEO expert. Besides, our academic experts will help you improve your knowledge by understanding the current market trends and the changing customer expectations so that you can conjure value-based and effective SEO solutions for your clients once you begin your career journey.</p>
+
+                                        <h5 class="h5 mt-40">Search Engine Optimization: What is it?</h5>
+                                        <p>SEO, named as Search Engine Optimization, is a series of strategies that are implemented to improve a website’s online visibility and ensure it can earn a higher ranking in the search engine page results. In other words, it will make your website more visible regarding the search results when a certain series of keywords or phrases are entered on the search engine platform. Several tactics are involved in making the websites more visible in the online realm and drawing more traffic towards the same. If the website is not optimized properly according to the ranking algorithms of the search engines, the SERPs will be quite poor and it will be positioned towards the bottom of the same.</p>
+
+                                        <h5 class="h5 mt-40">What are the different types of SEO?</h5>
+                                        <p>Our <b>SEO certification courses</b> are tailored in a way that will help students learn more about different SEO approaches involved with digital marketing strategies. in the below section, we have exemplified the various types of SEO tactics that can be implemented to increase the website’s online visibility.</p>
+                                        <div class="checklist mt-40">
+                                            <ul>
+                                                <li><b>Off-page SEO:</b> As the name implies, off-page SEO focuses on strategy implementation outside the website to make it more visible on the online platform, like link building, backlink optimization, branding, and many more. It comprises areas that will cater to the external ranking factors of the websites on the search engine platforms.</li>
+                                                <li><b>Local SEO:</b> In local SEO, digital marketers optimize the websites to make them visible to the local audience based on specific geographical locations. Keywords optimized for the local market with specific locations are usually included in the on-page content along with optimization strategies focused on specific target audiences based on certain demographics.</li>
+                                                <li><b>Technical SEO:</b> When it comes to technical SEO, digital marketers need to focus on optimizing the websites as per the indexing and crawling algorithms. For instance, designing a proper markup schema language, positioning the keywords properly, and optimizing the core web vitals will help the crawler to traverse the web pages and index them accurately for better SERPs.</li>
+                                                <li><b>Voice search SEO:</b> Since voice search has become quite popular in recent times, our SEO course for beginners focuses on voice-search SEO that will help you optimize the websites for better visibility during voice searches.</li>
+                                            </ul>
+                                        </div>
+
+                                        <h5 class="h5 mt-40">What are the best job roles you can get with our SEO course?</h5>
+                                        <p>With our digital marketing course on SEO, you will be able to apply for multifarious job roles in the market with a high-paying salary slab. Below we have listed a few of these roles that are quite high in demand and will help you establish a proficient and flourishing career.</p>
+                                        <h6 class="h6 mt-40">Search engine marketer</h6>
+                                        <p>Search Engine Marketing or SEM relies a lot on SEO to help online businesses reach their target audience and promote the services or products in the digital realm for better revenue earning and improved brand reputation. As an SEM, you can earn a maximum of INR 42 lakhs annually using your skills in both SEO and paid marketing campaigns.</p>
+                                        <h6 class="h6 mt-40">Business marketing consultant</h6>
+                                        <p>As a business marketing consultant, you will be responsible for analyzing your client’s pain points and providing the best solutions for increasing their online visibility and improving their market outreach. Also, you will be responsible for measuring both the newly implemented and existing processes to align the goals and objectives with the digital marketing strategies. the average earnings of a business marketing consultant is approximately INR 24 lakhs.</p>
+                                        <h6 class="h6 mt-40">Marketing analyst</h6>
+                                        <p>One of the best job roles you can apply for after completing our <b>SEO course for beginners</b> is that of a marketing analyst. Here, you will be responsible of using facts and figures in the form of statistics, graphs, charts, and reports to determine processes’ efficacy, performance of the digital marketing strategies, and audience response. As a marketing analyst, you can earn up to INR 15 lakhs to INR 20 lakhs annually.</p>
+                                        <h6 class="h6 mt-40">Content marketer</h6>
+                                        <p>Another popular job role you can opt for is a content marketer. As the name implies, you will be responsible of using content for marketing purposes, like designing PPC campaign content, devising content for promotional advertisements on Google My Business portal, and many more. Here, you can earn a maximum of INR 14 lakhs annually.</p>
+
+                                        <h5 class="h5 mt-40">What you will gain from our SEO course at Ahmedabad Computer Education?</h5>
+                                        <p>Being the best SEO training institute in Indore, you will benefit a lot from our course programs, including:</p>
+                                        
+                                        <h5 class="h5 mt-40">FAQs</h5>
+
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
