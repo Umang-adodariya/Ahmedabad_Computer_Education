@@ -356,6 +356,18 @@ session_start();
         ?>
     <?php endif; ?>
     <!-- sent sucess msg popup -->
+    <?php if (isset($_SESSION['captcha_failed'])): ?>
+        <!-- Success message popup -->
+        <div class="popup-sent-msg-error">
+            <div class="popup-inner-msg-error">
+                <p><?php echo htmlspecialchars($_SESSION['captcha_failed']); ?></p>
+            </div>
+        </div>
+        <?php
+        // Unset the flash message so it won't show again on refresh
+        unset($_SESSION['captcha_failed']);
+        ?>
+    <?php endif; ?>
     <section class="space-top space-extra2-bottom tab-box-fix-cont">
         <div class="container">
             <div class="row">
