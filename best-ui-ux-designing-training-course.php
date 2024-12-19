@@ -42,6 +42,12 @@ session_start();
       <!-- responsive Custom CSS -->
       <link rel="stylesheet" href="assets/css/responsive.css">
       <style>
+         .video-small-best{
+            padding: 20px 30px !important
+        }
+        .video-small-best .th-video img{
+            height: 150px;   
+        }
          .footer-widget.widget_nav_menu a.info-box_link.rem-bullet{
          padding-left:0px;
          }
@@ -456,11 +462,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                 <h5 class="h5 mt-40" >UI/UX DESIGNING</h5>
                                                 <div class="accordion-item course-acc-item">
                                                   <h2 class="accordion-header" id="headingThree">
-                                                    <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                                    <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                                                         Module 1 [Adobe XD]
                                                     </button>
                                                   </h2>
-                                                  <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse show" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                  <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                     <div class="accordion-body course-acc-body">
                                                         <div class="checklist mb-1">
                                                             <ul class="course-acc-ul">
@@ -681,7 +687,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <img src="assets/img/home-course-details/badgetwo.png" alt="badgetwo" class="badgetwo">
                                                 <?php include('registerSidebar.php'); ?>
 
-                        <div class="widget widget_info  ">
+                        <div class="widget widget_info  video-small-best">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/uiux2.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i

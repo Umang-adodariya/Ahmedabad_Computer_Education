@@ -42,6 +42,12 @@ session_start();
       <!-- responsive Custom CSS -->
       <link rel="stylesheet" href="assets/css/responsive.css">
       <style>
+         .video-small-best{
+            padding: 20px 30px !important
+        }
+        .video-small-best .th-video img{
+            height: 150px;   
+        }
          .footer-widget.widget_nav_menu a.info-box_link.rem-bullet{
          padding-left:0px;
          }
@@ -58,10 +64,6 @@ session_start();
          .th-header{
             z-index: 4;
          }
-         .scroll-top {
-bottom: 95px;
-right: 37px;
-}
          .map-sec{
             height: 250px;
          }
@@ -362,12 +364,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                             <div class="accordion cus-accordion" id="accordionExample">
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse"
+                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                             Module 1 [Python Basics ]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse show"
+                                                    <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
@@ -581,9 +583,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <aside class="sidebar-area position-relative">
                         <!-- register sidebar -->
                         <img src="assets/img/home-course-details/badgetwo.png" alt="badgetwo" class="badgetwo">
-                        <?php include('registerSidebar.php'); ?>
+                   
+                        <div class="widget widget_info  register-sidebar">
+    <h3 class="widget_title">Inquire Now</h3>
+    <form action="mail.php" method="POST" class="contact-form ajax-contact" id="sidebar_form">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="hidden" name="form" value="course_form">
+                    <input type="text" class="form-control style-white" name="name" id="name"
+                        placeholder="Your Name*" required>
+                    <i class="fal fa-user"></i>
+                </div>
+                <div class="sidebar_name_error" id="sidebar_name_error" style="color: red;"></div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="email" class="form-control style-white" name="email" id="email"
+                        placeholder="Email Address*" required>
+                    <i class="fal fa-envelope"></i>
+                </div>
+                <div class="sidebar_email_error" id="sidebar_email_error" style="color: red;"></div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <input type="tel" class="form-control style-white" name="number" id="number" placeholder="Contact Number*" required>
+                    <i class="fal fa-phone"></i>
+                </div>
+                <div class="sidebar_number_error" id="sidebar_number_error" style="color: red;"></div>
+            </div>
+            <div class="col-12">
+                <div class="captcha-container">
+                    <div class="input-refresh-btn mb-10">
+                        <div id="captcha" class="captcha"></div>
+                        <button id="refreshBtn" class="captcha-ref-btn"><i
+                                class="fal fa-refresh"></i></button>
+                    </div>
+                    <div class="input-refresh-btn">
+                        <input type="text" id="userInput" class="form-control style-white"
+                            placeholder="Enter Captcha*" />
+                        <!-- <button id="submitBtn" class="th-btn btn-green">Submit</button> -->
+                    </div>
+                    <div class="sidebar_captcha_error" id="sidebar_captcha_error" style="color: red;"></div>
+                </div>
+            </div>
+            <div class="form-btn col-12 mt-10">
+                <button class="th-btn" type="submit" onclick="gtag_report_conversion()">Submit<i
+                        class="fas fa-long-arrow-right ms-2"></i></button>
+            </div>
+        </div>
+        <p class="form-messages mb-0 mt-3"></p>
+        <!-- sent suceess msg popup -->
+        <!-- <div class="popup-sent-msg">
+            <div class="popup-inner-msg">
+                <p>Our team will review your inquiry and get back to you shortly.</p> 
+            </div>
+        </div> -->
 
-                        <div class="widget widget_info">
+        <!-- sent sucess msg popup -->
+    </form>
+</div>
+
+                        <div class="widget widget_info video-small-best">
                             <div class="th-video">
                                 <img src="assets/img/courses/corses-main/python-thumbnail.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
@@ -946,7 +1007,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
-                                            <button class="th-btn " type="submit" value="2" >Send Message<i
+                                            <button class="th-btn " type="submit" onclick="gtag_report_conversion()" value="2" >Send Message<i
                                                     class="fas fa-long-arrow-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -966,17 +1027,17 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 			Code End  Here 
 	******************************** -->
 
-    <div id="scrollButtons" class="hidden">
+    <!-- <div id="scrollButtons" class="hidden">
                                 <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                                     <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
                                 </a>
                         </div>
 
-                        <div id="scrollButtonsinquirey" class="hidden">
+                        <div id="scrollButtonsinquirey" onclick="gtag_report_conversion()" class="hidden">
                                 <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
                                     <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
                                 </a>
-                        </div>
+                        </div> -->
 
                         <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
@@ -1195,9 +1256,9 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                 var duration = 750;
                 jQuery(window).on('scroll', function() {
                     if (jQuery(this).scrollTop() > offset) {
-                        jQuery(scrollTopbtn).addClass('show landing-show');
+                        jQuery(scrollTopbtn).addClass('show');
                     } else {
-                        jQuery(scrollTopbtn).removeClass('show landing-show');
+                        jQuery(scrollTopbtn).removeClass('show');
                     }
                 });				
                 jQuery(scrollTopbtn).on('click', function(event) {

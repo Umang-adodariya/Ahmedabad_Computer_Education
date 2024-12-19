@@ -43,6 +43,12 @@ session_start();
     <!-- responsive Custom CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <style>
+         .video-small-best{
+            padding: 20px 30px !important
+        }
+        .video-small-best .th-video img{
+            height: 150px;   
+        }
         .footer-widget.widget_nav_menu a.info-box_link.rem-bullet {
             padding-left: 0px;
         }
@@ -379,12 +385,12 @@ session_start();
                                             <div class="accordion cus-accordion" id="accordionExample">
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingOne">
-                                                        <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse"
+                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                                             BLOCKCHAIN
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse show"
+                                                    <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
@@ -649,7 +655,7 @@ session_start();
 
 
 
-                            <div class="widget widget_info  ">
+                            <div class="widget widget_info  video-small-best">
                                 <div class="th-video">
                                     <img src="assets/img/courses/corses-main/blockchain-2.jpg" alt="video">
                                     <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i

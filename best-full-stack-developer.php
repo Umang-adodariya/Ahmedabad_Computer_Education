@@ -1,4 +1,4 @@
-<?php 
+<?php
 session_start();
 ?>
 <!doctype html>
@@ -9,7 +9,7 @@ session_start();
       <title>Ahmedabad Computer Education</title>
       <meta name="author" content="themeholy">
       <meta name="description" content="Ahmedabad Computer Education">
-      <meta name="keywords" content="certified digital marketing expert, digital marketing classes near me, best digital marketing course ahmedabad, digital marketing certification course, digital marketing course near me, digital marketing training, affordable digital marketing training, digital marketing course">
+      <meta name="keywords" content="python certification course, python full stack developer course, best python certification course, best python certification near me, python courses with certificate, python course for beginners, python training and certification, python coding training institute, learn python basics and advanced">
       <meta name="robots" content="INDEX,FOLLOW">
       <!-- Mobile Specific Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -42,7 +42,7 @@ session_start();
       <!-- responsive Custom CSS -->
       <link rel="stylesheet" href="assets/css/responsive.css">
       <style>
-         .video-small-best{
+        .video-small-best{
             padding: 20px 30px !important
         }
         .video-small-best .th-video img{
@@ -61,11 +61,12 @@ session_start();
             filter: grayscale(100);
             border-radius: 14px;
          }
-         .map-sec{
-            height: 250px;
-         }
          .th-header{
             z-index: 4;
+         }
+       
+         .map-sec{
+            height: 250px;
          }
          .cust-page-box h2.course-title{
                 font-size:44px;
@@ -140,9 +141,9 @@ session_start();
 }
 .cust-menu-box a.header-link{
     font-size:20px;
-}
+}   
 @media (min-width:1366px) and (max-width:1899px) {.cust-page-box h2.course-title{
-    width:920px;
+    width:unset;
 }}
 @media (max-width:1024px) {
     .cust-page-box h2.course-title{
@@ -160,7 +161,7 @@ session_start();
         margin-right: 0px;
         transform: none;
     }
-}
+} 
 .tab-box-fix-cont .course-single,
 .tab-box-fix-cont li{
     text-align:justify;
@@ -180,8 +181,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'G-ZDR3DPRCX5'); -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD837VB60D"></script>
+  gtag('config', 'G-ZDR3DPRCX5');
+</script> -->
+<!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SD837VB60D"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
@@ -189,8 +193,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   gtag('config', 'G-SD837VB60D');
 </script>
-</script>
-<!-- End Google Tag Manager -->
 <script>
 function gtag_report_conversion(url) {
     var callback = function () {
@@ -205,6 +207,12 @@ function gtag_report_conversion(url) {
   return false;
 }
 </script>
+</script>
+
+
+
+
+<!-- End Google Tag Manager -->
    </head>
    <body>
  <!-- Google Tag Manager (noscript) -->
@@ -265,6 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               </g>
                            </svg> -->
                            <img src="assets/img/home-course-details/badgeone.png" alt="badgeone" class="badgeone">
+
                            <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
                      </div>
@@ -291,11 +300,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                  alt="ahmedabad computer education" class="logo-img"></a>
                            </div>
                         </div>
-                        <div class="col-auto">
+                        <div class="col-auto cal-width-title">
                            <div class="row align-items-center justify-content-between">
-                              <div class="col-auto">                                
-                                    <h2 class="course-title main-title-box-d-block">Digital Marketing Certificate Course</h2>                                
-                              </div>                              
+                              <div class="col-auto w-100">
+                              <div class="flex-auto-badge">
+                                    <h2 class="course-title main-title-box-d-block">Full Stack Developer Certificate Course</h2>
+                                    
+                              </div>
+                              </div>
                            </div>
                         </div>
                      </div>
@@ -308,8 +320,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- -------------------------------------------- New Content ------------------------------ -->
 <div class="course-none">
-<h2 class="course-main-title main-title-box-d-block">Digital Marketing Certificate Course</h2> 
-</div>
+<h2 class="course-main-title main-title-box-d-block">Full Stack Developer Certificate Course</h2> 
+</div> 
 <?php if (isset($_SESSION['flash_message'])): ?>
         <!-- Success message popup -->
         <div class="popup-sent-msg">
@@ -328,9 +340,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
                         <!-- <div class="course-single-top">
-                            <h2 class="course-title">Best Digital Marketing Course</h2>
+                            <h2 class="course-title">Full Stack Python Development Course</h2>
                         </div> -->
-                        <div class="course-single-bottom">
+                        <div class="course-single-bottom" id="course">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
@@ -346,7 +358,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 </li>
                             </ul>
                             <div class="tab-content" id="productTabContent">
-                                <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
+                            <div class="tab-pane fade show active" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
                                         <div class="course-con-acc-sec">
@@ -355,7 +367,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <h2 class="accordion-header" id="headingOne">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                            Module 1 [Internet Basic Introduction]
+                                                            Module 1 [Introduction to Web Development]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse"
@@ -363,13 +375,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Introduction to SEO</li>
-                                                                    <li class="course-acc-li">Internet</li>
-                                                                    <li class="course-acc-li">How Search Engine Works</li>
-                                                                    <li class="course-acc-li">Browser</li>
-                                                                    <li class="course-acc-li">Auto Fill Tool</li>
-                                                                    <li class="course-acc-li">Http vs Https</li>
-                                                                    <li class="course-acc-li">What are blogs</li>
+                                                                    <li class="course-acc-li">What is web development?</li>
+                                                                    <li class="course-acc-li">How websites work?</li>
+                                                                    <li class="course-acc-li">Advantages of learning web development</li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -379,7 +387,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <h2 class="accordion-header" id="headingTwo">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                            Module 2 [Seo Basic]
+                                                            Module 2 [HTML]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseTwo" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingTwo"
@@ -387,30 +395,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Page Rank and Alexa Rank</li>
-                                                                    <li class="course-acc-li">SERP ( Search Engine Result Page )</li>
-                                                                    <li class="course-acc-li">Search Engine Crawler</li>
-                                                                    <li class="course-acc-li">Domain and Web Host ng</li>
-                                                                    <li class="course-acc-li">Black hat Seo</li>
-                                                                    <li class="course-acc-li">White hat Seo</li>
-                                                                    <li class="course-acc-li">Google algorithm Updates</li>
-                                                                    <li class="course-acc-li">Types of Website</li>
-                                                                    <li class="course-acc-li">Types of Information</li>
-                                                                    <li class="course-acc-li">Spider View</li>
-                                                                    <li class="course-acc-li">Copyscape</li>
-                                                                    <li class="course-acc-li">Ping Website</li>
-                                                                    <li class="course-acc-li">Importance of domain age</li>
-                                                                    <li class="course-acc-li">Select on of keyword or keyword analysis</li>
-                                                                    <li class="course-acc-li">Meta tag optimization</li>
-                                                                    <li class="course-acc-li">SEO friendly design</li>
-                                                                    <li class="course-acc-li">Content optimization</li>
-                                                                    <li class="course-acc-li">Image Optimization</li>
-                                                                    <li class="course-acc-li">Introduction about link building</li>
-                                                                    <li class="course-acc-li">Introduction Robots.txt</li>
-                                                                    <li class="course-acc-li">Introduction Site map</li>
-                                                                    <li class="course-acc-li">Canonical issue</li>
-                                                                    <li class="course-acc-li">Case study</li>
-                                                                    <li class="course-acc-li">Title optimization</li>
+                                                                    <li class="course-acc-li">Introduction to HTML</li>
+                                                                    <li class="course-acc-li">HTML Tags and Attributes</li>
+                                                                    <li class="course-acc-li">Meta Tags</li>
+                                                                    <li class="course-acc-li">Adding and formatting texts, title, paragraph, body</li>
+                                                                    <li class="course-acc-li">Lists – Ordered/Unordered</li>
+                                                                    <li class="course-acc-li">Images</li>
+                                                                    <li class="course-acc-li">Forms</li>
+                                                                    <li class="course-acc-li">Tables</li>
+                                                                    <p class="course-acc-li"><b>Assignment:</b> Create a web page using HTML</p>
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -420,441 +414,346 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                                     <h2 class="accordion-header" id="headingThree">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            Module 3 [SEO Research & Analysis]
+                                                            Module 3 [CSS]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                                    <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingThree"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Keyword and keyword analysis</li>
-                                                                    <li class="course-acc-li">Keyword opportunity</li>
-                                                                    <li class="course-acc-li">Competitors Website Analysis</li>
-                                                                    <li class="course-acc-li">How to Choose Best Keywords</li>
-                                                                    <li class="course-acc-li">Tools available for Keyword Research</li>
-                                                                    <li class="course-acc-li">Business to business Keyword</li>
-                                                                    <li class="course-acc-li">Content Research</li>
-                                                                    <li class="course-acc-li">Content Guidelines</li>
-                                                                    <li class="course-acc-li">Content Optimization</li>
-                                                                    <li class="course-acc-li">Design & Layout</li>
+                                                                    <li class="course-acc-li">What is CSS?</li>
+                                                                    <li class="course-acc-li">Introduction to CSS Selectors, Properties, and Values</li>
+                                                                    <li class="course-acc-li">CSS Backgrounds, Borders, Margins, Padding</li>
+                                                                    <li class="course-acc-li">CSS Font Styling</li>
+                                                                    <li class="course-acc-li">Stylings Lists</li>
+                                                                    <li class="course-acc-li">Styling Tables, Forms</li>
+                                                                    <li class="course-acc-li">CSS Animations</li>
+                                                                    <li class="course-acc-li">Introduction to CSS framework</li>
+                                                                    <li class="course-acc-li">Advanced CSS techniques like flexbox and grid                                                                     </li>
+                                                                    <li class="course-acc-li">Responsive Media Queries</li>
+                                                                    <p class="course-acc-li"><b>Assignment:</b> Designing a Website using CSS </p>
                                                                 </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingFour">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                            Module 4 [Advance SEO Techniques]
+                                                            Module 4 [CSS Framework]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseFour" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                                    <div id="collapseFour" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingFour"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Dynamic Site Optimization</li>
-                                                                    <li class="course-acc-li">SEO For E commerce Site</li>
-                                                                    <li class="course-acc-li">Htaccess File</li>
-                                                                    <li class="course-acc-li">Google Panda Updates</li>
-                                                                    <li class="course-acc-li">Google Penguin Updates</li>
-                                                                </ul>
+                                                                <h5 class="h5">Bootstrap Framework</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to Bootstrap</li>
+                                                                        <li class="course-acc-li">Bootstrap components</li>
+                                                                        <li class="course-acc-li">Advanced features in Bootstrap</li>
+                                                                        <li class="course-acc-li">Assignment: Dashboard with Bootstrap</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Mui Material Framework</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to Mui Material</li>
+                                                                        <li class="course-acc-li">Mui Material components</li>
+                                                                        <li class="course-acc-li">Assignment: Dashboard with mui</li>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingFive">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                            Module 5 [On-page Optimization]
+                                                            Module 5 [JavaScript & ES6 Essentials]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseFive" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                                                    <div id="collapseFive" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingFive"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">The Page Title</li>
-                                                                    <li class="course-acc-li">Meta Descriptions & Meta Keywords</li>
-                                                                    <li class="course-acc-li">Headings</li>
-                                                                    <li class="course-acc-li">Word Tracker</li>
-                                                                    <li class="course-acc-li">H1, H2, H3 Tags</li>
-                                                                    <li class="course-acc-li">Anchor Text optimization</li>
-                                                                    <li class="course-acc-li">HTML/W3C Validation</li>
-                                                                    <li class="course-acc-li">Content Optimization</li>
-                                                                    <li class="course-acc-li">HTML Code Optimization</li>
-                                                                    <li class="course-acc-li">Bold Text</li>
-                                                                    <li class="course-acc-li">Domain Names & Suggestions</li>
-                                                                    <li class="course-acc-li">Canonical Tag</li>
-                                                                    <li class="course-acc-li">Meta Tags</li>
-                                                                    <li class="course-acc-li">Internal Link Building</li>
-                                                                    <li class="course-acc-li">The Sitemap</li>
-                                                                    <li class="course-acc-li">Server and Hosting Check</li>
-                                                                    <li class="course-acc-li">Robots Meta Tag</li>
-                                                                    <li class="course-acc-li">301 Redirects</li>
-                                                                    <li class="course-acc-li">404 Error</li>
-                                                                    <li class="course-acc-li">Duplicate content</li>
-                                                                    <li class="course-acc-li">Text</li>
-                                                                    <li class="course-acc-li">Image</li>
-                                                                    <li class="course-acc-li">Video</li>
-                                                                    <li class="course-acc-li">Html</li>
-                                                                    <li class="course-acc-li">Google Analytics</li>
-                                                                    <li class="course-acc-li">Meta tag Generator</li>
-                                                                </ul>
+                                                                <h5 class="h5">Part 1: Overview of JavaScript language and its features</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Variables, data types, and operators</li>
+                                                                        <li class="course-acc-li">Control flow statements (ifelse, for, while, switch)</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Part 2: JavaScript & ES6 Essentials (Part 2)</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to ES6 features like let, const, and arrow functions</li>
+                                                                        <li class="course-acc-li">Working with functions, objects, and arrays</li>
+                                                                        <li class="course-acc-li">Variable types, scoping, and error handling</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Part 3: JavaScript DOM Manipulation & React Basics</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Manipulating the DOM with JavaScript</li>
+                                                                        <li class="course-acc-li">Handling events and user interactions with JavaScript</li>
+                                                                        <li class="course-acc-li">Debugging and troubleshooting JavaScript code</li>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingSix">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                            Module 6 [Off-page Optimization]
+                                                            Module 6 [ReactJS]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseSix" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                                                    <div id="collapseSix" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingSix"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Types of directory</li>
-                                                                    <li class="course-acc-li">Search engine submission</li>
-                                                                    <li class="course-acc-li">Directory Submission</li>
-                                                                    <li class="course-acc-li">Practice of directory submission</li>
-                                                                    <li class="course-acc-li">Knowledge about Social book marking</li>
-                                                                    <li class="course-acc-li">Social book marking submission</li>
-                                                                    <li class="course-acc-li">Report Verification</li>
-                                                                    <li class="course-acc-li">Practice of Social book marking</li>
-                                                                    <li class="course-acc-li">Practice with Auto fill tool</li>
-                                                                    <li class="course-acc-li">Knowledge about classifieds and</li>
-                                                                    <li class="course-acc-li">article writing</li>
-                                                                    <li class="course-acc-li">Finding free classifieds</li>
-                                                                    <li class="course-acc-li">Classifieds Post ng</li>
-                                                                    <li class="course-acc-li">Introduction to article submission</li>
-                                                                    <li class="course-acc-li">Article writing</li>
-                                                                    <li class="course-acc-li">Article Submission</li>
-                                                                    <li class="course-acc-li">Introduction with yahoo answer</li>
-                                                                    <li class="course-acc-li">Practical’s with yahoo answer</li>
-                                                                </ul>
+                                                                <h5 class="h5">Part 1: Introduction to React & JSX</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to React and its features</li>
+                                                                        <li class="course-acc-li">Setting up a React development environment</li>
+                                                                        <li class="course-acc-li">JSX syntax and its benefits</li>
+                                                                        <li class="course-acc-li">Creating React components</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Part 2: React Components, Props & Conditional Rendering</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Creating reusable React components</li>
+                                                                        <li class="course-acc-li">Using props to pass data between components</li>
+                                                                        <li class="course-acc-li">Creating conditional rendering and handling events in React</li>
+                                                                        <li class="course-acc-li">Best practices for React component development</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Part 3: React States & Hooks</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to React Hooks</li>
+                                                                        <li class="course-acc-li">Understanding state and its importance in React</li>
+                                                                        <li class="course-acc-li">Implementing custom hooks in React</li>
+                                                                        <li class="course-acc-li">React Routing and Types of Routers</li>
+                                                                        <li class="course-acc-li">Introduction to different types of React routers</li>
+                                                                        <li class="course-acc-li">Introduction to classbased components</li>
+                                                                        <li class="course-acc-li">Understanding Understanding React Lifecycle and its phases</li>
+                                                                        <li class="course-acc-li">Introduction to React context</li>
+                                                                        <li class="course-acc-li">Use of lazy and suspense</li>
+                                                                        <p class="course-acc-li"><b>Assignment: </b>Implement a dynamic and interactive web application.</p>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingSeven">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                                            Module 7 [SMO, SEM, SMM]
+                                                            Module 7 [Node.js]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseSeven" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                                                    <div id="collapseSeven" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingSeven"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Knowledge about ( SMO Social Media Optimization)</li>
-                                                                    <li class="course-acc-li">Account creation for SMO</li>
-                                                                    <li class="course-acc-li">Promotion by SMO (Image)</li>
-                                                                    <li class="course-acc-li">Promotion by SMO (Video)</li>
-                                                                    <li class="course-acc-li">Online Video- content is king</li>
-                                                                    <li class="course-acc-li">Social sharing, comments and reviews</li>
-                                                                    <li class="course-acc-li">Promoting YouTube Videos</li>
-                                                                    <li class="course-acc-li">URL Shortening Tools</li>
-                                                                    <li class="course-acc-li">URL Builder</li>
-                                                                    <li class="course-acc-li">Promoting a Brand on Google+</li>
-                                                                    <li class="course-acc-li">Using Ads inside Videos</li>
-                                                                </ul>
+                                                                <h5 class="h5">Part 1: Introduction to Node.js</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to Node.js and its features</li>
+                                                                        <li class="course-acc-li">Understanding the basics of web servers and HTTP requests</li>
+                                                                        <li class="course-acc-li">Node Modules HTTP, File Systems, etc.</li>
+                                                                        <li class="course-acc-li">Understanding the Node.js event loop and asynchronous programming</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1 mt-4">
+                                                                <h5 class="h5">Part 2: Node.js Advanced Concepts</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Using callbacks, promises, and async/await in Node.js</li>
+                                                                        <li class="course-acc-li">Handling errors and debugging Node.js applications</li>
+                                                                        <li class="course-acc-li">Implementing security best practices in Node.js</li>
+                                                                        <p class="course-acc-li"><b> Assignment: </b> Hosting Website using Node.js</p>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingEight">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                                                            Module 8 [Traffic Campaigning]
+                                                            Module 8 [Express.js]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseEight" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                                                    <div id="collapseEight" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingEight"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Knowledge about ( SMO Social Media Optimization)</li>
-                                                                    <li class="course-acc-li">Daily traffic generation tools</li>
-                                                                    <li class="course-acc-li">traffic Analysis</li>
-                                                                    <li class="course-acc-li">traffic monitoring</li>
-                                                                    <li class="course-acc-li">traffic Rotation</li>
-                                                                    <li class="course-acc-li">Introduction about link building</li>
-                                                                    <li class="course-acc-li">How to submit site maps</li>
-                                                                    <li class="course-acc-li">Knowledge about google ad words</li>
-                                                                    <li class="course-acc-li">Configuring of google AdSense</li>
-                                                                    <li class="course-acc-li">Domain age</li>
-                                                                    <li class="course-acc-li">Meta tag generation</li>
-                                                                    <li class="course-acc-li">Web 2.0</li>
-                                                                    <li class="course-acc-li">Business List ng</li>
-                                                                    <li class="course-acc-li">Video Submission</li>
-                                                                    <li class="course-acc-li">PPT Submission</li>
-                                                                    <li class="course-acc-li">PDF Submission</li>
-                                                                </ul>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction & Setup of Express.js</li>
+                                                                        <li class="course-acc-li">Concepts of RESTful API, HTTP Methods, Routing</li>
+                                                                        <li class="course-acc-li">Templating</li>
+                                                                        <li class="course-acc-li">Database & Data Handling in Express.js</li>
+                                                                        <li class="course-acc-li">Authentication in Express.js</li>
+                                                                        <li class="course-acc-li">Building a simple Express.js server</li>
+                                                                        <li class="course-acc-li">Building CRUD operations with Express Building CRUD operations with Express.js</li>
+                                                                        <li class="course-acc-li">Implementing middleware in Express.js</li>
+                                                                        <p class="course-acc-li"><b> Assignment: </b>  Creating Express APIs for ECommerce Website</p>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingNine">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                                                            Module 9 [Social Media Optimization]
+                                                            Module 9 [ DBMS using MongoDB]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseNine" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                                                    <div id="collapseNine" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingNine"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">How to Promote Website/Business through Facebook (Free & Paid promotions)</li>
-                                                                    <li class="course-acc-li">How to Promote Website/Business through Google Plus</li>
-                                                                    <li class="course-acc-li">Twit er Promotions</li>
-                                                                    <li class="course-acc-li">And some other Social Networking Site</li>
-                                                                </ul>
+                                                                <h5 class="h5">Part 1: Introduction to MongoDB</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Understanding NoSQL databases and MongoDB</li>
+                                                                        <li class="course-acc-li">Setting up a MongoDB development environment</li>
+                                                                        <li class="course-acc-li">Building MongoDB schema and models with Mongoose</li>
+                                                                        <li class="course-acc-li">Using Mongoose to perform CRUD operations in MongoDB</li>
+                                                                    </ul>
+                                                            </div>
+                                                            <div class="checklist mb-1">
+                                                                <h5 class="h5">Part 2: MongoDB Indexing, Aggregation & Security</h5>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Understanding MongoDB indexing and aggregation</li>
+                                                                        <li class="course-acc-li">Implementing authentication and authorization with MongoDB</li>
+                                                                        <li class="course-acc-li">Best practices for securing MongoDB applications</li>
+                                                                        <li class="course-acc-li">Implementing data migrations and backups in MongoDB</li>
+                                                                        <p class="course-acc-li"><b>Assignment:</b> Creating ERD & DB for ECommerce Website</p>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingTen">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
-                                                            Module 10 [SEO]
+                                                            Module 10 [State Management with Redux]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseTen" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                                                    <div id="collapseTen" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingTen"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Meta Optimization</li>
-                                                                    <li class="course-acc-li">Keyword research</li>
-                                                                    <li class="course-acc-li">Page on page</li>
-                                                                    <li class="course-acc-li">Image alter + Title tags</li>
-                                                                    <li class="course-acc-li">Advance search in google</li>
-                                                                    <li class="course-acc-li">Tools and its usage</li>
-                                                                    <li class="course-acc-li">Site on page</li>
-                                                                    <li class="course-acc-li">Reduce Page loading me</li>
-                                                                    <li class="course-acc-li">List of ac vi es for link building</li>
-                                                                    <li class="course-acc-li">Content Genera on & Marketing</li>
-                                                                    <li class="course-acc-li">Back link analysis</li>
-                                                                    <li class="course-acc-li">Slide share circulation</li>
-                                                                    <li class="course-acc-li">Social bookmarking</li>
-                                                                    <li class="course-acc-li">Blog posting strategy</li>
-                                                                    <li class="course-acc-li">Long Tail keywords promo on</li>
-                                                                    <li class="course-acc-li">Strategy</li>   
-                                                                </ul>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Introduction to state management with Redux</li>
+                                                                        <li class="course-acc-li">Setting up Redux in a React application</li>
+                                                                        <li class="course-acc-li">Creating Redux actions and reducers</li>
+                                                                        <li class="course-acc-li">Integrating Redux with React Components</li>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+
                                                 <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingEleven">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
-                                                            Module 11 [Local Business Promotion]
+                                                            Module 11 [RESTful API Development with Express.js]
                                                         </button>
                                                     </h2>
-                                                    <div id="collapseEleven" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                                                    <div id="collapseEleven" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingEleven"
+                                                        data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Understand client business</li>
-                                                                    <li class="course-acc-li">Make you business live on Google,</li>
-                                                                    <li class="course-acc-li">Bing etc…</li>
-                                                                    <li class="course-acc-li">How to find relevant website</li>
-                                                                    <li class="course-acc-li">Get reviews for your business</li>
-                                                                    <li class="course-acc-li">How to get top local ranking</li> 
-                                                                </ul>
+                                                                    <ul class="course-acc-ul">
+                                                                        <li class="course-acc-li">Advanced RESTful API concepts</li>
+                                                                        <li class="course-acc-li">Implementing authentication and authorization in Express.js</li>
+                                                                        <li class="course-acc-li">Handling file uploads and other advanced features</li>
+                                                                        <li class="course-acc-li">Testing and documenting RESTful APIs</li>
+                                                                    </ul>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="accordion-item course-acc-item">
-                                                    <h2 class="accordion-header" id="headingTwelve">
-                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
-                                                            Module 12 [Google Analytics & Web Master tool]
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseTwelve" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingTwelve" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body course-acc-body">
-                                                            <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Purpose of Analytic?</li>
-                                                                    <li class="course-acc-li">Metrics and Dimension in</li>
-                                                                    <li class="course-acc-li">Google Analytics</li>
-                                                                    <li class="course-acc-li">Dimension and Metrics in the reports</li>
-                                                                    <li class="course-acc-li">Configure GA</li>
-                                                                    <li class="course-acc-li">Add, Edit, Delete users</li>
-                                                                    <li class="course-acc-li">Adwords linking</li>
-                                                                    <li class="course-acc-li">Re marketing linking</li>
-                                                                    <li class="course-acc-li">Goal configuration</li>
-                                                                    <li class="course-acc-li">Audience Analysis</li>
-                                                                    <li class="course-acc-li">Acquit on Analysis</li>
-                                                                    <li class="course-acc-li">Behavior Analysis</li>
-                                                                    <li class="course-acc-li">Conversion Analysis</li>
-                                                                    <li class="course-acc-li">Conversion Analysis</li>
-                                                                    <li class="course-acc-li">Lead analysis</li>
-                                                                    <li class="course-acc-li">Google search console</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item course-acc-item">
-                                                    <h2 class="accordion-header" id="headingThirteen">
-                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
-                                                            Module 13 [Email Marketing]
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseThirteen" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingThirteen" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body course-acc-body">
-                                                            <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Purpose of email marketing</li>
-                                                                    <li class="course-acc-li">How to grab email ids</li>
-                                                                    <li class="course-acc-li">Tools to use for Email marketing</li>
-                                                                    <li class="course-acc-li">Frequency & measurement</li>
-                                                                    <li class="course-acc-li">Optimize as per user behaviour</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item course-acc-item">
-                                                    <h2 class="accordion-header" id="headingFourteen">
-                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
-                                                            Module 14 [Social Media Marketing]
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseFourteen" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingFourteen" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body course-acc-body">
-                                                            <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">Social media marketing basics</li>
-                                                                    <li class="course-acc-li">Business wise useful social media</li>
-                                                                    <li class="course-acc-li">Platform</li>
-                                                                    <li class="course-acc-li">Facebook marketing</li>
-                                                                    <li class="course-acc-li">Twitter marketing</li>
-                                                                    <li class="course-acc-li">Instagram + Pinterest marketing</li>
-                                                                    <li class="course-acc-li">LinkedIn marketing</li>
-                                                                    <li class="course-acc-li">YouTube video marketing</li>
-                                                                    <li class="course-acc-li">Google+ marketing</li>
-                                                                    <li class="course-acc-li">Reputation management</li>
-                                                                    <li class="course-acc-li">How to create strategy + process</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="accordion-item course-acc-item">
-                                                    <h2 class="accordion-header" id="headingFifteen">
-                                                        <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
-                                                            data-bs-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
-                                                            Module 15 [Work management]
-                                                        </button>
-                                                    </h2>
-                                                    <div id="collapseFifteen" class="accordion-collapse course-acc-collapse collapse"
-                                                        aria-labelledby="headingFifteen" data-bs-parent="#accordionExample">
-                                                        <div class="accordion-body course-acc-body">
-                                                            <div class="checklist mb-1">
-                                                                <ul class="course-acc-ul">
-                                                                    <li class="course-acc-li">How to create strategy + process</li>
-                                                                    <li class="course-acc-li">To manage work.</li>
-                                                                    <li class="course-acc-li">Make you ready for Google Adwords & Analytics exam.</li>
-                                                                    <li class="course-acc-li">Interview Preparation</li>
-                                                                    <li class="course-acc-li">Strategy for new domain</li>
-                                                                    <li class="course-acc-li">SEO Monthly work report</li>
-                                                                    <li class="course-acc-li">Work report email format</li>
-                                                                </ul>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                        
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="tab-pane fade" id="Coursedescription" role="tabpanel" aria-labelledby="description-tab">
                                     <div class="course-description">
-                                        <h5 class="h5">Digital marketing course highlight</h5>
-                                        <p>Gone are the days when businesses relied on conventional marketing approaches to establish a strong market foothold and improve their brand positioning. In today’s digital realm, the competition has become so fierce that opting for innovative and result-oriented methods has become paramount. This is where digital marketing comes into the picture! It allows businesses to focus more on their online channels, presenting their brand portfolio in a manner that can influence user actions and bring in more revenues. Whether it’s notifying customers about a new product launch through email marketing or performing on-page technical SEO audits to enhance the SERP of the website, there are several aspects associated with digital marketing.</p>
-                                        <p>With the growing demand for digital marketers, we at Ahmedabad Computer Education now offer a personalized <b>digital marketing certification course</b> for beginners and professionals. If you want to become a content curator or a social media marketer, our online program will help you learn the basics of digital marketing, different techniques, audit checks, market trends, tools and technologies to be used, and several other matters. </p>
-                                        <h5 class="h5">What is digital marketing?</h5>
-                                        <p>As the name suggests, digital marketing is the practice of using digital channels to promote products and services. For example, businesses can use emails to notify their subscribers about any new product to be launched or an upgrade in their services. Similarly, businesses can use their online websites to get higher ranking in the search engine page results and reach out to more users. Since the online platform has become more prominent, it is better to invest in digital marketing rather than trying out the conventional marketing practices like pamphlets, newspaper advertisements, and many more.</p>
-                                        <h5 class="h5 mt-40">What Will You Learn?</h5>
-                                        <p>Quickly synergize cutting-edge scenarios and professional results. Assertively deliver cross-media results before client-centric results. Uniquely initiate intuitive communities through process-centric internal or "organic" sources. Energistically reinvent distinctive value via parallel services extensive paradigms cross-unit manufactured products.</p>
-                                        
-                                        <h5 class="h5 mt-30">What are the main aspects of digital marketing?</h5>
-                                        <p>Before you enroll in our digital marketing course for beginners, it’s important to understand that it’s a broad umbrella with different subdomains. Each domain is dedicated to a specific digital marketing channel or aspect of the online platform. So, below we have briefly described the major divisions we will be covering in our digital marketing course for beginners.</p>
-                                        <h5 class="h6 mt-40">Email marketing</h5>
-                                        <p>Emails are often used for promoting brands or services to new subscribers and existing customers. These can also be used to notify about special discounts, offers, or changes in company policies and terms and conditions.</p>
-                                        <h5 class="h6 mt-40">Social media marketing</h5>
-                                        <p>Since social media platforms have become dominant in today’s time, businesses can leverage them to build a strong network for their brand. Our digital marketing certification course will help you learn the techniques of optimizing the business profile of a brand, improving brand networking, understanding the KPIs associated with the performance of social media posts, and many other relevant aspects.</p>
-                                        <h5 class="h6 mt-40">Content marketing</h5>
-                                        <p>Another most preferred digital marketing channel is content. Using appropriate content, businesses can deliver appealing and convincing stories about their brands, products, or services to the end users. Content curators need to ensure the produced content is plagiarism-free, authentic, and relatable so that the words can influence a user’s action.</p>
-                                        <h5 class="h6 mt-40">Pay-per-click advertisement</h5>
-                                        <p>Our digital marketing course in Ahmedabad also includes sessions on pay-per-click advertisement. It is a technique to promote services or products by through paid ads. Promotional campaigns are launched on different platforms and continuously monitored to check the performance and make any necessary modifications on the go. Properly curated PPC ads can generate outstanding leads and increase the conversion rate.</p>
-                                        <h5 class="h6 mt-40">Search engine optimization</h5>
-                                        <p>One of the most important aspects of digital marketing is search engine optimization. It is the practice of optimizing the website or any other online profile of a business concerning the algorithms and norms of search engines. From keyword inclusion to backlinks, there are several ways in which digital marketers can optimize the website and ensure it ranks high in the SERPs. The higher the rank, the better will be the website’s online visibility and more will be organic traffic.</p>
-                                        <h5 class="h5 mt-40">What industries hire digital marketers?</h5>
-                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
-                                        <div class="checklist dis-ul mt-40"id="faqs">
+                                        <h5 class="h5">Description</h5>
+                                        <p>Unlock the potential of MERN (MongoDB, Express.js, React,
+Node.js) Stack to develop powerful web applications. From front-end design
+using HTML, CSS, and React to back-end development with Node.js and
+MongoDB, master the full-stack development process. Gain practical
+experience through hands-on projects and real-world scenarios.</p>
+                                       
+                                        <h5 class="h5">Objectives</h5>
+                                        <div class="checklist dis-ul mt-40">
                                             <ul class="course-acc-ul">
-                                                <li class="course-acc-li">eCommerce: Digital marketers play a crucial role in the eCommerce industry for content optimization, keyword inclusion, social media marketing, PPC campaigns, and on-page technical SEO. </li>
-                                                <li class="course-acc-li">Hospitality: Tourism and travel companies leverage digital marketing techniques to increase their brand presence and attract potential customers through online channels. From optimized websites to a strong social media profile, they need skilled digital marketers to increase their market penetration.</li>
-                                                <li class="course-acc-li">Healthcare: Several healthcare organizations also hire digital marketers to promote their services across different online platforms. Additionally, they also need these experts to optimize their online services and provide an omnichannel user experience.</li>
-                                                <li class="course-acc-li">Education: From colleges to online training centers, several institutes in the education industry require strong and proven digital marketing strategies to market their products and services.</li>
+                                                <li class="course-acc-li">Build dynamic and responsive web applications using MERN stack.</li>
+                                                <li class="course-acc-li">Develop proficiency in setting up and deploying applications on various platforms. </li>
+                                                <li class="course-acc-li">Utilize advanced tools and libraries like Bootstrap, Redux, and Express.js.</li>
+                                                <li class="course-acc-li">Implement secure authentication and authorization mechanisms .</li>
+                                                <li class="course-acc-li">Master database management and integration for seamless data handling.</li>
                                             </ul>
                                         </div>
-                                        <h5 class="h5 mt-40">FAQs</h5>
-                                        <p>With our digital marketing course with placement, you will be able to work across multiple industries. If you are concerned about career opportunities, below we have mentioned a few industries that are actively hiring trained and skilled digital marketers. </p>
-                                        <h5 class="h6 mt-40">Why learning digital marketing is beneficial?</h5>
-                                        <p>Digital marketing is one of the most in-demand aspects in today’s time since it allows businesses to reach a significant portion of online audiences through different marketing channels like social media, search engines, emails, and many more.</p>
-                                        <h5 class="h6 mt-40">Do you offer live project training for digital marketing?</h5>
-                                        <p>Our digital marketing training in Indore will include live training for real-time project implementation so that you can learn the techniques and strategies in a better way</p>
-                                        <h5 class="h6 mt-40">What is PPC and why is it important?</h5>
-                                        <p>PPC or pay-per-click is a type of paid advertisement for any brand where a business needs to pay for every click on their website URL. It offers guaranteed online traffic and can generate better leads.</p>
-                                        <h5 class="h6 mt-40">Do I need to learn SEO?</h5>
-                                        <p>As a digital marketing expert, you will have to learn SEO since it allows more visibility of the online brand profile and plays a crucial role in driving more organic traffic.</p>
-                                        <h5 class="h6 mt-40">What is the salary of a digital marketing professional?</h5>
-                                        <p>The average salary of a digital marketing professional is somewhere between INR 7 lakhs to INR 15 lakhs depending on the skillset, expertise level, industry, and employer. </p>
-                                        <h5 class="h6 mt-40">What are the industries hiring digital marketers?</h5>
-                                        <p>From retail commerce to healthcare, several industries are now hiring digital marketers to enhance their online presence and establish a deeper market penetration</p>
-                                        <h5 class="h6 mt-40">What is keyword selection in digital marketing?</h5>
-                                        <p>Keyword selection is a digital marketing strategy where professionals optimize the digital content by including phrases that are in trending searches. </p>
+
+                                        <h5 class="h5">Duration Breakdown</h5>
+                                        <div class="checklist dis-ul mt-40">
+                                            <ul class="course-acc-ul">
+                                                <li class="course-acc-li">Modules (1-4) => 11 days</li>
+                                                <li class="course-acc-li">Module (5) => 9 days </li>
+                                                <li class="course-acc-li">Modules (6) => 9 days</li>
+                                                <li class="course-acc-li">Modules (7) => 9 days</li>
+                                                <li class="course-acc-li">Modules (8) => 8 days</li>
+                                                <li class="course-acc-li">Modules (10-11) => 10 days</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <h5 class="h6 mt-40">Audience: </h5>
+                                        <p>This course is ideal for aspiring developers seeking
+comprehensive training in MERN stack development, from beginners with
+basic web development knowledge to seasoned professionals aiming to
+enhance their skill set.</p>
+                                        <h5 class="h6 mt-40">Prerequisites:</h5>
+                                        <p>Participants should have a strong understanding of HTML,
+CSS, and JavaScript, as well as familiarity with web development concepts.
+Prior experience with frameworks like React and Node.js is beneficial but
+not mandatory.</p>
+                                        <h5 class="h6 mt-40">Duration:</h5>
+                                        <p>The course duration is 6 months, depending on the individual's
+                                        skills and ability to grasp concepts effectively.</p>
+                                        
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
                                             <div class="auhtor-img">
-                                                <img src="assets/img/instructor/hinal.jpg" alt="Author Image">
+                                                <img src="assets/img/instructor/nilesh-goud.jpg" alt="Author Image">
                                             </div>
                                             <div class="media-body">
-                                                <h3 class="author-name"><a class="text-inherit" href="digital-marketing-Instructor.php">Hinal Joshi</a></h3>
-                                                <p class="author-text">Hinal Joshi is a seasoned Digital Marketing & SEO expert with over 4 years of hands-on experience. She has successfully implemented strategies for a diverse range of industries, including fashion, e-commerce, manufacturing, healthcare, and education.</p>
+                                                <h3 class="author-name"><a class="text-inherit" href="nilesh-goud-instructor.php">Nilesh Goud</a></h3>
+                                                <p class="author-text">Nilesh Goud is a skilled full-stack developer with a passion for building robust and scalable web applications using Python.</p>
                                                 <div class="author-meta">
-                                                    <a><i class="fal fa-file-video"></i>1 Course</a>
-                                                    <span><i class="fal fa-users"></i>200+ Students</span>
+                                                    <a ><i class="fal fa-file-video"></i>1 Course</a>
+                                                    <span><i class="fal fa-users"></i>250+ Students</span>
                                                 </div>
                                                 <div class="th-social">
                                                     <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
@@ -869,7 +768,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="course-Reviews">
                                         <div class="th-comments-wrap ">
-                                        <ul class="comment-list">
+                                            <ul class="comment-list">
                                                 <li class="review th-comment-item">
                                                     <div class="th-post-comment">
                                                         <div class="comment-avater">
@@ -925,10 +824,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     </div>
                 </div>
                 <div class="col-xxl-3 col-lg-4">
-                     <aside class="sidebar-area position-relative">
+                    <aside class="sidebar-area position-relative">
                         <!-- register sidebar -->
                         <img src="assets/img/home-course-details/badgetwo.png" alt="badgetwo" class="badgetwo">
-
+                   
                         <div class="widget widget_info  register-sidebar">
     <h3 class="widget_title">Inquire Now</h3>
     <form action="mail.php" method="POST" class="contact-form ajax-contact" id="sidebar_form">
@@ -988,9 +887,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- sent sucess msg popup -->
     </form>
 </div>
-                        <div class="widget widget_info  video-small-best">
+
+                        <div class="widget widget_info video-small-best">
                             <div class="th-video">
-                                <img src="assets/img/courses/corses-main/digital-marketing-2.jpg" alt="video">
+                                <img src="assets/img/courses/corses-main/python-thumbnail.jpg" alt="video">
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
@@ -1000,7 +900,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     <li>
                                         <i class="fa-light fa-file"></i>
                                         <strong>Modules: </strong>
-                                        <span>15</span>
+                                        <span>2</span>
                                     </li>
                                    
                                     <li>
@@ -1010,7 +910,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                     </li>
                                 </ul>
                             </div> -->
-                        </div>                        
+                        </div>
+                        
                     </aside>
                 </div>
             </div>
@@ -1190,7 +1091,6 @@ Servce Area
 
     <!--Register Modal -->
 
-    <!--Register Modal -->
 <div class="modal fade register-modal  load-modal" id="registerModal" tabindex="-1"
     aria-labelledby="registerModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-lg">
@@ -1246,7 +1146,7 @@ Servce Area
                                 </div>
                             </div>
                             <div class="form-btn col-12 mt-10">
-                                <button class="th-btn " onclick="gtag_report_conversion()"  type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
+                                <button class="th-btn " onclick="gtag_report_conversion()" type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
@@ -1282,6 +1182,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     </div>
 </div>
 </div>
+
 
 <div class="modal fade load-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
     aria-hidden="true">
@@ -1350,7 +1251,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
-                                            <button class="th-btn " type="submit" value="2" onclick="gtag_report_conversion()">Send Message<i
+                                            <button class="th-btn " type="submit" onclick="gtag_report_conversion()" value="2" >Send Message<i
                                                     class="fas fa-long-arrow-right ms-2"></i></button>
                                         </div>
                                     </div>
@@ -1365,23 +1266,24 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     </div>
     
 </div>
+
     <!--********************************
 			Code End  Here 
 	******************************** -->
 
     <!-- <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Digital%20Marketing%20Course%0AI%20am%20interested%20in%20a%20Digital%20Marketing%20course" target="_blank">
+                                <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                                     <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
                                 </a>
                         </div>
 
-                        <div id="scrollButtonsinquirey" class="hidden">
-                                <a id="inquiryButton" onclick="gtag_report_conversion()" class="inquiry-button" href="tel:+919586877700" target="_blank">
+                        <div id="scrollButtonsinquirey" onclick="gtag_report_conversion()" class="hidden">
+                                <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
                                     <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
                                 </a>
                         </div> -->
 
-  <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Digital%20Marketing%20Course%0AI%20am%20interested%20in%20a%20Digital%20Marketing%20course" target="_blank">
+                        <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
                             <div class="inner-sticky-contain">
                                 <p class="inner-job-title">
@@ -1539,7 +1441,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                 }
             });
 
-
             $(document).ready(function () {
                 // Initially set the buttons visible
                 $('#scrollButtons').show();
@@ -1613,7 +1514,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
 
 
 
-
          $(document).ready(function() {
            // Initially, hide all sub-menus and remove active class
            $('.cus-megamenu-list ul').removeClass('active').hide();
@@ -1643,13 +1543,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
              }
            });
          });
-         
-         
-         
-         
-         
-         
-             
       </script>
    </body>
 </html>
