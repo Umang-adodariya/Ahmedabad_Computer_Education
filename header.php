@@ -839,3 +839,15 @@ Header Area
         unset($_SESSION['flash_message']);
         ?>
     <?php endif; ?>
+<?php if (isset($_SESSION['captcha_failed'])): ?>
+        <!-- Success message popup -->
+        <div class="popup-sent-msg-error">
+            <div class="popup-inner-msg-error">
+                <p><?php echo htmlspecialchars($_SESSION['captcha_failed']); ?></p>
+            </div>
+        </div>
+        <?php
+        // Unset the flash message so it won't show again on refresh
+        unset($_SESSION['captcha_failed']);
+        ?>
+    <?php endif; ?>

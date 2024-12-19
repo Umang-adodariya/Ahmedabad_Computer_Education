@@ -33,12 +33,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $result = file_get_contents($url, false, $context);
     $resultData = json_decode($result);
 
-    if ($resultData->success) {
-        // echo "Form submitted successfully.";
-        // Proceed with form processing
-    } else {
-        echo "reCAPTCHA validation failed. Please try again.";
-        die;
+    if (!$resultData->success) {
+        unset($_SESSION['flash_message']);
+        $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
+        $location = $requestUri;
+        header("Location: $location");
     }
     $location ='';
     // Get the form fields and remove whitespace.
