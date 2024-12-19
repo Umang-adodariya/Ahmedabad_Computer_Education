@@ -11,6 +11,34 @@ if($requestUri == 'Ahmedabad_Computer_Education'){
 }
 // Only process POST reqeusts.
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $recaptcha_secret = '6Lc0SJ8qAAAAANaK48-4xpBYiTlYUImvnA4IlgNx';
+    $recaptcha_response = $_POST['g-recaptcha-response'];
+
+    // Verify the reCAPTCHA response
+    $url = 'https://www.google.com/recaptcha/api/siteverify';
+    $data = [
+        'secret' => $recaptcha_secret,
+        'response' => $recaptcha_response
+    ];
+
+    $options = [
+        'http' => [
+            'method'  => 'POST',
+            'header'  => 'Content-type: application/x-www-form-urlencoded',
+            'content' => http_build_query($data)
+        ]
+    ];
+
+    $context  = stream_context_create($options);
+    $result = file_get_contents($url, false, $context);
+    $resultData = json_decode($result);
+
+    if (!$resultData->success) {
+        unset($_SESSION['flash_message']);
+        $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
+        $location = $requestUri;
+        header("Location: $location");
+    }
     $location ='';
     // Get the form fields and remove whitespace.
     $name = strip_tags(trim($_POST["name"]));

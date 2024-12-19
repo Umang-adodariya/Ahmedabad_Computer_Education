@@ -1406,39 +1406,6 @@
     //   }
     
 
-
-
-   // Function to generate a random CAPTCHA string
-   function generateCaptcha(event) {
-    // Prevent the button's default form submission behavior
-    if (event) {
-        event.preventDefault();
-    }
-    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    let captchaText = '';
-    for (let i = 0; i < 6; i++) {
-        captchaText += characters.charAt(Math.floor(Math.random() * characters.length));
-    }
-    $(".captcha").html(captchaText);
-    document.getElementById('userInput').value = '';
-}
-
-// Function to validate the user input
-function validateCaptcha() {
-    const captcha = document.getElementById('captcha').textContent;
-    const userInput = document.getElementById('userInput').value;
-
-    if (captcha === userInput) {
-        return true;
-    } else {
-        alert('Incorrect CAPTCHA, try again.');
-        return false;
-    }
-}
-
-window.onload = function() {
-    generateCaptcha();
-};
 $("#contact_form").on("submit", function (element) {
     element.preventDefault();
     const $form = $(this); // Get the current form being submitted
@@ -1447,8 +1414,6 @@ $("#contact_form").on("submit", function (element) {
     const subject = $form.find('#subject').val();
     const number = $form.find('#number').val();
     const message = $form.find('#message').val();
-    const userInput = $form.find('#userInput').val();
-    const captchaText = $form.find('#captcha').text();
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
@@ -1490,12 +1455,7 @@ $("#contact_form").on("submit", function (element) {
     }else{
         $('#contact_message_error').html("");
     }
-    if (!(userInput === captchaText)) {
-        $('#contact_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#contact_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1512,8 +1472,6 @@ $("#sidebar_form").on("submit", function (e) {
     const userName = $form.find('#name').val();
     const email = $form.find('#email').val();
     const number = $form.find('#number').val();
-    const userInput = $form.find('#userInput').val();
-    const captchaText = $form.find('#captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -1543,12 +1501,7 @@ $("#sidebar_form").on("submit", function (e) {
             $('#sidebar_number_error').html("");
         }
     }
-    if (!(userInput === captchaText)) {
-        $('#sidebar_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#sidebar_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1564,8 +1517,6 @@ $("#blog_form").on("submit", function (e) {
     const userName = $form.find('#name').val();
     const email = $form.find('#email').val();
     const comment = $form.find('#comment').val();
-    const userInput = $form.find('#userInput').val();
-    const captchaText = $form.find('#captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     var count = 0;
@@ -1593,12 +1544,7 @@ $("#blog_form").on("submit", function (e) {
             $('#blog_comment_error').html("");
         }
     }
-    if (!(userInput === captchaText)) {
-        $('#blog_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#blog_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1612,8 +1558,6 @@ $('#get-in-touch-form').on('submit', function (e) {
     const $form = $(this); // Get the current form being submitted
     const userName = $form.find('#name').val();
     const number = $form.find('#number').val();
-    const userInput = $form.find('.userInput').val();
-    const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
 
@@ -1634,12 +1578,7 @@ $('#get-in-touch-form').on('submit', function (e) {
             $('#load_number_error').html("");
         }
     }
-    if (!(userInput === captchaText)) {
-        $('#load_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#load_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1660,8 +1599,6 @@ $('#register_form').on('submit', function (e) {
     const userName = $form.find('#name').val();
     const email = $form.find('#email').val();
     const number = $form.find('#number').val();
-    const userInput = $form.find('.userInput').val();
-    const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -1691,12 +1628,7 @@ $('#register_form').on('submit', function (e) {
             $('#register_number_error').html("");
         }
     }
-    if (!(userInput === captchaText)) {
-        $('#register_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#register_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1710,8 +1642,6 @@ $('.course-form').on('submit', function (e) {
     const userName = $form.find('#name').val();
     const email = $form.find('#email').val();
     const subject = $form.find('#subject').val();
-    const userInput = $form.find('.userInput').val();
-    const captchaText = $form.find('.captcha').text();
     const namePattern = /^[A-Za-z\s]+$/;
     const phoneNumberPattern = /^[0-9]{10}$/;
     const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
@@ -1741,12 +1671,7 @@ $('.course-form').on('submit', function (e) {
             $('#course_subject_error').html("");
         }
     }
-    if (!(userInput === captchaText)) {
-        $('#course_captcha_error').html("Please add valid captcha.");
-        count++;
-    }else{
-        $('#course_captcha_error').html("");
-    }
+    
     if(count>0){
         return false;
     }
@@ -1789,10 +1714,6 @@ $(".searchClose,.searchBoxToggler").on("click", function (e) {
     e.preventDefault();
     $("#search_input").val('');
     searchNames();
-});
-$(document).on("click","#refreshBtn", function (e) {
-    e.preventDefault();
-    generateCaptcha();
 });
 
 })(jQuery);
