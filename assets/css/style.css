@@ -33762,6 +33762,19 @@ img.badgetwo {
   font-family: 'Roboto';
   line-height: 19px;
 }
+.popup-sent-msg-error .popup-inner-msg-error {
+  background: red;
+  padding: 10px;
+}
+
+.popup-sent-msg-error .popup-inner-msg-error p {
+  font-size: 13px;
+  color: #fff;
+  text-align: center;
+  margin: 0px;
+  font-family: 'Roboto';
+  line-height: 19px;
+}
 
 .sticky-bottom-note-important {
   position: fixed;

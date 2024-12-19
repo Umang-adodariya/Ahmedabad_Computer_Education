@@ -215,15 +215,8 @@ Course Area
                                 </div>
                                 <div class="col-12">
                                     <div class="captcha-container">
-                                        <div class="input-refresh-btn mb-10">
-                                            <div id="captcha" class="captcha"></div>
-                                            <button id="refreshBtn" class="captcha-ref-btn" type="button"><i
-                                                    class="fal fa-refresh"></i></button>
-                                        </div>
-                                        <div class="input-refresh-btn">
-                                            <input type="text" name="userInput" id="userInput" class="form-control style-white  userInput"
-                                                placeholder="Enter Captcha*" />
-                                        </div>
+                                    <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+
                                     </div>
                                 </div>
                                 <div class="form-btn col-12 mt-10">

@@ -179,7 +179,8 @@ Footer Area
     <script src="assets/js/nice-select.min.js"></script>
 
     <!-- Main Js File -->
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/main.js?time=<?php echo time(); ?>"></script>
+
     <script>
     $(document).ready(function() {
     // Initially, hide all sub-menus and remove active class
