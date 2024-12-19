@@ -125,12 +125,27 @@ Contact Area
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group">
-                                        <select name="subject" id="subject" class="single-select nice-select form-select style-white">
-                                            <option value="" disabled selected hidden>Select Subject*</option>
-                                            <option value="Web Design">Web Design</option>
-                                            <option value="Web Development">Web Development</option>
-                                            <option value="Engine Diagnostics">Engine Diagnostics</option>
-                                            <option value="Digital Marketing">Digital Marketing</option>
+                                        <select name="subject" id="subject" class="single-select nice-select form-select style-white fix-heigt">
+                                            <option value="" disabled selected hidden>Interested Course*</option>
+                                            <option value="Full Stack Blockchain Development Course">Full Stack Blockchain Development Course</option>
+                                            <option value="Full Stack MERN Development Course">Full Stack MERN Development Course</option>
+                                            <option value="Full Stack MEAN Development Course">Full Stack MEAN Development Course</option>
+                                            <option value="Full Stack Python Development Course">Full Stack Python Development Course</option>
+                                            <option value="Full Stack Laravel Development Course">Full Stack Laravel Development Course</option>
+                                            <option value="Web Designing Course">Web Designing Course</option>
+                                            <option value="Graphic & UI UX Design Course">Graphic & UI UX Design Course</option>
+                                            <option value="Game Development Course">Game Development Course</option>
+                                            <option value="DevOps Certification Course">DevOps Certification Course</option>
+                                            <option value="React Native Course">React Native Course</option>
+                                            <option value="Flutter Certification Course">Flutter Certification Course</option>
+                                            <option value="Blockchain Course">Blockchain Course</option>
+                                            <option value="Metaverse Course">Metaverse Course</option>
+                                            <option value="Digital Marketing Courses">Digital Marketing Courses</option>
+                                            <option value="Business Development Course">Business Development Course</option>
+                                            <option value="Business Analyst Course">Business Analyst Course</option>
+                                            <option value="Software Testing Course">Software Testing Course</option>
+                                            <option value="Cyber Security Course">Cyber Security Course</option>
+                                            <option value="CMS Certification Course">CMS Certification Course</option>
                                         </select>
                                     </div>
                                     <div class="contact_subject_error" id="contact_subject_error" style="color: red;"></div>
