@@ -297,8 +297,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <td><?php echo htmlspecialchars($row['contact_no']); ?></td>
                               <td><?php echo htmlspecialchars($row['type']); ?></td>
                               <td>
-                                 <a href="<?php echo htmlspecialchars($row['course_link']); ?>" target="_blank">
-                                    View
+                                 <a href="<?php echo htmlspecialchars($row['course_link']); ?>" target="_blank" class="btn btn-success">
+                                    <i class="fa fa-eye"></i>
                                  </a>
                               </td>
                            </tr>
