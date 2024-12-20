@@ -34,10 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $resultData = json_decode($result);
 
     if (!$resultData->success) {
-        unset($_SESSION['flash_message']);
-        $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
-        $location = $requestUri;
-        header("Location: $location");
+        // unset($_SESSION['flash_message']);
+        // $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
+        // $location = $requestUri;
+        // header("Location: $location");
     }
     $location ='';
     // Get the form fields and remove whitespace.
@@ -122,6 +122,32 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $location = "blog.php";
     }
     $email_content .= "<br>Request URL : $currentUrl";
+
+
+    require_once 'db_connection.php';
+    if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])){
+        try{
+            if($requestUri == 'best-full-stack-developer.php' || $requestUri == 'best-python-training-course.php' || $requestUri == 'best-digital-marketing-training-course.php'){
+                $sql = "INSERT INTO inquire (`name`, `email`, `contact_no`, `type`, `course_link`) 
+                    VALUES ('$name', '$email', '$number', '$subject', '$currentUrl')";
+                if ($conn->query($sql) === TRUE) {
+                } else {
+                    unset($_SESSION['flash_message']);
+                    $_SESSION['captcha_failed']="Something went wrong, Please try again.";
+                    $location = $requestUri;
+                    header("Location: $location");
+                }
+                $conn->close();
+            }
+        } catch (Exception $e) {
+            echo "Error: " . $sql . "<br>" . $conn->error;die;
+            unset($_SESSION['flash_message']);
+            $_SESSION['captcha_failed']="Something went wrong, Please try again.";
+            $location = $requestUri;
+            header("Location: $location");
+        }
+    }
+
     require 'vendor/autoload.php';
     // send grid smtp
     // $email = new \SendGrid\Mail\Mail();
