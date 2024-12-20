@@ -15,7 +15,7 @@
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
                 <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="https://www.ahmedabadcomputereducation.com/">Home</a></li>
                     <li>Blog Details</li>
                 </ul> -->
             </div>
@@ -38,7 +38,7 @@
                                 <a ><i class="fa-light fa-calendar-days"></i>28 December, 2023</a>
                             </div>
                             <h2 class="blog-title">Building Interactive User Interfaces with React: Training for Developers</h2>
-                            <p>In the ever-evolving landscape of web development, React has emerged as a powerhouse for building dynamic and interactive user interfaces. Its component-based architecture and virtual DOM make it a go-to choice for developers aiming to create responsive and engaging <a href="index.php">web applications.</a> If you’re looking to upskill and stay at the forefront of modern web development, mastering React is essential.</p>
+                            <p>In the ever-evolving landscape of web development, React has emerged as a powerhouse for building dynamic and interactive user interfaces. Its component-based architecture and virtual DOM make it a go-to choice for developers aiming to create responsive and engaging <a href="https://www.ahmedabadcomputereducation.com/">web applications.</a> If you’re looking to upskill and stay at the forefront of modern web development, mastering React is essential.</p>
                             <!-- <p>A platform dedicated to exploring the transformative power of education. We believe that education is not only a means to acquire knowledge but also a catalyst for personal growth, societal progress, and global development. In this blog, we aim to inspire, inform, and engage readers in conversations about the latest trends, insights, and innovations in the field of education.</p> -->
 
                             <!-- <blockquote>
@@ -66,7 +66,7 @@
                             <h3 class="h4 mb-25 mt-45">Advanced Concepts: Redux and Context API</h3>
                             <p>For state management in larger applications, we delve into Redux and the Context API. Participants will gain insights into centralized state management, immutability, and actions, mastering techniques to handle complex application states.</p>
                             <h3 class="h4 mb-25 mt-45">Building Responsive UIs</h3>
-                            <p>Creating responsive and visually appealing user interfaces is a key aspect of web development. Our <a href="index.php">training</a> covers responsive design principles and techniques, ensuring that developers can build applications that adapt to various screen sizes and devices.</p>
+                            <p>Creating responsive and visually appealing user interfaces is a key aspect of web development. Our <a href="https://www.ahmedabadcomputereducation.com/">training</a> covers responsive design principles and techniques, ensuring that developers can build applications that adapt to various screen sizes and devices.</p>
                             <h3 class="h4 mb-25 mt-45">Join Our ReactJS Training Institute</h3>
                             <p>Embark on your journey to becoming a React expert with our comprehensive training program. Our instructors, seasoned in React development, provide hands-on guidance and real-world insights. Whether you’re a beginner or an experienced developer looking to enhance your skills, our ReactJS training institute is the gateway to mastering the art of building interactive user interfaces.</p>
                             <h3 class="h4 mb-25 mt-45">Key Highlights:</h3>

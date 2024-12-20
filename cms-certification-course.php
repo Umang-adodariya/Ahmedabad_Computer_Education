@@ -73,14 +73,14 @@ Event Area
                                                     <ul>
                                                         <li>Theme Development</li>
                                                         <li>Plugin Development</li>
-                                                        <li>Psd to Wordpress</li>
+                                                        <li>PSD to Wordpress</li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="col-lg-6">
                                                 <div class="checklist">
                                                     <ul>
-                                                        <li>Support and Maintainance</li>
+                                                        <li>Support and Maintenance</li>
                                                         <li>Responsive Design</li>
                                                     </ul>
                                                 </div>

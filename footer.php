@@ -9,17 +9,19 @@ Footer Area
                         <div class="widget footer-widget">
                             <div class="th-widget-about">
                                 <div class="about-logo">
-                                    <a href="index.php"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                                    <!-- <a href="index.php"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                                    <a href="https://ahmedabadcomputereducation.com/"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
+                                    <!-- <a href="https://www.ahmedabadcomputereducation.com/"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                                 </div>
                                 <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
-                                    <div class="th-social">
+                                    <div class="th-social th-social-new-footer">
                                         <h6 class="title text-white">FOLLOW US ON:</h6>
-                                        <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
-                                        <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
-                                        <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
-                                        <a href="https://wa.me/+919327287700"><i class="fab fa-whatsapp" target="_blank"></i></a>
+                                        <div class="d-flex gap-2">
+                                            <a href="https://www.facebook.com/ahmedabadcomputereducation" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://www.instagram.com/ahmedabad_computer_education/" target="_blank"><i class="fab fa-instagram"></i></a>
+                                            <a href="https://www.linkedin.com/company/ahmedabadcomputereducation/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                                            <a href="https://www.youtube.com/channel/UC-B4hidXXVOrr644iMJrj5g" target="_blank"><i class="fab fa-youtube"></i></a>
+                                            <a href="https://wa.me/+919327287700"><i class="fab fa-whatsapp" target="_blank"></i></a>
+                                        </div>
                                     </div>
                             </div>
                         </div>
@@ -29,7 +31,7 @@ Footer Area
                             <h3 class="widget_title">Quick Links</h3>
                             <div class="menu-all-pages-container">
                                 <ul class="menu">
-                                    <li><a href="index.php">Home</a></li>
+                                    <li><a href="https://www.ahmedabadcomputereducation.com/">Home</a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="courses.php">All Courses</a></li>
                                     <li><a href="gallery.php">Life At ACE</a></li>
@@ -142,7 +144,7 @@ Footer Area
                 </div>
             </div>
         </div>
-        <div class="shape-mockup crose-icon-footer jump d-none d-xl-block" data-top="24%" data-left="4%"><img
+        <div class="shape-mockup crose-icon-footer jump d-xl-block" data-top="24%" data-left="4%"><img
                 src="assets/img/update1/shape/footer_shape_1.png" alt="shapes"></div>
         <div class="shape-mockup jump-reverse d-none d-xl-block" data-bottom="20%" data-right="4%"><img
                 src="assets/img/update1/shape/footer_shape_2.png" alt="shapes"></div>
@@ -238,7 +240,7 @@ Footer Area
     });
 
 
-    
+  
     </script>
 
 </body>

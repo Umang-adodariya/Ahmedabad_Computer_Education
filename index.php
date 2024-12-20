@@ -6,7 +6,6 @@
   <![endif]-->
 
 
-
 <?php include('header.php'); ?>
 
     <!--********************************
@@ -317,7 +316,7 @@ Course Area
                             <h3 class="course-title"><a href="full-stack-angular-development-course.php">Full Stack Angular Development Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 5</span>
+                                <span><i class="fal fa-file"></i>Modules 12</span>
                                 <span><i class="fal fa-user"></i>Students 250+</span>
                                 <span><i class="fal fa-eye"></i>View: 3K</span>
                             </div>
@@ -351,7 +350,7 @@ Course Area
                             <h3 class="course-title"><a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 5</span>
+                                <span><i class="fal fa-file"></i>Modules 9</span>
                                 <span><i class="fal fa-user"></i>Students 360+</span>
                                 <span><i class="fal fa-eye"></i>View: 3.3K</span>
                             </div>
@@ -368,7 +367,7 @@ Course Area
                             <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 2</span>
                                 <span><i class="fal fa-user"></i>Students 180+</span>
                                 <span><i class="fal fa-eye"></i>View: 6.8K</span>
                             </div>
@@ -436,7 +435,7 @@ Course Area
                             <h3 class="course-title"><a href="cms-certification-course.php">CMS Certification Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 9</span>
                                 <span><i class="fal fa-user"></i>Students 140+</span>
                                 <span><i class="fal fa-eye"></i>View: 8.9K</span>
                             </div>
@@ -453,7 +452,7 @@ Course Area
                             <h3 class="course-title"><a href="react-native-course.php">React Native Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 7</span>
                                 <span><i class="fal fa-user"></i>Students 325+</span>
                                 <span><i class="fal fa-eye"></i>View: 4K</span>
                             </div>
@@ -470,7 +469,7 @@ Course Area
                             <h3 class="course-title"><a href="flutter-certification-course.php">Flutter Certification Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 9</span>
+                                <span><i class="fal fa-file"></i>Modules 1</span>
                                 <span><i class="fal fa-user"></i>Students 200+</span>
                                 <span><i class="fal fa-eye"></i>View: 5.3K</span>
                             </div>
@@ -487,7 +486,7 @@ Course Area
                             <h3 class="course-title"><a href="blockchain-training-course.php">Blockchain Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 12</span>
+                                <span><i class="fal fa-file"></i>Modules 3</span>
                                 <span><i class="fal fa-user"></i>Students 130+</span>
                                 <span><i class="fal fa-eye"></i>View: 10.9K</span>
                             </div>
@@ -504,7 +503,7 @@ Course Area
                             <h3 class="course-title"><a href="metaverse-training-course.php">Metaverse Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 6</span>
+                                <span><i class="fal fa-file"></i>Modules 5</span>
                                 <span><i class="fal fa-user"></i>Students 45+</span>
                                 <span><i class="fal fa-eye"></i>View: 3.8K</span>
                             </div>
@@ -521,7 +520,7 @@ Course Area
                             <h3 class="course-title"><a href="cyber-security-training-course.php">Cyber Security Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 6</span>
                                 <span><i class="fal fa-user"></i>Students 125+</span>
                                 <span><i class="fal fa-eye"></i>View: 7K</span>
                             </div>
@@ -538,7 +537,7 @@ Course Area
                             <h3 class="course-title"><a href="game-development-course.php">Game Development Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 11</span>
+                                <span><i class="fal fa-file"></i>Modules 4</span>
                                 <span><i class="fal fa-user"></i>Students 130+</span>
                                 <span><i class="fal fa-eye"></i>View: 8.7K</span>
                             </div>
@@ -555,7 +554,7 @@ Course Area
                             <h3 class="course-title"><a href="devops-certification-course.php">DevOps Certification Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 5</span>
+                                <span><i class="fal fa-file"></i>Modules 8</span>
                                 <span><i class="fal fa-user"></i>Students 85+</span>
                                 <span><i class="fal fa-eye"></i>View: 6.3K</span>
                             </div>
@@ -572,7 +571,7 @@ Course Area
                             <h3 class="course-title"><a href="digital-marketing-training-course.php">Digital Marketing Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 15</span>
                                 <span><i class="fal fa-user"></i>Students 200+</span>
                                 <span><i class="fal fa-eye"></i>View: 10.4K</span>
                             </div>
@@ -589,7 +588,7 @@ Course Area
                             <h3 class="course-title"><a href="seo-certification-training-course.php">SEO Certification Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 7</span>
                                 <span><i class="fal fa-user"></i>Students 100+</span>
                                 <span><i class="fal fa-eye"></i>View: 4.1K</span>
                             </div>
@@ -606,7 +605,7 @@ Course Area
                             <h3 class="course-title"><a href="business-development-course.php">Business Development Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 4</span>
                                 <span><i class="fal fa-user"></i>Students 65+</span>
                                 <span><i class="fal fa-eye"></i>View: 6K</span>
                             </div>
@@ -623,13 +622,13 @@ Course Area
                             <h3 class="course-title"><a href="business-analyst-course.php">Business Analyst Course</a></h3>
 
                             <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
+                                <span><i class="fal fa-file"></i>Modules 14</span>
                                 <span><i class="fal fa-user"></i>Students 55+</span>
                                 <span><i class="fal fa-eye"></i>View: 4.7K</span>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div>             
                
       
              

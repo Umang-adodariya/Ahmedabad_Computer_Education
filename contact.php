@@ -1,3 +1,8 @@
+<style>
+    .contact-form-wrap{
+        margin-top:60px !important;
+    }
+</style>
 <?php include('header.php'); ?>
     <!--==============================
     Breadcumb
