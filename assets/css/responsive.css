@@ -73,7 +73,7 @@
     height: 108%;
 }
 .team-card.style2 .team-img-wrap .team-shape {
-  top: -12px;
+  top: -15px !important;
 }
 }
 @media (max-width: 389px) {

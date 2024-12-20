@@ -73,7 +73,7 @@ Event Area
                                     aria-labelledby="description-tab">
                                     <div class="course-description">
                                         <h5 class="h5">Course summary</h5>
-                                        <p>Develop expert skills and deepen your technical prowess with our <b>React Native course Ahmedabad</b> to create single-page applications like a pro. Get guaranteed placement with our industry-wide accepted certification on React Native. Advance in your career as a cross-platform app developer or React Native developer and show your technical expertise through stellar projects.</p>
+                                        <p>Develop expert skills and deepen your technical prowess with our <b>React Native course Ahmedabad and Indore</b> to create single-page applications like a pro. Get guaranteed placement with our industry-wide accepted certification on React Native. Advance in your career as a cross-platform app developer or React Native developer and show your technical expertise through stellar projects.</p>
                                         
                                         <h5 class="h5 mt-40">Course highlights</h5>
                                         <p>Cross-platform development has become quite famous in recent times, thanks to its ability to reduce workload and time to market. This modern practice bridges the gaps between the specific configuration differences in native functions of multifarious operating systems used in mobile devices, namely iOS and Android. In other words, developers can use a single codebase to run the applications across all mobile devices, regardless of the operating systems. Hence, time invested is quite less and the app can be developed much faster and made public for the end users. While several platforms are available for cross-platform development, React Native is indeed the best option, all because of its ability to form a bridge between native modules of operating systems and JavaScript.</p>
@@ -126,7 +126,7 @@ Event Area
                                                     aria-labelledby="faqOne" data-bs-parent="#accordionExampleFaq">
                                                     <div class="accordion-body course-acc-body">
                                                         <div class="checklist mb-1">
-                                                            <p>Yes, at ACE, we offer placement guarantee through our <b>React Native training Indore</b> so that you can utilize your skills to secure the best-paying job in your desired industry.</p>
+                                                            <p>Yes, at ACE, we offer placement guarantee through our <b>React Native training Indore and Ahmedabad</b> so that you can utilize your skills to secure the best-paying job in your desired industry.</p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -354,7 +354,7 @@ Event Area
                                                                     <li class="course-acc-li">Getting a user’s location
                                                                         and handling permissions</li>
                                                                     <li class="course-acc-li">Accessing stored photos
-                                                                        with CameraRoll</li>
+                                                                        with Camera Roll</li>
                                                                     <li class="course-acc-li">Adding animations</li>
                                                                 </ul>
                                                             </div>

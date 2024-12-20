@@ -217,9 +217,9 @@ Event Area
                                                                     <li class="course-scc-li">Smart Contract Capabilities In Blockchain</li>
                                                                     <li class="course-scc-li">Blockchain In Metaverse</li>
                                                                     <li class="course-scc-li">Understanding Tokens</li>
-                                                                    <li class="course-scc-li">Understanding The Nft</li>
-                                                                    <li class="course-scc-li">Nft Token Standards</li>
-                                                                    <li class="course-scc-li">Nfts In MV</li>
+                                                                    <li class="course-scc-li">Understanding The NFT</li>
+                                                                    <li class="course-scc-li">NFT Token Standards</li>
+                                                                    <li class="course-scc-li">NFTs In MV</li>
                                                                     <li class="course-scc-li">Cryptocurrency In MV</li>
                                                                 </ul>
                                                             </div>

@@ -16,7 +16,7 @@
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Full Stack React Training & Certification Course</h1>
                 <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
+                    <li><a href="https://www.ahmedabadcomputereducation.com/">Home</a></li>
                     <li>ReactJS</li>
                 </ul> -->
             </div>
@@ -70,7 +70,7 @@ Event Area
                                         
                                         <h5 class="h5 mt-40">ReactJS Training Course Introduction</h5>
                                         <p>Our ReactJS training course covers all the essential concepts of ReactJS, including component architecture, JSX, state management, and more. Our experienced trainers provide hands-on training to help you gain practical experience and understand how to apply your knowledge in real-world scenarios.</p>
-                                        <p>At <a href="index.php">Ahmedabad Computer Education</a>, we are committed to providing the best ReactJS training institute in Ahmedabad. Our trainers are experts in ReactJS, and they share their knowledge and experience with our students to help them become proficient in the technology. Our course Modules are designed to provide a holistic understanding of ReactJS, from the basics to advanced concepts.</p>
+                                        <p>At <a href="https://www.ahmedabadcomputereducation.com/">Ahmedabad Computer Education</a>, we are committed to providing the best ReactJS training institute in Ahmedabad. Our trainers are experts in ReactJS, and they share their knowledge and experience with our students to help them become proficient in the technology. Our course Modules are designed to provide a holistic understanding of ReactJS, from the basics to advanced concepts.</p>
                                         <p>Our ReactJS certification training course in Ahmedabad is designed to help you demonstrate your proficiency in ReactJS. Our certification is recognized by the industry and helps you stand out in the job market. Our certification is a testament to your knowledge and expertise in ReactJS.</p>
                                         <p>Our ReactJS classes in Ahmedabad are designed to be flexible and customizable. We offer both online and classroom training to cater to your needs. We also offer weekend and weekday batches, so you can choose the one that suits your schedule.</p>
                                         <p>In conclusion, if you are looking for the best ReactJS training course in Ahmedabad, Ahmedabad Computer Education is the place to be. Our comprehensive training, experienced trainers, industry-recognized certification, and flexible schedule make us the best ReactJS training institute in Ahmedabad. Join us today and take the first step towards a successful career in ReactJS.</p>

@@ -1998,7 +1998,7 @@ textarea.is-invalid {
   padding: 12px 0;
   line-height: 1.4;
   font-size: 16px;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: var(--title-color);
   padding-left: 18px;
 }
@@ -17114,7 +17114,7 @@ span.select2-selection.select2-selection--single:focus {
   bottom: 0;
   height: 3px;
   width: 80px;
-  background-color: var(--theme-color);
+  background-color: #0d5ef4;
 }
 
 .contact-info {
@@ -33905,4 +33905,16 @@ select, .form-control, .form-select, textarea, input{
       transparent 75%,
       transparent);
   border-radius: 20px;
+}
+.info-box_link {
+  overflow-wrap: anywhere !important;
+}
+@media(max-width:991px){
+  .th-mobile-menu ul .th-item-has-children>a:after{
+    display: none !important;
+  }.th-mobile-menu ul .th-item-has-children>a .th-mean-expand{
+    margin-top: -12.5px !important;
+  }.th-mobile-menu ul li a{
+    padding-right: 9px !important;
+  }
 }

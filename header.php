@@ -161,7 +161,38 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     window.location.replace("https://www.ahmedabadcomputereducation.com/");
     }
 </script>
-
+<style>
+   a.home-link.active {
+    color: #0c1634 !important;
+}
+.th-social.th-social-new{
+    display:flex;
+    gap:8px;
+}
+.th-social.th-social-new a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.th-social.th-social-new-footer a{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.video-box .icon-btn {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+}
+@media(max-width:375px){
+    .course-meta.style2 span~span {
+        margin-top: 0 !important;
+    }.course-meta.style2{
+        display:flex;
+    }
+}
+</style>
 
 <!-- End Google Tag Manager -->
 </head>
@@ -195,12 +226,12 @@ Mobile Menu
 <div class="th-menu-area text-center">
     <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
     <div class="mobile-logo">
-        <a href="index.php"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
+        <a href="https://www.ahmedabadcomputereducation.com/"><img src="assets/img/ahmedabad_logo.png" alt="Edura"></a>
     </div>
     <div class="th-mobile-menu">
     <ul>
                                         <li class="menu-item-has-children" >
-                                            <a href="index.php" class="home-link">Home</a>
+                                            <a href="https://www.ahmedabadcomputereducation.com/" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="javascript:void(0)">Courses</a>
@@ -316,6 +347,7 @@ Mobile Menu
      </div>
 </form>
 </div>
+
 <!--==============================
 Sidemenu
 ============================== -->
@@ -325,7 +357,7 @@ Sidemenu
     <div class="widget  ">
         <div class="th-widget-about">
             <div class="about-logo">
-                <a href="index.php"><img src="assets/img/ahmedabad_logo.png"
+                <a href="https://www.ahmedabadcomputereducation.com/"><img src="assets/img/ahmedabad_logo.png"
                         alt="ahmedabad computer education"></a>
             </div>
             <p class="about-text">Intrinsicly target low-risk high-yield sources with proactive niche markets.
@@ -476,7 +508,7 @@ Header Area
                                 <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
                             </g>
                         </svg>
-                        <span class="inner-span"> <span class="city-text">Ahmedabad :</span>9327-28-7700 </span></a>
+                        <span class="inner-span"> <span class="city-text">Ahmedabad :</span> 9327-28-7700 </span></a>
                     <a class="header-link" href="tel:7574-85-7700">
                         <!-- <div> -->
                         <svg class="indore-svg" id="Layer_1" viewBox="0 0 512 512"
@@ -555,10 +587,10 @@ Header Area
                             <path d="m78 410a5 5 0 0 1 -5-5v-6a5 5 0 0 1 10 0v6a5 5 0 0 1 -5 5z" />
                         </svg>
                         <!-- </div> -->
-                        <span class="inner-span"><span class="city-text">Indore :</span>7574-85-7700</span></a>
+                        <span class="inner-span"><span class="city-text">Indore :</span> 7574-85-7700</span></a>
                 </div>
                 <div class="col-auto">
-                    <div class="th-social">
+                    <div class="th-social th-social-new">
                         <a target="_blank" href="https://www.facebook.com/ahmedabadcomputereducation"><i class="fab fa-facebook-f"></i></a>
                         <a target="_blank" href="https://www.linkedin.com/company/ahmedabadcomputereducation/"><i class="fab fa-linkedin"></i></a>
                         <a target="_blank" href="https://www.instagram.com/ahmedabad_computer_education/"><i class="fab fa-instagram"></i></a>
@@ -576,7 +608,7 @@ Header Area
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="index.php"><img src="assets/img/ahm-logo-new.png"
+                            <a href="https://ahmedabadcomputereducation.com/"><img src="assets/img/ahm-logo-new.png"
                                     alt="ahmedabad computer education" class="logo-img"></a>
                         </div>
                     </div>
@@ -584,9 +616,9 @@ Header Area
                         <div class="row align-items-center justify-content-between">
                             <div class="col-auto">
                                 <nav class="main-menu d-none d-lg-inline-block">
-                                    <ul>
+                                    <ul id="menu">
                                         <li class="menu-item-has-children">
-                                            <a href="index.php" class="home-link">Home</a>
+                                            <a href="https://www.ahmedabadcomputereducation.com/" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children mega-menu pos-unset">
                                             <a href="courses.php">Courses</a>
@@ -783,7 +815,7 @@ Header Area
                                             </ul>
                                         </li>
                                         <li class="menu-item-has-children">
-                                            <a href="instructors.php" class="instructor-link">Instructors</a>
+                                            <a href="instructors.php" class="home-link">Instructors</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="javascript:void(0)">Know Us</a>
