@@ -285,7 +285,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <th>Email</th>
                         <th>Contact</th>
                         <th>Type</th>
-                        <th>Course Link</th>
+                        <th>Inquiry From</th>
                      </tr>
                   </thead>
                   <tbody>
@@ -298,7 +298,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                               <td><?php echo htmlspecialchars($row['type']); ?></td>
                               <td>
                                  <a href="<?php echo htmlspecialchars($row['course_link']); ?>" target="_blank">
-                                    View Course
+                                    View
                                  </a>
                               </td>
                            </tr>
