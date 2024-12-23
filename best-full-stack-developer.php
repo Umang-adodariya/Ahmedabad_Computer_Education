@@ -6,9 +6,9 @@ session_start();
    <head>
       <meta charset="utf-8">
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <title>Ahmedabad Computer Education</title>
+      <title>Best Full Stack Developer Certificate Course of 2025</title>
       <meta name="author" content="themeholy">
-      <meta name="description" content="Ahmedabad Computer Education">
+      <meta name="description" content="Gain expertise in front-end and back-end programming and advance your career with our full stack developer certificate course. 100% job assistance, inquire now.">
       <meta name="keywords" content="python certification course, python full stack developer course, best python certification course, best python certification near me, python courses with certificate, python course for beginners, python training and certification, python coding training institute, learn python basics and advanced">
       <meta name="robots" content="INDEX,FOLLOW">
       <!-- Mobile Specific Metas -->
