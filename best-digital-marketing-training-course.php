@@ -11,6 +11,7 @@ session_start();
       <meta name="description" content="Ahmedabad Computer Education">
       <meta name="keywords" content="certified digital marketing expert, digital marketing classes near me, best digital marketing course ahmedabad, digital marketing certification course, digital marketing course near me, digital marketing training, affordable digital marketing training, digital marketing course">
       <meta name="robots" content="INDEX,FOLLOW">
+      <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
       <!-- Mobile Specific Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" type="image/png" href="assets/img/favicons/favicon.png">

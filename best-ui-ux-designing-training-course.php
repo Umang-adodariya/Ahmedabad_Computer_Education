@@ -16,6 +16,7 @@ session_start();
       <link rel="icon" type="image/png" href="assets/img/favicons/favicon.png">
       <meta name="msapplication-TileColor" content="#ffffff">
       <meta name="theme-color" content="#ffffff">
+      <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
       <!--==============================
          Google Fonts
          ============================== -->

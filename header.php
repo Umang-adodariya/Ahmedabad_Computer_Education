@@ -12,6 +12,7 @@ session_start();
     <meta name="description" content="Ahmedabad Computer Education">
     <meta name="keywords" content="Ahmedabad Computer Education">
     <meta name="robots" content="INDEX,FOLLOW">
+    <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

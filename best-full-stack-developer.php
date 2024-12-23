@@ -12,6 +12,7 @@ session_start();
       <link rel="canonical" href="https://ahmedabadcomputereducation.com/best-full-stack-developer.php" />
       <meta name="keywords" content="python certification course, python full stack developer course, best python certification course, best python certification near me, python courses with certificate, python course for beginners, python training and certification, python coding training institute, learn python basics and advanced">
       <meta name="robots" content="INDEX,FOLLOW">
+      <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
       <!-- Mobile Specific Metas -->
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
       <link rel="icon" type="image/png" href="assets/img/favicons/favicon.png">
