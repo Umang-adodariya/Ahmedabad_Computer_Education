@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     var arr = url.split('/');
     console.log(arr)
     if(arr[3] == "contact"){
-    window.location.replace("https://www.ahmedabadcomputereducation.com/contact.php");
+    window.location.replace("https://www.ahmedabadcomputereducation.com/connect.php");
     }
     if(arr[3] == "courses" && arr[4] == "seo"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/seo-certification-training-course.php");
@@ -314,7 +314,7 @@ Mobile Menu
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact Us</a>
+                                            <a href="connect.php">Contact Us</a>
                                         </li>
                                     </ul>
     </div>
@@ -830,7 +830,7 @@ Header Area
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact Us</a>
+                                            <a href="connect.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>

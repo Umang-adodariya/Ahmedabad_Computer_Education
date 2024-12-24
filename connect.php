@@ -2,6 +2,9 @@
     .contact-form-wrap{
         margin-top:60px !important;
     }
+    .modal-content .contact-form-wrap{
+        margin-top:0px !important;
+    }
 </style>
 <?php include('header.php'); ?>
     <!--==============================

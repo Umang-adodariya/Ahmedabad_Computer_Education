@@ -34,7 +34,7 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a class="author" ><i class="far fa-user"></i>by Hinal</a>
+                                <a class="author" ><i class="far fa-user"></i></a>
                                 <a ><i class="fa-light fa-calendar-days"></i>28 December, 2023</a>
                             </div>
                             <h2 class="blog-title">Building Interactive User Interfaces with React: Training for Developers</h2>
@@ -225,7 +225,7 @@
                                 <div class="logo"><img src="assets/img/ahmedabad_logo.png" alt="img"></div>
                                 <h5 class="subtitle">You Get Online Courses</h5>
                                 <a href="tel:93-2728-7700" class="link">93-2728-7700</a>
-                                <a href="contact.php" class="th-btn style7">Contact Us Now <i class="far fa-arrow-right ms-1"></i></a>
+                                <a href="connect.php" class="th-btn style7">Contact Us Now <i class="far fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </aside>

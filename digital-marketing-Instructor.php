@@ -123,10 +123,9 @@ Team Area
                       
                         <div class="checklist style5 mt-30">
                             <ul>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div><b>MSC (CA&IT)</b>, Computer Science from KS Institute of Technology
-                                </div></li>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div>Recognized as a Top Organic Search Voice on LinkedIn</div></li>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div>Recognized as a Top Social Media Optimization (SMO) Voice on LinkedIn</div></li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div><b>MSC (CA&IT)</b>, Computer Science from KS Institute of Technology.</div></li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div>Recognized as a Top Organic Search Voice on LinkedIn.</div></li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div>Recognized as a Top Social Media Optimization (SMO) Voice on LinkedIn.</div></li>
                                 <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div><b>In-Depth Knowledge:</b> She specializes in SEO (Organic), Social Media Marketing, Paid Ads, and Digital Marketing Strategy.</div></li>
                                 <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div><b>Practical Experience:</b> With 3+ years of teaching experience, Hinal knows how to break down complex concepts into easy-to-understand lessons.</div></li>
                                 <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><div><b>Engaging Teaching Style:</b> Hinal's passion for digital marketing is contagious, and she has a knack for making learning fun and interactive.</div></li>
