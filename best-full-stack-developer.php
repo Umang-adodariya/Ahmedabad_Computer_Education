@@ -198,7 +198,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
 <script>
-function gtag_report_conversion(url) {
+function gtag_report_conversion(form,url) {
+
+    var isValid = true;
+            $('#'.form).each(function() {
+                if ($(this).val() === '')
+                    isValid = false;
+            });
+            if(isValid == false){
+                return false;
+            }
     var callback = function () {
     if (typeof(url) != 'undefined') {
       window.location = url;
@@ -879,7 +888,7 @@ not mandatory.</p>
                 </div>
             </div>
             <div class="form-btn col-12 mt-10">
-                <button class="th-btn" type="submit" onclick="gtag_report_conversion()">Submit<i
+                <button class="th-btn" type="submit" onclick="gtag_report_conversion('sidebar_form')">Submit<i
                         class="fas fa-long-arrow-right ms-2"></i></button>
             </div>
         </div>
@@ -1145,7 +1154,7 @@ Servce Area
                                 </div>
                             </div>
                             <div class="form-btn col-12 mt-10">
-                                <button class="th-btn " onclick="gtag_report_conversion()" type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
+                                <button class="th-btn " onclick="gtag_report_conversion('register_form')" type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
@@ -1241,7 +1250,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
-                                            <button class="th-btn " type="submit" onclick="gtag_report_conversion()" value="2" >Send Message<i
+                                            <button class="th-btn " type="submit" onclick="gtag_report_conversion('get-in-touch-form')" value="2" >Send Message<i
                                                     class="fas fa-long-arrow-right ms-2"></i></button>
                                         </div>
                                     </div>
