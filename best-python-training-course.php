@@ -246,7 +246,8 @@ session_start();
         function gtag_report_conversion(form,url) {
 
             var isValid = true;
-            $('#'.form).each(function() {
+            var formId = form;
+                $(`#${formId} input, #${formId} select, #${formId} textarea`).each(function () {
                 if ($(this).val() === '')
                     isValid = false;
             });
