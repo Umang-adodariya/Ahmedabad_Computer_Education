@@ -60,7 +60,7 @@
 
 <body>
 
-
+<?php include('header.php'); ?>
     <!--[if lte IE 9]>
     	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
@@ -98,11 +98,11 @@ Error Area
             <div class="error-page">
                 <div class="error-content">
                     <div class="error-img">
-                        <img src="assets/img/normal/error.svg" alt="404 image">
+                        <img src="assets/img/normal/error.svg" width="200" alt="404 image">
                     </div>
                     <h2 class="error-title"><span class="text-theme">OooPs!</span> Page Not Found</h2>
                     <p class="error-text">Oops! The page you are looking for does not exist. It might have been moved or deleted.</p>
-                    <a href="index.html" class="th-btn">Back To Home </a>
+                    <a href="index.html" class="th-btn" style="margin-bottom:26px">Back To Home </a>
                 </div>
             </div>
         </div>
@@ -110,6 +110,7 @@ Error Area
     <!--==============================
     All Js File
 ============================== -->
+<?php include('footer.php'); ?>
     <!-- Jquery -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
     <!-- Slick Slider -->
