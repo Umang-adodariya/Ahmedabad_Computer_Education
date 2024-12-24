@@ -978,7 +978,7 @@ Admission Area
                             </div>
                             <div class="col-lg-6">
                                 <div class="form-group">
-                                    <input type="date" name="date" id="date" placeholder="Inspection Date*" required>
+                                    <input type="date" name="date" id="date" placeholder="Inspection Date*" class="text-start" required>
                                 </div>
                             </div>
                             <div class="col-lg-6">
@@ -1112,7 +1112,7 @@ Blog Area
                         <div class="cta-content2">
                             <h2 class="fs-40 fw-light text-theme mb-10">Best IT Training Institute</h2>
                             <h2 class="mb-25">Enroll Now and Shape Your Future</h2>
-                            <a href="contact.php" class="th-btn openRegisterModal" data-bs-toggle="modal"
+                            <a href="connect.php" class="th-btn openRegisterModal" data-bs-toggle="modal"
                                 data-bs-target="#registerModal">Register Now<i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>

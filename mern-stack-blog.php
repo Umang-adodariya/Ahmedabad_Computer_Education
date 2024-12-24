@@ -34,7 +34,7 @@
                         </div>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a class="author" href="blog.html"><i class="far fa-user"></i>by Hinal</a>
+                                <a class="author" href="blog.html"><i class="far fa-user"></i>Hinal</a>
                                 <a href="blog.html"><i class="fa-light fa-calendar-days"></i>22 December, 2023</a>
                                 <a href="blog-details.html"><i class="fa-light fa-book"></i>Business Analysis</a>
                             </div>

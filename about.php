@@ -423,19 +423,19 @@ Team Area
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 mb-30 mb-lg-0">
-                    <div class="cta-card" data-bg-src="assets/img/bg/pop-course-1.png">
+                    <div class="cta-card mob-card-pd" data-bg-src="assets/img/bg/pop-course-1.png">
                         <div class="title-area mb-40">
-                            <span class="sub-title text-white"><i class="fal fa-book me-2"></i>Popular Courses</span>
-                            <h4 class="sec-title text-white">Get The Best Courses & <br> Upgrade Your Skills </h4>
+                            <span class="sub-title text-white mob-text"><i class="fal fa-book me-2"></i>Popular Courses</span>
+                            <h4 class="sec-title text-white mob-text">Get The Best Courses & <br> Upgrade Your Skills </h4>
                         </div>
                         <a href="courses.php" class="th-btn style8">View All Courses<i class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <div class="cta-card" data-bg-src="assets/img/bg/pop-course-2.png">
+                    <div class="cta-card mob-card-pd" data-bg-src="assets/img/bg/pop-course-2.png">
                         <div class="title-area mb-40">
-                            <span class="sub-title text-white"><i class="fal fa-book me-2"></i>Investing in Your Future</span>
-                            <h4 class="sec-title text-white">Claim Your FREE <br> Career Consultation Now</h4>
+                            <span class="sub-title text-white mob-text"><i class="fal fa-book me-2"></i>Investing in Your Future</span>
+                            <h4 class="sec-title text-white mob-text">Claim Your FREE <br> Career Consultation Now</h4>
                         </div>
                         <a href="courses.php" class="th-btn style8" data-bs-toggle="modal" data-bs-target="#registerModal">Schedule Now<i class="fas fa-arrow-right ms-2"></i></a>
                     </div>

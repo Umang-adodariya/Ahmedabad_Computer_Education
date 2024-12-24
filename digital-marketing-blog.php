@@ -208,7 +208,7 @@
                                 <div class="logo"><img src="assets/img/ahmedabad_logo.png" alt="img"></div>
                                 <h5 class="subtitle">You Get Online Courses</h5>
                                 <a href="tel:93-2728-7700" class="link">93-2728-7700</a>
-                                <a href="contact.php" class="th-btn style7">Contact Us Now <i class="far fa-arrow-right ms-1"></i></a>
+                                <a href="connect.php" class="th-btn style7">Contact Us Now <i class="far fa-arrow-right ms-1"></i></a>
                             </div>
                         </div>
                     </aside>

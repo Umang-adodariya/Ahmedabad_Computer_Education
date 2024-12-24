@@ -72,7 +72,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     var arr = url.split('/');
     console.log(arr)
     if(arr[3] == "contact"){
-    window.location.replace("https://www.ahmedabadcomputereducation.com/contact.php");
+    window.location.replace("https://www.ahmedabadcomputereducation.com/connect.php");
     }
     if(arr[3] == "courses" && arr[4] == "seo"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/seo-certification-training-course.php");
@@ -196,6 +196,42 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </style>
 
 <!-- End Google Tag Manager -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "EducationalOrganization",
+  "name": "Ahmedabad Computer Education",
+  "image": "https://ahmedabadcomputereducation.com/assets/img/ahm-logo-new.png",
+  "url": "https://ahmedabadcomputereducation.com/",
+  "telephone": "9327-28-7700",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Iscon Emporio, 703, Jodhpur Cross Rd, nr. Star Bazaar, Satellite",
+    "addressLocality": "Ahmedabad",
+    "postalCode": "380015",
+    "addressCountry": "IN"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 23.0266612,
+    "longitude": 72.5245329
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday"
+    ],
+    "opens": "10:00",
+    "closes": "17:00"
+  } 
+}
+</script>
 </head>
 
 <body>
@@ -314,7 +350,7 @@ Mobile Menu
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact Us</a>
+                                            <a href="connect.php">Contact Us</a>
                                         </li>
                                     </ul>
     </div>
@@ -830,7 +866,7 @@ Header Area
                                             <a href="blog.php" class="home-link">Blog</a>
                                         </li>
                                         <li>
-                                            <a href="contact.php">Contact Us</a>
+                                            <a href="connect.php">Contact Us</a>
                                         </li>
                                     </ul>
                                 </nav>

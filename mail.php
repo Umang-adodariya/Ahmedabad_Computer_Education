@@ -62,7 +62,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Subject: $subject<br>";
         $email_content .= "Email: $email<br>";
         $email_content .= "Message:$message";
-        $location = "contact.php";
+        $location = "connect.php";
     }
     elseif($form == "get_in_touch"){
         $subject = "ACE - Inquiry-GetinTouchForm";

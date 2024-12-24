@@ -117,10 +117,9 @@ Team Area
                       
                         <div class="checklist style5 mt-30">
                             <ul>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><b>Certified in Manual & Automation Testing</b></li>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Certified in Automation Framework Development using Selenium
-                                </li>
-                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Engaging Teaching Style: Interactive sessions with questions, examples, and exercises</li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i><b>Certified in Manual & Automation Testing.</b></li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Certified in Automation Framework Development using Selenium.</li>
+                                <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Engaging Teaching Style: Interactive sessions with questions, examples, and exercises.</li>
                                 <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Personalized Learning: Tailored approach to meet individual needs and goals.</li>
                                 <li><i class="fa-solid fa-file-certificate text-theme me-2"></i>Effective Communication: Clear and concise explanations to enhance understanding.
                                 </li>

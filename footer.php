@@ -37,7 +37,7 @@ Footer Area
                                     <li><a href="gallery.php">Life At ACE</a></li>
                                     <li><a href="event.php">Events</a></li>
                                     <!-- <li><a href="blog.php">Blog</a></li> -->
-                                    <li><a href="contact.php">Contact Us</a></li>
+                                    <li><a href="connect.php">Contact Us</a></li>
                                 </ul>
                             </div>
                         </div>

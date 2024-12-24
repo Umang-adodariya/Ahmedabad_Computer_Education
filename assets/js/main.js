@@ -77,7 +77,7 @@
             // Menu Show & Hide
             function menuToggle() {
                 menu.toggleClass(opt.bodyToggleClass);
-
+                $("body").toggleClass("th-no-scroll"); 
                 // collapse submenu on menu hide or show
                 var subMenu = "." + opt.subMenuClass;
                 $(subMenu).each(function () {

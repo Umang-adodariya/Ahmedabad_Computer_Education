@@ -80,7 +80,7 @@ Course Area
                                     <div class="course-author">
                                         <div class="author-info">
                                             <img src="assets/img/instructor/uvesh.jpg" alt="author">
-                                            <a href="uvesh-instructor.php" class="author-name">uvesh Ansari</a>
+                                            <a href="uvesh-instructor.php" class="author-name">Uvesh Ansari</a>
                                         </div>
                                         <!-- <div class="course-rating">
                                             <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
