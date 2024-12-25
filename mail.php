@@ -70,6 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content = "Name: $name<br>";
         $email_content .= "Number: $number<br>";
         $location = "index.php";
+        $_SESSION['form'] = 'get-in-touch-form';
 
     }
     elseif($form == "registration_form"){
@@ -79,6 +80,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Email: $email<br>";
         $email_content .= "Number: $number<br>";
         $location = "index.php";
+        $_SESSION['form'] = 'register_form';
     }
     elseif($form == "booking_appointment"){
         $message = $subject;
@@ -103,6 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Email: $email<br>";
         $email_content .= "Number: $number<br>";
         $location = $requestUri;
+        $_SESSION['form'] = 'sidebar_form';
     }
     elseif($form == "quick_contact_form"){
         $subject = "Quick Contact";
