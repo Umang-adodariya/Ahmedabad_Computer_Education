@@ -149,6 +149,7 @@ Contact Area
                                             <option value="Blockchain Course">Blockchain Course</option>
                                             <option value="Metaverse Course">Metaverse Course</option>
                                             <option value="Digital Marketing Courses">Digital Marketing Courses</option>
+                                            <option value="SEO Certification Course">SEO Certification Course</option>                                
                                             <option value="Business Development Course">Business Development Course</option>
                                             <option value="Business Analyst Course">Business Analyst Course</option>
                                             <option value="Software Testing Course">Software Testing Course</option>
