@@ -269,7 +269,7 @@ Event Area
                                                 <img src="assets/img/team/277x277/277x277_4.png" alt="Author Image">
                                             </div> -->
                                             <div class="auhtor-img without-author-sec">
-                                                <img src="assets/img/loaderIc.png" alt="Author Image" class="default-ic">
+                                                <img src="assets/img/AnkitPatel.jpg" alt="Author Image" class="default-ic" style="max-height:330px;object-fit:cover;">
                                             </div>
                                             <div class="media-body">
                                             <h3 class="author-name"><a class="text-inherit" href="ankit-patel-Instructor.php">Ankit Patel</a></h3>
