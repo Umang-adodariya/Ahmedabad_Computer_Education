@@ -268,7 +268,7 @@ Mobile Menu
     <div class="th-mobile-menu">
     <ul>
                                         <li class="menu-item-has-children" >
-                                            <a href="https://www.ahmedabadcomputereducation.com/" class="home-link">Home</a>
+                                            <a href="/" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children">
                                             <a href="javascript:void(0)">Courses</a>
@@ -655,7 +655,7 @@ Header Area
                                 <nav class="main-menu d-none d-lg-inline-block">
                                     <ul id="menu">
                                         <li class="menu-item-has-children">
-                                            <a href="https://www.ahmedabadcomputereducation.com/" class="home-link">Home</a>
+                                            <a href="/" class="home-link">Home</a>
                                         </li>
                                         <li class="menu-item-has-children mega-menu pos-unset">
                                             <a href="courses.php">Courses</a>
