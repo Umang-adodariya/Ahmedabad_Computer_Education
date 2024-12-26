@@ -6,7 +6,7 @@ $_SESSION['flash_message'] = 'Our team will review your inquiry and get back to 
 $requestUri = basename($_SERVER['HTTP_REFERER']);
 
 if($requestUri == 'Ahmedabad_Computer_Education'){
-    $requestUri = 'index.php';
+    $requestUri = '/';
     $currentUrl = "$_SERVER[HTTP_REFERER]$requestUri";
 }
 // Only process POST reqeusts.
@@ -69,7 +69,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $email_content = "Name: $name<br>";
         $email_content .= "Number: $number<br>";
-        $location = "index.php";
+        $location = "/";
+        $_SESSION['form'] = 'get-in-touch-form';
 
     }
     elseif($form == "registration_form"){
@@ -78,7 +79,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content = "Name: $name<br>";
         $email_content .= "Email: $email<br>";
         $email_content .= "Number: $number<br>";
-        $location = "index.php";
+        $location = "/";
+        $_SESSION['form'] = 'register_form';
     }
     elseif($form == "booking_appointment"){
         $message = $subject;
@@ -88,13 +90,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Email: $email<br>";
         $email_content .= "Date: $date<br>";
         $email_content .= "Subject: $message<br>";
-        $location = "index.php";
+        $location = "/";
     }
     elseif($form == "newsletter_form"){
         $subject = "News letter subscribe";
 
         $email_content = "Email: $email";
-        $location = "index.php";
+        $location = "/";
     }
     elseif($form == "course_form"){
         $subject = "New inquire from course";
@@ -103,6 +105,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email_content .= "Email: $email<br>";
         $email_content .= "Number: $number<br>";
         $location = $requestUri;
+        $_SESSION['form'] = 'sidebar_form';
     }
     elseif($form == "quick_contact_form"){
         $subject = "Quick Contact";
@@ -227,7 +230,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         
     
         // Sending the message
-        $result = $mailer->send($message);
+        // $result = $mailer->send($message);
         $location = $requestUri;
         header("Location: $location");
     } catch (Exception $e) {

@@ -347,6 +347,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         // Unset the flash message so it won't show again on refresh
         unset($_SESSION['flash_message']);
         ?>
+        <script>
+        gtag_report_conversion($_SESSION['form']); 
+    </script>
     <?php endif; ?>
     <?php if (isset($_SESSION['captcha_failed'])): ?>
         <!-- Success message popup -->
@@ -889,7 +892,7 @@ not mandatory.</p>
                 </div>
             </div>
             <div class="form-btn col-12 mt-10">
-                <button class="th-btn" type="submit" onclick="gtag_report_conversion('sidebar_form')">Submit<i
+                <button class="th-btn" type="submit">Submit<i
                         class="fas fa-long-arrow-right ms-2"></i></button>
             </div>
         </div>
@@ -1155,7 +1158,7 @@ Servce Area
                                 </div>
                             </div>
                             <div class="form-btn col-12 mt-10">
-                                <button class="th-btn " onclick="gtag_report_conversion('register_form')" type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
+                                <button class="th-btn " type="submit">Register<i class="fas fa-long-arrow-right ms-2"></i></button>
                             </div>
                         </div>
                         <p class="form-messages mb-0 mt-3"></p>
@@ -1251,7 +1254,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                                             </div>
                                         </div>
                                         <div class="form-btn col-12 mt-10">
-                                            <button class="th-btn " type="submit" onclick="gtag_report_conversion('get-in-touch-form')" value="2" >Send Message<i
+                                            <button class="th-btn " type="submit" value="2" >Send Message<i
                                                     class="fas fa-long-arrow-right ms-2"></i></button>
                                         </div>
                                     </div>
