@@ -1405,7 +1405,7 @@
     //     }
     //   }
     
-
+// start all form validation here important js //
 $("#contact_form").on("submit", function (element) {
     element.preventDefault();
     const $form = $(this); // Get the current form being submitted
@@ -1717,3 +1717,4 @@ $(".searchClose,.searchBoxToggler").on("click", function (e) {
 });
 
 })(jQuery);
+// end all form validation here important js //
