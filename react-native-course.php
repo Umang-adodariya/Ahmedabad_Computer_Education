@@ -55,7 +55,7 @@ Event Area
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam"
                                         role="tab" aria-controls="curriculam" aria-selected="false"><i
-                                            class="fa-regular fa-book"></i>Curriculam</a>
+                                            class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor"
