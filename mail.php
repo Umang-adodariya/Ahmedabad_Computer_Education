@@ -1,4 +1,9 @@
 <?php
+require_once 'config.php';
+config(__DIR__ . '/.env');
+require_once 'db_connection.php';
+require 'vendor/autoload.php';
+
 $currentUrl = "$_SERVER[HTTP_REFERER]";
 session_start();
 $_SESSION['flash_message'] = 'Our team will review your inquiry and get back to you shortly.';
@@ -34,10 +39,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $resultData = json_decode($result);
 
     if (!$resultData->success) {
-        // unset($_SESSION['flash_message']);
-        // $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
-        // $location = $requestUri;
-        // header("Location: $location");
+        unset($_SESSION['flash_message']);
+        $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
+        $location = $requestUri;
+        header("Location: $location");
     }
     $location ='';
     // Get the form fields and remove whitespace.
@@ -50,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $form = trim($_POST["form"]);
     $date = trim($_POST["date"]);
 
-    //     $toMail = "career@yopmail.com";
+    // $toMail = "career@yopmail.com";
     // $ccMail = "umang@yopmail.com";
     $toMail = "career@ahmedabadcomputereducation.com";
     $ccMail = "info@virtualheight.com";
@@ -127,7 +132,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email_content .= "<br>Request URL : $currentUrl";
 
 
-    require_once 'db_connection.php';
     if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])){
         try{
             if($requestUri == 'best-full-stack-developer.php' || $requestUri == 'best-python-training-course.php' || $requestUri == 'best-digital-marketing-training-course.php'){
@@ -151,7 +155,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 
-    require 'vendor/autoload.php';
     // send grid smtp
     // $email = new \SendGrid\Mail\Mail();
     // $email->setFrom("demotest@appworkdemo.com", "Ahmedabad Computer Education");
@@ -208,9 +211,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     //swift mailer
     try {
-        $transport = (new Swift_SmtpTransport('smtp.sendgrid.net', 465, 'ssl'))
-            ->setUsername('apikey')
-            ->setPassword('');
+        $transport = (new Swift_SmtpTransport($_ENV['EMAIL_SMTP_HOST'], $_ENV['EMAIL_SMTP_PORT'], $_ENV['EMAIL_SMTP_ENCRYPTION']))
+            ->setUsername($_ENV['EMAIL_SMTP_USERNAME'])
+            ->setPassword($_ENV['EMAIL_SMTP_PASSWORD']);
         // Create the Mailer using your created Transport
         $mailer = new Swift_Mailer($transport);
     
@@ -223,14 +226,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $message->addPart($email_content, 'text/html');
     
         // Setting from and recipient addresses
-        $message->setfrom(['demotest@appworkdemo.com' => 'ACE - VH']);
+        $message->setfrom([$_ENV['EMAIL_FROM_ADDRESS'] => $_ENV['EMAIL_FROM_NAME']]);
         $message->addto($ccMail, 'Virtual Height');
         $message->addto($toMail, 'Career');
         //$message->addto("jaybanker.vhits@gmail.com", 'Jay');
         
     
         // Sending the message
-        // $result = $mailer->send($message);
+        $result = $mailer->send($message);
         $location = $requestUri;
         header("Location: $location");
     } catch (Exception $e) {

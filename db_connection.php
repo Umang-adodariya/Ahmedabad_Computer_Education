@@ -1,8 +1,9 @@
 <?php
-$host = "154.12.224.76";
-$username = "phpmyadmin";
-$password = "fgu@!76EKyu8892";
-$dbname = "ACE"; // Database name
+// Database Configuration
+$host = $_ENV['DB_HOST'];
+$username = $_ENV['DB_USERNAME'];
+$password = $_ENV['DB_PASSWORD'];
+$dbname = $_ENV['DB_NAME'];
 
 // Create a connection
 $conn = new mysqli($host, $username, $password, $dbname);
