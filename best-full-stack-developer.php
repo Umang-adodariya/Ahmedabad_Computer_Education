@@ -348,7 +348,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         unset($_SESSION['flash_message']);
         ?>
         <script>
-        gtag_report_conversion($_SESSION['form']); 
+            
+        gtag_report_conversion(<?php echo json_encode($_SESSION['form']); ?>); 
     </script>
     <?php endif; ?>
     <?php if (isset($_SESSION['captcha_failed'])): ?>
