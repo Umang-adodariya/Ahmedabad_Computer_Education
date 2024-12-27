@@ -70,7 +70,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <script>
       var url = window.location.href;
     var arr = url.split('/');
-    console.log(arr)
     if(arr[3] == "contact"){
     window.location.replace("https://www.ahmedabadcomputereducation.com/connect.php");
     }
