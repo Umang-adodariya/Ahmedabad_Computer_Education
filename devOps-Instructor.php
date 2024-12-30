@@ -1,8 +1,6 @@
 <?php include('header.php'); ?>
 
-    <!--==============================
-    Breadcumb
-============================== -->
+ 
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -15,16 +13,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Instructor Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Instructor Details</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
+   
     <section class="space">
         <div class="container">
             <div class="team-details-about-info">

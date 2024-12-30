@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb_blog.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,10 +12,7 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Post</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Blog</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
@@ -45,11 +40,7 @@ Blog Area
                     </div>
 
                     <div class="th-blog blog-single has-post-thumbnail">
-                        <!-- <div class="blog-img th-carousel" data-overlay="black" data-opacity="5" data-arrows="true" data-slide-show="1" data-fade="true">
-                            <a href="blog-details.php"><img src="assets/img/blog/blog1.jpg" alt="Blog Image"></a>
-                            <a href="blog-details.php"><img src="assets/img/blog/blog2.jpg" alt="Blog Image"></a>
-                            <a href="blog-details.php"><img src="assets/img/blog/blog3.jpg" alt="Blog Image"></a>
-                        </div> -->
+                        
                         <div class="blog-img">
                         <img src="assets/img/blog/blog2.jpg" alt="Blog Image">
                         </div>
@@ -97,40 +88,7 @@ Blog Area
                             <a href="mern-stack-blog.php" class="link-btn">Read More Details<i class="fas fa-arrow-right ms-2"></i></a>
                         </div>
                     </div>
-                    <!-- <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/blog/web-scraping-blog.jpg" alt="Blog Image"></a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a class="author" href="blog.php"><i class="fa-light fa-user"></i>Hinal</a>
-                                <a href="blog.php"><i class="fa-light fa-clock"></i>26 September, 2023</a>
-                                <a href="blog-details.php"><i class="fa-light fa-book"></i>Business Analysis</a>
-                            </div>
-                            <h2 class="blog-title"><a href="blog-details.php">How to Use Web Scraping to Find Your Dream Job</a>
-                            </h2>
-                            <p class="blog-text">Web scraping is the process of extracting data from websites. It can be used for a variety of purposes, including market research, competitive intelligence, and job hunting.
-
-                                In this blog post, we will show you how to use web scraping to find your dream job. We will cover everything from choosing the right web scraping tools to extracting the data you need to build a list of your dream jobs.</p>
-                            <a href="blog-details.php" class="link-btn">Read More Details<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                    <div class="th-blog blog-single has-post-thumbnail">
-                        <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/blog/ai-blog.jpg" alt="Blog Image"></a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a class="author" href="blog.php"><i class="fa-light fa-user"></i>Hinal</a>
-                                <a href="blog.php"><i class="fa-light fa-clock"></i>26 September, 2023</a>
-                                <a href="blog-details.php"><i class="fa-light fa-book"></i>Business Analysis</a>
-                            </div>
-                            <h2 class="blog-title"><a href="blog-details.php">AI Career Planning: Guiding Your Path to Professional Excellence</a>
-                            </h2>
-                            <p class="blog-text">In an era marked by rapid technological advancements and ever-evolving industries, career planning has become both an art and a science. The age-old adage of choosing a career path and sticking to it has evolved into a dynamic process of adaptation and lifelong learning. Here, we explore how artificial intelligence (AI) is playing a pivotal role in reshaping career planning and helping individuals chart their paths to professional excellence.</p>
-                            <a href="blog-details.php" class="link-btn">Read More Details<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div> -->
+                    
                     <div class="th-blog blog-single has-post-thumbnail">
                         <div class="blog-img">
                             <img src="assets/img/blog/node-js-blog.jpg" alt="Blog Image">
@@ -148,14 +106,7 @@ Blog Area
                         </div>
                     </div>
 
-                    <!-- <div class="th-pagination ">
-                        <ul>
-                            <li><a href="blog.php">01</a></li>
-                            <li><a href="blog.php">02</a></li>
-                            <li><a href="blog.php">03</a></li>
-                            <li><a href="blog.php"><i class="far fa-arrow-right"></i></a></li>
-                        </ul>
-                    </div> -->
+                    
                     <div class="th-pagination" > 
                         <ul id="pagination"  class="pagination">
                         <li><a href="javascript:void(0)" id="prev"><i class="far fa-arrow-left"></i></a></li> 
@@ -167,22 +118,7 @@ Blog Area
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
-                        <!-- <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Search Product...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget widget_categories  ">
-                            <h3 class="widget_title">Categories</h3>
-                            <ul>
-                                <li><a href="service-details.php">Education</a><span>(08)</span></li>
-                                <li><a href="service-details.php">Informative</a> <span>(12)</span></li>
-                                <li><a href="service-details.php">Photography</a><span>(15)</span></li>
-                                <li><a href="service-details.php">Learning</a><span>(21)</span></li>
-                                <li><a href="service-details.php">Uncategorized</a><span>(14)</span></li>
-                            </ul>
-                        </div> -->
+                        
                         <div class="widget recent-post-main">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -221,19 +157,7 @@ Blog Area
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="widget widget_tag_cloud  ">
-                            <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud">
-                                <a href="blog.php">Business</a>
-                                <a href="blog.php">Courses</a>
-                                <a href="blog.php">Online</a>
-                                <a href="blog.php">Remote</a>
-                                <a href="blog.php">Education</a>
-                                <a href="blog.php">Solution</a>
-                                <a href="blog.php">Students</a>
-                                <a href="blog.php">UX</a>
-                            </div>
-                        </div> -->
+                        
                         <div class="widget widget_banner logo-blog-contact " data-overlay="theme" data-opacity="9" >
                             <div class="widget-banner">
                                 <h4 class="title">Need Help? We Are Here
@@ -271,7 +195,7 @@ Blog Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
+                        
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">

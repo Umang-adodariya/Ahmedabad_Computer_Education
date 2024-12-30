@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-cources.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,22 +12,17 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Courses</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Courses</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Course Area  
-==============================-->
+    
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <!-- <span class="course-result-count">We found <span class="text-theme">12 courses</span> available for you</span> -->
+                        
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -54,12 +47,7 @@ Course Area
                                             <img src="assets/img/instructor/nikita-karanpuria.jpg" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Nikita Karanpuria</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-blockchain-development-course.php">Full Stack Blockchain Development Course</a></h3>
                                     <div class="course-meta">
@@ -82,12 +70,7 @@ Course Area
                                             <img src="assets/img/instructor/uvesh.jpg" alt="author">
                                             <a href="uvesh-instructor.php" class="author-name">Uvesh Ansari</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-react-development-course.php">Full Stack React Development Course</a></h3>
                                     <div class="course-meta">
@@ -110,12 +93,7 @@ Course Area
                                             <img src="assets/img/instructor/vishal-patel.jpg" alt="author">
                                             <a href="vishal-patel-instructor.php" class="author-name">Vishal Patel</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-angular-development-course.php">Full Stack Angular Development Course</a></h3>
                                     <div class="course-meta">
@@ -138,12 +116,7 @@ Course Area
                                             <img src="assets/img/instructor/nilesh-goud.jpg" alt="author">
                                             <a href="nilesh-goud-instructor.php" class="author-name">Nilesh Goud</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-python-development-course.php">Full Stack Python Development Course
                                     </a></h3>
@@ -167,12 +140,7 @@ Course Area
                                             <img src="assets/img/instructor/bhargav-limbasiya.jpg" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Bhargav Limbasiya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course
                                     </a></h3>
@@ -184,29 +152,7 @@ Course Area
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-md-6 col-lg-4 col-xxl-3 filter-item cat1 cat4">
-                            <div class="course-box2 style2">
-                                <div class="course-img">
-                                    <img src="assets/img/course/couses-new/267-python.jpg" alt="course">
-                                    
-                                </div>
-                                <div class="course-content">
-                                    <div class="course-author">
-                                        <div class="author-info">
-                                            <img src="assets/img/80x80_3.png" alt="author">
-                                            <a href="javascript:void(0)" class="author-name">Ankit Patel</a>
-                                        </div>
-                                    </div>
-                                    <h3 class="course-title"><a href="python-details.php">Python Certification Course
-                                    </a></h3>
-                                    <div class="course-meta">
-                                        <span><i class="fal fa-file"></i>Modules 5</span>
-                                        <span><i class="fal fa-user"></i>Students 50</span>
-                                        <span><i class="fal fa-eye"></i>View: 14K</span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> -->
+                        
 
                         <div class="col-md-6 col-lg-4 col-xxl-3 filter-item cat2 cat4">
                             <div class="course-box2 style2">
@@ -220,12 +166,7 @@ Course Area
                                             <img src="assets/img/instructor/instructorDetail/saloni-suthar.jpg" alt="author">
                                             <a href="javascript:void(0)" class="author-name">Saloni Suthar</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="web-designing-training-course.php">Web Designing Course 
 </a></h3>
@@ -249,12 +190,7 @@ Course Area
                                             <img src="assets/img/instructor/ram.jpg" alt="author">
                                             <a href="ui-ux-Instructor.php" class="author-name">Ram Gondaliya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course 
                                     </a></h3>
@@ -278,12 +214,7 @@ Course Area
                                             <img src="assets/img/instructor/rajdeep.jpg" alt="author">
                                             <a href="game-Instructor.php" class="author-name">Rajdeep Rathod</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="game-development-course.php">Game Development Course</a></h3>
                                     <div class="course-meta">
@@ -306,12 +237,7 @@ Course Area
                                             <img src="assets/img/instructor/naresh.jpg" alt="author">
                                             <a href="devOps-Instructor.php" class="author-name">Naresh Chavda</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="devops-certification-course.php">DevOps Certification Course</a></h3>
                                     <div class="course-meta">
@@ -335,12 +261,7 @@ Course Area
                                             <img src="assets/img/instructor/yash.jpg" alt="author">
                                             <a href="react-native-Instructor.php" class="author-name">Yash Nandha</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="react-native-course.php">Best React Native Training Course</a></h3>
                                     <div class="course-meta">
@@ -363,12 +284,7 @@ Course Area
                                             <img src="assets/img/instructor/karan.jpg" alt="author">
                                             <a href="flutter-Instructor.php" class="author-name"> Karan Parmar</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="flutter-certification-course.php">Flutter Training Course</a></h3>
                                     <div class="course-meta">
@@ -392,12 +308,7 @@ Course Area
                                             <img src="assets/img/80x80_3.png" alt="author">
                                             <a href="ankit-patel-Instructor.php" class="author-name">Ankit Patel</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="blockchain-training-course.php">Blockchain Training Course</a></h3>
                                     <div class="course-meta">
@@ -419,12 +330,7 @@ Course Area
                                            <img src="assets/img/instructor/tejas.jpg" alt="author">
                                             <a href="metaverse-Instructor.php" class="author-name">Tejas Acharya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="metaverse-training-course.php">Metaverse Course</a></h3>
                                     <div class="course-meta">
@@ -447,12 +353,7 @@ Course Area
                                             <img src="assets/img/instructor/hinal.jpg" alt="author">
                                             <a href="digital-marketing-Instructor.php" class="author-name">Hinal Joshi</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="digital-marketing-training-course.php">Best Digital Marketing Course</a></h3>
                                     <div class="course-meta">
@@ -475,12 +376,7 @@ Course Area
                                             <img src="assets/img/instructor/jay-malvi.jpg" alt="author">
                                             <a href="seo-instructor.php" class="author-name">Jay Malvi</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="seo-certification-training-course.php">SEO Certification Course</a></h3>
                                     <div class="course-meta">
@@ -504,12 +400,7 @@ Course Area
                                             <img src="assets/img/instructor/aman.jpg" alt="author">
                                             <a href="aman-patel-instructor.php" class="author-name">Aman Patel</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="business-development-course.php">Business Development Course</a></h3>
                                     <div class="course-meta">
@@ -532,12 +423,7 @@ Course Area
                                             <img src="assets/img/instructor/priya.jpg" alt="author">
                                             <a href="business-analyst-Instructor.php" class="author-name">Priya Jaiswal</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="business-analyst-course.php">Business Analyst Course</a></h3>
                                     <div class="course-meta">
@@ -560,12 +446,7 @@ Course Area
                                             <img src="assets/img/instructor/jimmy.jpg" alt="author">
                                             <a href="qa-Instructor.php" class="author-name">Jimmy Chotaliya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course</a></h3>
                                     <div class="course-meta">
@@ -588,12 +469,7 @@ Course Area
                                             <img src="assets/img/instructor/dixitbhai.jpg" alt="author">
                                             <a href="cyber-security-Instructor.php" class="author-name">Dixit Prajapati</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="cyber-security-training-course.php">Cyber Security Course</a></h3>
                                     <div class="course-meta">
@@ -616,12 +492,7 @@ Course Area
                                             <img src="assets/img/instructor/sweta-rao.jpg" alt="author">
                                             <a href="cms-Instructor.php" class="author-name">Sweta Rao</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="cms-certification-course.php">CMS Course</a></h3>
                                     <div class="course-meta">
@@ -664,13 +535,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-react.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="full-stack-react-development-course.php">Full Stack React Development Course</a></h3>
                                     <p class="course-text">We aim to bridge educational gaps, improve learning outcomes. We are committed to making a positive impact on education globally, through our initiatives.</p>
@@ -694,13 +559,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-angular.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="full-stack-angular-development-course.php">Full Stack Angular Development Course</a></h3>
                                     <p class="course-text">We aim to bridge educational gaps, improve learning outcomes. We are committed to making a positive impact on education globally, through our initiatives.</p>
@@ -724,13 +583,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-python.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="full-stack-python-development-course.php">Full Stack Python Development Course</a></h3>
                                     <p class="course-text">Elevate your career prospects with a recognized Python certification course from ACE. Our certification programs cover all aspects of Python, from basic syntax to advanced libraries like NumPy and pandas. Gain a competitive edge and showcase your proficiency to potential employers. Choose from beginner, intermediate, or advanced certification tracks depending on your skill level.</p>
@@ -755,13 +608,7 @@ Course Area
                                     
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a></h3>
                                     <p class="course-text">Elevate your career prospects with a recognized Python certification course from ACE. Our certification programs cover all aspects of Python, from basic syntax to advanced libraries like NumPy and pandas. Gain a competitive edge and showcase your proficiency to potential employers. Choose from beginner, intermediate, or advanced certification tracks depending on your skill level.</p>
@@ -785,13 +632,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-webdesign.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="web-designing-training-course.php">Web Designing Course</a></h3>
                                     <p class="course-text">ACE's Web Design Training Course offers a comprehensive curriculum covering everything from design principles to advanced web development techniques. Learn to create user-friendly, visually appealing websites that leave a lasting impression. Our training programs are tailored to both beginners and experienced designers.</p>
@@ -815,13 +656,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/graphic-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="graphic-and-ui-ux-design-course.php">Graphic & UI UX Design Course</a></h3>
                                     <p class="course-text">Elevate your design career with ACE's comprehensive Graphics and UI/UX Certification Course. Learn to make creative user interfaces, stunning visuals, and branding materials. Graphic Designing Training & UI/UX course with certification covers industry-standard tools like Adobe Photoshop, Illustrator, InDesign, Figma, and Adobe XD.</p>
@@ -845,15 +680,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-game-development.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
-
+                                    
                                     <h3 class="course-title"><a href="game-development-course.php">Game Development Course</a></h3>
                                     <p class="course-text">Master the art of game creation with our expert-led Game Development Training. Learn industry-standard tools like Unity 3D and gain the skills to bring your game ideas to life. Take Unity 3D Game Development Course with Certificate and launch your career in the booming game development industry. </p>
                                     <div class="course-meta style2">
@@ -876,14 +703,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-devOps.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="devops-certification-course.php">DevOps Certification Course</a></h3>
                                     <p class="course-text">Elevate Your DevOps Career in Ahmedabad & Indore! Our comprehensive DevOps Certification Course equips you with in-demand skills to automate and streamline software delivery pipelines. Learn CI/CD, cloud technologies, and more. Gain hands-on experience and secure top-tier DevOps jobs with our placement assistance.</p>
@@ -909,14 +729,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/react-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="react-native-course.php">Best React Native Training Course</a></h3>
                                     <p class="course-text">Build Cross-Platform Apps with React Native in Ahmedabad & Indore! Learn to build high-performance, user-friendly apps, and get certified to validate your skills. Get certified and launch your career as a sought-after React Native developer.</p>
@@ -964,14 +777,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/blockchain-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
+                                   
 
                                     <h3 class="course-title"><a href="blockchain-training-course.php">Blockchain Training Course</a></h3>
                                     <p class="course-text">Dive into the Future of Technology with Blockchain Training in Ahmedabad & Indore! Our comprehensive Blockchain Training Course provides in-depth knowledge of blockchain technology, cryptocurrencies, and smart contracts.</p>
@@ -1065,14 +871,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-bde.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
+                                    
 
                                     <h3 class="course-title"><a href="business-development-course.php">Business Development Course</a></h3>
                                     <p class="course-text">Accelerate Your Career with Our Business Development Course! Learn the art of building strong business relationships, identifying new opportunities, and driving revenue growth. Our comprehensive training covers sales techniques, negotiation skills, market analysis, and strategic planning.</p>
@@ -1119,14 +918,7 @@ Course Area
                                     <img src="assets/img/course/couses-new/qa-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
+                                   
 
                                     <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course
                                     </a></h3>
@@ -1193,23 +985,14 @@ Course Area
                     </div>
                 </div>
             </div>
-            <!-- <div class="th-pagination text-center pt-20">
-                <ul>
-                    <li><a href="blog.php">01</a></li>
-                    <li><a href="blog.php">02</a></li>
-                    <li><a href="blog.php">03</a></li>
-                    <li><a href="blog.php"><i class="far fa-arrow-right"></i></a></li>
-                </ul>
-            </div> -->
+            
         </div>
     </section>
 
 
     <!--Register Modal -->
     <?php include_once 'registerModal.php'; ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
+
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

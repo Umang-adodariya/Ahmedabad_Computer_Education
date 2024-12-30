@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,19 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Courses Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Courses Details</li>
-                </ul> -->
+               
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+   
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -258,7 +248,7 @@ Event Area
                         <div class="widget widget_info  ">
                             <div class="th-video">
                                 <img src="assets/img/widget/247x220.png" alt="video">
-                                <!-- <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn popup-video"><i class="fas fa-play"></i></a> -->
+                                
                             </div>
                             <span class="h4 course-price">$90.00 <span class="tag">25% Off</span></span>
                             <a href="cart.html" class="th-btn">Add To Cart</a>
@@ -334,9 +324,7 @@ Event Area
             </div>
         </div>
     </section>
-    <!--==============================
-Servce Area  
-==============================-->
+    
     <section class="space-bottom">
         <div class="container">
             <div class="title-area text-center">
@@ -708,7 +696,7 @@ Servce Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
+                        
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod
                             tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>

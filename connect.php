@@ -7,9 +7,7 @@
     }
 </style>
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/bread-contact.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -22,16 +20,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Contact Us</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Contact Us</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Contact Area  
-==============================-->
+
     <div class="space pb-0" id="contact-sec">
         <div class="container">
         <div class="row">
@@ -54,10 +47,7 @@ Contact Area
             <div class="row ">
                 <div class="col-xl-5 mb-30 mb-xl-0">
                     <div class="me-xxl-5 mt-60">
-                        <!-- <div class="title-area mb-25">
-                            <h2 class="border-title h3">Have Any Questions?</h2>
-                        </div>
-                        <p class="mt-n2 mb-25">Have a inquiry or some feedback for us? Fill out the form <br> below to contact our team.</p> -->
+                        
                         <div class="contact-feature">
                             <div class="contact-feature-icon">
                                 <i class="fal fa-location-dot"></i>
@@ -97,15 +87,7 @@ Contact Area
                                 class="info-box_link">career@ahmedabadcomputereducation.com</a></span>
                             </div>
                         </div>
-                        <!-- <div class="contact-feature">
-                            <div class="contact-feature-icon">
-                                <i class="fal fa-clock"></i>
-                            </div>
-                            <div class="media-body">
-                                <p class="contact-feature_label">Hours of Operation</p>
-                                <span class="contact-feature_link">Monday - Friday : 11:00 - 17:00</span>
-                            </div>
-                        </div> -->
+                        
                     </div>
                 </div>
                 <div class="col-xl-7">
@@ -174,18 +156,7 @@ Contact Area
                                     <div class="contact_message_error" id="contact_message_error" style="color: red;"></div>
                                     </div>
                                     <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
-                                <?php /*<div class="col-12">
-                                    <div class="captcha-container">
-                                        <div class="input-refresh-btn mb-10">
-                                        <div id="captcha" class="captcha"></div>
-                                        <button id="refreshBtn" class="captcha-ref-btn"><i class="fal fa-refresh"></i></button>
-                                        </div>
-                                        <div class="input-refresh-btn">
-                                        <input type="text" id="userInput" class="form-control style-white" placeholder="Enter Captcha*"/>
-                                    </div>
-                                    <div class="contact_captcha_error" id="contact_captcha_error" style="color: red;"></div>
-                                    </div>
-                                </div>*/?>
+                                
                                 <div class="form-btn col-12 mt-10">
                                     <button class="th-btn" id="contact_submit_btn" type="submit">Send Message<i class="fas fa-long-arrow-right ms-2"></i></button>
                                 </div>

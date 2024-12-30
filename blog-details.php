@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+ 
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-blog-detail.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,10 +12,7 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Blog Details</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
@@ -156,9 +151,7 @@
                                 <li><a href="service-details.html">Informative</a> <span>(12)</span></li>
                                 <li><a href="service-details.html">Learning</a><span>(15)</span></li>
                                 <li><a href="service-details.html">Uncategorized</a><span>(21)</span></li>
-                                <!-- <li><a href="service-details.html">Health</a><span>(14)</span></li>
-                                <li><a href="service-details.html">Finance</a><span>(05)</span></li>
-                                <li><a href="service-details.html">Technology</a><span>(10)</span></li> -->
+                                
                             </ul>
                         </div>
                         <div class="widget  ">

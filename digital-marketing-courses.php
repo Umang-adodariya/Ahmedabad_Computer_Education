@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-cources.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,22 +12,17 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Digital Marketing Courses</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Mobile Development Courses</li>
-                </ul> -->
+               
             </div>
         </div>
     </div>
-    <!--==============================
-Course Area  
-==============================-->
+   
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <!-- <span class="course-result-count">We found <span class="text-theme">2 courses</span> available for you</span> -->
+                        
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -56,12 +49,7 @@ Course Area
                                             <img src="assets/img/instructor/hinal.jpg" alt="author">
                                             <a href="digital-marketing-Instructor.php" class="author-name">Hinal Joshi</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="digital-marketing-training-course.php">Best Digital Marketing Course</a></h3>
                                     <div class="course-meta">
@@ -84,12 +72,7 @@ Course Area
                                             <img src="assets/img/instructor/jay-malvi.jpg" alt="author">
                                             <a href="seo-instructor.php" class="author-name">Jay Malvi</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="seo-certification-training-course.php">SEO Certification Course</a></h3>
                                     <div class="course-meta">
@@ -159,11 +142,7 @@ Course Area
 
     <!--Register Modal -->
     <?php include_once 'registerModal.php' ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
-    <!-- Scroll To Top -->
+    
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>

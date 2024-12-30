@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-blog-detail.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Blog Details</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-        Blog Area
-    ==============================-->
+
     <section class="th-blog-wrapper blog-details space-top space-extra2-bottom">
         <div class="container">
             <div class="row gx-30">
@@ -38,7 +31,7 @@
                                 <a href="blog.html"><i class="fa-light fa-calendar-days"></i>26 December, 2023</a>
                                 <a href="blog-details.html"><i class="fa-light fa-book"></i>Business Analysis</a>
                             </div>
-                            <!-- <h2 class="blog-title">Building a Future-Ready Career: Exploring the Benefits of a Blockchain Internship Program</h2> -->
+                            
                             <p>In the rapidly evolving landscape of technology, blockchain has emerged as a revolutionary force, disrupting industries and transforming the way we conduct transactions and share information. As businesses increasingly adopt blockchain solutions, the demand for <a href="index.html">skilled professionals</a> in blockchain development is soaring. For aspiring individuals, a blockchain internship program presents a golden opportunity to not only learn but to thrive in this cutting-edge field.</p>
 
                 
@@ -160,9 +153,7 @@
                                 <li><a href="service-details.html">Informative</a> <span>(12)</span></li>
                                 <li><a href="service-details.html">Learning</a><span>(15)</span></li>
                                 <li><a href="service-details.html">Uncategorized</a><span>(21)</span></li>
-                                <!-- <li><a href="service-details.html">Health</a><span>(14)</span></li>
-                                <li><a href="service-details.html">Finance</a><span>(05)</span></li>
-                                <li><a href="service-details.html">Technology</a><span>(10)</span></li> -->
+                                
                             </ul>
                         </div>
                         <div class="widget  recent-post-main">
