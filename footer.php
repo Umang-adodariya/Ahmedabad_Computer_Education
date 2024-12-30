@@ -1,6 +1,3 @@
-    <!--==============================
-Footer Area
-==============================-->
 <footer class="footer-wrapper footer-layout5">
         <div class="widget-area">
             <div class="container">
@@ -10,7 +7,7 @@ Footer Area
                             <div class="th-widget-about">
                                 <div class="about-logo">
                                     <a href="https://ahmedabadcomputereducation.com/"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                                    <!-- <a href="https://www.ahmedabadcomputereducation.com/"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+                                    
                                 </div>
                                 <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                                     <div class="th-social th-social-new-footer">
@@ -36,7 +33,6 @@ Footer Area
                                     <li><a href="courses.php">All Courses</a></li>
                                     <li><a href="gallery.php">Life At ACE</a></li>
                                     <li><a href="event.php">Events</a></li>
-                                    <!-- <li><a href="blog.php">Blog</a></li> -->
                                     <li><a href="connect.php">Contact Us</a></li>
                                 </ul>
                             </div>
@@ -60,15 +56,7 @@ Footer Area
                     <div class="col-md-6 col-xl-3">
                         <div class="widget newsletter-widget footer-widget footer-address">
                             <h3 class="widget_title">Contact Info</h3>
-                            <!-- <p class="footer-text">Subscribe our newsletter to get our latest
-                                Update & news</p>
-                                <form class="newsletter-form form-group" method="post" action="mail.php">
-                                    <input type="hidden" name="form" value="newsletter_form"> 
-                                    <input class="form-control" type="email" placeholder="Email Email" required="" name="email" value="">
-                                    <i class="far fa-envelope"></i>
-                                    <button type="submit" class="th-btn style3">Subscribe Now <i
-                                            class="far fa-arrow-right ms-1"></i></button>
-                                </form> -->
+                            
                                 
                                
                                 <div class="info-box-wrap">
@@ -101,25 +89,7 @@ Footer Area
                                     </div>
                                     <a href="tel:7574-85-7700" class="info-box_link">7574-85-7700</a>
                                 </div>
-                                <!-- <div class="info-box-wrap">
-                                    <div class="info-box_icon">
-                                        <i class="fas fa-envelope"></i>
-                                    </div>
-                                    <a href="mailto:career@ahmedabadcomputereducation.com"
-                                        class="info-box_link">career@ahmedabadcomputereducation.com</a>
-                                </div> -->
-                                <!-- <div class="info-box-wrap">
-                                    <div class="info-box_icon">
-                                        <i class="fas fa-phone"></i>
-                                    </div>
-                                    <a href="tel:9327-28-7700" class="info-box_link"><b>Ahmedabad :</b> 9327-28-7700</a>
-                                </div>
-                                <div class="info-box-wrap">
-                                    <div class="info-box_icon">
-                                        <i class="fas fa-phone"></i>
-                                    </div>
-                                    <a href="tel:7574-85-7700" class="info-box_link"><b>Indore :</b> 7574-85-7700</a>
-                                </div> -->
+                                
                         </div>
                     </div>
                 </div>
@@ -133,14 +103,7 @@ Footer Area
                                 href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                         </p>
                     </div>
-                    <!-- <div class="col-lg-6 text-end d-none d-lg-block">
-                        <div class="footer-links">
-                            <ul>
-                                <li><a href="about.php">Privacy Policy</a></li>
-                                <li><a href="about.php">Terms of Use</a></li>
-                            </ul>
-                        </div>
-                    </div> -->
+                    
                 </div>
             </div>
         </div>
@@ -165,25 +128,7 @@ Footer Area
 
     <script src="assets/js/common.min.js"></script>
 
-    <!-- Magnific Popup -->
-    <!-- <script src="assets/js/jquery.magnific-popup.min.js"></script> -->
-    <!-- Counter Up -->
-    <!-- <script src="assets/js/jquery.counterup.min.js"></script> -->
-    <!-- Circle Progress -->
-    <!-- <script src="assets/js/circle-progress.js"></script> -->
-    <!-- Range Slider -->
-    <!-- <script src="assets/js/jquery-ui.min.js"></script> -->
-    <!-- Isotope Filter -->
-    <!-- <script src="assets/js/imagesloaded.pkgd.min.js"></script> -->
-    <!-- <script src="assets/js/isotope.pkgd.min.js"></script> -->
-    <!-- Tilt JS -->
-    <!-- <script src="assets/js/tilt.jquery.min.js"></script> -->
-    <!-- Tweenmax JS -->
-    <!-- <script src="assets/js/tweenmax.min.js"></script> -->
-    <!-- Nice Select JS -->
-    <!-- <script src="assets/js/nice-select.min.js"></script> -->
-
-    <!-- Main Js File -->
+    
     <script src="assets/js/main.js?time=<?php echo time(); ?>"></script>
 
     <script>

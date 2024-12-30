@@ -129,32 +129,7 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="col-md-6 col-xl-4">
-                <div class="course-box style2">
-                    <div class="course-img">
-                        <img src="assets/img/course/327x250/327-full-python.jpg" alt="img">
-                    </div>
-                    <div class="course-content">
-                        <div class="course-rating">
-                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                            </div>(4.7)
-                        </div>
-                        <h3 class="course-title"><a href="python-details.php">Python Certification Course</a></h3>
-                        <div class="course-meta">
-                            <span><i class="fal fa-file"></i>Modules 2</span>
-                            <span><i class="fal fa-user"></i>Students 20+</span>
-                        </div>
-                        <div class="course-author">
-                            <div class="author-info">
-                                <img src="assets/img/course/author.png" alt="author">
-                                <a href="course.php" class="author-name">Kevin Perry</a>
-                            </div>
-                            
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            
             <div class="col-md-6 col-xl-4">
                 <div class="course-box style2">
                     <div class="course-img">

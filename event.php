@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/event-brea.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,19 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Our Events</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Events</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+ 
     <section class="space-top bg-smoke space-extra-bottom">
         <div class="container">
         <ul class="nav nav-pills mb-40 cus-nav-pill" id="pills-tab" role="tablist">
@@ -40,33 +30,7 @@ Event Area
 <div class="tab-content" id="pills-tabContent">
   <div class="tab-pane fade " id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
             <div class="row gy-40 gx-70">
-                <!-- <div class="col-lg-6 col-xl-4">
-                    <div class="event-card">
-                        <div class="event-card_img" data-mask-src="assets/img/event/event_img-shape.png">
-                            <img src="assets/img/events/blockchain-event.jpg" alt="event">
-                        </div>
-                        <div class="event-card_content">
-                            <div class="event-author">
-                                <div class="avater">
-                                    <img src="assets/img/events/tilak-masani.jpg" alt="avater">
-                                </div>
-                                <div class="details">
-                                    <span class="author-name">Tilak Masani</span>
-                                    <p class="author-desig">Blockchain Architect</p>
-                                </div>
-                            </div>
-                            <div class="event-meta">
-                                <p><i class="fal fa-location-dot"></i>Gujarat Technology University</p>
-                                <p><i class="fal fa-calendar"></i> November 27, 2024</p>
-                            </div>
-                            <h3 class="event-card_title"><a >Introduction to Blockchain Foundation at Gujarat Technology University</a></h3>
                 
-                            <div class="event-card-shape jump">
-                                <img src="assets/img/event/event-box-shape1.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
   </div>
   <div class="tab-pane fade show active past-event-tab" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
@@ -192,7 +156,7 @@ Event Area
                                 <img src="assets/img/events/past-events/event-7-3.jpg" alt="course">
                             </div>
                         </div>
-                            <!-- <img src="assets/img/events/past-events/event-7.jpg" alt="course"> -->
+                            
 
                         </div>
                         <div class="event-meta">
@@ -631,7 +595,7 @@ Event Area
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <!-- <img src="assets/img/events/past-events/event-26-1.jpg" alt="course"> -->
+                            
                             <video autoplay muted controls class="event-video-course">
                                 <source src="assets/img/events/past-events/event-video-2.mp4" type="video/mp4">
                             </video>
@@ -743,50 +707,7 @@ Event Area
             </div>
   </div>
 </div>
-            <!-- <div class="row gy-40 gx-70">
-                <div class="col-lg-6 col-xl-4">
-                    <div class="event-card">
-                        <div class="event-card_img" data-mask-src="assets/img/event/event_img-shape.png">
-                            <img src="assets/img/events/blockchain-event.jpg" alt="event">
-                        </div>
-                        <div class="event-card_content">
-                            <div class="event-author">
-                                <div class="avater">
-                                    <img src="assets/img/events/tilak-masani.jpg" alt="avater">
-                                </div>
-                                <div class="details">
-                                    <span class="author-name">Tilak Masani</span>
-                                    <p class="author-desig">Blockchain Architect</p>
-                                </div>
-                            </div>
-                            <div class="event-meta">
-                                <p><i class="fal fa-location-dot"></i>Gujarat Technology University</p>
-                                <p><i class="fal fa-calendar"></i> November 27, 2024</p>
-                            </div>
-                            <h3 class="event-card_title"><a href="event-details.html">Introduction to Blockchain Foundation at Gujarat Technology University</a></h3>
-                
-                            <div class="event-card-shape jump">
-                                <img src="assets/img/event/event-box-shape1.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-xl-4">
-                    <div class="event-card">
-                        <div class="event-card_img" data-mask-src="assets/img/event/event_img-shape.png">
-                            <img src="assets/img/events/blockchain-event.jpg" alt="event">
-                        </div>
-                        <div class="event-card_content">
-                            
-                           
-                            <h3 class="event-card_title"><a href="event-details.html">Introduction to Blockchain Foundation at Gujarat Technology University</a></h3>
-                            <div class="event-card-shape jump">
-                                <img src="assets/img/event/event-box-shape1.png" alt="img">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+            
         </div>
     </section>
 
@@ -801,7 +722,6 @@ Event Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">

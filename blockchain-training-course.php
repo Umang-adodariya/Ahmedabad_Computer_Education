@@ -1,8 +1,6 @@
 
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -15,19 +13,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blockchain Training & Certification Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Blockchain</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+    
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -36,9 +26,7 @@ Event Area
                         <div class="course-single-top">
                             <div class="course-img">
                             <img src="assets/img/home-course-details/BlockChain.jpg" alt="Course Image">
-                                <!-- <img src="assets/img/courses/corses-main/blockchain-1.jpg" alt="Course Image"> -->
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
+                                
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 12</span>
@@ -247,9 +235,7 @@ Event Area
                                 <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
-                                            <!-- <div class="auhtor-img">
-                                                <img src="assets/img/instructor/ankit-patel.jpg" alt="Author Image">
-                                            </div> -->
+                                            
                                             <div class="auhtor-img without-author-sec">
                                                 <img src="assets/img/loaderIc.png" alt="Author Image" class="default-ic">
                                             </div>
@@ -336,22 +322,7 @@ Event Area
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>3</span>
-                                    </li>
-                                 
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
+                            
                         </div>
                         <!-- register sidebar -->
                         <?php include('registerSidebar.php'); ?>
@@ -459,11 +430,7 @@ Servce Area
          <div class="load-modal-wrapper position-relative">
              <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                      class="far fa-times"></i></button>
-             <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe> -->
+             
              <video autoplay muted controls class="courses-video-main">
                  <source src="./assets/video/ahm_video.mp4" type="video/mp4">
              </video>

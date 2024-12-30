@@ -10,10 +10,8 @@
     <meta name="keywords" content="Edura - Online Courses & Education HTML Template">
     <meta name="robots" content="INDEX,FOLLOW">
     <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
-    <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Favicons - Place favicon.ico in the root directory -->
     <link rel="apple-touch-icon" sizes="57x57" href="assets/img/favicons/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/img/favicons/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/img/favicons/apple-icon-72x72.png">
@@ -32,17 +30,13 @@
     <meta name="msapplication-TileImage" content="assets/img/favicons/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <!--==============================
-	  Google Fonts
-	============================== -->
+  
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
 
 
-    <!--==============================
-	    All CSS File
-	============================== -->
+  
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -61,22 +55,6 @@
 <body>
 
 <?php include('header.php'); ?>
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
-
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-
-
-
-    <!--==============================
-     Preloader
-  ==============================-->
   <div class="preloader ">
     <div class="preloader-inner">
     <div class="loader-new">
@@ -90,9 +68,7 @@
       </div>
     </div>
 </div>
-    <!--==============================
-Error Area 
-==============================-->
+   
     <section class="">
         <div class="container">
             <div class="error-page">
@@ -107,9 +83,7 @@ Error Area
             </div>
         </div>
     </section>
-    <!--==============================
-    All Js File
-============================== -->
+   
 <?php include('footer.php'); ?>
     <!-- Jquery -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
