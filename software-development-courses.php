@@ -1,7 +1,4 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-cources.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,22 +11,14 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Full Stack Development Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Full Stack Development</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Course Area  
-==============================-->
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <!-- <span class="course-result-count">We found <span class="text-theme">5 courses</span> available for you</span> -->
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -54,12 +43,6 @@ Course Area
                                             <img src="assets/img/instructor/nikita-karanpuria.jpg" alt="author">
                                             <a href="nikita-karanpuria-Instructor.php" class="author-name">Nikita Karanpuria</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-blockchain-development-course.php">Full Stack Blockchain Development Course</a></h3>
                                     <div class="course-meta">
@@ -82,12 +65,6 @@ Course Area
                                             <img src="assets/img/instructor/uvesh.jpg" alt="author">
                                             <a href="uvesh-instructor.php" class="author-name">Uvesh Ansari</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-react-development-course.php">Full Stack React Development Course</a></h3>
                                     <div class="course-meta">
@@ -110,12 +87,7 @@ Course Area
                                             <img src="assets/img/instructor/vishal-patel.jpg" alt="author">
                                             <a href="vishal-patel-instructor.php" class="author-name">Vishal Patel</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                     
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-angular-development-course.php">Full Stack Angular Development Course</a></h3>
                                     <div class="course-meta">
@@ -138,12 +110,6 @@ Course Area
                                             <img src="assets/img/instructor/nilesh-goud.jpg" alt="author">
                                             <a href="nilesh-goud-instructor.php" class="author-name">Nilesh Goud</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-python-development-course.php">Full Stack Python Development Course
                                     </a></h3>
@@ -167,12 +133,6 @@ Course Area
                                             <img src="assets/img/instructor/bhargav-limbasiya.jpg" alt="author">
                                             <a href="bhargav-limbasiya-instructor.php" class="author-name">Bhargav Limbasiya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
                                     </div>
                                     <h3 class="course-title"><a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course
                                     </a></h3>
@@ -196,12 +156,6 @@ Course Area
                                             <img src="assets/img/instructor/jimmy.jpg" alt="author">
                                             <a href="bhargav-limbasiya-instructor.php" class="author-name">Jimmy Chotaliya</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
                                     </div>
                                     <h3 class="course-title"><a href="software-testing-course.php">Software Testing Course
                                     </a></h3>
@@ -225,14 +179,6 @@ Course Area
                                     <img src="assets/img/course/couses-new/blockchain-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="full-stack-blockchain-development-course.php">Full Stack Blockchain Development Course </a></h3>
                                     <p class="course-text">We aim to bridge educational gaps, improve learning outcomes. We are committed to making a positive impact on education globally, through our initiatives.</p>
                                     <div class="course-meta style2">
@@ -255,14 +201,6 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-react.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="full-stack-react-development-course.php">Full Stack React Development Course</a></h3>
                                     <p class="course-text">We aim to bridge educational gaps, improve learning outcomes. We are committed to making a positive impact on education globally, through our initiatives.</p>
                                     <div class="course-meta style2">
@@ -285,14 +223,6 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-angular.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="full-stack-angular-development-course.php">Full Stack Angular Development Course</a></h3>
                                     <p class="course-text">We aim to bridge educational gaps, improve learning outcomes. We are committed to making a positive impact on education globally, through our initiatives.</p>
                                     <div class="course-meta style2">
@@ -316,14 +246,6 @@ Course Area
                                     <img src="assets/img/course/couses-new/350-python.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="full-stack-python-development-course.php">Full Stack Python Development Course</a></h3>
                                     <p class="course-text">Elevate your career prospects with a recognized Python certification course from ACE. Our certification programs cover all aspects of Python, from basic syntax to advanced libraries like NumPy and pandas. Gain a competitive edge and showcase your proficiency to potential employers. Choose from beginner, intermediate, or advanced certification tracks depending on your skill level.</p>
                                     <div class="course-meta style2">
@@ -347,14 +269,6 @@ Course Area
                                     
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="full-stack-laravel-development-course.php">Full Stack Laravel Development Course</a></h3>
                                     <p class="course-text">Elevate your career prospects with a recognized Python certification course from ACE. Our certification programs cover all aspects of Python, from basic syntax to advanced libraries like NumPy and pandas. Gain a competitive edge and showcase your proficiency to potential employers. Choose from beginner, intermediate, or advanced certification tracks depending on your skill level.</p>
                                     <div class="course-meta style2">
@@ -374,23 +288,12 @@ Course Area
                     </div>
                 </div>
             </div>
-            <!-- <div class="th-pagination text-center pt-20">
-                <ul>
-                    <li><a href="blog.php">01</a></li>
-                    <li><a href="blog.php">02</a></li>
-                    <li><a href="blog.php">03</a></li>
-                    <li><a href="blog.php"><i class="far fa-arrow-right"></i></a></li>
-                </ul>
-            </div> -->
         </div>
     </section>
 
 
     <!--Register Modal -->
     <?php include_once 'registerModal.php'; ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

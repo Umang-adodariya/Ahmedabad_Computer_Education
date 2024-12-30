@@ -1,20 +1,9 @@
 
 
 
-    <!--[if lte IE 9]>
-    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-
 <?php include('header.php'); ?>
 
-    <!--********************************
-   		Code Start From Here 
-	******************************** -->
-
-    <!--==============================
-Hero Area
-==============================-->
+   
     <div class="th-hero-wrapper hero-slider-wrapper hero-6" id="hero">
         <div class="hero-slider-6 th-carousel" id="heroSlide6" data-slide-show="1" data-md-slide-show="1"
             data-fade="true">
@@ -85,10 +74,7 @@ Hero Area
                     class="far fa-chevron-right"></i></button>
         </div>
     </div>
-    <!--======== / Hero Section ========-->
-    <!--==============================
-Category Area  
-==============================-->
+
     <section class="space hero-exclusive-space">
         <div class="container">
             <div class="title-area text-center text-md-start">
@@ -173,9 +159,7 @@ Category Area
             </div>
         </div>
     </section>
-    <!--==============================
-About Area  
-==============================-->
+
     <div class="space-bottom about-sec bg-bottom-right" data-bg-src="assets/img/update1/bg/about_bg_1.jpg"
         id="about-sec">
         <div class="container">
@@ -229,9 +213,7 @@ About Area
             </div>
         </div>
     </div>
-    <!--==============================
-Cta Area  
-==============================-->
+
     <section class="space position-relative">
         <div class="bg-img" data-bg-src="assets/img/update1/bg/off.jpg">
             <img src="assets/img/update1/bg/bg_overlay_3.png" alt="overlay">
@@ -249,9 +231,6 @@ Cta Area
             </div>
         </div>
     </section>
-    <!--==============================
-Course Area  
-==============================-->
     <section class="space bg-smoke" id="course-sec">
         <div class="container">
             <div class="title-area text-center">
@@ -262,13 +241,10 @@ Course Area
                 <button data-filter="*" class="filter-btn">All Categories</button>
                 <button data-filter=".cat1" class="filter-btn active">Software Development</button>
                 <button data-filter=".cat2" class="filter-btn">Designing</button>
-                <!-- <button data-filter=".cat3" class="filter-btn">Game Development</button> -->
-                <!-- <button data-filter=".cat4" class="filter-btn">DevOps Certification</button> -->
                 <button data-filter=".cat5" class="filter-btn">Mobile Development</button>
                 <button data-filter=".cat6" class="filter-btn">In-Demand</button>
                 <button data-filter=".cat7" class="filter-btn">Digital Marketing</button>
                 <button data-filter=".cat8" class="filter-btn">Business Growth</button>
-                <!-- <button data-filter=".cat9" class="filter-btn">Other </button> -->
             </div>
             <div class="row gy-4 filter-active filter-course-sec filter-home-pos-unset">
 
@@ -374,23 +350,7 @@ Course Area
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-6 col-xl-4 filter-item cat1">
-                    <div class="course-box2">
-                        <div class="course-img">
-                            <img src="assets/img/home-course/384-python.jpg" alt="course">
-
-                        </div>
-                        <div class="course-content">
-                            <h3 class="course-title"><a href="full-stack-python-development-course.php">Python Certification Course</a></h3>
-
-                            <div class="course-meta">
-                                <span><i class="fal fa-file"></i>Modules 8</span>
-                                <span><i class="fal fa-user"></i>Students 50</span>
-                                <span><i class="fal fa-eye"></i>View: 12K</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+                
                 <div class="col-md-6 col-xl-4 filter-item cat2">
                     <div class="course-box2">
                         <div class="course-img">
@@ -635,9 +595,6 @@ Course Area
             </div>
         </div>
     </section>
-    <!--==============================
-Mockup Area  
-==============================-->
     <section class="space">
         <div class="container z-index-common">
             <div class="row flex-row-reverse">
@@ -675,17 +632,12 @@ Mockup Area
         <div class="shape-mockup big-shape" data-top="0%" data-right="0%"><img src="assets/img/update1/shape/line_2.png"
                 alt="shapes"></div>
     </section>
-    <!--==============================
-Video Area  
-==============================-->
+ 
     <section class="" data-pos-for="#team-sec" data-sec-pos="bottom-half">
         <div class="container">
             <div class="video-box">
                 <div class="overlay"></div>
                 <img src="assets/img/yt-main.png" alt="video" class="yt-video-img">
-                <!-- <video  controls class="education-yt-video">
-                    <source src="./assets/video/ahm_video.mp4" type="video/mp4">
-                  </video> -->
                 <div class="video-content">
                     <h2 class="video-title">Master In-Demand Skills with Experienced Instructors & Practical Projects</h2>
                     <a class="icon-btn " data-bs-toggle="modal" data-bs-target="#videoModal"><i
@@ -699,9 +651,7 @@ Video Area
         <div class="shape-mockup jump-reverse" data-top="11%" data-left="6%"><img
                 src="assets/img/update1/shape/hex_1.png" alt="shapes"></div>
     </section>
-    <!--==============================
-Team Area  
-==============================-->
+
     <section class="team-area-5 space" id="team-sec" data-bg-src="assets/img/update1/bg/team_bg_1.jpg">
         <div class="container">
             <div class="row">
@@ -722,11 +672,6 @@ Team Area
                             <div class="team-box">
                                 <div class="team-img">
                                     <img src="assets/img/instructor/home-instructor/10.jpg" alt="Team">
-                                    <!-- <div class="th-social">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                                    </div> -->
                                 </div>
                                 <div class="team-content">
                                     <h3 class="team-title"><a href="digital-marketing-Instructor.php">Hinal Joshi</a></h3>
@@ -830,18 +775,7 @@ Team Area
                                 </div>
                             </div>
                         </div>
-                        <!-- Single Item -->
-                        <!-- <div class="col-md-6 col-lg-4">
-                            <div class="team-box">
-                                <div class="team-img">
-                                    <img src="assets/img/instructor/jay-malvi.jpg" alt="Team">
-                                </div>
-                                <div class="team-content">
-                                    <h3 class="team-title"><a href="seo-instructor.php">Jay Malvi</a></h3>
-                                    <span class="team-desig">SEO Expert</span>
-                                </div>
-                            </div>
-                        </div> -->
+                       
                     </div>
                 </div>
             </div>
@@ -1274,7 +1208,7 @@ Blog Area
                                         </div>
                                         <div class="col-12">
                                             <div class="captcha-container">
-                                            <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+                                            <div class="g-recaptcha" style="transform:scale(0.77);-webkit-transform:scale(0.77);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
 
                                             </div>
                                         </div>

@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-cources.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,22 +12,15 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Mobile Development Courses</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Mobile Development Courses</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Course Area  
-==============================-->
+
     <section class="space-top space-extra-bottom">
         <div class="container">
             <div class="th-sort-bar">
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-auto">
-                        <!-- <span class="course-result-count">We found <span class="text-theme">2 courses</span> available for you</span> -->
                     </div>
                     <div class="col-md-auto">
                         <div class="nav" role=tablist>
@@ -56,12 +47,7 @@ Course Area
                                             <img src="assets/img/instructor/yash.jpg" alt="author">
                                             <a href="react-native-Instructor.php" class="author-name">Yash Nandha</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                        
                                     </div>
                                     <h3 class="course-title"><a href="react-native-course.php">Best React Native Training Course</a></h3>
                                     <div class="course-meta">
@@ -84,12 +70,7 @@ Course Area
                                             <img src="assets/img/instructor/karan.jpg" alt="author">
                                             <a href="flutter-Instructor.php" class="author-name"> Karan Parmar</a>
                                         </div>
-                                        <!-- <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>
-                                            (4.00)
-                                        </div> -->
+                                       
                                     </div>
                                     <h3 class="course-title"><a href="flutter-certification-course.php">Flutter Training Course</a></h3>
                                     <div class="course-meta">
@@ -110,15 +91,6 @@ Course Area
                                     <img src="assets/img/course/couses-new/react-350x250.jpg" alt="img">
                                 </div>
                                 <div class="course-content">
-                                    <!-- <div class="d-flex justify-content-between">
-                                        <div class="course-rating">
-                                            <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                                <span style="width:79%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                            </div>(4.7)
-                                        </div>
-                                        
-                                    </div> -->
-
                                     <h3 class="course-title"><a href="react-native-course.php">Best React Native Training Course</a></h3>
                                     <p class="course-text">Build Cross-Platform Apps with React Native in Ahmedabad & Indore! Learn to build high-performance, user-friendly apps, and get certified to validate your skills. Get certified and launch your career as a sought-after React Native developer.</p>
                                     <div class="course-meta style2">
@@ -162,23 +134,13 @@ Course Area
                     </div>
                 </div>
             </div>
-            <!-- <div class="th-pagination text-center pt-20">
-                <ul>
-                    <li><a href="blog.php">01</a></li>
-                    <li><a href="blog.php">02</a></li>
-                    <li><a href="blog.php">03</a></li>
-                    <li><a href="blog.php"><i class="far fa-arrow-right"></i></a></li>
-                </ul>
-            </div> -->
+           
         </div>
     </section>
 
 
     <!--Register Modal -->
     <?php include_once 'registerModal.php'; ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

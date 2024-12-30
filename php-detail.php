@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+   
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,19 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">PHP Training & certification course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>PHP Course</li>
-                </ul> -->
+              
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -347,7 +337,7 @@ Event Area
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div> <!-- Comment Form -->
+                                        </div> 
                                        
                                     </div>
                                 </div>
@@ -438,9 +428,7 @@ Event Area
             </div>
         </div>
     </section>
-    <!--==============================
-Servce Area  
-==============================-->
+
     <section class="space-bottom">
         <div class="container">
             <div class="title-area text-center">
@@ -453,7 +441,6 @@ Servce Area
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -548,7 +535,6 @@ Servce Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod
                             tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -604,11 +590,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="load-modal-wrapper position-relative">
             <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                     class="far fa-times"></i></button>
-            <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
             <video autoplay muted controls class="courses-video-main">
                 <source src="./assets/video/ahm_video.mp4" type="video/mp4">
             </video>
@@ -620,9 +601,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     </div>
 </div>
 </div>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
+ 
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
