@@ -1,8 +1,6 @@
 
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -15,19 +13,10 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Web Design Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Web Designing</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -36,40 +25,12 @@ Event Area
                         <div class="course-single-top">
                             <div class="course-img">
                                 <img src="assets/img/home-course-details/Design.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 8</span>
                                 <span><i class="fal fa-user"></i>Students 650+</span>
                             </div>
                             <h2 class="course-title">Web Designing Course with Certification</h2>
-                            <!-- <ul class="course-single-meta">
-                                <li class="course-single-meta-author">
-                                    <img src="assets/img/40x40-1.png" alt="author">
-                                    <span>
-                                        <span class="meta-title">Instructor: </span>
-                                        <a href="course.html">Max Alexix</a>
-                                    </span>
-                                </li>
-                                <li>
-                                    <span class="meta-title">Category: </span>
-                                    <a href="course.html">Web Development</a>
-                                </li>
-                                <li>
-                                    <span class="meta-title">Last Update: </span>
-                                    <a href="course.html">20 Jun, 2023</a>
-                                </li>
-                                <li>
-                                    <span class="meta-title">Review: </span>
-                                    <div class="course-rating">
-                                        <div class="star-rating" role="img" aria-label="Rated 4.00 out of 5">
-                                            <span style="width:80%">Rated <strong class="rating">4.00</strong> out of 5</span>
-                                        </div>
-                                        (4.00)
-                                    </div>
-                                </li>
-                            </ul> -->
                         </div>
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
@@ -261,18 +222,6 @@ Event Area
                                 <div class="tab-pane fade" id="curriculam" role="tabpanel" aria-labelledby="curriculam-tab">
                                     <div class="course-curriculam">
                                         <h5 class="h5">Course Content</h5>
-                                        <!-- <p class="mb-30">Grursus mal suada faci lisis Lorem ipsum dolarorit more ametion consectetur elit. Vesti at bulum nec odio aea the dumm ipsumm ipsum that dolocons rsus mal suada and fadolorit to the consectetur elit. All the Lorem Ipsum generators on the Internet tend to repeat that predefined chunks as necessary, making this the first true dummy generator on the Internet.</p>
-                                        <div class="checklist mb-1">
-                                            <ul>
-                                                <li>How to use social media to reach local, national and international audiences</li>
-                                                <li>How to set up and market events, using online tools, so you no longer depend</li>
-                                                <li>How to create and run online shows, adapt your performance techniques and</li>
-                                                <li>Mentoring and troubleshooting and post-training support from Jason</li>
-                                                <li>How to use social media to reach local, national and international audiences</li>
-                                                <li>How to set up and market events, using online tools</li>
-                                                <li>Adapt your performance techniques and manage your audience throughout</li>
-                                            </ul>
-                                        </div> -->
                                         <div class="course-con-acc-sec">
                                             <div class="accordion cus-accordion" id="accordionExample">
                                                 <div class="accordion-item course-acc-item">
@@ -509,7 +458,7 @@ Event Area
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div> <!-- Comment Form -->
+                                        </div>
                                        
                                     </div>
                                 </div>
@@ -525,22 +474,7 @@ Event Area
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>6</span>
-                                    </li>
-                                   
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
+                            
                         </div>
                         <!-- register sidebar -->
                         <?php include('registerSidebar.php'); ?>
@@ -549,9 +483,6 @@ Event Area
             </div>
         </div>
     </section>
-    <!--==============================
-Servce Area  
-==============================-->
 
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
@@ -646,11 +577,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="load-modal-wrapper position-relative">
             <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                     class="far fa-times"></i></button>
-            <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
             <video autoplay muted controls class="courses-video-main">
                 <source src="./assets/video/ahm_video.mp4" type="video/mp4">
             </video>
@@ -662,9 +588,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     </div>
 </div>
 </div>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

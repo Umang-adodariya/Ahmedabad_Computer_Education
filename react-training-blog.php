@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-blog-detail.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,10 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="https://www.ahmedabadcomputereducation.com/">Home</a></li>
-                    <li>Blog Details</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-        Blog Area
-    ==============================-->
+ 
     <section class="th-blog-wrapper blog-details space-top space-extra2-bottom">
         <div class="container">
             <div class="row gx-30">
@@ -39,22 +31,9 @@
                             </div>
                             <h2 class="blog-title">Building Interactive User Interfaces with React: Training for Developers</h2>
                             <p>In the ever-evolving landscape of web development, React has emerged as a powerhouse for building dynamic and interactive user interfaces. Its component-based architecture and virtual DOM make it a go-to choice for developers aiming to create responsive and engaging <a href="https://www.ahmedabadcomputereducation.com/">web applications.</a> If you’re looking to upskill and stay at the forefront of modern web development, mastering React is essential.</p>
-                            <!-- <p>A platform dedicated to exploring the transformative power of education. We believe that education is not only a means to acquire knowledge but also a catalyst for personal growth, societal progress, and global development. In this blog, we aim to inspire, inform, and engage readers in conversations about the latest trends, insights, and innovations in the field of education.</p> -->
-
-                            <!-- <blockquote>
-                                <p>Educational Strategies: We delve into effective teaching and learning strategies, instructional method, & innovative approaches to engage students and enhance learning outcomes. </p>
-                                <cite>Michel Clarck</cite>
-                            </blockquote> -->
-
-                            <!-- <p>Educational Technology: We explore the role of technology in education, from e-learning platform and digital resource to virtual reality and artificial intelligence. We discuss how technology is shaping the educational landscape and revolutionizing the way we learn.</p>
-                            <p>Education Policy and Advocacy: We delve into education policy issue, discussing the challenge, reforms, and initiative aimed improving educational system at local national & international level. We highlight the importance of education advocacy and its impact on shaping equitable and inclusive education for all.</p> -->
-
                             <h3 class="h4 mb-25 mt-45">Why React?</h3>
                             <p>React, developed and maintained by Facebook, is a JavaScript library that simplifies the process of building UI components. Its declarative syntax, efficient rendering, and unidirectional data flow contribute to a seamless development experience. With a vast community and strong ecosystem, React has become a standard choice for both small-scale projects and large-scale applications.</p>
                             <h2 class="blog-title">The Journey Begins: <a href="react-native-course.php">ReactJS Training Course</a></h2>
-                            <!-- <div class="blog-img mt-35">
-                                <img class="w-100" src="assets/img/blog/blog4.jpg" alt="Blog Image">
-                            </div> -->
                             <h3 class="h4 mb-25 mt-45">Understanding React Basics</h3>
                             <p>Before diving into complex applications, a solid understanding of React fundamentals is crucial. Our training program starts with the basics, covering concepts such as JSX, components, state, and props. Developers will gain hands-on experience in building simple React applications, laying the groundwork for more advanced topics.</p>
                             <h3 class="h4 mb-25 mt-45">Component-Based Architecture</h3>
@@ -143,30 +122,11 @@
                                 </div>
                             </li>
                         </ul>
-                    </div> <!-- Comment end -->
-                    <!-- Comment Form -->
+                    </div>
                     <?php include('blogCommentForm.php'); ?>
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
-                        <!-- <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Search Product...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget widget_categories  ">
-                            <h3 class="widget_title">Categories</h3>
-                            <ul>
-                                <li><a href="service-details.php">Education</a><span>(08)</span></li>
-                                <li><a href="service-details.php">Informative</a> <span>(12)</span></li>
-                                <li><a href="service-details.php">Learning</a><span>(15)</span></li>
-                                <li><a href="service-details.php">Uncategorized</a><span>(21)</span></li>
-                                <li><a href="service-details.php">Health</a><span>(14)</span></li>
-                                <li><a href="service-details.php">Finance</a><span>(05)</span></li>
-                                <li><a href="service-details.php">Technology</a><span>(10)</span></li>
-                            </ul>
-                        </div> -->
                         <div class="widget  recent-post-main">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -205,19 +165,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="widget widget_tag_cloud  ">
-                            <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud">
-                                <a href="blog.php">Business</a>
-                                <a href="blog.php">Courses</a>
-                                <a href="blog.php">Online</a>
-                                <a href="blog.php">Remote</a>
-                                <a href="blog.php">Education</a>
-                                <a href="blog.php">Solution</a>
-                                <a href="blog.php">Students</a>
-                                <a href="blog.php">UX</a>
-                            </div>
-                        </div> -->
+                       
                         <div class="widget widget_banner  " data-overlay="theme" data-opacity="9" data-bg-src="assets/img/widget/widget-banner-bg.png">
                             <div class="widget-banner">
                                 <h4 class="title">Need Help? We Are Here
@@ -237,9 +185,6 @@
 
     <!--Register Modal -->
     <?php include('registerModal.php'); ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">
