@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,20 +12,13 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Our Instructors</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Instructors</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
+
     <div class="team-area overflow-hidden space">
         <div class="container">
             <div class="row align-items-center gy-4">
-                <!-- Single Item -->
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="team-card style3">
                         <div class="team-img-wrap">
@@ -199,26 +190,7 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- 
-                <div class="col-sm-6 col-lg-4 col-xl-3">
-                    <div class="team-card style3">
-                        <div class="team-img-wrap">
-                            <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/" alt="Team">
-                            </div>
-                        </div>
-                        <div class="team-hover-wrap">
-                            <div class="team-content">
-                                <h3 class="team-title"><a href="bde-Instructor.html">Hirmar Ubunti</a></h3>
-                                <span class="team-desig">Instructor</span>
-                            </div>
-                            <div class="team-info">
-                                <span><i class="fal fa-file-check"></i>1 Course</span>
-                                <span><i class="fa-light fa-users"></i>Students 60+</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
+               
                 <div class="col-sm-6 col-lg-4 col-xl-3">
                     <div class="team-card style3">
                         <div class="team-img-wrap">
@@ -337,9 +309,7 @@ Team Area
             </div>
         </div>
     </div>
-    <!--==============================
-Became A Instructor Area  
-==============================-->
+
     <div class="overflow-hidden position-relative space bg-smoke" id="team-sec">
         <div class="shape-mockup instructor-bg-shape1 jump d-lg-block d-none" data-left="3%" data-bottom="30%">
             <img src="assets/img/normal/blog-3-bg-shape.png" alt="img">
@@ -356,7 +326,6 @@ Became A Instructor Area
                 </div>
                 <div class="col-xl-6 order-xl-1">
                     <div class="title-area mb-30">
-                        <!-- <span class="sub-title"><i class="fal fa-book me-1"></i> Instructor</span> -->
                         <h2 class="sec-title">Elevate Your Career with Our World-Class Instructors</h2>
                     </div>
                     <div class="row gy-4">
@@ -403,10 +372,6 @@ Became A Instructor Area
 
     <!--Register Modal -->
     <?php include('registerModal.php'); ?>
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

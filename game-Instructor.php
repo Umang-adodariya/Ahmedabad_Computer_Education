@@ -14,10 +14,7 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Instructor Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Instructor Details</li>
-                </ul> -->
+              
             </div>
         </div>
     </div>

@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-blog-detail.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Blog Details</li>
-                </ul> -->
+            
             </div>
         </div>
     </div>
-    <!--==============================
-        Blog Area
-    ==============================-->
+
     <section class="th-blog-wrapper blog-details space-top space-extra2-bottom">
         <div class="container">
             <div class="row gx-30">
@@ -39,9 +32,6 @@
                                 <a href="blog-details.html"><i class="fa-light fa-book"></i>Business Analysis</a>
                             </div>
                             <p>In the ever-evolving landscape of web development, staying at the forefront of technology is not just an advantage – it’s a necessity. Enter the MERN stack, a dynamic quartet comprising MongoDB, Express.js, React.js, and Node.js, set to redefine the future of web development in 2024 and beyond.</p>
-
-                            <!-- <h3 class="h4 mb-25 mt-45">Why React?</h3>
-                            <p>React, developed and maintained by Facebook, is a JavaScript library that simplifies the process of building UI components. Its declarative syntax, efficient rendering, and unidirectional data flow contribute to a seamless development experience. With a vast community and strong ecosystem, React has become a standard choice for both small-scale projects and large-scale applications.</p> -->
                             <h2 class="blog-title">Unveiling <a href="react-native-details.html"> MERN Stack’s </a>Dominance</h2>
                             <h3 class="h4 mb-25 mt-45">MongoDB: The Foundation of Scalability</h3>
                             <p>At the core of MERN stack lies MongoDB, a robust NoSQL database. Its document-oriented structure allows for seamless scalability, providing developers with the flexibility needed to adapt to the ever-changing demands of modern applications.</p>
@@ -147,9 +137,6 @@
                                 <li><a href="service-details.html">Informative</a> <span>(12)</span></li>
                                 <li><a href="service-details.html">Learning</a><span>(15)</span></li>
                                 <li><a href="service-details.html">Uncategorized</a><span>(21)</span></li>
-                                <!-- <li><a href="service-details.html">Health</a><span>(14)</span></li>
-                                <li><a href="service-details.html">Finance</a><span>(05)</span></li>
-                                <li><a href="service-details.html">Technology</a><span>(10)</span></li> -->
                             </ul>
                         </div>
                         <div class="widget  recent-post-main">
@@ -222,10 +209,7 @@
 
     <!--Register Modal -->
     <?php include('registerModal.php'); ?>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
+  
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">

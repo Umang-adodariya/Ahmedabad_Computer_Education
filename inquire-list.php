@@ -189,18 +189,6 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-5FWLQ3C');</script>
-
-<!-- Google tag (gtag.js) -->
-<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZDR3DPRCX5');
-</script> -->
-<!-- Google tag (gtag.js) -->
-<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD837VB60D"></script>
 <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -237,9 +225,7 @@ function gtag_report_conversion(url) {
  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWLQ3C"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-      <!--==============================
-         Header Area
-         ==============================-->
+
       <header class="th-header header-layout5 cust-page-box">
          <div class="sticky-wrapper">
             <div class="sticky-active">
@@ -346,12 +332,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </svg>
     </div>
 
-
-
-
-      <!--==============================
-         Footer Area
-         ==============================-->
       <footer class="footer-wrapper footer-layout5" id="footer">
          <div class="widget-area">
             <div class="container">
@@ -361,7 +341,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <div class="th-widget-about mob-th-widget-about">
                            <div class="about-logo">
                               <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                              <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
                            </div>
                            <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                            <div class="info-box-wrap mb-20">
@@ -429,14 +408,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>
-                  <!-- <div class="col-lg-6 text-end d-none d-lg-block">
-                     <div class="footer-links">
-                         <ul>
-                             <li><a href="about.php">Privacy Policy</a></li>
-                             <li><a href="about.php">Terms of Use</a></li>
-                         </ul>
-                     </div>
-                     </div> -->
                </div>
             </div>
          </div>
