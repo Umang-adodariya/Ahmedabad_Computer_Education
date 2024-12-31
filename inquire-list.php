@@ -297,7 +297,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <?php endwhile; ?>
                      <?php else: ?>
                         <tr>
-                           <td colspan="5" class="text-center">No inquiries found</td>
+                           <td colspan="6" class="text-center">No inquiries found</td>
                         </tr>
                      <?php endif; ?>
                   </tbody>
