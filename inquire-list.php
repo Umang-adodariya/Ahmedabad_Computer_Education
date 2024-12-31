@@ -1,4 +1,6 @@
 <?php
+require_once 'config.php';
+config(__DIR__ . '/.env');
 require_once 'db_connection.php';
 
 // Pagination setup
@@ -268,6 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                <table class="table table-bordered table-striped">
                   <thead class="thead-dark">
                      <tr>
+                        <th>NO.</th>
                         <th>Name</th>
                         <th>Email</th>
                         <th>Contact</th>
@@ -276,9 +279,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </tr>
                   </thead>
                   <tbody>
-                     <?php if ($inquires->num_rows > 0): ?>
+                     <?php if ($inquires->num_rows > 0): $count = 1; ?>
                         <?php while ($row = $inquires->fetch_assoc()): ?>
                            <tr>
+                              <td><?php echo $count++; ?></td>
                               <td><?php echo htmlspecialchars($row['name']); ?></td>
                               <td><?php echo htmlspecialchars($row['email']); ?></td>
                               <td><?php echo htmlspecialchars($row['contact_no']); ?></td>
