@@ -43,6 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $_SESSION['captcha_failed']="Captcha verification failed. Please try again.";
         $location = $requestUri;
         header("Location: $location");
+        die;
     }
     $location ='';
     // Get the form fields and remove whitespace.
@@ -134,18 +135,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if(!in_array($_SERVER['REMOTE_ADDR'], ['127.0.0.1', '::1'])){
         try{
-            if($requestUri == 'best-full-stack-developer.php' || $requestUri == 'best-python-training-course.php' || $requestUri == 'best-digital-marketing-training-course.php'){
-                $sql = "INSERT INTO inquire (`name`, `email`, `contact_no`, `type`, `course_link`) 
-                    VALUES ('$name', '$email', '$number', '$subject', '$currentUrl')";
-                if ($conn->query($sql) === TRUE) {
-                } else {
-                    unset($_SESSION['flash_message']);
-                    $_SESSION['captcha_failed']="Something went wrong, Please try again.";
-                    $location = $requestUri;
-                    header("Location: $location");
-                }
-                $conn->close();
+            
+            $sql = "INSERT INTO inquire (`name`, `email`, `contact_no`, `type`, `course_link`) 
+                VALUES ('$name', '$email', '$number', '$subject', '$currentUrl')";
+            if ($conn->query($sql) === TRUE) {
+            } else {
+                unset($_SESSION['flash_message']);
+                $_SESSION['captcha_failed']="Something went wrong, Please try again.";
+                $location = $requestUri;
+                header("Location: $location");
             }
+            $conn->close();
         } catch (Exception $e) {
             echo "Error: " . $sql . "<br>" . $conn->error;die;
             unset($_SESSION['flash_message']);
