@@ -18,6 +18,7 @@ $total_pages = ceil($total_records / $limit); // Calculate total pages
 // Fetch paginated inquiries
 $sql = "SELECT name, email, contact_no, type, course_link FROM inquire LIMIT $limit OFFSET $offset";
 $inquires = $conn->query($sql);
+$serialNumber = $offset + 1;
 ?>
 <!doctype html>
 <html class="no-js" lang="zxx">
@@ -279,10 +280,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                      </tr>
                   </thead>
                   <tbody>
-                     <?php if ($inquires->num_rows > 0): $count = 1; ?>
+                     <?php if ($inquires->num_rows > 0): ?>
                         <?php while ($row = $inquires->fetch_assoc()): ?>
                            <tr>
-                              <td><?php echo $count++; ?></td>
+                              <td><?php echo $serialNumber++; ?></td>
                               <td><?php echo htmlspecialchars($row['name']); ?></td>
                               <td><?php echo htmlspecialchars($row['email']); ?></td>
                               <td><?php echo htmlspecialchars($row['contact_no']); ?></td>
