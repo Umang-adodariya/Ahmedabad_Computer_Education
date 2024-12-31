@@ -1,4 +1,6 @@
 <?php
+require_once 'config.php';
+config(__DIR__ . '/.env');
 require_once 'db_connection.php';
 
 // Pagination setup

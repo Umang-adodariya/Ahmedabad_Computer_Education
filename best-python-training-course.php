@@ -628,7 +628,7 @@ session_start();
                                     </div>
                                     <div class="col-12">
                                         <div class="captcha-container">
-                                            <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+                                            <div class="g-recaptcha" style="transform:scale(0.81);-webkit-transform:scale(0.81);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
 
                                         </div>
                                     </div>
