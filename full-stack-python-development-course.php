@@ -32,7 +32,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/PythonReact.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/PythonReact.jpg" alt="Full Stack Python Development">
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 5</span>

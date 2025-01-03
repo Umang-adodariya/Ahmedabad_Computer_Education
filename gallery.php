@@ -39,7 +39,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/01.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/01.jpg" alt="Study at ACE">
                             <a href="assets/img/gallery/01.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                         
@@ -48,7 +48,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/02.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/02.jpg" alt="Event at ACE">
                             <a href="assets/img/gallery/327/02.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                        
@@ -75,7 +75,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/04.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/04.jpg" alt="Student at ACE">
                             <a href="assets/img/gallery/327/04.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                         
@@ -93,7 +93,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/06.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/06.jpg" alt="Live Project Study">
                             <a href="assets/img/gallery/327/06.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                        
@@ -111,7 +111,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/07.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/07.jpg" alt="ACE Learning Session">
                             <a href="assets/img/gallery/327/07.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                         
@@ -129,7 +129,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/08.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/08.jpg" alt="Social Activity at ACE">
                             <a href="assets/img/gallery/327/08.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                       
@@ -147,7 +147,7 @@ Gallery Area
                 <div class="col-md-6 col-xxl-auto filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img src="assets/img/gallery/327/09.jpg" alt="gallery image">
+                            <img src="assets/img/gallery/327/09.jpg" alt="Game Activity">
                             <a href="assets/img/gallery/327/09.jpg" class="gallery-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                        

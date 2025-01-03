@@ -94,7 +94,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-4.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-4.jpg" alt="Swaminarayan Event">
 
                         </div>
                         <div class="event-meta">
@@ -112,7 +112,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-5.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-5.jpg" alt="AIT Event">
 
                         </div>
                         <div class="event-meta">
@@ -130,7 +130,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-6.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-6.jpg" alt="LJ University Event">
 
                         </div>
                         <div class="event-meta">
@@ -151,9 +151,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-7.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-7-2.png" alt="course">
-                                <img src="assets/img/events/past-events/event-7-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-7.jpg" alt="Skitm Event">
+                                <img src="assets/img/events/past-events/event-7-2.png" alt="Skitm Event">
+                                <img src="assets/img/events/past-events/event-7-3.jpg" alt="Skitm Event">
                             </div>
                         </div>
                             
@@ -175,7 +175,7 @@
                         <div class="event-card_content">
                         <div class="course-img mb-4">
                       
-                            <img src="assets/img/events/past-events/event-8.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-8.jpg" alt="Aurobindo Event">
 
                         </div>
                         <div class="event-meta">
@@ -193,7 +193,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-9.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-9.jpg" alt="Malwa Institute Event">
 
                         </div>
                         <div class="event-meta">
@@ -211,7 +211,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-10.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-10.jpg" alt="Prestige College Event">
 
                         </div>
                         <div class="event-meta">
@@ -229,7 +229,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-11.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-11.jpg" alt="Oriental College Event">
 
                         </div>
                         <div class="event-meta">
@@ -247,7 +247,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-12.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-12.jpg" alt="Gujarat Technology Event">
 
                         </div>
                         <div class="event-meta">
@@ -268,9 +268,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-13-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-13-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-13-3.png" alt="course">
+                                <img src="assets/img/events/past-events/event-13-1.jpg" alt="Blockchain Seminar">
+                                <img src="assets/img/events/past-events/event-13-2.jpg" alt="Blockchain Seminar">
+                                <img src="assets/img/events/past-events/event-13-3.png" alt="Blockchain Seminar">
                             </div>
                         </div>
                         </div>
@@ -293,8 +293,8 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-14-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-14-2.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-14-1.jpg" alt="Polytechnic Placement">
+                                <img src="assets/img/events/past-events/event-14-2.jpg" alt="Polytechnic Placement">
                             </div>
                         </div>
                         </div>
@@ -315,7 +315,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-15-1.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-15-1.jpg" alt="Gokul University">
 
                         </div>
                         <div class="event-meta">
@@ -336,9 +336,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-16-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-16-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-16-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-16-1.jpg" alt="Vibrant Gujarat Fair">
+                                <img src="assets/img/events/past-events/event-16-2.jpg" alt="Vibrant Gujarat Fair">
+                                <img src="assets/img/events/past-events/event-16-3.jpg" alt="Vibrant Gujarat Fair">
                             </div>
                         </div>
                         </div>
@@ -358,7 +358,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-17-1.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-17-1.jpg" alt="Ahmedabad Polytechnic MOU">
 
                         </div>
                         <div class="event-meta">
@@ -381,10 +381,10 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-18-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-18-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-18-3.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-18-4.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-18-1.jpg" alt="IAB Programme">
+                                <img src="assets/img/events/past-events/event-18-2.jpg" alt="IAB Programme">
+                                <img src="assets/img/events/past-events/event-18-3.jpg" alt="IAB Programme">
+                                <img src="assets/img/events/past-events/event-18-4.jpg" alt="IAB Programme">
                             </div>
                         </div>
                         </div>
@@ -404,7 +404,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-19-1.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-19-1.jpg" alt="GTU MOU">
 
                         </div>
                         <div class="event-meta">
@@ -427,9 +427,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-20-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-20-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-20-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-20-1.jpg" alt="Technical Event GTU">
+                                <img src="assets/img/events/past-events/event-20-2.jpg" alt="Technical Event GTU">
+                                <img src="assets/img/events/past-events/event-20-3.jpg" alt="Technical Event GTU">
                             </div>
                         </div>
                         </div>
@@ -452,9 +452,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-21-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-21-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-21-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-21-1.jpg" alt="Project Review">
+                                <img src="assets/img/events/past-events/event-21-2.jpg" alt="Project Review">
+                                <img src="assets/img/events/past-events/event-21-3.jpg" alt="Project Review">
                             </div>
                         </div>
                         </div>
@@ -474,7 +474,7 @@
                     <div class="event-card mt-0">
                         <div class="event-card_content">
                         <div class="course-img mb-4">
-                            <img src="assets/img/events/past-events/event-22-1.jpg" alt="course">
+                            <img src="assets/img/events/past-events/event-22-1.jpg" alt="Swaminarayan MOU">
 
                         </div>
                         <div class="event-meta">
@@ -497,9 +497,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-23-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-23-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-23-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-23-1.jpg" alt="Seminar Web Design">
+                                <img src="assets/img/events/past-events/event-23-2.jpg" alt="Seminar Web Design">
+                                <img src="assets/img/events/past-events/event-23-3.jpg" alt="Seminar Web Design">
                             </div>
                         </div>
                         </div>
@@ -522,8 +522,8 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-24-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-24-2.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-24-1.jpg" alt="VK Patel Seminar">
+                                <img src="assets/img/events/past-events/event-24-2.jpg" alt="VK Patel Seminar">
                             </div>
                         </div>
                         </div>
@@ -547,9 +547,9 @@
                         <div class="modal-slider-sec">
                             <div class="event-img th-carousel" data-overlay="black" data-opacity="1"
                                 data-arrows="true" data-slide-show="1" data-fade="true">
-                                <img src="assets/img/events/past-events/event-25-1.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-25-2.jpg" alt="course">
-                                <img src="assets/img/events/past-events/event-25-3.jpg" alt="course">
+                                <img src="assets/img/events/past-events/event-25-1.jpg" alt="Growmore College Event">
+                                <img src="assets/img/events/past-events/event-25-2.jpg" alt="Growmore College Event">
+                                <img src="assets/img/events/past-events/event-25-3.jpg" alt="Growmore College Event">
                             </div>
                         </div>
                         </div>

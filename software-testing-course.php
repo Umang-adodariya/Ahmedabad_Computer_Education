@@ -22,7 +22,7 @@
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/Bug.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/Bug.jpg" alt="Software Testing Course">
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 2</span>

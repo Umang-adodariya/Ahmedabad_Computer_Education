@@ -65,17 +65,17 @@
                 <div class="col-xl-6 mb-50 mb-xl-0">
                     <div class="img-box4">
                         <div class="img1">
-                            <img class="tilt-active" src="assets/img/normal/375x493.png" alt="About">
+                            <img class="tilt-active" src="assets/img/normal/375x493.png" alt="IT Web Development">
                         </div>
                         <div class="about-grid">
                             <h3 class="about-grid_year"><span class="counter-number">14</span>+</h3>
                             <p class="about-grid_text">Years Experience in IT Training</p>
                         </div>
                         <div class="img2">
-                            <img class="tilt-active" src="assets/img/normal/223x272.png" alt="About">
+                            <img class="tilt-active" src="assets/img/normal/223x272.png" alt="IT Classes">
                         </div>
                         <div class="shape1 shape-mockup jump" data-bottom="0" data-left="-46px">
-                            <img src="assets/img/normal/about_5_1shape.png" alt="About">
+                            <img src="assets/img/normal/about_5_1shape.png" alt="Web Development Course">
                         </div>
                     </div>
                 </div>
@@ -522,7 +522,7 @@ Blog Area
             </div>
         </div>
         <div class="cta-img-1" data-overlay="title" data-opacity="8">
-            <img src="assets/img/normal/714x166-1.png" alt="Image">
+            <img src="assets/img/normal/714x166-1.png" alt="Web Skill Development">
         </div>
     </div>
 

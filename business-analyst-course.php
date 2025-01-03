@@ -24,7 +24,7 @@
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/BusinessAnalytic.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/BusinessAnalytic.jpg" alt="Business Analyst Course">
                                 
                             </div>
                             <div class="course-meta style2">

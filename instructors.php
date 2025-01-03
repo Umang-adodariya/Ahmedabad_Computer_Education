@@ -23,7 +23,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/ram.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/ram.jpg" alt="Ram Graphic UIUX">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -42,7 +42,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/uvesh.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/uvesh.jpg" alt="Uves React Development">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -61,7 +61,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/rajdeep.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/rajdeep.jpg" alt="Rajdeep Game Development">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -80,7 +80,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/naresh.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/naresh.jpg" alt="Naresh DevOps Development">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -99,7 +99,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/karan.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/karan.jpg" alt="Karan Flutter Development">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -118,7 +118,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/yash.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/yash.jpg" alt="Yash React Native">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -137,7 +137,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/tejas.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/tejas.jpg" alt="Tejas Metaverse Expert">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -156,7 +156,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/hinal.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/hinal.jpg" alt="Hinal Digital Marketing">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -175,7 +175,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/jay-malvi.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/jay-malvi.jpg" alt="Jay SEO Expert">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -195,7 +195,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/priya.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/priya.jpg" alt="Priya Business Analyst">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -214,7 +214,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/jimmy.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/jimmy.jpg" alt="Jimmy Software Testing">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -233,7 +233,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/dixitbhai.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/dixitbhai.jpg" alt="Dixit Cyber Security">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -252,7 +252,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/sweta-rao.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/sweta-rao.jpg" alt="Sweta CMS Expert">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -271,7 +271,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/aman.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/aman.jpg" alt="Business Development Expert">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -290,7 +290,7 @@
                     <div class="team-card style3">
                         <div class="team-img-wrap">
                             <div class="team-img">
-                                <img src="assets/img/instructor/instructorDetail/himanshu-dabhi.jpg" alt="Team">
+                                <img src="assets/img/instructor/instructorDetail/himanshu-dabhi.jpg" alt="Himanshu Full Stack React">
                             </div>
                         </div>
                         <div class="team-hover-wrap">
@@ -321,7 +321,7 @@
             <div class="row">
                 <div class="col-xl-6 order-xl-2">
                     <div class="become-instructor-img mb-5 mb-xl-0 ms-xl-5">
-                        <img src="assets/img/ins-2.jpg" alt="img">
+                        <img src="assets/img/ins-2.jpg" alt="IT Training Expert">
                     </div>
                 </div>
                 <div class="col-xl-6 order-xl-1">
