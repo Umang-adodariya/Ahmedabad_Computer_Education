@@ -21,7 +21,7 @@
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/SEO.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/SEO.jpg" alt="SEO Course"> 
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 7</span>
@@ -95,13 +95,48 @@
                                                     <h2 class="accordion-header" id="headingOne">
                                                         <button class="accordion-button course-acc-button" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                                            Module 1 [internet Basic Introduction]
+                                                            Module 1 [ Introduction to SEO]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseOne" class="accordion-collapse course-acc-collapse collapse show"
                                                         aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                        <!-- <div class="course-description"> -->
+                                                            <p>What is SEO?</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Definition, Importance, and Types of SEO (On-page, Off-page, and Technical)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">How Search Engines Work</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Crawling, Indexing, and Ranking</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Understanding SERPs</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Organic vs Paid Results</li>
+                                                                    <li class="course-scc-li">SERP Features (Rich Snippets, Knowledge Panels, etc.)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Basic SEO Terminology</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Keywords, Backlinks, Domain Authority, CTR, etc.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Practical Session</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Analyze live SERPs.</li>
+                                                                    <li class="course-scc-li">Learn basic navigation of SEO tools like Google Search Console and Google Analytics.</li>
+                                                                </ul>
+                                                            </div>
+
+                                                        <!-- </div> -->
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                 <li class="course-scc-li">Introduction to SEO</li>
                                                                 <li class="course-scc-li">Internet</li>
@@ -111,7 +146,7 @@
                                                                 <li class="course-scc-li">Http vs Https</li>
                                                                 <li class="course-scc-li">What are blogs</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -119,13 +154,44 @@
                                                     <h2 class="accordion-header" id="headingTwo">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                                            Module 2 [Seo Basic]
+                                                            Module 2 [Keyword Research and Analysis]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseTwo" class="accordion-collapse course-acc-collapse collapse" aria-labelledby="headingTwo"
                                                         data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                            <p>Importance of Keywords in SEO</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Types of Keywords (Short-tail, Long-tail, LSI, etc.)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Keyword Research Tools</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Google Keyword Planner, Paid Tools</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Understanding Search Intent</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Navigational, Informational, Transactional, Commercial</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Competitor Analysis</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Identifying and analyzing competitors' keywords</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Practical Session</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Perform keyword research for a demo website.</li>
+                                                                    <li class="course-scc-li">Create a keyword strategy document.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Page Rank and Alexa Rank</li>
                                                                     <li class="course-scc-li">SERP (Search Engine Result Page )</li>
@@ -151,7 +217,7 @@
                                                                     <li class="course-scc-li">Canonical issue</li>
                                                                     <li class="course-scc-li">Case study</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -159,13 +225,49 @@
                                                     <h2 class="accordion-header" id="headingThree">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                                            Module 3 [SEO Research & Agalysis]
+                                                            Module 3 [On-Page SEO Optimization]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseThree" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                            <p>Optimizing Web Content</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Meta Tags (Title, Description)</li>
+                                                                    <li class="course-scc-li">Header Tags (H1, H2, H3)</li>
+                                                                    <li class="course-scc-li">Image Optimization (Alt Text, Compression)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">URL Structuring</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">SEO-friendly URLs</li>
+                                                                    <li class="course-scc-li">Canonical Tags</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Content Optimization</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Creating SEO-optimized content</li>
+                                                                    <li class="course-scc-li">Keyword Density and Placement</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Internal Linking</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Anchor Text Optimization</li>
+                                                                    <li class="course-scc-li">Link Hierarchy</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Practical Session</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Optimize the on-page SEO of a demo website.</li>
+                                                                    <li class="course-scc-li">Write and optimize an SEO blog post.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Keyword and keyword analysis</li>
                                                                     <li class="course-scc-li">Keyword opportunity</li>
@@ -178,7 +280,7 @@
                                                                     <li class="course-scc-li">Content Optimization</li>
                                                                     <li class="course-scc-li">Design & Layout</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -186,13 +288,43 @@
                                                     <h2 class="accordion-header" id="headingFour">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                                            Module 4 [Advance SEO Techniques]
+                                                            Module 4 [Technical SEO]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseFour" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                            <p>Website Architecture and Crawlability</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">XML Sitemaps</li>
+                                                                    <li class="course-scc-li">Robots.txt File</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Website Speed Optimization</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Core Web Vitals</li>
+                                                                    <li class="course-scc-li">Compressing Resources (CSS, JS, Images)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Mobile SEO</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Mobile-first Indexing</li>
+                                                                    <li class="course-scc-li">AMP Pages</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4 mb-1">Schema Markup</p>
+                                                            <p>Fixing Common Technical SEO Issues</p>
+                                                            <p class="mt-4">Practical Session/p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Conduct a technical SEO audit using tools like Screaming Frog.</li>
+                                                                    <li class="course-scc-li">Implement fixes on a demo site.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Dynamic Site Optimization</li>
                                                                     <li class="course-scc-li">SEO For Ecommerce Site</li>
@@ -200,7 +332,7 @@
                                                                     <li class="course-scc-li">Google Panda Updates</li>
                                                                     <li class="course-scc-li">Google Penguin Updates</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -208,13 +340,37 @@
                                                     <h2 class="accordion-header" id="headingFive">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                                            Module 5 [On-page Optimization]
+                                                            Module 5 [Off-Page SEO and Link Building]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseFive" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                            <p>What is Off-Page SEO?</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Importance of Backlinks</li>
+                                                                    <li class="course-scc-li">Do-follow vs No-follow Links</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Link-Building Strategies</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Business Listing</li>
+                                                                    <li class="course-scc-li">Profile Creation</li>
+                                                                    <li class="course-scc-li">Social Bookmarking</li>
+                                                                    <li class="course-scc-li">Classified Submission</li>
+                                                                    <li class="course-scc-li">Forum Submission</li>
+                                                                    <li class="course-scc-li">Guest Blogging</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Practical Session</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Develop a backlink strategy for a demo project.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">The Page Title</li>
                                                                     <li class="course-scc-li">Meta Descriptions & Meta Keywords</li>
@@ -243,7 +399,7 @@
                                                                     <li class="course-scc-li">Google Analytics</li>
                                                                     <li class="course-scc-li">Meta tag Generator</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
@@ -251,13 +407,68 @@
                                                     <h2 class="accordion-header" id="headingSix">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                                            Module 6 [Off-page Optimization]
+                                                            Module 6 [Local SEO, Advanced Techniques and Analytics, Reporting, and SEO Tools]
                                                         </button>
                                                     </h2>
                                                     <div id="collapseSix" class="accordion-collapse course-acc-collapse collapse"
                                                         aria-labelledby="headingSix" data-bs-parent="#accordionExample">
                                                         <div class="accordion-body course-acc-body">
+                                                            <p>What is Local SEO?</p>
                                                             <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Optimizing for "Near Me" Searches</li>
+                                                                    <li class="course-scc-li">Google My Business (GMB) Optimization</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Voice Search Optimization</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Adapting SEO for Voice Queries</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">SEO for E-commerce Websites</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Product Page Optimization</li>
+                                                                    <li class="course-scc-li">Managing Duplicate Content</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Emerging Trends in SEO</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">AI & SEO</li>
+                                                                    <li class="course-scc-li">Video SEO</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Tracking SEO Performance</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Using Google Analytics and Google Search Console</li>
+                                                                    <li class="course-scc-li">Understanding SEO Metrics (Bounce Rate, Key Events, Traffic Channels, etc.)</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">SEO Reporting</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Creating Client-Friendly Reports</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Overview of Advanced SEO Tools</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">SEMrush, Ahrefs, Moz, Rank Math, Yoast</li>
+                                                                </ul>
+                                                            </div>
+                                                            <p class="mt-4">Practical Session</p>
+                                                            <div class="checklist mb-1">
+                                                                <ul class="course-acc-ul">
+                                                                    <li class="course-scc-li">Optimize a demo business for local SEO.</li>
+                                                                    <li class="course-scc-li">Prepare a strategy for an e-commerce website.</li>
+                                                                    <li class="course-scc-li">Generate an SEO report for a demo project.</li>
+                                                                    <li class="course-scc-li">Track and interpret analytics data to refine strategies.</li>
+                                                                </ul>
+                                                            </div>
+                                                            <!-- <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
                                                                     <li class="course-scc-li">Types of directory</li>
                                                                     <li class="course-scc-li">Search engine submission</li>
@@ -277,11 +488,11 @@
                                                                     <li class="course-scc-li">Introduction with yahoo answer</li>
                                                                     <li class="course-scc-li">Practical’s with yahoo answer</li>
                                                                 </ul>
-                                                            </div>
+                                                            </div> -->
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="accordion-item course-acc-item">
+                                                <!-- <div class="accordion-item course-acc-item">
                                                     <h2 class="accordion-header" id="headingSeven">
                                                         <button class="accordion-button course-acc-button collapsed" type="button" data-bs-toggle="collapse"
                                                             data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
@@ -304,7 +515,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div> -->
                                             </div>
                                         </div>
                                     </div>

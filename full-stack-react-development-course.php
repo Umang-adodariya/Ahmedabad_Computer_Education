@@ -31,7 +31,7 @@ Event Area
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/ReactFull.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/ReactFull.jpg" alt="Full Stack React Development">
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 12</span>
@@ -344,7 +344,7 @@ Event Area
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+                                <!-- <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
                                             <div class="auhtor-img">
@@ -385,8 +385,8 @@ Event Area
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+                                </div> -->
+                                <!-- <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="course-Reviews">
                                         <div class="th-comments-wrap ">
                                             <ul class="comment-list">
@@ -436,10 +436,10 @@ Event Area
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div> <!-- Comment Form -->
+                                        </div>
                                        
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>

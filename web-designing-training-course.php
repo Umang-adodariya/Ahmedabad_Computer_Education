@@ -24,7 +24,7 @@
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/Design.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/Design.jpg" alt="Web Designing Course">
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 8</span>

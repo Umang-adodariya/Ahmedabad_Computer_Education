@@ -25,7 +25,7 @@
                     <div class="course-single">
                         <div class="course-single-top">
                             <div class="course-img">
-                                <img src="assets/img/home-course-details/AngularReact.jpg" alt="Course Image">
+                                <img src="assets/img/home-course-details/AngularReact.jpg" alt="Full Stack Angular Development">
                                 
                             </div>
                             <div class="course-meta style2">
@@ -501,7 +501,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
+                                <!-- <div class="tab-pane fade" id="instructor" role="tabpanel" aria-labelledby="instructor-tab">
                                     <div class="course-instructor">
                                         <div class="course-author-box">
                                             <div class="auhtor-img without-author-sec">
@@ -542,7 +542,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
                                     <div class="course-Reviews">
                                         <div class="th-comments-wrap ">

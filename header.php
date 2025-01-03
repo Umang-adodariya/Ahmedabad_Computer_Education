@@ -644,8 +644,8 @@ Header Area
                 <div class="row align-items-center justify-content-between">
                     <div class="col-auto">
                         <div class="header-logo">
-                            <a href="https://ahmedabadcomputereducation.com/"><img src="assets/img/ahm-logo-new.png"
-                                    alt="ahmedabad computer education" class="logo-img"></a>
+                            <a rel="canonical" href="https://ahmedabadcomputereducation.com/"><img src="assets/img/ahm-logo-new.png"
+                                    alt="Ahmedabad Computer Education" class="logo-img"></a>
                         </div>
                     </div>
                     <div class="col-auto">
@@ -806,17 +806,17 @@ Header Area
                                                         </ul>
                                                         <div class="cus-megamenu-list">
                                                             <ul class="full-stack active">
-                                                                <li><a href="full-stack-blockchain-development-course.php"><img src="assets/img/menu-ic/blockchainIc.png" alt="blockchainIc"> Full Stack Blockchain Development Course</a></li>
-                                                                <li><a href="full-stack-react-development-course.php"><img src="assets/img/menu-ic/physics.png" alt="physics">Full Stack React Development Course</a></li>
-                                                                <li><a href="full-stack-angular-development-course.php"><img src="assets/img/menu-ic/programing.png" alt="programing">Full Stack Angular Development Course</a></li>
-                                                                <li><a href="full-stack-python-development-course.php"><img src="assets/img/menu-ic/python.png" alt="python">Full Stack Python Development Course</a></li>
-                                                                <li><a href="full-stack-laravel-development-course.php"><img src="assets/img/menu-ic/php.png" alt="php">Full Stack Laravel Development Course</a></li>
-                                                                <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt="testing"> Software Testing Course</a></li>
+                                                                <li><a href="full-stack-blockchain-development-course.php"><img src="assets/img/menu-ic/blockchainIc.png" alt="Blockchain Development"> Full Stack Blockchain Development Course</a></li>
+                                                                <!-- <li><a href="full-stack-react-development-course.php"><img src="assets/img/menu-ic/physics.png" alt="physics">Full Stack React Development Course</a></li> -->
+                                                                <!-- <li><a href="full-stack-angular-development-course.php"><img src="assets/img/menu-ic/programing.png" alt="Angular Development">Full Stack Angular Development Course</a></li> -->
+                                                                <li><a href="full-stack-python-development-course.php"><img src="assets/img/menu-ic/python.png" alt="Python Development">Full Stack Python Development Course</a></li>
+                                                                <li><a href="full-stack-laravel-development-course.php"><img src="assets/img/menu-ic/php.png" alt="Laravel Development">Full Stack Laravel Development Course</a></li>
+                                                                <li><a href="software-testing-course.php"><img src="assets/img/menu-ic/testing.png" alt="Software"> Software Testing Course</a></li>
                                                             </ul>
                                                             <ul class="">
-                                                                <li><a href="web-designing-training-course.php"><img src="assets/img/menu-ic/ui-design.png" alt="ui-design"> Web Designing Course</a></li>
-                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt="graphic-designer"> Graphic & UI UX Design Course</a></li>
-                                                                <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt="cms"> CMS Certification Course</a></li>
+                                                                <li><a href="web-designing-training-course.php"><img src="assets/img/menu-ic/ui-design.png" alt="Web Designing"> Web Designing Course</a></li>
+                                                                <li><a href="graphic-and-ui-ux-design-course.php"><img src="assets/img/menu-ic/graphic-designer.png" alt="Graphic & UIUX"> Graphic & UI UX Design Course</a></li>
+                                                                <li><a href="cms-certification-course.php"><img src="assets/img/menu-ic/cms.png" alt="CMS Certification"> CMS Certification Course</a></li>
                                                             </ul>
                                                             <!-- <ul class="game-dev">
                                                             <li><a href="game-development-course.php"><img src="assets/img/menu-ic/game.png" alt=""> Game Development</a></li>
@@ -825,24 +825,24 @@ Header Area
                                                             <li><a href="devops-certification-course.php"><img src="assets/img/menu-ic/devops.png" alt=""> DevOps Certification Course</a></li>
                                                             </ul> -->
                                                             <ul class="mobile-dev">
-                                                                <li><a href="react-native-course.php"><img src="assets/img/menu-ic/science.png" alt=""> React Native Course</a></li>
-                                                                <li><a href="flutter-certification-course.php"><img src="assets/img/menu-ic/flutter.png" alt=""> Flutter Certification Course</a></li>
+                                                                <li><a href="react-native-course.php"><img src="assets/img/menu-ic/science.png" alt="React Development"> React Native Course</a></li>
+                                                                <li><a href="flutter-certification-course.php"><img src="assets/img/menu-ic/flutter.png" alt="Flutter Course"> Flutter Certification Course</a></li>
                                                             </ul>
                                                             
                                                             <ul class="future-oriented">
-                                                                <li><a href="blockchain-training-course.php"><img src="assets/img/menu-ic/blockchain.png" alt=""> Blockchain Course</a></li>
-                                                                <li><a href="metaverse-training-course.php"><img src="assets/img/menu-ic/choose.png" alt=""> Metaverse Course</a></li>
-                                                                <li><a href="cyber-security-training-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt=""> Cyber Security Course</a></li>
-                                                                <li><a href="game-development-course.php"><img src="assets/img/menu-ic/game.png" alt=""> Game Development Course</a></li>
-                                                                <li><a href="devops-certification-course.php"><img src="assets/img/menu-ic/devops.png" alt=""> DevOps Certification Course</a></li>
+                                                                <li><a href="blockchain-training-course.php"><img src="assets/img/menu-ic/blockchain.png" alt="Blockchain"> Blockchain Course</a></li>
+                                                                <li><a href="metaverse-training-course.php"><img src="assets/img/menu-ic/choose.png" alt="Metaverse"> Metaverse Course</a></li>
+                                                                <li><a href="cyber-security-training-course.php"><img src="assets/img/menu-ic/cyber-security.png" alt="Cyber Security"> Cyber Security Course</a></li>
+                                                                <li><a href="game-development-course.php"><img src="assets/img/menu-ic/game.png" alt="Game Development"> Game Development Course</a></li>
+                                                                <li><a href="devops-certification-course.php"><img src="assets/img/menu-ic/devops.png" alt="DevOps Certification"> DevOps Certification Course</a></li>
                                                             </ul>
                                                             <ul class="digital-course">
-                                                                <li><a href="digital-marketing-training-course.php"><img src="assets/img/menu-ic/bullhorn.png" alt=""> Digital Marketing Course</a></li>
-                                                                <li><a href="seo-certification-training-course.php"><img src="assets/img/menu-ic/seo.png" alt="">SEO Certification Course</a></li>
+                                                                <li><a href="digital-marketing-training-course.php"><img src="assets/img/menu-ic/bullhorn.png" alt="Digital Marketing"> Digital Marketing Course</a></li>
+                                                                <li><a href="seo-certification-training-course.php"><img src="assets/img/menu-ic/seo.png" alt="SEO Certification">SEO Certification Course</a></li>
                                                             </ul>
                                                             <ul class="digital-course">
-                                                                <li><a href="business-development-course.php"><img src="assets/img/menu-ic/investment.png" alt=""> Business Development Course</a></li>
-                                                                <li><a href="business-analyst-course.php"><img src="assets/img/menu-ic/data-analysis.png" alt=""> Business Analyst Course</a></li>
+                                                                <li><a href="business-development-course.php"><img src="assets/img/menu-ic/investment.png" alt="Business Development"> Business Development Course</a></li>
+                                                                <li><a href="business-analyst-course.php"><img src="assets/img/menu-ic/data-analysis.png" alt="Business Analyst"> Business Analyst Course</a></li>
                                                             </ul>
                                                         </div>
                                                     </div>
