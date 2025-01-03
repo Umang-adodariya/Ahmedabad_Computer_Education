@@ -237,49 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                   <div class="row align-items-center justify-content-center justify-content-sm-between">
                      <div class="col-auto d-none d-sm-block menu-top-left">
                         <a class="header-link" href="tel:+919586877700">
-                           <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
-                              data-name="Layer 1">
-                              <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
-                                 <path d="m29.93 83.29v-19.07a8.94 8.94 0 0 0 -17.88 0v19.07z" fill="none" />
-                                 <path
-                                    d="m26 83.29v-11.57a5.28 5.28 0 0 0 -5-5.42 5.27 5.27 0 0 0 -5.07 5.42v11.57z"
-                                    fill="none" />
-                                 <path d="m12.75 60.9h16.48" fill="none" />
-                                 <path d="m20.75 50.71v4.41" fill="none" />
-                                 <path d="m26.83 40.84h15.72" fill="none" />
-                                 <path d="m29.93 35.34h9.88v47.95h-9.88z" fill="none" />
-                                 <path d="m29.05 24.46h11.38" fill="#fff" />
-                                 <path d="m35.18 16.71v3.26" fill="#fff" />
-                                 <path d="m18.63 58.16v1.75" fill="#fff" />
-                                 <path d="m23.23 58.16v1.75" fill="#fff" />
-                                 <g fill="none">
-                                    <path d="m37.68 35.34v-13a2.5 2.5 0 1 0 -5 0v13z" />
-                                    <path d="m29.93 49.5h9.87" />
-                                    <path d="m39.8 54.25-9.87 5.06" />
-                                    <path d="m39.8 64.45-9.87 5.06" />
-                                    <path d="m39.8 74.65-9.87 5.06" />
-                                    <path d="m70.07 83.29v-19.07a8.94 8.94 0 0 1 17.88 0v19.07z" />
-                                    <path d="m74 83.29v-11.57a5.09 5.09 0 1 1 10.15 0v11.57z" />
-                                    <path d="m87.25 60.9h-16.48" />
-                                    <path d="m79.25 50.71v4.41" />
-                                    <path d="m73.18 40.84h-15.73" />
-                                    <path d="m60.2 35.34h9.88v47.95h-9.88z" />
-                                 </g>
-                                 <path d="m70.95 24.46h-11.37" fill="#fff" />
-                                 <path d="m64.83 16.71v3.26" fill="#fff" />
-                                 <path d="m81.37 58.16v1.75" fill="#fff" />
-                                 <path d="m76.77 58.16v1.75" fill="#fff" />
-                                 <path d="m62.33 35.34v-13a2.5 2.5 0 0 1 5 0v13z" fill="none" />
-                                 <path d="m70.08 49.5h-9.88" fill="none" />
-                                 <path d="m70.07 54.25-9.87 5.06" fill="none" />
-                                 <path d="m70.07 64.45-9.87 5.06" fill="none" />
-                                 <path d="m70.07 74.65-9.87 5.06" fill="none" />
-                                 <path d="m60.18 83.29v-30.85a10.19 10.19 0 0 0 -20.38 0v30.85z" fill="none" />
-                                 <path d="m39.87 51.25h20.23" fill="none" />
-                                 <path d="m49.99 39.09v3.16" fill="none" />
-                                 <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
-                              </g>
-                           </svg> -->
+                           
                            <img src="assets/img/home-course-details/badgeone.png" alt="badgeone" class="badgeone">
                            <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
                         </a>
@@ -358,13 +316,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <!-- <div class="course-single-top">
-                            <h2 class="course-title">Best Digital Marketing Course</h2>
-                        </div> -->
                         <div class="course-single-bottom">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
@@ -990,7 +945,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
             <div class="col-12">
                 <div class="captcha-container">
-                <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+                <div class="g-recaptcha" style="transform:scale(0.81);-webkit-transform:scale(0.81);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
                 </div>
             </div>
             <div class="form-btn col-12 mt-10">
@@ -999,14 +954,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </div>
         </div>
         <p class="form-messages mb-0 mt-3"></p>
-        <!-- sent suceess msg popup -->
-        <!-- <div class="popup-sent-msg">
-            <div class="popup-inner-msg">
-                <p>Our team will review your inquiry and get back to you shortly.</p> 
-            </div>
-        </div> -->
-
-        <!-- sent sucess msg popup -->
     </form>
 </div>
                         <div class="widget widget_info  video-small-best">
@@ -1015,22 +962,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>15</span>
-                                    </li>
-                                   
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
                         </div>                        
                     </aside>
                 </div>
@@ -1221,7 +1152,6 @@ Servce Area
                         class="far fa-times"></i></button>
                 <div class="contact-form-wrap background-image"
                     style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                    <!-- <span class="sub-title">Contact With Us!</span> -->
                     <h2 class="border-title">Registration now</h2>
                     <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                     <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
@@ -1279,11 +1209,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="load-modal-wrapper position-relative">
             <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                     class="far fa-times"></i></button>
-            <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
             <video autoplay muted controls class="courses-video-main">
                 <source src="./assets/video/ahm_video.mp4" type="video/mp4">
             </video>
@@ -1372,18 +1297,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     <!--********************************
 			Code End  Here 
 	******************************** -->
-
-    <!-- <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Digital%20Marketing%20Course%0AI%20am%20interested%20in%20a%20Digital%20Marketing%20course" target="_blank">
-                                    <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
-                                </a>
-                        </div>
-
-                        <div id="scrollButtonsinquirey" class="hidden">
-                                <a id="inquiryButton" onclick="gtag_report_conversion()" class="inquiry-button" href="tel:+919586877700" target="_blank">
-                                    <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
-                                </a>
-                        </div> -->
 
   <a  class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Digital%20Marketing%20Course%0AI%20am%20interested%20in%20a%20Digital%20Marketing%20course" target="_blank">
                         <div class="sticky-bottom-note-important">
@@ -1486,14 +1399,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                      </p>
                   </div>
-                  <!-- <div class="col-lg-6 text-end d-none d-lg-block">
-                     <div class="footer-links">
-                         <ul>
-                             <li><a href="about.php">Privacy Policy</a></li>
-                             <li><a href="about.php">Terms of Use</a></li>
-                         </ul>
-                     </div>
-                     </div> -->
+
                </div>
             </div>
          </div>
@@ -1647,13 +1553,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
              }
            });
          });
-         
-         
-         
-         
-         
-         
-             
+                   
       </script>
    </body>
 </html>

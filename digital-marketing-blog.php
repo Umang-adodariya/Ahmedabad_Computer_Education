@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-blog-detail.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Blog Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Blog Details</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-        Blog Area
-    ==============================-->
+   
     <section class="th-blog-wrapper blog-details space-top space-extra2-bottom">
         <div class="container">
             <div class="row gx-30">
@@ -37,7 +30,7 @@
                                 <a class="author" ><i class="far fa-user"></i>Hinal</a>
                                 <a><i class="fa-light fa-calendar-days"></i>26 December, 2023</a>
                             </div>
-                            <!-- <h2 class="blog-title">Elevate Your Brand: The Impact of Digital Marketing Courses on Business Growth</h2> -->
+                            
                             <p>In the dynamic landscape of today’s business world, establishing a robust online presence is no longer an option—it’s a necessity. As consumers increasingly turn to the internet for their purchasing decisions, businesses must adapt and leverage the power of digital marketing to thrive. In this blog, we’ll delve into the significant impact that digital marketing courses can have on business growth and how investing in the right training can elevate your brand.</p>
 
                 
@@ -132,24 +125,7 @@
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area">
-                        <!-- <div class="widget widget_search  ">
-                            <form class="search-form">
-                                <input type="text" placeholder="Search Product...">
-                                <button type="submit"><i class="far fa-search"></i></button>
-                            </form>
-                        </div>
-                        <div class="widget widget_categories  ">
-                            <h3 class="widget_title">Categories</h3>
-                            <ul>
-                                <li><a href="service-details.html">Education</a><span>(08)</span></li>
-                                <li><a href="service-details.html">Informative</a> <span>(12)</span></li>
-                                <li><a href="service-details.html">Learning</a><span>(15)</span></li>
-                                <li><a href="service-details.html">Uncategorized</a><span>(21)</span></li>
-                                <li><a href="service-details.html">Health</a><span>(14)</span></li>
-                                <li><a href="service-details.html">Finance</a><span>(05)</span></li>
-                                <li><a href="service-details.html">Technology</a><span>(10)</span></li>
-                            </ul>
-                        </div> -->
+                        
                         <div class="widget  recent-post-main">
                             <h3 class="widget_title">Recent Posts</h3>
                             <div class="recent-post-wrap">
@@ -188,19 +164,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="widget widget_tag_cloud  ">
-                            <h3 class="widget_title">Popular Tags</h3>
-                            <div class="tagcloud">
-                                <a href="blog.html">Business</a>
-                                <a href="blog.html">Courses</a>
-                                <a href="blog.html">Online</a>
-                                <a href="blog.html">Remote</a>
-                                <a href="blog.html">Education</a>
-                                <a href="blog.html">Solution</a>
-                                <a href="blog.html">Students</a>
-                                <a href="blog.html">UX</a>
-                            </div>
-                        </div> -->
+                        
                         <div class="widget widget_banner  " data-overlay="theme" data-opacity="9" data-bg-src="assets/img/widget/widget-banner-bg.png">
                             <div class="widget-banner">
                                 <h4 class="title">Need Help? We Are Here

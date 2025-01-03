@@ -15,10 +15,6 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Full Stack React Training & Certification Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="https://www.ahmedabadcomputereducation.com/">Home</a></li>
-                    <li>ReactJS</li>
-                </ul> -->
             </div>
         </div>
     </div>
@@ -36,8 +32,6 @@ Event Area
                         <div class="course-single-top">
                             <div class="course-img">
                                 <img src="assets/img/home-course-details/ReactFull.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 12</span>
@@ -51,7 +45,7 @@ Event Area
                                     <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -66,8 +60,6 @@ Event Area
                                         <h5 class="h5">Description</h5>
                                         <p>Welcome to Ahmedabad Computer Education, where we strive to offer the best ReactJS training course in Ahmedabad. As the demand for ReactJS continues to rise, we have designed our courses to provide comprehensive knowledge of ReactJS and equip our students with the necessary skills to succeed in the industry.</p>
                                         <h5 class="h5 mt-40">What Will You Learn?</h5>
-                                        <!-- <p>Quickly synergize cutting-edge scenarios and professional results. Assertively deliver cross-media results before client-centric results. Uniquely initiate intuitive communities through process-centric internal or "organic" sources. Energistically reinvent distinctive value via parallel services extensive paradigms cross-unit manufactured products.</p> -->
-                                        
                                         <h5 class="h5 mt-40">ReactJS Training Course Introduction</h5>
                                         <p>Our ReactJS training course covers all the essential concepts of ReactJS, including component architecture, JSX, state management, and more. Our experienced trainers provide hands-on training to help you gain practical experience and understand how to apply your knowledge in real-world scenarios.</p>
                                         <p>At <a href="https://www.ahmedabadcomputereducation.com/">Ahmedabad Computer Education</a>, we are committed to providing the best ReactJS training institute in Ahmedabad. Our trainers are experts in ReactJS, and they share their knowledge and experience with our students to help them become proficient in the technology. Our course Modules are designed to provide a holistic understanding of ReactJS, from the basics to advanced concepts.</p>
@@ -93,7 +85,6 @@ Event Area
                                                         <div class="accordion-body course-acc-body">
                                                             <div class="checklist mb-1">
                                                                 <ul class="course-acc-ul">
-                                                                    <!-- <li class="course-acc-li">What is web development?</li> -->
                                                                     <li class="course-scc-li">ReactJS Introduction</li>
                                                                     <li class="course-scc-li">Advantages of ReactJS</li>
                                                                     <li class="course-scc-li">Workflow Of ReactJS</li>
@@ -461,22 +452,7 @@ Event Area
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>12</span>
-                                    </li>
-                                   
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
+                          
                         </div>
                         <!-- register sidebar -->
                         <?php include('registerSidebar.php'); ?>
@@ -492,7 +468,6 @@ Servce Area
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -588,11 +563,7 @@ Servce Area
          <div class="load-modal-wrapper position-relative">
              <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                      class="far fa-times"></i></button>
-             <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-          title="YouTube video player" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-      </iframe> -->
+         
              <video autoplay muted controls class="courses-video-main">
                  <source src="./assets/video/ahm_video.mp4" type="video/mp4">
              </video>

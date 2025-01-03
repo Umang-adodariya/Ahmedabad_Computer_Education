@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title"
         data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
@@ -15,19 +13,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">React Native Training & Certification course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>React Native</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+   
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -36,8 +26,6 @@ Event Area
                         <div class="course-single-top">
                             <div class="course-img">
                                 <img src="assets/img/home-course-details/ReactNative.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Module 7</span>
@@ -55,7 +43,7 @@ Event Area
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam"
                                         role="tab" aria-controls="curriculam" aria-selected="false"><i
-                                            class="fa-regular fa-book"></i>Curriculam</a>
+                                            class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor"
@@ -543,7 +531,7 @@ Event Area
                                                     </div>
                                                 </li>
                                             </ul>
-                                        </div> <!-- Comment Form -->
+                                        </div>
 
                                     </div>
                                 </div>
@@ -560,22 +548,6 @@ Event Area
                                         class="fas fa-play"></i></a>
 
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>7</span>
-                                    </li>
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
-                            <!-- <a href="https://www.linkedin.com/" class="th-btn style6 mt-35 mb-0"><i class="far fa-share-nodes me-2"></i>Share This Course</a> -->
                         </div>
                         <!-- register sidebar -->
                         <?php include('registerSidebar.php'); ?>
@@ -591,7 +563,6 @@ Servce Area
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -676,10 +647,6 @@ Servce Area
     </div>
 
 
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
     <!-- Scroll To Top -->
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
@@ -696,11 +663,6 @@ Servce Area
                 <div class="load-modal-wrapper position-relative">
                     <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                             class="far fa-times"></i></button>
-                    <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-                 title="YouTube video player" frameborder="0"
-                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-             </iframe> -->
                     <video autoplay muted controls class="courses-video-main">
                         <source src="./assets/video/ahm_video.mp4" type="video/mp4">
                     </video>

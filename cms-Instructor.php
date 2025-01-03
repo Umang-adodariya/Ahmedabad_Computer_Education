@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Instructor Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Instructor Details</li>
-                </ul> -->
+                
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
+
     <section class="space">
         <div class="container">
             <div class="team-details-about-info">
@@ -186,15 +179,7 @@ Team Area
                 <div class="col-md-6 col-xl-3">
                     <div class="widget newsletter-widget footer-widget">
                         <h3 class="widget_title">Contact Info</h3>
-                        <!-- <p class="footer-text">Subscribe our newsletter to get our latest
-                            Update & news</p>
-                            <form class="newsletter-form form-group" method="post" action="mail.php">
-                                <input type="hidden" name="form" value="newsletter_form"> 
-                                <input class="form-control" type="email" placeholder="Email Email" required="" name="email" value="">
-                                <i class="far fa-envelope"></i>
-                                <button type="submit" class="th-btn style3">Subscribe Now <i
-                                        class="far fa-arrow-right ms-1"></i></button>
-                            </form> -->
+                        
                             
                            
                             <div class="info-box-wrap">
@@ -245,14 +230,7 @@ Team Area
                         href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                 </p>
                 </div>
-                <!-- <div class="col-lg-6 text-end d-none d-lg-block">
-                    <div class="footer-links">
-                        <ul>
-                            <li><a href="about.html">Privacy Policy</a></li>
-                            <li><a href="about.html">Terms of Use</a></li>
-                        </ul>
-                    </div>
-                </div> -->
+               
             </div>
         </div>
     </div>

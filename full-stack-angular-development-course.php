@@ -1,8 +1,6 @@
 
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+    
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -15,19 +13,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Full Stack Angular Training & Certification Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Angular JS</li>
-                </ul> -->
+               
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+    
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -36,8 +26,7 @@ Event Area
                         <div class="course-single-top">
                             <div class="course-img">
                                 <img src="assets/img/home-course-details/AngularReact.jpg" alt="Course Image">
-                                <!-- <span class="tag"><i class="fas fa-clock"></i> 03 WEEKS</span>
-                                <span class="tag bg-theme">BEST SELLER</span> -->
+                                
                             </div>
                             <div class="course-meta style2">
                                 <span><i class="fal fa-file"></i>Modules 12</span>
@@ -51,7 +40,7 @@ Event Area
                                     <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -101,17 +90,7 @@ Event Area
                                                     <div class="accordion-body course-acc-body">
                                                         <div class="checklist mb-1">
                                                             <ul class="course-acc-ul">
-                                                                <!-- <li class="course-acc-li">
-                                                                    BASICS
-                                                                    <ul class="mt-3">
-                                                                        <li class="course-acc-li">How to start</li>
-                                                                        <li class="course-acc-li">History of Windows</li>
-                                                                        <li class="course-acc-li">What is the desktop</li>
-                                                                        <li class="course-acc-li">How to use the start menu</li>
-                                                                        <li class="course-acc-li">About My Computer, Hard Drive</li>
-                                                                        <li class="course-acc-li">File folder, copy, cut, paste</li>
-                                                                    </ul>
-                                                                </li> -->
+                                                                
                                                                 <li class="course-acc-li">What is Angular?</li>
                                                                 <li class="course-acc-li">Central Features of the Angular Framework</li>
                                                                 <li class="course-acc-li">Appropriate Use Cases</li>
@@ -630,22 +609,6 @@ Event Area
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>12</span>
-                                    </li>
-                                    
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
                         </div>
                         <!-- register sidebar -->
                         <?php include('registerSidebar.php'); ?>
@@ -654,14 +617,11 @@ Event Area
             </div>
         </div>
     </section>
-    <!--==============================
-Servce Area  
-==============================-->
-
+   
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
+               
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -756,11 +716,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="load-modal-wrapper position-relative">
             <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                     class="far fa-times"></i></button>
-            <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
+            
             <video autoplay muted controls class="courses-video-main">
                 <source src="./assets/video/ahm_video.mp4" type="video/mp4">
             </video>
@@ -772,11 +728,7 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
     </div>
 </div>
 </div>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
-
-    <!-- Scroll To Top -->
+    
     <div class="scroll-top">
         <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
             <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;"></path>

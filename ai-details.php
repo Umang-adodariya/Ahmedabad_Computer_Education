@@ -1,8 +1,5 @@
 <?php include('header.php'); ?>
 
-    <!--==============================
-    Breadcumb
-============================== -->
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -15,19 +12,10 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">AI / ML Training & Certification Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>AI / ML</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -52,7 +40,7 @@ Event Area
                                     <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
@@ -446,9 +434,7 @@ Event Area
             </div>
         </div>
     </section>
-    <!--==============================
-Servce Area  
-==============================-->
+
     <section class="space-bottom">
         <div class="container">
             <div class="title-area text-center">
@@ -461,7 +447,6 @@ Servce Area
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -544,68 +529,8 @@ Servce Area
             </div>
         </div>
     </div>
-
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
         <!--Register Modal -->
-        <div class="modal fade register-modal  load-modal" id="registerModal" tabindex="-1"
-        aria-labelledby="registerModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered modal-lg">
-            <div class="modal-content">
-                <div class="load-modal-wrapper position-relative">
-                    <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
-                            class="far fa-times"></i></button>
-                    <div class="contact-form-wrap background-image"
-                        style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
-                        <h2 class="border-title">Registration now</h2>
-                        <p class="mt-n1 mb-30 sec-text">Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod
-                            tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="hidden" name="form" value="registration_form"> 
-                                        <input type="text" class="form-control style-white" name="name" id="name"
-                                            placeholder="Your Name*" required>
-                                        <i class="fal fa-user"></i>
-                                    </div>
-                                </div>
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="email" class="form-control style-white" name="email" id="email"
-                                            placeholder="Email Address*" required>
-                                        <i class="fal fa-envelope"></i>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                        <input type="number" class="form-control style-white" name="number" id="number"
-                                            placeholder="Contact Number*" required>
-                                        <i class="fal fa-phone"></i>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="captcha-container">
-                                    <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
-
-                                    </div>
-                                </div>
-                                <div class="form-btn col-12 mt-10">
-                                    <button class="th-btn " type="submit">Submit<i class="fas fa-long-arrow-right ms-2"></i></button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include_once 'registerModal.php' ?>
 <!--video Modal -->
 <div class="modal fade video-modal load-modal course-video-modal" id="videoModal" tabindex="-1"
 aria-labelledby="videoModalLabel" aria-hidden="true">
@@ -614,11 +539,6 @@ aria-labelledby="videoModalLabel" aria-hidden="true">
         <div class="load-modal-wrapper position-relative">
             <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                     class="far fa-times"></i></button>
-            <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
             <video autoplay muted controls class="courses-video-main">
                 <source src="./assets/video/ahm_video.mp4" type="video/mp4">
             </video>

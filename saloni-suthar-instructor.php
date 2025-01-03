@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +12,9 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Instructor Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>Instructor Details</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
     <section class="space">
         <div class="container">
             <div class="team-details-about-info">
@@ -84,7 +75,6 @@ Team Area
             <div class="space-top">
                 <div class="row">
                     <div class="col-lg-8">
-                        <!-- <h3 class="title h4 fw-semibold mt-n1">Biography</h3> -->
                         <p>With 3.5 years of teaching experience, Saloni has a proven ability to break down complex concepts into easy-to-understand explanations. She is committed to fostering a collaborative learning environment that encourages creativity and innovation.</p>
                         <h3 class="title h4 fw-semibold mb-40">Areas of Expertise:</h3>
                         <div class="checklist mb-40">
@@ -140,10 +130,6 @@ Team Area
 
     <!--Register Modal -->
     <?php include_once 'registerModal.php'; ?>
-
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

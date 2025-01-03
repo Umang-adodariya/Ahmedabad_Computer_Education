@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/about-cover.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,20 +12,13 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">About Us</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.php">Home</a></li>
-                    <li>About Us</li>
-                </ul> -->
             </div>
         </div>
     </div>
-    <!--==============================
-Service Area  
-==============================-->
+
     <section class="overflow-hidden space">
         <div class="container">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> What We Do</span> -->
                 <h2 class="sec-title">What Sets Us Apart</h2>
             </div>
             <div class="row gy-4 justify-content-center">
@@ -67,9 +58,7 @@ Service Area
             </div>
         </div>
     </section>
-    <!--==============================
-About Area  
-==============================-->
+    
     <div class="overflow-hidden overflow-hidden bg-smoke space" id="about-sec" data-bg-src="assets/img/bg/about-5-bg.png">
         <div class="container">
             <div class="row">
@@ -132,14 +121,11 @@ About Area
                             </div>
                         </div>
                     </div>
-                    <!-- <a href="about.php" class="th-btn mt-40">ABOUT MORE<i class="fa-regular fa-arrow-right ms-2"></i></a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!--==============================
-Counter Area  
-==============================-->
+
     <div class="counter-area-2" data-bg-src="assets/img/bg/counter-bg_1.png">
         <div class="container">
             <div class="row justify-content-between">
@@ -170,9 +156,7 @@ Counter Area
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
+
     <section class="space overflow-hidden">
         <div class="shape-mockup team2-bg-shape1 jump-reverse d-lg-block d-none" data-left="-2%" data-top="0">
             <img src="assets/img/team/team-shape_1_1.png" alt="img">
@@ -334,22 +318,6 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6">
-                    <div class="team-card style2">
-                        <div class="team-img-wrap">
-                            <svg class="team-shape" xmlns="http://www.w3.org/2000/svg" width="327" height="337" viewBox="0 0 327 337" fill="none">
-                                <path d="M158.167 331C158.167 333.946 160.555 336.333 163.5 336.333C166.446 336.333 168.833 333.946 168.833 331C168.833 328.054 166.446 325.667 163.5 325.667C160.555 325.667 158.167 328.054 158.167 331ZM158.167 6C158.167 8.94552 160.555 11.3333 163.5 11.3333C166.446 11.3333 168.833 8.94552 168.833 6C168.833 3.05448 166.446 0.666667 163.5 0.666667C160.555 0.666667 158.167 3.05448 158.167 6ZM325 167.5C325 257.254 253.238 330 163.5 330V332C254.359 332 327 258.343 327 167.5H325ZM2.00012 167.5C2.00012 77.7618 73.7458 7 163.5 7V5C72.6574 5 0.00012207 76.6411 0.00012207 167.5H2.00012Z" fill="#0D5EF4" />
-                            </svg>
-                            <div class="team-img">
-                                <img src="assets/img/instructor/karan.jpg" alt="Team">
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="seo-instructor.php">Hinal Joshi</a></h3>
-                            <span class="team-desig">Instructor</span>
-                        </div>
-                    </div>
-                </div> -->
 
                 <div class="col-lg-6">
                     <div class="team-card style2">
@@ -383,22 +351,7 @@ Team Area
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-lg-6">
-                    <div class="team-card style2">
-                        <div class="team-img-wrap">
-                            <svg class="team-shape" xmlns="http://www.w3.org/2000/svg" width="327" height="337" viewBox="0 0 327 337" fill="none">
-                                <path d="M158.167 331C158.167 333.946 160.555 336.333 163.5 336.333C166.446 336.333 168.833 333.946 168.833 331C168.833 328.054 166.446 325.667 163.5 325.667C160.555 325.667 158.167 328.054 158.167 331ZM158.167 6C158.167 8.94552 160.555 11.3333 163.5 11.3333C166.446 11.3333 168.833 8.94552 168.833 6C168.833 3.05448 166.446 0.666667 163.5 0.666667C160.555 0.666667 158.167 3.05448 158.167 6ZM325 167.5C325 257.254 253.238 330 163.5 330V332C254.359 332 327 258.343 327 167.5H325ZM2.00012 167.5C2.00012 77.7618 73.7458 7 163.5 7V5C72.6574 5 0.00012207 76.6411 0.00012207 167.5H2.00012Z" fill="#0D5EF4" />
-                            </svg>
-                            <div class="team-img">
-                                <img src="assets/img/instructor/uvesh.jpg" alt="Team">
-                            </div>
-                        </div>
-                        <div class="team-content">
-                            <h3 class="team-title"><a href="himanshu-Instructor.php">Himanshu Dabhi</a></h3>
-                            <span class="team-desig">Instructor</span>
-                        </div>
-                    </div>
-                </div> -->
+
                 <div class="col-lg-6">
                     <div class="team-card style2">
                         <div class="team-img-wrap">
@@ -547,29 +500,10 @@ Blog Area
                     </div>
                 </div>
 
-                <!-- <div class="col-md-6 col-xl-4">
-                    <div class="th-blog blog-single style2">
-                        <div class="blog-img">
-                            <a href="blog-details.php"><img src="assets/img/course/384x280/training6.jpg" alt="Blog Image"></a>
-                        </div>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a class="author" href="blog.php"><i class="fa-light fa-user"></i>by David Smith</a>
-                                <a href="blog.php"><i class="fa-light fa-clock"></i>10 Jul, 2023</a>
-                            </div>
-                            <h4 class="box-title"><a href="blog-details.php">University class starting soon while the lovely valley team work</a>
-                            </h4>
-                            <a href="blog-details.php" class="link-btn">Read More Details<i class="fas fa-arrow-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div> -->
-
             </div>
         </div>
     </section>
-    <!--==============================
-Cta Area  
-==============================-->
+
     <div class="cta-area-1" data-bg-src="assets/img/bg/cta-bg1.png">
         <div class="container">
             <div class="row align-items-center justify-content-between">
@@ -589,12 +523,8 @@ Cta Area
         </div>
         <div class="cta-img-1" data-overlay="title" data-opacity="8">
             <img src="assets/img/normal/714x166-1.png" alt="Image">
-            <!-- <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style2 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a> -->
         </div>
     </div>
-        <!--==============================
-	Footer Area
-==============================-->
 
 
     <!--Register Modal -->

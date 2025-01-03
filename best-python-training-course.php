@@ -12,23 +12,16 @@ session_start();
     <meta name="description" content="Ahmedabad Computer Education">
     <meta name="keywords" content="python certification course, python full stack developer course, best python certification course, best python certification near me, python courses with certificate, python course for beginners, python training and certification, python coding training institute, learn python basics and advanced">
     <meta name="robots" content="INDEX,FOLLOW">
-    <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" type="image/png" href="assets/img/favicons/favicon.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <meta name="google-site-verification" content="5Wrx8p5sslP13-K6Uq1bjwiJ2kNnbwtSsyfPzxdsrlc" />
-    <!--==============================
-         Google Fonts
-         ============================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Jost:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap"
         rel="stylesheet">
-    <!--==============================
-         All CSS File
-         ============================== -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <!-- Fontawesome Icon -->
@@ -218,17 +211,7 @@ session_start();
         })(window, document, 'script', 'dataLayer', 'GTM-5FWLQ3C');
     </script>
 
-    <!-- Google tag (gtag.js) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZDR3DPRCX5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-ZDR3DPRCX5');
-</script> -->
-    <!-- Google tag (gtag.js) -->
-    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-SD837VB60D"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -280,9 +263,7 @@ session_start();
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5FWLQ3C"
             height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
-    <!--==============================
-         Header Area
-         ==============================-->
+   
     <header class="th-header header-layout5 cust-page-box">
         <div class="top-area" data-bg-src="assets/img/update1/bg/header_bg_1.png">
             <div class="cust-menu-box menu-top">
@@ -290,49 +271,7 @@ session_start();
                     <div class="row align-items-center justify-content-center justify-content-sm-between">
                         <div class="col-auto d-none d-sm-block menu-top-left">
                             <a class="header-link" href="tel:+919586877700">
-                                <!-- <svg id="Layer_1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"
-                              data-name="Layer 1">
-                              <g stroke="#FFFFFF" stroke-miterlimit="10" stroke-width="2">
-                                 <path d="m29.93 83.29v-19.07a8.94 8.94 0 0 0 -17.88 0v19.07z" fill="none" />
-                                 <path
-                                    d="m26 83.29v-11.57a5.28 5.28 0 0 0 -5-5.42 5.27 5.27 0 0 0 -5.07 5.42v11.57z"
-                                    fill="none" />
-                                 <path d="m12.75 60.9h16.48" fill="none" />
-                                 <path d="m20.75 50.71v4.41" fill="none" />
-                                 <path d="m26.83 40.84h15.72" fill="none" />
-                                 <path d="m29.93 35.34h9.88v47.95h-9.88z" fill="none" />
-                                 <path d="m29.05 24.46h11.38" fill="#fff" />
-                                 <path d="m35.18 16.71v3.26" fill="#fff" />
-                                 <path d="m18.63 58.16v1.75" fill="#fff" />
-                                 <path d="m23.23 58.16v1.75" fill="#fff" />
-                                 <g fill="none">
-                                    <path d="m37.68 35.34v-13a2.5 2.5 0 1 0 -5 0v13z" />
-                                    <path d="m29.93 49.5h9.87" />
-                                    <path d="m39.8 54.25-9.87 5.06" />
-                                    <path d="m39.8 64.45-9.87 5.06" />
-                                    <path d="m39.8 74.65-9.87 5.06" />
-                                    <path d="m70.07 83.29v-19.07a8.94 8.94 0 0 1 17.88 0v19.07z" />
-                                    <path d="m74 83.29v-11.57a5.09 5.09 0 1 1 10.15 0v11.57z" />
-                                    <path d="m87.25 60.9h-16.48" />
-                                    <path d="m79.25 50.71v4.41" />
-                                    <path d="m73.18 40.84h-15.73" />
-                                    <path d="m60.2 35.34h9.88v47.95h-9.88z" />
-                                 </g>
-                                 <path d="m70.95 24.46h-11.37" fill="#fff" />
-                                 <path d="m64.83 16.71v3.26" fill="#fff" />
-                                 <path d="m81.37 58.16v1.75" fill="#fff" />
-                                 <path d="m76.77 58.16v1.75" fill="#fff" />
-                                 <path d="m62.33 35.34v-13a2.5 2.5 0 0 1 5 0v13z" fill="none" />
-                                 <path d="m70.08 49.5h-9.88" fill="none" />
-                                 <path d="m70.07 54.25-9.87 5.06" fill="none" />
-                                 <path d="m70.07 64.45-9.87 5.06" fill="none" />
-                                 <path d="m70.07 74.65-9.87 5.06" fill="none" />
-                                 <path d="m60.18 83.29v-30.85a10.19 10.19 0 0 0 -20.38 0v30.85z" fill="none" />
-                                 <path d="m39.87 51.25h20.23" fill="none" />
-                                 <path d="m49.99 39.09v3.16" fill="none" />
-                                 <path d="m53.47 83.09v-21.22a3.71 3.71 0 0 0 -7.42 0v21.22z" fill="none" />
-                              </g>
-                           </svg> -->
+                            
                                 <img src="assets/img/home-course-details/badgeone.png" alt="badgeone" class="badgeone">
 
                                 <span class="city-text">Talk to Career Consultant :</span>95-868-777-00
@@ -415,13 +354,11 @@ session_start();
             <div class="row">
                 <div class="col-xxl-9 col-lg-8">
                     <div class="course-single">
-                        <!-- <div class="course-single-top">
-                            <h2 class="course-title">Full Stack Python Development Course</h2>
-                        </div> -->
+
                         <div class="course-single-bottom" id="course">
                             <ul class="nav course-tab" id="courseTab" role="tablist">
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link active" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
@@ -691,7 +628,7 @@ session_start();
                                     </div>
                                     <div class="col-12">
                                         <div class="captcha-container">
-                                            <div class="g-recaptcha" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
+                                            <div class="g-recaptcha" style="transform:scale(0.81);-webkit-transform:scale(0.81);transform-origin:0 0;-webkit-transform-origin:0 0;" data-sitekey="6Lc0SJ8qAAAAAIh3K9OIB4DJav-crCgzE9-VD4mK"></div>
 
                                         </div>
                                     </div>
@@ -701,14 +638,7 @@ session_start();
                                     </div>
                                 </div>
                                 <p class="form-messages mb-0 mt-3"></p>
-                                <!-- sent suceess msg popup -->
-                                <!-- <div class="popup-sent-msg">
-            <div class="popup-inner-msg">
-                <p>Our team will review your inquiry and get back to you shortly.</p> 
-            </div>
-        </div> -->
-
-                                <!-- sent sucess msg popup -->
+                                
                             </form>
                         </div>
 
@@ -718,22 +648,7 @@ session_start();
                                 <a class="play-btn popup-video" data-bs-toggle="modal" data-bs-target="#videoModal"><i
                                         class="fas fa-play"></i></a>
                             </div>
-                            <!-- <h3 class="widget_title">Course Information</h3>
-                            <div class="info-list">
-                                <ul>
-                                    <li>
-                                        <i class="fa-light fa-file"></i>
-                                        <strong>Modules: </strong>
-                                        <span>2</span>
-                                    </li>
-                                   
-                                    <li>
-                                        <i class="fa-light fa-puzzle-piece"></i>
-                                        <strong>Exams: </strong>
-                                        <span>04</span>
-                                    </li>
-                                </ul>
-                            </div> -->
+                            
                         </div>
 
                     </aside>
@@ -828,7 +743,7 @@ Servce Area
     <div class="bg-smoke web-design-smoke work-com-logo-sec" data-pos-for=".footer-wrapper" data-sec-pos="bottom-half">
         <div class="container th-container3 z-index-common">
             <div class="title-area text-center">
-                <!-- <span class="sub-title"><i class="fal fa-book me-2"></i> Related Courses</span> -->
+
                 <h2 class="sec-title">Our Students Are Placed In Top Companies</h2>
             </div>
             <div class="row gx-10 th-carousel" data-slide-show="6" data-lg-slide-show="5" data-md-slide-show="4"
@@ -924,7 +839,7 @@ Servce Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
+                        
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Connect with our course counsellor, and discover how ACE can help you unlock your full digital potential!</p>
                         <form action="mail.php" method="POST" class="contact-form ajax-contact register-form" id="register_form">
@@ -982,11 +897,6 @@ Servce Area
                 <div class="load-modal-wrapper position-relative">
                     <button class="closeButton sideMenuCls btn-close" data-bs-dismiss="modal" aria-label="Close"><i
                             class="far fa-times"></i></button>
-                    <!-- <iframe src="https://www.youtube.com/embed/KULof8R45WA?autoplay=1&mute=1&rel=0&start=0"
-         title="YouTube video player" frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-     </iframe> -->
                     <video autoplay muted controls class="courses-video-main">
                         <source src="./assets/video/ahm_video.mp4" type="video/mp4">
                     </video>
@@ -1078,17 +988,7 @@ Servce Area
 			Code End  Here 
 	******************************** -->
 
-    <!-- <div id="scrollButtons" class="hidden">
-                                <a id="whatsappButton" onclick="gtag_report_conversion()" class="whatsapp-button" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
-                                    <img src="assets/img/home-course-details/whatsapp.svg" alt="whatsapp">
-                                </a>
-                        </div>
 
-                        <div id="scrollButtonsinquirey" onclick="gtag_report_conversion()" class="hidden">
-                                <a id="inquiryButton" class="inquiry-button" href="tel:+919586877700" target="_blank">
-                                    <img src="assets/img/home-course-details/equiry.svg" alt="equiry">
-                                </a>
-                        </div> -->
 
     <a class="whatsapp-sticky" href="https://wa.me/+919327287700?text=Inquiry%20for%20Python%20Course%0AI%20am%20interested%20in%20a%20Python%20course" target="_blank">
         <div class="sticky-bottom-note-important">
@@ -1123,7 +1023,7 @@ Servce Area
                             <div class="th-widget-about mob-th-widget-about">
                                 <div class="about-logo">
                                     <a href="#"><img src="assets/img/footer-ace-2.png" alt="Edura"></a>
-                                    <!-- <a href="#"><img src="assets/img/footer-logo.png" alt="Edura"></a> -->
+
                                 </div>
                                 <p class="about-text">As the #1 IT Training Institute, We're passionate about empowering youth with the skills to thrive in the dynamic digital landscape.</p>
                                 <div class="info-box-wrap mb-20">
@@ -1191,14 +1091,7 @@ Servce Area
                                 href="https://www.virtualheight.com/">Virtual Height</a>. All Rights Reserved.
                         </p>
                     </div>
-                    <!-- <div class="col-lg-6 text-end d-none d-lg-block">
-                     <div class="footer-links">
-                         <ul>
-                             <li><a href="about.php">Privacy Policy</a></li>
-                             <li><a href="about.php">Terms of Use</a></li>
-                         </ul>
-                     </div>
-                     </div> -->
+                    
                 </div>
             </div>
         </div>

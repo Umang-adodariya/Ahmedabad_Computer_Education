@@ -1,7 +1,4 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,16 +11,10 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">Instructor Details</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>Instructor Details</li>
-                </ul> -->
+              
             </div>
         </div>
     </div>
-    <!--==============================
-Team Area  
-==============================-->
     <section class="space">
         <div class="container">
             <div class="team-details-about-info">
@@ -145,7 +136,6 @@ Team Area
                             class="far fa-times"></i></button>
                     <div class="contact-form-wrap background-image"
                         style="background-image: url(&quot;assets/img/bg/contact_bg_1.png&quot;);">
-                        <!-- <span class="sub-title">Contact With Us!</span> -->
                         <h2 class="border-title">Registration now</h2>
                         <p class="mt-n1 mb-30 sec-text">Lorem ipsum dolor sit amet adipiscing elit, sed do eiusmod
                             tempor eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -192,9 +182,6 @@ Team Area
             </div>
         </div>
     </div>
-    <!--********************************
-			Code End  Here 
-	******************************** -->
 
     <!-- Scroll To Top -->
     <div class="scroll-top">

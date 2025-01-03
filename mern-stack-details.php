@@ -1,7 +1,5 @@
 <?php include('header.php'); ?>
-    <!--==============================
-    Breadcumb
-============================== -->
+
     <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-course-detail.png" data-overlay="title" data-opacity="8">
         <div class="breadcumb-shape" data-bg-src="assets/img/bg/breadcumb_shape_1_1.png">
         </div>
@@ -14,19 +12,11 @@
         <div class="container">
             <div class="breadcumb-content text-center">
                 <h1 class="breadcumb-title">MERN Stack Training & Certification Course</h1>
-                <!-- <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
-                    <li>MERN Stack</li>
-                </ul> -->
+               
             </div>
         </div>
     </div>
-    <!--==============================
-Project Area  
-==============================-->
-    <!--==============================
-Event Area  
-==============================-->
+
     <section class="space-top space-extra2-bottom">
         <div class="container">
             <div class="row">
@@ -51,7 +41,7 @@ Event Area
                                     <a class="nav-link active" id="description-tab" data-bs-toggle="tab" href="#Coursedescription" role="tab" aria-controls="Coursedescription" aria-selected="true"><i class="fa-regular fa-bookmark"></i>Overview</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>Curriculam</a>
+                                    <a class="nav-link" id="curriculam-tab" data-bs-toggle="tab" href="#curriculam" role="tab" aria-controls="curriculam" aria-selected="false"><i class="fa-regular fa-book"></i>CURRICULUM</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
                                     <a class="nav-link" id="instructor-tab" data-bs-toggle="tab" href="#instructor" role="tab" aria-controls="instructor" aria-selected="false"><i class="fa-regular fa-user"></i>Instructor</a>
